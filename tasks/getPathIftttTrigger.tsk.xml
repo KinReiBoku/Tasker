@@ -1,0 +1,14 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task32">
+		<cdate>1535408717012</cdate>
+		<edate>1535409077076</edate>
+		<id>32</id>
+		<nme>getPathIftttTrigger</nme>
+		<Action sr="act0" ve="7">
+			<code>126</code>
+			<label>%ret=IFTTT Webhook Trigger Path</label>
+			<Str sr="arg0" ve="3">https://maker.ifttt.com/trigger</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
