@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1535409042814</edate>
+		<edate>1535411231338</edate>
 		<id>23</id>
 		<nme>toSay</nme>
 		<Action sr="act0" ve="7">
@@ -19,13 +19,19 @@
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>2</op>
 					<rhs>on</rhs>
 				</Condition>
-				<Condition sr="c1" ve="3">
+				<Condition sr="c2" ve="3">
 					<lhs>%par2</lhs>
 					<op>2</op>
 					<rhs>force</rhs>
