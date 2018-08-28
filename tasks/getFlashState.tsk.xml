@@ -1,12 +1,12 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task14">
 		<cdate>1535275917993</cdate>
-		<edate>1535366433928</edate>
+		<edate>1535419226432</edate>
 		<id>14</id>
-		<nme>getToastState</nme>
+		<nme>getFlashState</nme>
 		<Action sr="act0" ve="7">
 			<code>126</code>
-			<Str sr="arg0" ve="3">%TOAST_STATE</Str>
+			<Str sr="arg0" ve="3">%FLASH_STATE</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
