@@ -1,13 +1,13 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task27">
 		<cdate>1498736075308</cdate>
-		<edate>1535380624507</edate>
+		<edate>1535432187466</edate>
 		<id>27</id>
 		<nme>getGoogleSearchResult</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
-			<label>%par1=word %ret=SearchResult</label>
+			<label>%par1=Word %ret=SearchResult</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
