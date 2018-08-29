@@ -23,7 +23,7 @@
 	</Profile>
 	<Task sr="task74">
 		<cdate>1521383443273</cdate>
-		<edate>1535543969959</edate>
+		<edate>1535544420658</edate>
 		<id>74</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -88,7 +88,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">Normal</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
