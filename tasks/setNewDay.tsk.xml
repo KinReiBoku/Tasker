@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task100">
 		<cdate>1513257139448</cdate>
-		<edate>1535541732031</edate>
+		<edate>1535580745402</edate>
 		<id>100</id>
 		<nme>setNewDay</nme>
 		<pri>6</pri>
@@ -16,8 +16,5 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>hl_av_replay</nme>
-		</Img>
 	</Task>
 </TaskerData>
