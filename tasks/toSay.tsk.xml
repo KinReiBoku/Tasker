@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1535535832627</edate>
+		<edate>1535535978630</edate>
 		<id>23</id>
 		<nme>toSay</nme>
 		<Action sr="act0" ve="7">
@@ -59,7 +59,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : Message=%par1 Force=%par2</Str>
+			<Str sr="arg3" ve="3">Unknown data : State=%state Force=%par2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
