@@ -1,11 +1,12 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task112">
 		<cdate>1535531738065</cdate>
-		<edate>1535536451380</edate>
+		<edate>1535537173473</edate>
 		<id>112</id>
 		<nme>delDataValue</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
+			<label>%par1=Items %par2=Value/Key;Value</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -45,6 +46,20 @@
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Value=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
