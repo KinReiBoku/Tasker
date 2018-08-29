@@ -1,7 +1,6 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof70" ve="2">
 		<cdate>1535513658567</cdate>
-		<clp>true</clp>
 		<edate>1524731310731</edate>
 		<id>70</id>
 		<mid0>69</mid0>
@@ -24,7 +23,7 @@
 	</Profile>
 	<Task sr="task69">
 		<cdate>1521383525570</cdate>
-		<edate>1524585198521</edate>
+		<edate>1535543942601</edate>
 		<id>69</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -34,7 +33,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">ご注文商品の配達が完了しました</Str>
-			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
