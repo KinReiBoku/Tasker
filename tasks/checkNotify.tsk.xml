@@ -1,104 +1,21 @@
-<TaskerData sr="" dvi="1" tv="5.1m">
-	<Task sr="task668">
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task76">
 		<cdate>1523268465148</cdate>
-		<edate>1526944055777</edate>
-		<id>668</id>
+		<edate>1535583634997</edate>
+		<id>76</id>
 		<nme>checkNotify</nme>
 		<Action sr="act0" ve="7">
-			<code>547</code>
+			<code>126</code>
+			<label>%par1=NotifyMessage %ret=NotifyMessage</label>
 			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
+			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
+					<lhs>%par1</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<bool2>And</bool2>
-				<bool3>And</bool3>
-				<bool4>And</bool4>
-				<bool5>And</bool5>
-				<bool6>And</bool6>
-				<bool7>And</bool7>
-				<bool8>And</bool8>
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*個のアプリがバックグラウンドで実行中です.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*Bitstamp.*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*現在地周辺は渋滞気味.*</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*カスタム通知.*</rhs>
-				</Condition>
-				<Condition sr="c4" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*ダウンロードキュー.*</rhs>
-				</Condition>
-				<Condition sr="c5" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*ニュース見た？.*</rhs>
-				</Condition>
-				<Condition sr="c6" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*撮影した書類.*</rhs>
-				</Condition>
-				<Condition sr="c7" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*レビュー可能な.*</rhs>
-				</Condition>
-				<Condition sr="c8" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*Tasker.*</rhs>
-				</Condition>
-				<Condition sr="c9" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>5</op>
-					<rhs>.*ダウンロードキュー.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_show</nme>
-		</Img>
 	</Task>
 </TaskerData>
