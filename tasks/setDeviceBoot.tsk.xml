@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task47">
 		<cdate>1497151425671</cdate>
-		<edate>1535504602470</edate>
+		<edate>1535544109631</edate>
 		<id>47</id>
 		<nme>setDeviceBoot</nme>
 		<pri>100</pri>
@@ -61,7 +61,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
