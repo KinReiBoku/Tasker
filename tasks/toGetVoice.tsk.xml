@@ -1,0 +1,38 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task105">
+		<cdate>1523828689819</cdate>
+		<edate>1535620113399</edate>
+		<id>105</id>
+		<nme>toGetVoice</nme>
+		<Action sr="act0" ve="7">
+			<code>903</code>
+			<Str sr="arg0" ve="3"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">ja-JP</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="40"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%GETVOICE_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%VOICE</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VOICE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>245</code>
+		</Action>
+	</Task>
+</TaskerData>
