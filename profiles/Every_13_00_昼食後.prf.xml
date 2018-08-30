@@ -2,7 +2,7 @@
 	<Profile sr="prof95" ve="2">
 		<cdate>1535527136714</cdate>
 		<clp>true</clp>
-		<edate>1535546022725</edate>
+		<edate>1535602414199</edate>
 		<id>95</id>
 		<mid0>94</mid0>
 		<nme>Every 13:00 昼食後</nme>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task94">
 		<cdate>1524104455984</cdate>
-		<edate>1535546022725</edate>
+		<edate>1535602414199</edate>
 		<id>94</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -23,7 +23,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">Lunch</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%flg_state</Str>
 			<Int sr="arg5" val="0"/>
