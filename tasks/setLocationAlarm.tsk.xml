@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task146">
 		<cdate>1535540380169</cdate>
-		<edate>1535605281201</edate>
+		<edate>1535605354110</edate>
 		<id>146</id>
-		<nme>addLocationAlarm</nme>
+		<nme>setLocationAlarm</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Alarm</label>
