@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task146">
 		<cdate>1535540380169</cdate>
-		<edate>1535580969831</edate>
+		<edate>1535593463290</edate>
 		<id>146</id>
 		<nme>addLocationAlarm</nme>
 		<Action sr="act0" ve="7">
@@ -16,6 +16,34 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>埼玉県</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>香川県</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>東京都</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>千葉県</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -26,9 +54,23 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">警報注意報</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_alerts_and_states_error</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">addDataValue</Str>
+			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -37,10 +79,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act6" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -51,7 +93,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
