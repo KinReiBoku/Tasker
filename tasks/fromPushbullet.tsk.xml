@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535593687537</edate>
+		<edate>1535613016208</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -49,8 +49,70 @@
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle3</lhs>
+					<op>2</op>
+					<rhs>Timer</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">アレクサが呼んでいます</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>hd_alerts_and_states_error</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVibrate</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">High</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -61,10 +123,16 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act19" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%ntitle</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -74,7 +142,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act21" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -85,7 +153,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act22" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">%ntitle3 %ntitle4</Str>
 			<Str sr="arg1" ve="3"/>
@@ -109,7 +177,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -119,7 +187,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act24" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setLife</Str>
 			<Int sr="arg1">
@@ -130,7 +198,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -140,15 +208,9 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">addLocationAlarm</Str>
+			<Str sr="arg0" ve="3">setLocationAlarm</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -164,72 +226,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle2</lhs>
-					<op>2</op>
-					<rhs>NEWS</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%ntitle3</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">ニュースです。</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle4（%ntitle3）</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
 		<Action sr="act27" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle2</lhs>
 					<op>2</op>
-					<rhs>RSS</rhs>
+					<rhs>NEWS</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -272,22 +275,22 @@
 		</Action>
 		<Action sr="act31" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkRssMessage</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle5</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle5</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle4。%ntitle5</Str>
+			<Str sr="arg2" ve="3">%ntitle4</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle4（%ntitle3）</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -298,58 +301,68 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle2</lhs>
 					<op>2</op>
-					<rhs>TRAIN</rhs>
+					<rhs>RSS</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%ntitle3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">ニュースです。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act36" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">setTrainDelayState</Str>
+			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3">%ntitle4</Str>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkRssMessage</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ntitle5</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle4。%ntitle5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act39" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle2</lhs>
 					<op>2</op>
-					<rhs>WEATHER</rhs>
+					<rhs>TRAIN</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setWallpaperWeather</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%path</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
@@ -362,6 +375,55 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setTrainDelayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3">%ntitle4</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle2</lhs>
+					<op>2</op>
+					<rhs>WEATHER</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setWallpaperWeather</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%path</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act46" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
