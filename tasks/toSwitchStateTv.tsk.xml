@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task108">
 		<cdate>1535619960840</cdate>
-		<edate>1535669135338</edate>
+		<edate>1535673264431</edate>
 		<id>108</id>
 		<nme>toSwitchStateTv</nme>
 		<pri>100</pri>
@@ -255,6 +255,37 @@
 			<Str sr="arg3" ve="3">digital</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>bs</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>cs</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%state</lhs>
+					<op>7</op>
+					<rhs>99</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act36" ve="7">
 			<code>43</code>
@@ -276,6 +307,43 @@
 			<Str sr="arg3" ve="3">bs</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<bool4>Or</bool4>
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>digital</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>cs</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%state</lhs>
+					<op>6</op>
+					<rhs>100</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%state</lhs>
+					<op>7</op>
+					<rhs>221</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act38" ve="7">
 			<code>43</code>
@@ -290,6 +358,37 @@
 			<Str sr="arg3" ve="3">cs</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>digital</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>bs</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%state</lhs>
+					<op>6</op>
+					<rhs>222</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
