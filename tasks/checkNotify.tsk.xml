@@ -1,13 +1,13 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task76">
 		<cdate>1523268465148</cdate>
-		<edate>1535583634997</edate>
+		<edate>1535619793560</edate>
 		<id>76</id>
 		<nme>checkNotify</nme>
 		<Action sr="act0" ve="7">
 			<code>126</code>
 			<label>%par1=NotifyMessage %ret=NotifyMessage</label>
-			<Str sr="arg0" ve="3">%ntitle</Str>
+			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
