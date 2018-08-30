@@ -2,7 +2,7 @@
 	<Profile sr="prof125" ve="2">
 		<cdate>1535579773038</cdate>
 		<clp>true</clp>
-		<edate>1535580580148</edate>
+		<edate>1535593497584</edate>
 		<id>125</id>
 		<mid0>124</mid0>
 		<nme>Notify MyThings さいたま市 暴風注意報</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task124">
 		<cdate>1523459831711</cdate>
-		<edate>1535580282701</edate>
+		<edate>1535593497584</edate>
 		<id>124</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -33,7 +33,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">さいたま市：暴風注意報</Str>
+			<Str sr="arg2" ve="3">埼玉県さいたま市：暴風注意報</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
