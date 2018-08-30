@@ -1,6 +1,7 @@
 # 機能一覧  
 ## 共有機能部
 ### 端末間情報共有機能
+- Android端末間で起動状態（Boot,Shutdown,StorageLow）を共有する。
 ### 端末情報LINE投稿機能
 ## 受信機能部
 ### Llamaインテント受信機能
