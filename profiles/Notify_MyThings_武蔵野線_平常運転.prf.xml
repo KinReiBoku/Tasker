@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof145" ve="2">
+		<cdate>1535579810975</cdate>
+		<clp>true</clp>
+		<edate>1535587054494</edate>
+		<id>145</id>
+		<mid0>144</mid0>
+		<nme>Notify MyThings 武蔵野線 平常運転</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>jp.co.yahoo.android.yiot.ui.WalkThroughActivity</appClass>
+				<appPkg>jp.co.yahoo.android.yiot</appPkg>
+				<label>myThings</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">*武蔵野線【平常運転】*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task144">
+		<cdate>1523459831711</cdate>
+		<edate>1535587054494</edate>
+		<id>144</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setTrainDelayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">武蔵野線</Str>
+			<Str sr="arg3" ve="3">平常運転</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
