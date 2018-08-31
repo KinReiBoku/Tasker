@@ -1,6 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof179" ve="2">
 		<cdate>1535673444841</cdate>
+		<clp>true</clp>
 		<edate>1535674198615</edate>
 		<id>179</id>
 		<mid0>178</mid0>
@@ -39,7 +40,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">sayCalendarNotifyTv</Str>
+			<Str sr="arg0" ve="3">sayCalendarNotifyTelevision</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

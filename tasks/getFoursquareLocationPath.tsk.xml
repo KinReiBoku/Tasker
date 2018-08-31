@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task39">
 		<cdate>1525166295192</cdate>
-		<edate>1535432856033</edate>
+		<edate>1535706406145</edate>
 		<id>39</id>
 		<nme>getFoursquareLocationPath</nme>
 		<pri>100</pri>

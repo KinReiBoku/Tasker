@@ -1,6 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof29" ve="2">
 		<cdate>1535613235549</cdate>
+		<clp>true</clp>
 		<edate>1535613261761</edate>
 		<id>29</id>
 		<mid0>38</mid0>
@@ -23,10 +24,10 @@
 	</Profile>
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1535603904959</edate>
+		<edate>1535706378848</edate>
 		<id>38</id>
 		<nme>getGoogleMapLocationAddress</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=getDataType %ret=SearchResult</label>

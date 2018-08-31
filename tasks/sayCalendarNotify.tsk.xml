@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task78">
 		<cdate>1535615538128</cdate>
-		<edate>1535618119809</edate>
+		<edate>1535741701727</edate>
 		<id>78</id>
 		<nme>sayCalendarNotify</nme>
 		<Action sr="act0" ve="7">
@@ -18,10 +18,16 @@
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%CALENDAR_TITLE</lhs>
 					<op>3</op>
 					<rhs>%par1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

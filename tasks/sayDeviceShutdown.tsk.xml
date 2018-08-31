@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task50">
 		<cdate>1535508720609</cdate>
-		<edate>1535509246211</edate>
+		<edate>1535584003187</edate>
 		<id>50</id>
 		<nme>sayDeviceShutdown</nme>
 		<pri>100</pri>

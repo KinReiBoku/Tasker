@@ -1,7 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof75" ve="2">
 		<cdate>1535513755527</cdate>
-		<edate>1535519427992</edate>
+		<clp>true</clp>
+		<edate>1535619755562</edate>
 		<id>75</id>
 		<mid0>74</mid0>
 		<nme>Notify LINE</nme>
@@ -23,7 +24,7 @@
 	</Profile>
 	<Task sr="task74">
 		<cdate>1521383443273</cdate>
-		<edate>1535544420658</edate>
+		<edate>1535619755562</edate>
 		<id>74</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

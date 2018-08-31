@@ -28,7 +28,7 @@
 		<id>147</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">addLocationAlarm</Str>
+			<Str sr="arg0" ve="3">setLocationAlarm</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

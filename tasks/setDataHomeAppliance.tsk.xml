@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task129">
 		<cdate>1535540380169</cdate>
-		<edate>1535668902167</edate>
+		<edate>1535692100763</edate>
 		<id>129</id>
 		<nme>setDataHomeAppliance</nme>
 		<pri>100</pri>
@@ -28,9 +28,9 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%HOME_APPLIANCE</Str>
+			<Str sr="arg2" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Str sr="arg3" ve="3">%par1_%par2</Str>
-			<Str sr="arg4" ve="3">%HOME_APPLIANCE</Str>
+			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">

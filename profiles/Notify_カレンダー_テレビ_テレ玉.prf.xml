@@ -40,7 +40,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">sayCalendarNotifyTv</Str>
+			<Str sr="arg0" ve="3">sayCalendarNotifyTelevision</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

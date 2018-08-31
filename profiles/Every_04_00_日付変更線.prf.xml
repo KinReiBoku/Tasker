@@ -2,7 +2,7 @@
 	<Profile sr="prof97" ve="2">
 		<cdate>1535527172678</cdate>
 		<clp>true</clp>
-		<edate>1535579549458</edate>
+		<edate>1535601477010</edate>
 		<id>97</id>
 		<mid0>96</mid0>
 		<nme>Every 04:00 日付変更線</nme>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task96">
 		<cdate>1521421923791</cdate>
-		<edate>1535579549458</edate>
+		<edate>1535601476224</edate>
 		<id>96</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

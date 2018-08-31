@@ -12,9 +12,9 @@
 	</Profile>
 	<Task sr="task50">
 		<cdate>1535508720609</cdate>
-		<edate>1535508903468</edate>
+		<edate>1535584003187</edate>
 		<id>50</id>
-		<nme>sayShutdown</nme>
+		<nme>sayDeviceShutdown</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>277269574</code>

@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task32">
 		<cdate>1535408717012</cdate>
-		<edate>1535409077076</edate>
+		<edate>1535689336469</edate>
 		<id>32</id>
 		<nme>getPathIftttTrigger</nme>
 		<Action sr="act0" ve="7">

@@ -2,7 +2,7 @@
 	<Profile sr="prof56" ve="2">
 		<cdate>1535513071683</cdate>
 		<clp>true</clp>
-		<edate>1525620382749</edate>
+		<edate>1535513182394</edate>
 		<id>56</id>
 		<mid0>55</mid0>
 		<nme>Notify ヤフオク！おめでとうございます!</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task55">
 		<cdate>1525247343410</cdate>
-		<edate>1525620382749</edate>
+		<edate>1535544057099</edate>
 		<id>55</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

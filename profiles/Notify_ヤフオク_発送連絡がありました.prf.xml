@@ -2,7 +2,7 @@
 	<Profile sr="prof58" ve="2">
 		<cdate>1535513077373</cdate>
 		<clp>true</clp>
-		<edate>1525656865705</edate>
+		<edate>1535525431337</edate>
 		<id>58</id>
 		<mid0>57</mid0>
 		<nme>Notify ヤフオク！発送連絡がありました</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task57">
 		<cdate>1525247343410</cdate>
-		<edate>1525656865705</edate>
+		<edate>1535525431337</edate>
 		<id>57</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

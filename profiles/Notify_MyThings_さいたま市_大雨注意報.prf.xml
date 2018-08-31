@@ -2,7 +2,7 @@
 	<Profile sr="prof149" ve="2">
 		<cdate>1535362534671</cdate>
 		<clp>true</clp>
-		<edate>1535593478470</edate>
+		<edate>1535701101699</edate>
 		<id>149</id>
 		<mid0>150</mid0>
 		<nme>Notify MyThings さいたま市 大雨注意報</nme>
@@ -24,11 +24,11 @@
 	</Profile>
 	<Task sr="task150">
 		<cdate>1535580299442</cdate>
-		<edate>1535593478470</edate>
+		<edate>1535701101699</edate>
 		<id>150</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">addLocationAlarm</Str>
+			<Str sr="arg0" ve="3">setLocationAlarm</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

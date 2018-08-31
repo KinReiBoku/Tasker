@@ -1,7 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof54" ve="2">
 		<cdate>1535513040360</cdate>
-		<edate>1535513094896</edate>
+		<clp>true</clp>
+		<edate>1535513309655</edate>
 		<id>54</id>
 		<mid0>53</mid0>
 		<nme>Notify ヤフオク！ 評価がつきました</nme>
@@ -23,7 +24,7 @@
 	</Profile>
 	<Task sr="task53">
 		<cdate>1525247343410</cdate>
-		<edate>1535513059937</edate>
+		<edate>1535513309655</edate>
 		<id>53</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
