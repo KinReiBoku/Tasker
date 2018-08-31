@@ -1,11 +1,11 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<Profile sr="prof93" ve="2">
-		<cdate>1535616614793</cdate>
+	<Profile sr="prof159" ve="2">
+		<cdate>1535673391339</cdate>
 		<clp>true</clp>
-		<edate>1535673842880</edate>
-		<id>93</id>
-		<mid0>92</mid0>
-		<nme>Notify カレンダー テレビ BS-TBS</nme>
+		<edate>1535673868555</edate>
+		<id>159</id>
+		<mid0>157</mid0>
+		<nme>Notify カレンダー テレビ BSイレブン</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
@@ -17,15 +17,15 @@
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">*BS-TBS*</Str>
+			<Str sr="arg5" ve="3">*BS11デジタル*</Str>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Task sr="task92">
+	<Task sr="task157">
 		<cdate>1521638112038</cdate>
-		<edate>1535673842880</edate>
-		<id>92</id>
+		<edate>1535673868555</edate>
+		<id>157</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -44,8 +44,8 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">161</Str>
-			<Str sr="arg3" ve="3">BS TBS</Str>
+			<Str sr="arg2" ve="3">211</Str>
+			<Str sr="arg3" ve="3">BSイレブン</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
