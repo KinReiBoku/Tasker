@@ -4,7 +4,7 @@
 		<edate>1535740575352</edate>
 		<id>228</id>
 		<nme>toSwitchChangePersonalComputerOn</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangePersonalComputer</Str>

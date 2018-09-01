@@ -4,6 +4,7 @@
 		<edate>1535694143567</edate>
 		<id>199</id>
 		<nme>toSwitchChangeTelevisionChannel102</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeTelevision</Str>
