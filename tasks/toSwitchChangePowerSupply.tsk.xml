@@ -1,13 +1,13 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task256">
 		<cdate>1535688823962</cdate>
-		<edate>1535772383523</edate>
+		<edate>1535800023751</edate>
 		<id>256</id>
 		<nme>toSwitchChangePowerSupply</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
-			<label>%par1=Button %par2=Light</label>
+			<label>%par1=Button %par2=Room</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -19,10 +19,16 @@
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -83,15 +89,15 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
 			<Str sr="arg1" ve="3">_powersupply</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>

@@ -33,7 +33,7 @@
 	</Profile>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535737691890</edate>
+		<edate>1535791447181</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -95,9 +95,9 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
 			<Str sr="arg3" ve="3">%ntitle4</Str>
-			<Str sr="arg4" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg4" ve="3">%LOCATION_ROOM_STATE</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -113,9 +113,9 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
 			<Str sr="arg3" ve="3">%ntitle4</Str>
-			<Str sr="arg4" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg4" ve="3">%LOCATION_ROOM_STATE</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -449,7 +449,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle5</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
@@ -467,7 +467,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle5</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
@@ -485,7 +485,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle5</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
@@ -503,7 +503,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle5</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
@@ -521,7 +521,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle5</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
