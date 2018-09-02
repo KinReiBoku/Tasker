@@ -616,7 +616,7 @@
 	</Profile>
 	<Profile sr="prof184" ve="2">
 		<cdate>1535674353312</cdate>
-		<edate>1535674413434</edate>
+		<edate>1535926311456</edate>
 		<flags>2</flags>
 		<id>184</id>
 		<mid0>183</mid0>
@@ -831,7 +831,7 @@
 	</Profile>
 	<Profile sr="prof37" ve="2">
 		<cdate>1535614559769</cdate>
-		<edate>1535673846231</edate>
+		<edate>1535926306415</edate>
 		<flags>2</flags>
 		<id>37</id>
 		<mid0>31</mid0>
@@ -855,6 +855,7 @@
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
 		<edate>1535922229025</edate>
+		<flags>2</flags>
 		<id>45</id>
 		<mid0>44</mid0>
 		<nme>Device Boot</nme>
@@ -1149,8 +1150,7 @@
 	</Profile>
 	<Profile sr="prof75" ve="2">
 		<cdate>1535513755527</cdate>
-		<edate>1535619755562</edate>
-		<flags>2</flags>
+		<edate>1535926338209</edate>
 		<id>75</id>
 		<mid0>74</mid0>
 		<nme>Notify LINE</nme>
@@ -1195,20 +1195,23 @@
 	</Profile>
 	<Profile sr="prof81" ve="2">
 		<cdate>1535519713219</cdate>
-		<edate>1535525520850</edate>
+		<edate>1535926149290</edate>
 		<flags>2</flags>
 		<id>81</id>
 		<mid0>80</mid0>
-		<nme>Notify Twitter いいね</nme>
+		<nme>Notify SNS いいね</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
-				<appClass>com.twitter.android.StartActivity</appClass>
-				<appPkg>com.twitter.android</appPkg>
-				<label>Twitter</label>
+				<appClass>com.twitter.android.StartActivity,
+com.instagram.android.activity.MainTabActivity</appClass>
+				<appPkg>com.twitter.android,
+com.instagram.android</appPkg>
+				<label>Twitter,
+Instagram</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">いいねしました*</Str>
+			<Str sr="arg2" ve="3">*いいね*</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -1218,11 +1221,11 @@
 	</Profile>
 	<Profile sr="prof83" ve="2">
 		<cdate>1535519717211</cdate>
-		<edate>1535525531582</edate>
+		<edate>1535926242243</edate>
 		<flags>2</flags>
 		<id>83</id>
 		<mid0>82</mid0>
-		<nme>Notify Twitter フォローされています</nme>
+		<nme>Notify SNS フォローされ</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
@@ -1231,7 +1234,7 @@
 				<label>Twitter</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">フォローされています</Str>
+			<Str sr="arg2" ve="3">*フォローされ*</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -1241,7 +1244,7 @@
 	</Profile>
 	<Profile sr="prof85" ve="2">
 		<cdate>1535519721340</cdate>
-		<edate>1535525540176</edate>
+		<edate>1535926296431</edate>
 		<flags>2</flags>
 		<id>85</id>
 		<mid0>84</mid0>
@@ -1384,7 +1387,7 @@
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1535921703964</mdate>
+		<mdate>1535925854385</mdate>
 		<name>Base</name>
 		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107</pids>
 		<psort>ActiveAlpha</psort>
@@ -5498,7 +5501,7 @@
 	</Task>
 	<Task sr="task183">
 		<cdate>1521638112038</cdate>
-		<edate>1535674413434</edate>
+		<edate>1535926311456</edate>
 		<id>183</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12151,7 +12154,7 @@
 	</Task>
 	<Task sr="task31">
 		<cdate>1521384026665</cdate>
-		<edate>1535673846231</edate>
+		<edate>1535926306415</edate>
 		<id>31</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -15193,29 +15196,21 @@
 	</Task>
 	<Task sr="task74">
 		<cdate>1521383443273</cdate>
-		<edate>1535619755562</edate>
+		<edate>1535926338209</edate>
 		<id>74</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%title</Str>
-			<Str sr="arg1" ve="3">%NTITLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%title</Str>
+			<Str sr="arg2" ve="3">%NTITLE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15225,7 +15220,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ntitle</Str>
@@ -15233,7 +15228,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">から</Str>
@@ -15241,10 +15236,10 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">LINEメッセージがあります</Str>
@@ -15252,7 +15247,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -15263,7 +15258,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1" val="49"/>
@@ -15272,7 +15267,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / 1</Str>
 			<Str sr="arg1" ve="3">Google:so04jc.xperia.xzpremium@gmail.com</Str>
@@ -16380,34 +16375,66 @@
 	</Task>
 	<Task sr="task80">
 		<cdate>1521729228705</cdate>
-		<edate>1535543990432</edate>
+		<edate>1535926149290</edate>
 		<id>80</id>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">%NTITLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg2" ve="3">%NTITLE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>2</op>
+					<rhs>Instagram</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">Instagram</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">Twitter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">でいいねされました</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Twitterでいいねされました</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -16415,34 +16442,66 @@
 	</Task>
 	<Task sr="task82">
 		<cdate>1521729228705</cdate>
-		<edate>1535544008153</edate>
+		<edate>1535926178051</edate>
 		<id>82</id>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">%NTITLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg2" ve="3">%NTITLE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>2</op>
+					<rhs>Instagram</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">Instagram</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">Twitter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">でフォローされています</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Twitterでフォローされました</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -16450,28 +16509,20 @@
 	</Task>
 	<Task sr="task84">
 		<cdate>1521729228705</cdate>
-		<edate>1535544022576</edate>
+		<edate>1535926296431</edate>
 		<id>84</id>
 		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">%NTITLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg2" ve="3">%NTITLE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -16481,6 +16532,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task87">
