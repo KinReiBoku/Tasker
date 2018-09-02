@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task109">
 		<cdate>1535540380169</cdate>
-		<edate>1535718854182</edate>
+		<edate>1535851832112</edate>
 		<id>109</id>
 		<nme>toSwitchChange</nme>
 		<Action sr="act0" ve="7">
@@ -22,23 +22,20 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">SwitchChange:%par1_%par2</Str>
-			<Str sr="arg1" ve="3"/>
-			<Img sr="arg2" ve="2"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toNotify</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">SwitchChange:%par1_%par2</Str>
+			<Str sr="arg3" ve="3">Flash</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3">SwitchChange:%par1_%par2</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -49,7 +46,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
