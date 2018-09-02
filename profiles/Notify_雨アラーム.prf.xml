@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof64" ve="2">
+		<cdate>1535513224668</cdate>
+		<clp>true</clp>
+		<edate>1535513397903</edate>
+		<id>64</id>
+		<mid0>63</mid0>
+		<nme>Notify 雨アラーム</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>de.mdiener.rain.usa.MainMaps2</appClass>
+				<appPkg>de.mdiener.rain.usa</appPkg>
+				<label>雨アラーム</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task63">
+		<cdate>1521382753474</cdate>
+		<edate>1535543917330</edate>
+		<id>63</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">近くに雨雲を観測しました</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

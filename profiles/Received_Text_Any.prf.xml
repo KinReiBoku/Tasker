@@ -1,0 +1,52 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof270" ve="2">
+		<cdate>1535810993340</cdate>
+		<clp>true</clp>
+		<edate>1535814328619</edate>
+		<id>270</id>
+		<mid0>271</mid0>
+		<nme>Received Text Any</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+		</Event>
+	</Profile>
+	<Task sr="task271">
+		<cdate>1535810997181</cdate>
+		<edate>1535814328619</edate>
+		<id>271</id>
+		<Action sr="act0" ve="7">
+			<code>277269574</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
+					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
+					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
+					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
+					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
+					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
+					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
+					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
+					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
+					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
+					<com.pushbullet.android.tasker.TITLE>ALL;NOTIFY;Received SMS at %SMSRN %SMSRB</com.pushbullet.android.tasker.TITLE>
+					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
+					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
+					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;NOTIFY;Received SMS at %SMSRN %SMSRB</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
+			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

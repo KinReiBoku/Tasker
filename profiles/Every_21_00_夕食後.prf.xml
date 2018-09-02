@@ -1,0 +1,75 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof121" ve="2">
+		<cdate>1535545982353</cdate>
+		<clp>true</clp>
+		<edate>1535602426661</edate>
+		<id>121</id>
+		<mid0>120</mid0>
+		<nme>Every 21:00 夕食後</nme>
+		<Time sr="con0">
+			<fh>21</fh>
+			<fm>0</fm>
+			<th>21</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Task sr="task120">
+		<cdate>1524104455984</cdate>
+		<edate>1535602426661</edate>
+		<id>120</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getLifeEatState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Dinner</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%flg_state</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%flg_state</lhs>
+					<op>12</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">夕食はお済みですか？</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
