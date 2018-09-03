@@ -685,7 +685,7 @@
 	</Profile>
 	<Profile sr="prof213" ve="2">
 		<cdate>1535941101864</cdate>
-		<edate>1535941195756</edate>
+		<edate>1535970776106</edate>
 		<flags>2</flags>
 		<id>213</id>
 		<mid0>219</mid0>
@@ -865,7 +865,7 @@
 	</Profile>
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<edate>1535922229025</edate>
+		<edate>1535970801146</edate>
 		<flags>2</flags>
 		<id>45</id>
 		<mid0>44</mid0>
@@ -893,7 +893,7 @@
 	</Profile>
 	<Profile sr="prof49" ve="2">
 		<cdate>1535508703297</cdate>
-		<edate>1535849422661</edate>
+		<edate>1535970806927</edate>
 		<flags>2</flags>
 		<id>49</id>
 		<mid0>285</mid0>
@@ -920,7 +920,7 @@
 	</Profile>
 	<Profile sr="prof51" ve="2">
 		<cdate>1535508945117</cdate>
-		<edate>1535849428506</edate>
+		<edate>1535970811187</edate>
 		<flags>2</flags>
 		<id>51</id>
 		<mid0>284</mid0>
@@ -1386,6 +1386,7 @@ Instagram</label>
 	<Profile sr="prof97" ve="2">
 		<cdate>1535527172678</cdate>
 		<edate>1535966905055</edate>
+		<flags>2</flags>
 		<id>97</id>
 		<mid0>96</mid0>
 		<nme>Every 04:00 日付変更線</nme>
@@ -3270,7 +3271,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task116">
 		<cdate>1535540380169</cdate>
-		<edate>1535951559335</edate>
+		<edate>1535970759909</edate>
 		<id>116</id>
 		<nme>!template</nme>
 		<pri>100</pri>
@@ -7531,12 +7532,12 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task219">
 		<cdate>1535941105796</cdate>
-		<edate>1535941155032</edate>
+		<edate>1535970776106</edate>
 		<id>219</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%DEVICES_STATE</Str>
+			<Str sr="arg0" ve="3">%MY_DEVICE_STATE</Str>
 			<Str sr="arg1" ve="3">%BATT</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -8465,7 +8466,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task233">
 		<cdate>1498643997275</cdate>
-		<edate>1535956613204</edate>
+		<edate>1535970613366</edate>
 		<id>233</id>
 		<nme>sayGoingHome</nme>
 		<pri>7</pri>
@@ -8493,17 +8494,6 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass>jp.ne.app.kintai.pro.activity.KintaiProActivity</appClass>
-				<appPkg>jp.ne.app.kintai.pro.activity</appPkg>
-				<label>タイムカード Pro</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%enter</Str>
 			<Str sr="arg1" ve="3">
@@ -8512,13 +8502,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%cald</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cald2</Str>
 			<Str sr="arg1" ve="3"> </Str>
@@ -8529,13 +8519,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act13" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%cald2</Str>
 			<Str sr="arg1" ve="3">⇒</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTimelagMinute</Str>
 			<Int sr="arg1">
@@ -8546,7 +8536,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%lag</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / %lag</Str>
 			<Str sr="arg1" ve="3">%MASTER_MAIL_WORK</Str>
@@ -8556,10 +8546,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -8570,7 +8560,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act18" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -9975,7 +9965,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1535956599498</edate>
+		<edate>1535970736084</edate>
 		<id>26</id>
 		<nme>!test</nme>
 		<pri>100</pri>
@@ -12004,7 +11994,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task284">
 		<cdate>1535849387695</cdate>
-		<edate>1535849428506</edate>
+		<edate>1535970811187</edate>
 		<id>284</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -12047,7 +12037,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task285">
 		<cdate>1535849419086</cdate>
-		<edate>1535849422661</edate>
+		<edate>1535970806927</edate>
 		<id>285</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -15425,7 +15415,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1535925179942</edate>
+		<edate>1535970801146</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -16404,7 +16394,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535941256733</edate>
+		<edate>1535970757213</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
