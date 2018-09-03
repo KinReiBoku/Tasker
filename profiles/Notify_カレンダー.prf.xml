@@ -2,7 +2,7 @@
 	<Profile sr="prof37" ve="2">
 		<cdate>1535614559769</cdate>
 		<clp>true</clp>
-		<edate>1535673846231</edate>
+		<edate>1535926306415</edate>
 		<id>37</id>
 		<mid0>31</mid0>
 		<nme>Notify カレンダー</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task31">
 		<cdate>1521384026665</cdate>
-		<edate>1535673846231</edate>
+		<edate>1535926306415</edate>
 		<id>31</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

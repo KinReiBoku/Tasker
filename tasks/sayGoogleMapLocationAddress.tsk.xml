@@ -4,7 +4,7 @@
 		<edate>1535605595559</edate>
 		<id>9</id>
 		<nme>sayGoogleMapLocationAddress</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getGoogleMapLocationAddress</Str>
@@ -71,5 +71,8 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_ab_device_access_location_found</nme>
+		</Img>
 	</Task>
 </TaskerData>

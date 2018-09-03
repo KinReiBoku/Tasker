@@ -683,6 +683,17 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof213" ve="2">
+		<cdate>1535941101864</cdate>
+		<edate>1535941195756</edate>
+		<flags>2</flags>
+		<id>213</id>
+		<mid0>219</mid0>
+		<nme>Battery Changed</nme>
+		<Event sr="con0" ve="2">
+			<code>203</code>
+		</Event>
+	</Profile>
 	<Profile sr="prof22" ve="2">
 		<cdate>1535362534671</cdate>
 		<edate>1535593487376</edate>
@@ -737,7 +748,7 @@
 	</Profile>
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
-		<edate>1535777815153</edate>
+		<edate>1535940724236</edate>
 		<flags>2</flags>
 		<id>261</id>
 		<mid0>259</mid0>
@@ -866,7 +877,7 @@
 	</Profile>
 	<Profile sr="prof47" ve="2">
 		<cdate>1535871923883</cdate>
-		<edate>1535871942019</edate>
+		<edate>1535950893599</edate>
 		<flags>2</flags>
 		<id>47</id>
 		<mid0>46</mid0>
@@ -1151,6 +1162,7 @@
 	<Profile sr="prof75" ve="2">
 		<cdate>1535513755527</cdate>
 		<edate>1535926338209</edate>
+		<flags>2</flags>
 		<id>75</id>
 		<mid0>74</mid0>
 		<nme>Notify LINE</nme>
@@ -1373,8 +1385,7 @@ Instagram</label>
 	</Profile>
 	<Profile sr="prof97" ve="2">
 		<cdate>1535527172678</cdate>
-		<edate>1535601477010</edate>
-		<flags>2</flags>
+		<edate>1535966905055</edate>
 		<id>97</id>
 		<mid0>96</mid0>
 		<nme>Every 04:00 日付変更線</nme>
@@ -1387,11 +1398,11 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1535925854385</mdate>
+		<mdate>1535966955753</mdate>
 		<name>Base</name>
-		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107</pids>
+		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107,213</pids>
 		<psort>ActiveAlpha</psort>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,98,99,100,101,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,295,6,7,52,102,106,112,113</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,295,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -1519,11 +1530,30 @@ Instagram</label>
 	</Task>
 	<Task sr="task100">
 		<cdate>1513257139448</cdate>
-		<edate>1535701028452</edate>
+		<edate>1535966986642</edate>
 		<id>100</id>
 		<nme>setNewDay</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DAY_STATE</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">initLifeEatState</Str>
 			<Int sr="arg1">
@@ -1534,18 +1564,30 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-	</Task>
-	<Task sr="task101">
-		<cdate>1523459538871</cdate>
-		<edate>1535601290537</edate>
-		<id>101</id>
-		<nme>initTrainState</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%LOCATION_ALARM</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task102">
@@ -3228,7 +3270,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task116">
 		<cdate>1535540380169</cdate>
-		<edate>1535857676605</edate>
+		<edate>1535951559335</edate>
 		<id>116</id>
 		<nme>!template</nme>
 		<pri>100</pri>
@@ -3787,7 +3829,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1535855260532</edate>
+		<edate>1535965164972</edate>
 		<id>123</id>
 		<nme>checkRssMessage</nme>
 		<pri>100</pri>
@@ -3805,10 +3847,16 @@ Instagram</label>
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>3</op>
 					<rhs>%RSS_MESSAGE</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -3895,6 +3943,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4049,6 +4098,88 @@ Instagram</label>
 			</Int>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Unknown data : State=%state Force=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task131">
+		<cdate>1535540380169</cdate>
+		<edate>1535930568462</edate>
+		<id>131</id>
+		<nme>checkNewsMessage</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>%NEWS_MESSAGE</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NEWS_MESSAGE</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -4889,7 +5020,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1535922480130</edate>
+		<edate>1535957474373</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
@@ -5001,6 +5132,7 @@ Instagram</label>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%weather</lhs>
 					<op>4</op>
@@ -5015,6 +5147,11 @@ Instagram</label>
 					<lhs>%weather</lhs>
 					<op>4</op>
 					<rhs>.*Thunderstorms.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%weather</lhs>
+					<op>4</op>
+					<rhs>.*Thundershowers.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -5223,6 +5360,66 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
+	</Task>
+	<Task sr="task170">
+		<cdate>1535929806972</cdate>
+		<edate>1535929905620</edate>
+		<id>170</id>
+		<nme>setDayState</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=State</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DAY_STATE</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : State=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task171">
+		<cdate>1498651463812</cdate>
+		<edate>1535937118602</edate>
+		<id>171</id>
+		<nme>setWorkIn</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_hardware_keyboard</nme>
+		</Img>
 	</Task>
 	<Task sr="task172">
 		<cdate>1521638112038</cdate>
@@ -6572,6 +6769,287 @@ Instagram</label>
 			<nme>hl_hardware_dock</nme>
 		</Img>
 	</Task>
+	<Task sr="task208">
+		<cdate>1498651463812</cdate>
+		<edate>1535937114848</edate>
+		<id>208</id>
+		<nme>setWorkOut</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WORK_INTIME</lhs>
+					<op>12</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WORK_INTIME</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Str sr="arg1" ve="3">%WORK_INTIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Int sr="arg1">
+				<var>%times</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Int sr="arg1">
+				<var>%WORK_INTIME</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">%intime / %times</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL_WORK</Str>
+			<Str sr="arg2" ve="3">仕事</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">お仕事お疲れ様でした</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_hardware_keyboard</nme>
+		</Img>
+	</Task>
+	<Task sr="task209">
+		<cdate>1498651463812</cdate>
+		<edate>1535936436063</edate>
+		<id>209</id>
+		<nme>setDriveIn</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_car</nme>
+		</Img>
+	</Task>
+	<Task sr="task210">
+		<cdate>1498651463812</cdate>
+		<edate>1535937098393</edate>
+		<id>210</id>
+		<nme>setDriveOut</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DRIVE_INTIME</lhs>
+					<op>12</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DRIVE_INTIME</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Str sr="arg1" ve="3">%DRIVE_INTIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Int sr="arg1">
+				<var>%times</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Int sr="arg1">
+				<var>%DRIVE_INTIME</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">%intime / %times</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL_HOME</Str>
+			<Str sr="arg2" ve="3">ドライブ</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA_DRIVE</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">ドライブお疲れ様でした</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_car</nme>
+		</Img>
+	</Task>
+	<Task sr="task211">
+		<cdate>1535940322252</cdate>
+		<edate>1535940520407</edate>
+		<id>211</id>
+		<nme>sayAlertState</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Flash:%FLASH_STATE
+Notify:%NOTIFY_STATE
+Say:%SAY_STATE</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_alerts_and_states_warning</nme>
+		</Img>
+	</Task>
 	<Task sr="task212">
 		<cdate>1535688823962</cdate>
 		<edate>1535743677428</edate>
@@ -7049,6 +7527,20 @@ Instagram</label>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task219">
+		<cdate>1535941105796</cdate>
+		<edate>1535941155032</edate>
+		<id>219</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DEVICES_STATE</Str>
+			<Str sr="arg1" ve="3">%BATT</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task220">
@@ -7969,6 +8461,359 @@ Instagram</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task233">
+		<cdate>1498643997275</cdate>
+		<edate>1535956613204</edate>
+		<id>233</id>
+		<nme>sayGoingHome</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=TrainTime %par2=CalendarDescription</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>jp.ne.app.kintai.pro.activity.KintaiProActivity</appClass>
+				<appPkg>jp.ne.app.kintai.pro.activity</appPkg>
+				<label>タイムカード Pro</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%enter</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%cald</Str>
+			<Str sr="arg1" ve="3">%enter</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%cald2</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%cald2</Str>
+			<Str sr="arg1" ve="3">⇒</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTimelagMinute</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%cald21</Str>
+			<Str sr="arg3" ve="3">%cald22</Str>
+			<Str sr="arg4" ve="3">%lag</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">0 / %lag</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL_WORK</Str>
+			<Str sr="arg2" ve="3">移動</Str>
+			<Str sr="arg3" ve="3">%cald</Str>
+			<Str sr="arg4" ve="3">%cald1</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : TrainTime=%par1 CalendarDescription=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">%par11</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%train</Str>
+			<Str sr="arg1" ve="3">%par12</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cald</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%serif</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA %time1:%time2 発で帰ります。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time1</lhs>
+					<op>7</op>
+					<rhs>16</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">https://maker.ifttt.com/trigger/tolinenotify/with/key/%IFTTT_WEBHOOK_KEY?value1=%serif</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time1</lhs>
+					<op>7</op>
+					<rhs>16</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%serif</Str>
+			<Str sr="arg1" ve="3">次の電車は %time1:%time2 発、%train です</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%serif</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_car</nme>
+		</Img>
+	</Task>
+	<Task sr="task236">
+		<cdate>1535540380169</cdate>
+		<edate>1535956474149</edate>
+		<id>236</id>
+		<nme>getTimelagMinute</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Intime(hh:mm) %par2=Outtime(hh:mm) %ret=Lag(Minute)</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cald21</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Int sr="arg1">
+				<var>%cald212</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%outtime</Str>
+			<Int sr="arg1">
+				<var>%cald222</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%outtime</Str>
+			<Int sr="arg1">
+				<var>%intime</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%outtime</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cald22</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%cald21</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%cald22</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<label>MovingTime</label>
+			<Str sr="arg0" ve="3">%intime</Str>
+			<Int sr="arg1" val="60"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cald211</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%outtime</Str>
+			<Int sr="arg1" val="60"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cald221</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%cald211</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%cald221</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">MovingTime</Str>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%cald211</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%cald221</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task238">
@@ -9087,7 +9932,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1535777815153</edate>
+		<edate>1535940724236</edate>
 		<id>259</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -9130,7 +9975,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1535857650307</edate>
+		<edate>1535956599498</edate>
 		<id>26</id>
 		<nme>!test</nme>
 		<pri>100</pri>
@@ -9156,22 +10001,6 @@ Instagram</label>
 		<Action sr="act2" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">start %task</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getLineRandomizeRecord</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">日常会話</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -9371,7 +10200,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task264">
 		<cdate>1515388241199</cdate>
-		<edate>1535777645795</edate>
+		<edate>1535950481817</edate>
 		<id>264</id>
 		<nme>setSilentModeOff</nme>
 		<pri>100</pri>
@@ -9729,7 +10558,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1535847222342</edate>
+		<edate>1535927930863</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -10146,9 +10975,6 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Img sr="icn" ve="2">
-			<nme>hl_device_access_brightness_high</nme>
-		</Img>
 	</Task>
 	<Task sr="task276">
 		<cdate>1520695115567</cdate>
@@ -10888,7 +11714,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task28">
 		<cdate>1535346415604</cdate>
-		<edate>1535821630979</edate>
+		<edate>1535966963817</edate>
 		<id>28</id>
 		<nme>initDataDevice</nme>
 		<pri>100</pri>
@@ -12201,7 +13027,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1535922417864</edate>
+		<edate>1535936189474</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -14713,7 +15539,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task46">
 		<cdate>1526884976699</cdate>
-		<edate>1535871942019</edate>
+		<edate>1535950893599</edate>
 		<id>46</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -14742,6 +15568,9 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkLocation</Str>
@@ -14767,7 +15596,49 @@ Instagram</label>
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>38</code>
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%llamadrive</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_DRIVE</Str>
+			<Str sr="arg1" ve="3">%llamadrive</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%llamatime</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%llamacald</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayGoingHome</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%llamatime</Str>
+			<Str sr="arg3" ve="3">%llamacald</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task48">
@@ -14903,7 +15774,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task52">
 		<cdate>1513139785991</cdate>
-		<edate>1535896073769</edate>
+		<edate>1535929316820</edate>
 		<id>52</id>
 		<nme>sayTimeReport</nme>
 		<pri>100</pri>
@@ -14922,6 +15793,17 @@ Instagram</label>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%time1</Str>
+			<Str sr="arg1" ve="3">^0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%time1</Str>
 			<Str sr="arg1" ve="3">時です</Str>
@@ -14929,18 +15811,18 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%time1</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%time1</Str>
 			<Str sr="arg1" ve="3">です</Str>
@@ -14951,14 +15833,14 @@ Instagram</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">をお知らせします</Str>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%time1</Str>
-			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -15076,7 +15958,7 @@ Instagram</label>
 		<cdate>1521382753474</cdate>
 		<edate>1535543917330</edate>
 		<id>63</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
@@ -15522,7 +16404,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535860776595</edate>
+		<edate>1535941256733</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -15552,6 +16434,17 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setLife</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15561,7 +16454,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setLocationAlarm</Str>
 			<Int sr="arg1">
@@ -15579,7 +16472,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15589,7 +16482,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">addDataValue</Str>
 			<Int sr="arg1">
@@ -15607,7 +16500,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">subtractValue</Str>
 			<Int sr="arg1">
@@ -15625,7 +16518,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15635,43 +16528,34 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkNewsMessage</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ret</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ret</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ntitle3</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">ニュースです。</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>590</code>
@@ -15680,17 +16564,50 @@ Instagram</label>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">ニュースです。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle4</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4（%ntitle3）</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15700,7 +16617,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act26" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15710,7 +16627,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act27" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getMessagePlayedSong</Str>
 			<Int sr="arg1">
@@ -15721,7 +16638,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -15739,7 +16656,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -15757,7 +16674,18 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>Type</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle2</lhs>
+					<op>2</op>
+					<rhs>APP</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getGoogleSearchResult</Str>
 			<Int sr="arg1">
@@ -15768,7 +16696,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%result</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act31" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -15786,7 +16714,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act32" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -15804,7 +16732,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act33" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -15832,18 +16760,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<label>Type</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle2</lhs>
-					<op>2</op>
-					<rhs>APP</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act34" ve="7">
 			<code>90406179</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -15868,7 +16785,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act35" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayおはよう</Str>
 			<Int sr="arg1">
@@ -15886,7 +16803,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayおやすみ</Str>
 			<Int sr="arg1">
@@ -15904,10 +16821,10 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act37" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act38" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -15918,7 +16835,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -15927,41 +16844,6 @@ Instagram</label>
 			<Str sr="arg2" ve="3">%ntitle3</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3">force</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle2</lhs>
-					<op>2</op>
-					<rhs>RSS</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkRssMessage</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle5</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -15975,6 +16857,41 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle2</lhs>
+					<op>2</op>
+					<rhs>RSS</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkRssMessage</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle5</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ret</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15984,7 +16901,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ntitle3</Str>
@@ -15992,7 +16909,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act46" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ニュースです。</Str>
@@ -16000,7 +16917,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ntitle4。%ret</Str>
@@ -16008,7 +16925,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act48" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -16019,10 +16936,20 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act49" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle2</lhs>
+					<op>2</op>
+					<rhs>DEVICE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -16032,7 +16959,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeAirCleaner</Str>
 			<Int sr="arg1">
@@ -16050,7 +16977,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeAirConditioner</Str>
 			<Int sr="arg1">
@@ -16068,7 +16995,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeLight</Str>
 			<Int sr="arg1">
@@ -16086,18 +17013,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%DEVICES_STATE</Str>
-			<Str sr="arg3" ve="3">%ntitle3;%ntitle4</Str>
-			<Str sr="arg4" ve="3">%DEVICES_STATE</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangePersonalComputer</Str>
 			<Int sr="arg1">
@@ -16115,7 +17031,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeTelevision</Str>
 			<Int sr="arg1">
@@ -16133,7 +17049,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act56" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -16163,7 +17079,7 @@ Instagram</label>
 			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act57" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -16173,7 +17089,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act58" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -16184,7 +17100,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act59" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -16194,7 +17110,31 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%DEVICES_STATE</Str>
+			<Str sr="arg3" ve="3">%ntitle3;%ntitle4</Str>
+			<Str sr="arg4" ve="3">%DEVICES_STATE</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle3</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setTrainDelayState</Str>
 			<Int sr="arg1">
@@ -16205,7 +17145,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act61" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -16215,7 +17155,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act62" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWallpaperWeather</Str>
 			<Int sr="arg1">
@@ -16226,10 +17166,51 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%path</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act63" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act64" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>2</op>
+					<rhs>.*スキャン.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle</Str>
+			<Str sr="arg1" ve="3">ALL;NOTIFY;%ntitle</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Start</Str>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -16266,51 +17247,10 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act60" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act70" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act63" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>2</op>
-					<rhs>.*スキャン.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act64" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">ALL;NOTIFY;%ntitle</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act65" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">Start</Str>
-		</Action>
-		<Action sr="act66" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act71" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toLine</Str>
 			<Int sr="arg1">
@@ -16321,13 +17261,13 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act72" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act73" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">%ntitle3 %ntitle4</Str>
 			<Str sr="arg1" ve="3"/>
@@ -16339,6 +17279,7 @@ Instagram</label>
 			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>2</op>
@@ -16349,9 +17290,14 @@ Instagram</label>
 					<op>2</op>
 					<rhs>StorageLow</rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>6</op>
+					<rhs>20</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -16360,17 +17306,6 @@ Instagram</label>
 					<rhs>INSTAGRAM</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setLife</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task80">
@@ -16800,6 +17735,7 @@ Instagram</label>
 		<cdate>1524104455984</cdate>
 		<edate>1535602414199</edate>
 		<id>94</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getLifeEatState</Str>
@@ -16879,7 +17815,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task96">
 		<cdate>1521421923791</cdate>
-		<edate>1535601476224</edate>
+		<edate>1535966905055</edate>
 		<id>96</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -16901,56 +17837,10 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">initTrainState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">initLocationAlarm</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">initLifeEatState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task98">
-		<cdate>1523596776366</cdate>
-		<edate>1535596791393</edate>
-		<id>98</id>
-		<nme>initLocationAlarm</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%LOCATION_ALARM</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
 	</Task>
 	<Task sr="task99">
 		<cdate>1527156848146</cdate>
-		<edate>1535583939299</edate>
+		<edate>1535966512115</edate>
 		<id>99</id>
 		<nme>initLifeEatState</nme>
 		<pri>100</pri>

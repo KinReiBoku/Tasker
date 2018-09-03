@@ -2,7 +2,7 @@
 	<Profile sr="prof184" ve="2">
 		<cdate>1535674353312</cdate>
 		<clp>true</clp>
-		<edate>1535674413434</edate>
+		<edate>1535926311456</edate>
 		<id>184</id>
 		<mid0>183</mid0>
 		<nme>Notify カレンダー NHK総合</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task183">
 		<cdate>1521638112038</cdate>
-		<edate>1535674413434</edate>
+		<edate>1535926311456</edate>
 		<id>183</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
