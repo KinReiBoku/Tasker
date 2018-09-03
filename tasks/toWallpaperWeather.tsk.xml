@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1535957474373</edate>
+		<edate>1535980568075</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
@@ -113,7 +113,7 @@
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
-				<bool2>And</bool2>
+				<bool2>Or</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%weather</lhs>
 					<op>4</op>
