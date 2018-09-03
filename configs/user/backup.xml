@@ -685,7 +685,7 @@
 	</Profile>
 	<Profile sr="prof213" ve="2">
 		<cdate>1535941101864</cdate>
-		<edate>1535970776106</edate>
+		<edate>1535971751248</edate>
 		<flags>2</flags>
 		<id>213</id>
 		<mid0>219</mid0>
@@ -729,6 +729,18 @@
 			<code>3</code>
 			<Str sr="arg0" ve="3">WF-1000X</Str>
 			<Str sr="arg1" ve="3">04:5D:4B:E1:05:FA</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof237" ve="2">
+		<cdate>1535971411230</cdate>
+		<edate>1535971743369</edate>
+		<flags>2</flags>
+		<id>237</id>
+		<mid0>239</mid0>
+		<nme>Power Any</nme>
+		<State sr="con0" ve="2">
+			<code>10</code>
+			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
 	<Profile sr="prof252" ve="2">
@@ -865,7 +877,7 @@
 	</Profile>
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<edate>1535970801146</edate>
+		<edate>1535971762866</edate>
 		<flags>2</flags>
 		<id>45</id>
 		<mid0>44</mid0>
@@ -893,7 +905,7 @@
 	</Profile>
 	<Profile sr="prof49" ve="2">
 		<cdate>1535508703297</cdate>
-		<edate>1535970806927</edate>
+		<edate>1535971770897</edate>
 		<flags>2</flags>
 		<id>49</id>
 		<mid0>285</mid0>
@@ -920,8 +932,7 @@
 	</Profile>
 	<Profile sr="prof51" ve="2">
 		<cdate>1535508945117</cdate>
-		<edate>1535970811187</edate>
-		<flags>2</flags>
+		<edate>1535971779459</edate>
 		<id>51</id>
 		<mid0>284</mid0>
 		<nme>Device Storage Low</nme>
@@ -1161,7 +1172,7 @@
 	</Profile>
 	<Profile sr="prof75" ve="2">
 		<cdate>1535513755527</cdate>
-		<edate>1535926338209</edate>
+		<edate>1535971052131</edate>
 		<flags>2</flags>
 		<id>75</id>
 		<mid0>74</mid0>
@@ -1399,11 +1410,11 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1535966955753</mdate>
+		<mdate>1535971701964</mdate>
 		<name>Base</name>
-		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107,213</pids>
+		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107,213,237</pids>
 		<psort>ActiveAlpha</psort>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,295,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,295,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -1531,7 +1542,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task100">
 		<cdate>1513257139448</cdate>
-		<edate>1535966986642</edate>
+		<edate>1535971370458</edate>
 		<id>100</id>
 		<nme>setNewDay</nme>
 		<pri>6</pri>
@@ -1573,11 +1584,17 @@ Instagram</label>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>549</code>
-			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
 			<Int sr="arg1" val="0"/>
@@ -7532,7 +7549,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task219">
 		<cdate>1535941105796</cdate>
-		<edate>1535970776106</edate>
+		<edate>1535971751248</edate>
 		<id>219</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8306,7 +8323,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1535856397524</edate>
+		<edate>1535970987099</edate>
 		<id>23</id>
 		<nme>toSay</nme>
 		<pri>100</pri>
@@ -8927,6 +8944,31 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task239">
+		<cdate>1535971418471</cdate>
+		<edate>1535971743369</edate>
+		<id>239</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MY_DEVICE_STATE</Str>
+			<Str sr="arg1" ve="3">Charging</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task24">
 		<cdate>1535275951041</cdate>
 		<edate>1535862032534</edate>
@@ -8949,6 +8991,45 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
+	</Task>
+	<Task sr="task240">
+		<cdate>1535971674812</cdate>
+		<edate>1535971701964</edate>
+		<id>240</id>
+		<nme>sayMyDeviceState</nme>
+		<Action sr="act0" ve="7">
+			<code>277269574</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
+					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
+					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
+					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
+					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
+					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
+					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
+					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
+					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
+					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
+					<com.pushbullet.android.tasker.TITLE>ALL;DEVICE;%MY_ID;%MY_DEVICE_STATE</com.pushbullet.android.tasker.TITLE>
+					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
+					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
+					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;DEVICE;%MY_ID;%MY_DEVICE_STATE" with</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
+			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_android</nme>
+		</Img>
 	</Task>
 	<Task sr="task241">
 		<cdate>1535735697172</cdate>
@@ -11994,7 +12075,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task284">
 		<cdate>1535849387695</cdate>
-		<edate>1535970811187</edate>
+		<edate>1535971779459</edate>
 		<id>284</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -12005,39 +12086,20 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;DEVICE;%MY_ID;StorageLow</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;DEVICE;%MY_ID;StorageLow" with the m</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task285">
 		<cdate>1535849419086</cdate>
-		<edate>1535970806927</edate>
+		<edate>1535971770897</edate>
 		<id>285</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -12048,34 +12110,15 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;DEVICE;%MY_ID;Shutdown</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;DEVICE;%MY_ID;Shutdown" with the mes</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task287">
@@ -15415,7 +15458,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1535970801146</edate>
+		<edate>1535971762866</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -15467,34 +15510,15 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;DEVICE;%MY_ID;Boot</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;DEVICE;%MY_ID;Boot" with the message</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
@@ -15650,7 +15674,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task5">
 		<cdate>1535242794666</cdate>
-		<edate>1535583994940</edate>
+		<edate>1535971722263</edate>
 		<id>5</id>
 		<nme>isDataValue</nme>
 		<Action sr="act0" ve="7">
@@ -16068,7 +16092,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task74">
 		<cdate>1521383443273</cdate>
-		<edate>1535926338209</edate>
+		<edate>1535971052131</edate>
 		<id>74</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -16142,7 +16166,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act8" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / 1</Str>
-			<Str sr="arg1" ve="3">Google:so04jc.xperia.xzpremium@gmail.com</Str>
+			<Str sr="arg1" ve="3">%MY_CALENDAR</Str>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -16394,7 +16418,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535970757213</edate>
+		<edate>1535971918729</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -17201,39 +17225,26 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">Start</Str>
 		</Action>
 		<Action sr="act7" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;DEVICE;%MY_ID;%MY_DEVICE_STATE</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;DEVICE;%MY_ID;%MY_DEVICE_STATE" with</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
+					<lhs>%ntitle3</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>2</op>
-					<rhs>Booth</rhs>
+					<rhs>Boot</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
