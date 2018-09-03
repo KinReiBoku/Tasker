@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1535927930863</edate>
+		<edate>1535981366948</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -80,7 +80,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -395,7 +395,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>

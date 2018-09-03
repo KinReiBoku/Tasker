@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task102">
 		<cdate>1524061793581</cdate>
-		<edate>1535896111331</edate>
+		<edate>1535981198157</edate>
 		<id>102</id>
 		<nme>sayCalendarNow</nme>
 		<pri>7</pri>
@@ -22,7 +22,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">現在の予定は「%CALTITLE」です</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -68,7 +68,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%CALDESCR</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -104,7 +104,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>

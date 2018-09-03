@@ -1,0 +1,19 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task275">
+		<cdate>1535975770014</cdate>
+		<edate>1535975794758</edate>
+		<id>275</id>
+		<nme>launchレイアウト</nme>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.instagram.layout.LayoutActivity</appClass>
+				<appPkg>com.instagram.layout</appPkg>
+				<label>レイアウト</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

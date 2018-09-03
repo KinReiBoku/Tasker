@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task155">
 		<cdate>1523587320062</cdate>
-		<edate>1535896114916</edate>
+		<edate>1535981252558</edate>
 		<id>155</id>
 		<nme>sayLocationAlarm</nme>
 		<pri>100</pri>
@@ -84,7 +84,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>

@@ -1,0 +1,19 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task278">
+		<cdate>1535975849874</cdate>
+		<edate>1535975869839</edate>
+		<id>278</id>
+		<nme>launchInstagram</nme>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.instagram.android.activity.MainTabActivity</appClass>
+				<appPkg>com.instagram.android</appPkg>
+				<label>Instagram</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

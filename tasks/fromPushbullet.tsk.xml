@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1535973125185</edate>
+		<edate>1535981123835</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -120,7 +120,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle5</Str>
+			<Str sr="arg2" ve="3">%ntitle4</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
@@ -186,7 +186,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4（%ntitle3）</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -439,7 +439,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -818,19 +818,25 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
+				<bool2>Or2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle4</lhs>
-					<op>2</op>
-					<rhs>Shutdown</rhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>2</op>
-					<rhs>StorageLow</rhs>
+					<rhs>Shutdown</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>2</op>
+					<rhs>StrangeLow</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>6</op>
 					<rhs>20</rhs>

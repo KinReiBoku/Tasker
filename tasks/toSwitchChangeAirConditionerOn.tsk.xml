@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task224">
 		<cdate>1535688823962</cdate>
-		<edate>1535740618096</edate>
+		<edate>1535981296074</edate>
 		<id>224</id>
 		<nme>toSwitchChangeAirConditionerOn</nme>
 		<pri>7</pri>
@@ -49,7 +49,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ret</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
