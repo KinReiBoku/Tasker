@@ -57,6 +57,7 @@
 	<Profile sr="prof125" ve="2">
 		<cdate>1535579773038</cdate>
 		<edate>1536096504420</edate>
+		<flags>2</flags>
 		<id>125</id>
 		<mid0>124</mid0>
 		<nme>Notify MyThings さいたま市 暴風注意報</nme>
@@ -760,8 +761,7 @@
 	</Profile>
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
-		<edate>1536011342079</edate>
-		<flags>2</flags>
+		<edate>1536098179790</edate>
 		<id>261</id>
 		<mid0>259</mid0>
 		<mid1>260</mid1>
@@ -831,7 +831,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1536017881638</edate>
+		<edate>1536098170004</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -4295,7 +4295,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task128">
 		<cdate>1536017143639</cdate>
-		<edate>1536093596137</edate>
+		<edate>1536096951157</edate>
 		<id>128</id>
 		<nme>sayTwitterTrainInfo</nme>
 		<pri>100</pri>
@@ -5990,7 +5990,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task18">
 		<cdate>1536023397269</cdate>
-		<edate>1536025296857</edate>
+		<edate>1536096947655</edate>
 		<id>18</id>
 		<nme>sayTwitterTweet</nme>
 		<Action sr="act0" ve="7">
@@ -11130,7 +11130,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1536087781083</edate>
+		<edate>1536098954780</edate>
 		<id>26</id>
 		<nme>!test</nme>
 		<pri>100</pri>
@@ -11158,10 +11158,26 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg0" ve="3">start %task</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">BitmexRket</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%tweet</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%tweet</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1536011342079</edate>
+		<edate>1536098179790</edate>
 		<id>260</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -11355,7 +11371,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task264">
 		<cdate>1515388241199</cdate>
-		<edate>1535985744264</edate>
+		<edate>1536098719566</edate>
 		<id>264</id>
 		<nme>setSilentModeOff</nme>
 		<pri>100</pri>
@@ -11366,28 +11382,84 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="6"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act10" ve="7">
 			<code>305</code>
 			<Int sr="arg0" val="7"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act11" ve="7">
 			<code>304</code>
 			<Int sr="arg0" val="7"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act12" ve="7">
 			<code>308</code>
 			<Int sr="arg0" val="7"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFI</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>4</op>
+					<rhs>.*XEA20.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="10"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="6"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_on</nme>
@@ -11395,7 +11467,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
-		<edate>1535985740521</edate>
+		<edate>1536098698533</edate>
 		<id>265</id>
 		<nme>setSilentModeOn</nme>
 		<pri>100</pri>
@@ -11406,54 +11478,84 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="9"/>
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>308</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
+					<lhs>%WIFI</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
 					<rhs>.*XEA20.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
-					<op>4</op>
-					<rhs>\%.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act3" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="0"/>
+			<code>307</code>
+			<Int sr="arg0" val="6"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>304</code>
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="10"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>307</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>308</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_muted</nme>
@@ -13247,7 +13349,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1535975247386</edate>
+		<edate>1536098170004</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -13267,10 +13369,32 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>307</code>
-			<Int sr="arg0" val="9"/>
+			<Int sr="arg0" val="6"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="10"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task288">
@@ -15122,14 +15246,14 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1536086492881</edate>
+		<edate>1536099260102</edate>
 		<id>310</id>
-		<nme>getTwitterNews</nme>
+		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%keys</Str>
-			<Str sr="arg1" ve="3">共同通信;kyodo_official,日経新聞;nikkei,岡三マン;okasanman,ヤフトピ;yahoonewstopics,読売新聞;Yomiuri_Online,NHK;nhk_news,毎日新聞;mainichi_dmnd,テレ朝;tv_asahi_news,NHK生活;nhk_seikatsu,朝日新聞;asahicom,産経新聞;Sankei_news,NHK国際;nhk_kokusai,AFPBB;afpbbcom,NHK首都圏;nhk_shutoken,RKET;BitmexRket,楽天FX;rakuten_fx</Str>
+			<Str sr="arg1" ve="3">共同通信;kyodo_official,日経新聞;nikkei,岡三マン;okasanman,ヤフトピ;yahoonewstopics,読売新聞;Yomiuri_Online,NHK;nhk_news,毎日新聞;mainichi_dmnd,テレ朝;tv_asahi_news,NHK生活;nhk_seikatsu,朝日新聞;asahicom,産経新聞;Sankei_news,NHK国際;nhk_kokusai,AFPBB;afpbbcom,NHK首都圏;nhk_shutoken,REKT;BitmexRekt,楽天FX;rakuten_fx,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -15141,29 +15265,63 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Str sr="arg1" ve="3">－</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Str sr="arg1" ve="3">&amp;quot</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>And2</bool1>
+				<bool2>And2</bool2>
 				<Condition sr="c0" ve="3">
-					<lhs>%oldtweet</lhs>
-					<op>3</op>
-					<rhs>%newtweet</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%par1</lhs>
 					<op>2</op>
 					<rhs>Now</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%newtweet</lhs>
+					<op>12</op>
+					<rhs>Now</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%newtweet</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%oldtweet</lhs>
+					<op>3</op>
+					<rhs>%newtweet</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act13" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%TWITTER_NEWS</Str>
-			<Str sr="arg3" ve="3">%key2;%newtweet</Str>
+			<Str sr="arg3" ve="3">%key1;%newtweet</Str>
 			<Str sr="arg4" ve="3">%TWITTER_NEWS</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
@@ -15180,7 +15338,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act14" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -15196,18 +15354,18 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%TWITTER_NEWS</Str>
-			<Str sr="arg3" ve="3">%key2</Str>
+			<Str sr="arg3" ve="3">%key1</Str>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%newtweet (%key1)</Str>
@@ -15215,7 +15373,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -15245,7 +15403,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -15256,7 +15414,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -15299,21 +15457,21 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act2" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%key</Str>
 			<Str sr="arg1" ve="3">%keys()</Str>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>40</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -15344,6 +15502,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -15354,18 +15518,18 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%newtweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%TWITTER_NEWS</Str>
-			<Str sr="arg3" ve="3">%key2</Str>
+			<Str sr="arg3" ve="3">%key1</Str>
 			<Str sr="arg4" ve="3">%oldtweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%newtweet (%key1)</Str>
@@ -15373,7 +15537,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
 			<Str sr="arg1" ve="3">;</Str>
@@ -15384,21 +15548,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">－</Str>
+			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -15451,7 +15604,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">getTwitterNews</Str>
+			<Str sr="arg0" ve="3">checkTwitterNews</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -15559,7 +15712,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1536041778025</edate>
+		<edate>1536097928095</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -15708,7 +15861,7 @@ Say:%SAY_STATE</Str>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -20113,7 +20266,7 @@ Say:%SAY_STATE</Str>
 		<cdate>1528867924460</cdate>
 		<edate>1535679238998</edate>
 		<id>88</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -20434,12 +20587,13 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task98">
 		<cdate>1536084978072</cdate>
-		<edate>1536096794011</edate>
+		<edate>1536097005633</edate>
 		<id>98</id>
 		<nme>checkTrainDelay</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
+			<label>%par1=Mode(Say)</label>
 			<Str sr="arg0" ve="3">getTwitterTweet電車遅延Botなう</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
