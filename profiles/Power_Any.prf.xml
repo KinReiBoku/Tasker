@@ -2,7 +2,7 @@
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
 		<clp>true</clp>
-		<edate>1535971652035</edate>
+		<edate>1535971743369</edate>
 		<id>237</id>
 		<mid0>239</mid0>
 		<nme>Power Any</nme>
@@ -13,7 +13,7 @@
 	</Profile>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1535971639279</edate>
+		<edate>1535971743369</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

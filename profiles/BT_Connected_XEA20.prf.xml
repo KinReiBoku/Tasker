@@ -2,7 +2,7 @@
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1535975247386</edate>
+		<edate>1536017881638</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -43,7 +43,7 @@
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1535974764603</edate>
+		<edate>1536017881638</edate>
 		<id>288</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -56,6 +56,24 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSilentModeOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>5</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>

@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1535930568462</edate>
+		<edate>1536012164097</edate>
 		<id>131</id>
 		<nme>checkNewsMessage</nme>
 		<pri>100</pri>
@@ -27,7 +27,7 @@
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%par1</lhs>
-					<op>4</op>
+					<op>5</op>
 					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>

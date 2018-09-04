@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof125" ve="2">
 		<cdate>1535579773038</cdate>
-		<clp>true</clp>
-		<edate>1535593497584</edate>
+		<edate>1536096504420</edate>
 		<id>125</id>
 		<mid0>124</mid0>
 		<nme>Notify MyThings さいたま市 暴風注意報</nme>
@@ -24,7 +23,7 @@
 	</Profile>
 	<Task sr="task124">
 		<cdate>1523459831711</cdate>
-		<edate>1535593497584</edate>
+		<edate>1536096504420</edate>
 		<id>124</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

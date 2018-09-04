@@ -2,7 +2,7 @@
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
 		<clp>true</clp>
-		<edate>1535940724236</edate>
+		<edate>1536011342079</edate>
 		<id>261</id>
 		<mid0>259</mid0>
 		<mid1>260</mid1>
@@ -17,7 +17,7 @@
 	</Profile>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1535940724236</edate>
+		<edate>1535978408338</edate>
 		<id>259</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -60,9 +60,9 @@
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1535777810376</edate>
+		<edate>1536011342079</edate>
 		<id>260</id>
-		<pri>1006</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>

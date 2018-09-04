@@ -1,0 +1,46 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof314" ve="2">
+		<cdate>1536017263837</cdate>
+		<clp>true</clp>
+		<edate>1536086457932</edate>
+		<id>314</id>
+		<mid0>101</mid0>
+		<nme>Every 2m</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>2</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Task sr="task101">
+		<cdate>1536085779819</cdate>
+		<edate>1536086457932</edate>
+		<id>101</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayTwitterNews</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayTwitterTrainInfo</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

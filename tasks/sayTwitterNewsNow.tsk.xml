@@ -1,23 +1,23 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<Task sr="task241">
-		<cdate>1535735697172</cdate>
-		<edate>1535992223522</edate>
-		<id>241</id>
-		<nme>checkinLocationRoomダイニング</nme>
-		<pri>100</pri>
+	<Task sr="task311">
+		<cdate>1536017050694</cdate>
+		<edate>1536086979481</edate>
+		<id>311</id>
+		<nme>sayTwitterNewsNow</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
+			<Str sr="arg0" ve="3">sayTwitterNews</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">ダイニング</Str>
+			<Str sr="arg2" ve="3">Now</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_home</nme>
+			<nme>hl_action_about</nme>
 		</Img>
 	</Task>
 </TaskerData>

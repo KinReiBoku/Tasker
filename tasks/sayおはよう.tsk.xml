@@ -1,10 +1,10 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1535981366948</edate>
+		<edate>1536010362337</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOff</Str>
