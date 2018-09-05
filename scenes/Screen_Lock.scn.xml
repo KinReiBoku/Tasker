@@ -1,0 +1,22 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<dmetric>1080.0,1813.0</dmetric>
+	<Scene sr="sceneScreen Lock">
+		<cdate>1523316283404</cdate>
+		<edate>1536133070797</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1776</heightPort>
+		<nme>Screen Lock</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Screen Lock</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+</TaskerData>
