@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
-		<edate>1536143749800</edate>
+		<edate>1536155923303</edate>
 		<id>265</id>
 		<nme>setSilentModeOn</nme>
 		<pri>100</pri>
@@ -28,18 +28,6 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>304</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
 			<code>308</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
@@ -51,7 +39,7 @@
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
-					<op>4</op>
+					<op>5</op>
 					<rhs>.*%WIFI_HOME_SSID.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
@@ -63,33 +51,36 @@
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>307</code>
-			<Int sr="arg0" val="6"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>307</code>
 			<Int sr="arg0" val="10"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act4" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act6" ve="7">
 			<code>307</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>305</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>304</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_muted</nme>
