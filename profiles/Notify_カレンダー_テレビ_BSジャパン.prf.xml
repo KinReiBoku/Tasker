@@ -26,7 +26,7 @@
 		<cdate>1521638112038</cdate>
 		<edate>1535673890630</edate>
 		<id>160</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>

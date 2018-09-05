@@ -1,11 +1,11 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<Profile sr="prof17" ve="2">
+	<Profile sr="prof316" ve="2">
 		<cdate>1535346702361</cdate>
 		<clp>true</clp>
-		<edate>1536113400378</edate>
-		<id>17</id>
-		<mid0>292</mid0>
-		<nme>Notify Pushbullet</nme>
+		<edate>1536113439487</edate>
+		<id>316</id>
+		<mid0>317</mid0>
+		<nme>Notify Pushbullet 自分</nme>
 		<Event sr="con0" ve="2">
 			<code>1743678352</code>
 			<pri>0</pri>
@@ -13,7 +13,7 @@
 				<Vals sr="val">
 					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
 					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
+					<com.pushbullet.android.tasker.SOURCE>0</com.pushbullet.android.tasker.SOURCE>
 					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
 					<com.pushbullet.android.tasker.TEXT_FILTER></com.pushbullet.android.tasker.TEXT_FILTER>
 					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
@@ -21,7 +21,7 @@
 					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
 					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
 					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note 差出人 自分自身.</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
@@ -31,10 +31,10 @@
 			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
-	<Task sr="task292">
+	<Task sr="task317">
 		<cdate>1535853547096</cdate>
 		<edate>1535853596311</edate>
-		<id>292</id>
+		<id>317</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>

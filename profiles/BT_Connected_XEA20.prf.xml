@@ -2,7 +2,7 @@
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1536017881638</edate>
+		<edate>1536148871350</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1535975247386</edate>
+		<edate>1536098170004</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -35,10 +35,32 @@
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>307</code>
-			<Int sr="arg0" val="9"/>
+			<Int sr="arg0" val="6"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="10"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task288">

@@ -2,10 +2,10 @@
 	<Profile sr="prof184" ve="2">
 		<cdate>1535674353312</cdate>
 		<clp>true</clp>
-		<edate>1535926311456</edate>
+		<edate>1536114136771</edate>
 		<id>184</id>
 		<mid0>183</mid0>
-		<nme>Notify カレンダー NHK総合</nme>
+		<nme>Notify カレンダー テレビ NHK総合</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
