@@ -2,7 +2,7 @@
 	<Profile sr="prof85" ve="2">
 		<cdate>1535519721340</cdate>
 		<clp>true</clp>
-		<edate>1535926296431</edate>
+		<edate>1536203905342</edate>
 		<id>85</id>
 		<mid0>84</mid0>
 		<nme>Notify Twitter リツイート</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task84">
 		<cdate>1521729228705</cdate>
-		<edate>1535926296431</edate>
+		<edate>1536203905342</edate>
 		<id>84</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>

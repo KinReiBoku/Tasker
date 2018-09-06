@@ -2,7 +2,7 @@
 	<Profile sr="prof81" ve="2">
 		<cdate>1535519713219</cdate>
 		<clp>true</clp>
-		<edate>1535985216088</edate>
+		<edate>1536203974102</edate>
 		<id>81</id>
 		<mid0>80</mid0>
 		<nme>Notify SNS いいね</nme>
@@ -27,7 +27,7 @@ Instagram</label>
 	</Profile>
 	<Task sr="task80">
 		<cdate>1521729228705</cdate>
-		<edate>1535985216088</edate>
+		<edate>1536203974102</edate>
 		<id>80</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>

@@ -4,7 +4,7 @@
 		<edate>1536152521509</edate>
 		<id>38</id>
 		<nme>checkGoogleMapLocationAddress</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">

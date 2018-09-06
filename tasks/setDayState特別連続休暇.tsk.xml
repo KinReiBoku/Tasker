@@ -1,23 +1,23 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<Task sr="task7">
-		<cdate>1535275951041</cdate>
-		<edate>1536195951169</edate>
-		<id>7</id>
-		<nme>setSayStateOff</nme>
+	<Task sr="task340">
+		<cdate>1535929806972</cdate>
+		<edate>1536185996523</edate>
+		<id>340</id>
+		<nme>setDayState特別連続休暇</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">setSayState</Str>
+			<Str sr="arg0" ve="3">setDayState</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg2" ve="3">特別連続休暇</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_device_access_volume_muted</nme>
+			<nme>hl_collections_go_to_today</nme>
 		</Img>
 	</Task>
 </TaskerData>

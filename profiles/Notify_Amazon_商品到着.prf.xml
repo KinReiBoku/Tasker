@@ -2,7 +2,7 @@
 	<Profile sr="prof70" ve="2">
 		<cdate>1535513658567</cdate>
 		<clp>true</clp>
-		<edate>1524731310731</edate>
+		<edate>1536203793256</edate>
 		<id>70</id>
 		<mid0>69</mid0>
 		<nme>Notify Amazon 商品到着</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task69">
 		<cdate>1521383525570</cdate>
-		<edate>1535543942601</edate>
+		<edate>1536203793256</edate>
 		<id>69</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

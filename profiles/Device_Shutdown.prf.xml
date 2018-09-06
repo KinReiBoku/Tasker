@@ -2,7 +2,7 @@
 	<Profile sr="prof49" ve="2">
 		<cdate>1535508703297</cdate>
 		<clp>true</clp>
-		<edate>1536027649484</edate>
+		<edate>1536160589780</edate>
 		<id>49</id>
 		<mid0>285</mid0>
 		<nme>Device Shutdown</nme>
@@ -12,7 +12,7 @@
 	</Profile>
 	<Task sr="task285">
 		<cdate>1535849419086</cdate>
-		<edate>1536027649484</edate>
+		<edate>1536160589780</edate>
 		<id>285</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
