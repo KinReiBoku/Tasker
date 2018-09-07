@@ -1,31 +1,5 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<dmetric>1080.0,1813.0</dmetric>
-	<Profile sr="prof107" ve="2">
-		<cdate>1535921453749</cdate>
-		<edate>1536010583358</edate>
-		<flags>2</flags>
-		<id>107</id>
-		<mid0>110</mid0>
-		<nme>Sleep 解除（アラーム）</nme>
-		<Event sr="con0" ve="2">
-			<code>801067335</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>解除 (アラーム)</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS</com.urbandroid.sleep.taskerplugin.extra.EVENT>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>1963</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
-			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof119" ve="2">
 		<cdate>1535545967785</cdate>
 		<edate>1536112370660</edate>
@@ -734,7 +708,7 @@
 	</Profile>
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
-		<edate>1535971743369</edate>
+		<edate>1536207707745</edate>
 		<flags>2</flags>
 		<id>237</id>
 		<mid0>239</mid0>
@@ -761,7 +735,7 @@
 	</Profile>
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
-		<edate>1536142974550</edate>
+		<edate>1536229592742</edate>
 		<flags>2</flags>
 		<id>261</id>
 		<mid0>259</mid0>
@@ -832,7 +806,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1536148871350</edate>
+		<edate>1536308135870</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -869,7 +843,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1536144063988</edate>
+		<edate>1536231359117</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<limit>true</limit>
@@ -918,7 +892,7 @@
 	</Profile>
 	<Profile sr="prof321" ve="2">
 		<cdate>1536135351745</cdate>
-		<edate>1536138477308</edate>
+		<edate>1536183969299</edate>
 		<flags>2</flags>
 		<id>321</id>
 		<mid0>20</mid0>
@@ -945,6 +919,21 @@
 			<label0>Amazon Kindle</label0>
 			<pkg0>com.amazon.kindle</pkg0>
 		</App>
+	</Profile>
+	<Profile sr="prof325" ve="2">
+		<cdate>1536279036210</cdate>
+		<edate>1536311765695</edate>
+		<flags>2</flags>
+		<id>325</id>
+		<mid0>347</mid0>
+		<nme>Variable set LocationLlama</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
 	</Profile>
 	<Profile sr="prof327" ve="2">
 		<cdate>1536135713258</cdate>
@@ -1069,6 +1058,58 @@
 			<Str sr="arg2" ve="3">com.balda.bluetask.ui.ButtonPressed</Str>
 		</Event>
 	</Profile>
+	<Profile sr="prof351" ve="2">
+		<cdate>1536310774109</cdate>
+		<edate>1536010583358</edate>
+		<flags>2</flags>
+		<id>351</id>
+		<mid0>350</mid0>
+		<nme>Sleep 解除（アラーム）</nme>
+		<Event sr="con0" ve="2">
+			<code>801067335</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>解除 (アラーム)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.ALARM_ALERT_DISMISS</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>1963</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+		</Event>
+	</Profile>
+	<Profile sr="prof355" ve="2">
+		<cdate>1536310814547</cdate>
+		<edate>1536310853243</edate>
+		<flags>2</flags>
+		<id>355</id>
+		<mid0>354</mid0>
+		<nme>Sleep 開始（アラーム）</nme>
+		<Event sr="con0" ve="2">
+			<code>801067335</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>アラームを開始しました</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.ALARM_ALERT_START</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>1885</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+		</Event>
+	</Profile>
 	<Profile sr="prof37" ve="2">
 		<cdate>1535614559769</cdate>
 		<edate>1536102262815</edate>
@@ -1094,7 +1135,7 @@
 	</Profile>
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<edate>1536160586364</edate>
+		<edate>1536204039952</edate>
 		<flags>2</flags>
 		<id>45</id>
 		<mid0>44</mid0>
@@ -1275,7 +1316,7 @@
 	</Profile>
 	<Profile sr="prof64" ve="2">
 		<cdate>1535513224668</cdate>
-		<edate>1535513397903</edate>
+		<edate>1536204013200</edate>
 		<flags>2</flags>
 		<id>64</id>
 		<mid0>63</mid0>
@@ -1298,7 +1339,7 @@
 	</Profile>
 	<Profile sr="prof66" ve="2">
 		<cdate>1535513650172</cdate>
-		<edate>1535513672322</edate>
+		<edate>1536203745774</edate>
 		<flags>2</flags>
 		<id>66</id>
 		<mid0>65</mid0>
@@ -1321,7 +1362,7 @@
 	</Profile>
 	<Profile sr="prof68" ve="2">
 		<cdate>1535513654539</cdate>
-		<edate>1524519372833</edate>
+		<edate>1536203774691</edate>
 		<flags>2</flags>
 		<id>68</id>
 		<mid0>67</mid0>
@@ -1344,7 +1385,7 @@
 	</Profile>
 	<Profile sr="prof70" ve="2">
 		<cdate>1535513658567</cdate>
-		<edate>1524731310731</edate>
+		<edate>1536203793256</edate>
 		<flags>2</flags>
 		<id>70</id>
 		<mid0>69</mid0>
@@ -1367,7 +1408,7 @@
 	</Profile>
 	<Profile sr="prof73" ve="2">
 		<cdate>1535513666534</cdate>
-		<edate>1524731376121</edate>
+		<edate>1536203823214</edate>
 		<flags>2</flags>
 		<id>73</id>
 		<mid0>72</mid0>
@@ -1436,7 +1477,7 @@
 	</Profile>
 	<Profile sr="prof81" ve="2">
 		<cdate>1535519713219</cdate>
-		<edate>1536160663669</edate>
+		<edate>1536203974102</edate>
 		<flags>2</flags>
 		<id>81</id>
 		<mid0>80</mid0>
@@ -1462,7 +1503,7 @@ Instagram</label>
 	</Profile>
 	<Profile sr="prof83" ve="2">
 		<cdate>1535519717211</cdate>
-		<edate>1536160716790</edate>
+		<edate>1536203881811</edate>
 		<flags>2</flags>
 		<id>83</id>
 		<mid0>82</mid0>
@@ -1485,7 +1526,7 @@ Instagram</label>
 	</Profile>
 	<Profile sr="prof85" ve="2">
 		<cdate>1535519721340</cdate>
-		<edate>1536163041926</edate>
+		<edate>1536203905342</edate>
 		<flags>2</flags>
 		<id>85</id>
 		<mid0>84</mid0>
@@ -1600,7 +1641,7 @@ Instagram</label>
 	</Profile>
 	<Profile sr="prof95" ve="2">
 		<cdate>1535527136714</cdate>
-		<edate>1536112393520</edate>
+		<edate>1536203694896</edate>
 		<flags>2</flags>
 		<id>95</id>
 		<mid0>94</mid0>
@@ -1628,12 +1669,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1536156280113</mdate>
+		<mdate>1536310814547</mdate>
 		<name>Base</name>
-		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,107,213,237,267,314,33,316,321,324,327,329,330,335,337</pids>
+		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,213,237,267,314,33,316,321,324,327,329,330,335,337,325,351,355</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -2430,7 +2471,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task105">
 		<cdate>1523828689819</cdate>
-		<edate>1535846903927</edate>
+		<edate>1536183127811</edate>
 		<id>105</id>
 		<nme>toGetVoice</nme>
 		<Action sr="act0" ve="7">
@@ -3198,23 +3239,9 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task110">
-		<cdate>1535921492598</cdate>
-		<edate>1536010583358</edate>
-		<id>110</id>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toPushbulletSleepOff</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task111">
 		<cdate>1527232390511</cdate>
-		<edate>1536145094459</edate>
+		<edate>1536203677466</edate>
 		<id>111</id>
 		<nme>setLife</nme>
 		<Action sr="act0" ve="7">
@@ -3881,7 +3908,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task116">
 		<cdate>1535540380169</cdate>
-		<edate>1536085941789</edate>
+		<edate>1536191574713</edate>
 		<id>116</id>
 		<nme>!template</nme>
 		<pri>100</pri>
@@ -3981,6 +4008,7 @@ Instagram</label>
 		<cdate>1524104455984</cdate>
 		<edate>1536112370660</edate>
 		<id>118</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getLifeEatState</Str>
@@ -4421,7 +4449,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1536054389276</edate>
+		<edate>1536275726386</edate>
 		<id>123</id>
 		<nme>checkRssMessage</nme>
 		<pri>100</pri>
@@ -4455,7 +4483,7 @@ Instagram</label>
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image: </Str>
+			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4466,7 +4494,7 @@ Instagram</label>
 		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">|</Str>
+			<Str sr="arg1" ve="3">Image: </Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4475,14 +4503,25 @@ Instagram</label>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -4494,13 +4533,13 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -4511,7 +4550,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -4525,7 +4564,7 @@ Instagram</label>
 		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
+			<Str sr="arg1" ve="3">12018.*net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4536,7 +4575,7 @@ Instagram</label>
 		<Action sr="act4" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
+			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4547,9 +4586,7 @@ Instagram</label>
 		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">
-
-この記事を読むのにかかる時間.*)</Str>
+			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4560,7 +4597,9 @@ Instagram</label>
 		<Action sr="act6" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Str sr="arg1" ve="3">
+
+この記事を読むのにかかる時間</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4571,7 +4610,7 @@ Instagram</label>
 		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> #higobashiaws</Str>
+			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4582,7 +4621,7 @@ Instagram</label>
 		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
+			<Str sr="arg1" ve="3"> #higobashiaws</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4593,7 +4632,7 @@ Instagram</label>
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
+			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4670,7 +4709,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task129">
 		<cdate>1535540380169</cdate>
-		<edate>1535814362202</edate>
+		<edate>1536185689300</edate>
 		<id>129</id>
 		<nme>setDataHomeAppliance</nme>
 		<pri>100</pri>
@@ -4722,7 +4761,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task13">
 		<cdate>1535275836793</cdate>
-		<edate>1536087020960</edate>
+		<edate>1536183121970</edate>
 		<id>13</id>
 		<nme>toFlash</nme>
 		<Action sr="act0" ve="7">
@@ -4769,26 +4808,12 @@ Instagram</label>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : State=%state Force=%par2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -4799,7 +4824,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -6132,7 +6157,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task170">
 		<cdate>1535929806972</cdate>
-		<edate>1535929905620</edate>
+		<edate>1536185596349</edate>
 		<id>170</id>
 		<nme>setDayState</nme>
 		<Action sr="act0" ve="7">
@@ -7447,7 +7472,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task20">
 		<cdate>1523775837342</cdate>
-		<edate>1536138477308</edate>
+		<edate>1536183969299</edate>
 		<id>20</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -7628,7 +7653,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task208">
 		<cdate>1498651463812</cdate>
-		<edate>1535981259755</edate>
+		<edate>1536288487055</edate>
 		<id>208</id>
 		<nme>setWorkOut</nme>
 		<pri>7</pri>
@@ -7668,12 +7693,6 @@ Instagram</label>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -8207,18 +8226,45 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task216">
 		<cdate>1535694815746</cdate>
-		<edate>1535738192870</edate>
+		<edate>1536230409899</edate>
 		<id>216</id>
 		<nme>getRoom</nme>
 		<Action sr="act0" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_%LOCATION_ROOM</Str>
 			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">マイルーム</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_%room</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>13</op>
+					<rhs>マイルーム</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task217">
 		<cdate>1535700418971</cdate>
-		<edate>1536039285976</edate>
+		<edate>1536279218796</edate>
 		<id>217</id>
 		<nme>addDataValue</nme>
 		<Action sr="act0" ve="7">
@@ -8675,7 +8721,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task223">
 		<cdate>1535688823962</cdate>
-		<edate>1535856379703</edate>
+		<edate>1536230291765</edate>
 		<id>223</id>
 		<nme>toSwitchChangeAirConditioner</nme>
 		<pri>7</pri>
@@ -8707,9 +8753,14 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>43</code>
+			<code>126</code>
+			<Str sr="arg0" ve="3">%appliance is already %state.</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChange</Str>
 			<Int sr="arg1">
@@ -8720,13 +8771,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -8737,7 +8788,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -8766,6 +8817,11 @@ Say:%SAY_STATE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%appliance</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
 			<Str sr="arg1" ve="3">_airconditioner</Str>
@@ -8773,7 +8829,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
@@ -8784,7 +8840,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%state</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -8794,15 +8850,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%appliance is already %state.</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
 	</Task>
 	<Task sr="task224">
 		<cdate>1535688823962</cdate>
-		<edate>1535981296074</edate>
+		<edate>1536230131805</edate>
 		<id>224</id>
 		<nme>toSwitchChangeAirConditionerOn</nme>
 		<pri>7</pri>
@@ -9222,7 +9273,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1536113355707</edate>
+		<edate>1536227842218</edate>
 		<id>23</id>
 		<nme>toSay</nme>
 		<pri>100</pri>
@@ -9948,7 +9999,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1536099769508</edate>
+		<edate>1536273841593</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -10069,7 +10120,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1535971743369</edate>
+		<edate>1536207707745</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10090,6 +10141,29 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>1911640985</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Book;;;SYNC</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE>Book;;;SYNC</com.yourcompany.yourapp.extra.STRING_MESSAGE>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE-type>java.lang.String</com.yourcompany.yourapp.extra.STRING_MESSAGE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">dk.tacit.android.foldersync.full</Str>
+			<Str sr="arg2" ve="3">dk.tacit.android.foldersync.locale.ui.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>2</op>
+					<rhs>NTT幕張ビル</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task24">
@@ -11753,7 +11827,6 @@ Say:%SAY_STATE</Str>
 		<edate>1535771866439</edate>
 		<id>254</id>
 		<nme>setLocationRoomLightModeOn</nme>
-		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_LIGHT_MODE</Str>
@@ -12023,7 +12096,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1536142974550</edate>
+		<edate>1536229592742</edate>
 		<id>259</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12066,7 +12139,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1536163314891</edate>
+		<edate>1536292770728</edate>
 		<id>26</id>
 		<nme>!test</nme>
 		<pri>100</pri>
@@ -12089,145 +12162,32 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_FOREGROUND</lhs>
-					<op>2</op>
-					<rhs>Kindle</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%NTITLE_AMAZON_KINDLE_OLD</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%NTITLE_AMAZON_KINDLE</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%TIMEMS</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">start %task</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
-			<Str sr="arg1" ve="3">dマガジン</Str>
+			<code>412</code>
+			<Str sr="arg0" ve="3">Tasker/files/toMidori/</Str>
+			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%list</Str>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_FOREGROUND</lhs>
-					<op>2</op>
-					<rhs>dマガジン</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%NTITLE_DMAGAZINE_OLD</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%list()</Str>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE_OLD</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<code>548</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_FOREGROUND</lhs>
-					<op>2</op>
-					<rhs>dマガジン</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%NTITLE_DMAGAZINE_OLD</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%NTITLE_DMAGAZINE</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_FOREGROUND</lhs>
-					<op>2</op>
-					<rhs>Kindle</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%NTITLE_AMAZON_KINDLE_OLD</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE_OLD</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<code>40</code>
 		</Action>
 	</Task>
 	<Task sr="task260">
@@ -12426,18 +12386,24 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task264">
 		<cdate>1515388241199</cdate>
-		<edate>1536155904774</edate>
+		<edate>1536230116963</edate>
 		<id>264</id>
 		<nme>setSilentModeOff</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Alarm</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
+			<label>Bluetoothに接続している</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -12453,21 +12419,31 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>308</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">System</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%WIFI</lhs>
-					<op>5</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
 					<rhs>.*XEA20.*</rhs>
@@ -12475,37 +12451,74 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="10"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<label>XEA20かつ外出中の場合は音量を上げる</label>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">11</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>5</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<label>XEA20かつ自宅の場合は音量を下げる</label>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="6"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+			<label>Bluetoothに接続していない</label>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
 		<Action sr="act8" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>304</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Notification</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_on</nme>
@@ -12513,15 +12526,20 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
-		<edate>1536155923303</edate>
+		<edate>1536229882298</edate>
 		<id>265</id>
 		<nme>setSilentModeOn</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Alarm</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -12540,21 +12558,31 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>308</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">System</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>5</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
 					<rhs>.*XEA20.*</rhs>
@@ -12562,37 +12590,71 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="10"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">11</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>5</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
 		<Action sr="act8" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>304</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Notification</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_muted</nme>
@@ -12653,7 +12715,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task27">
 		<cdate>1498736075308</cdate>
-		<edate>1536151480758</edate>
+		<edate>1536204356792</edate>
 		<id>27</id>
 		<nme>getGoogleSearchResult</nme>
 		<pri>100</pri>
@@ -14386,7 +14448,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1536098170004</edate>
+		<edate>1536308135870</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -14400,7 +14462,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act1" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
+			<Int sr="arg1" val="10"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -14416,19 +14478,29 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="6"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>43</code>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="10"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">11</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -14436,7 +14508,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1536017881638</edate>
+		<edate>1536196078286</edate>
 		<id>288</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -15167,7 +15239,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task295">
 		<cdate>1523776132001</cdate>
-		<edate>1536135959087</edate>
+		<edate>1536183966661</edate>
 		<id>295</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -15830,7 +15902,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task305">
 		<cdate>1513252018332</cdate>
-		<edate>1535992271727</edate>
+		<edate>1536288230225</edate>
 		<id>305</id>
 		<nme>toCalendarお風呂</nme>
 		<pri>100</pri>
@@ -15850,7 +15922,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task306">
 		<cdate>1513252018332</cdate>
-		<edate>1535992333195</edate>
+		<edate>1536288223689</edate>
 		<id>306</id>
 		<nme>toCalendar散髪</nme>
 		<pri>7</pri>
@@ -15891,7 +15963,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act4" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">Google:kinreiboku.tomorrow@gmail.com</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL</Str>
 			<Str sr="arg2" ve="3">散髪</Str>
 			<Str sr="arg3" ve="3">今月 %CNT_SANPATU_MONTH 回目
 今年 %CNT_SANPATU_YEAR 回目</Str>
@@ -15959,7 +16031,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1536154304838</edate>
+		<edate>1536273450677</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
@@ -15988,17 +16060,6 @@ Say:%SAY_STATE</Str>
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">www.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">#</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -16007,7 +16068,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%enter</Str>
 			<Str sr="arg1" ve="3">
@@ -16016,7 +16077,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
@@ -16027,15 +16088,48 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[a-zA-Z0-9]*\..* </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
 		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[a-zA-Z0-9]*\..*$</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">^ </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -16679,31 +16773,326 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task315">
 		<cdate>1536113076708</cdate>
-		<edate>1536113273975</edate>
+		<edate>1536292250758</edate>
 		<id>315</id>
 		<nme>getMessageMidori</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">ああ_あ_</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">日常会話</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_深夜</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_朝</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>11</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_昼</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>11</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>18</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_夜</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>7</op>
+					<rhs>18</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>24</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>549</code>
+			<label>メッセージ取得</label>
+			<Str sr="arg0" ve="3">%flg</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">getLineRandomize</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">Tasker/files/toMidori/%par1.txt</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%line</Str>
+			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%flg</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%file</lhs>
+					<op>4</op>
+					<rhs>_.*\.txt</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_.*\.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%file</lhs>
+					<op>4</op>
+					<rhs>_.*\.txt</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">メッセージ取得</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%flg</lhs>
+					<op>12</op>
+					<rhs>%flg</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act26" ve="7">
 			<code>126</code>
-			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%line</lhs>
+					<lhs>%message</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_自宅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_駅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>.*駅</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_カフェ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>2</op>
+					<rhs>カフェ</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_オフィスビル</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>2</op>
+					<rhs>オフィスビル</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task317">
@@ -16818,7 +17207,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task319">
 		<cdate>1408601864481</cdate>
-		<edate>1536163223313</edate>
+		<edate>1536211065012</edate>
 		<id>319</id>
 		<nme>スクリーンショット（右開き）</nme>
 		<pri>7</pri>
@@ -17354,7 +17743,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task320">
 		<cdate>1408601864481</cdate>
-		<edate>1536163351628</edate>
+		<edate>1536211070892</edate>
 		<id>320</id>
 		<nme>スクリーンショット（左開き）</nme>
 		<pri>7</pri>
@@ -17711,14 +18100,6 @@ Say:%SAY_STATE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act44" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%FLG_SILENT_MODE_STATE</Str>
-			<Str sr="arg1" ve="3">%silentmodestate</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setFlashState</Str>
 			<Int sr="arg1">
@@ -17729,7 +18110,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -17740,7 +18121,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act46" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -17751,7 +18132,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act47" ve="7">
 			<code>810</code>
 			<Int sr="arg0">
 				<var>%brightlesslevel</var>
@@ -17760,24 +18141,33 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act48" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
+		<Action sr="act49" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Screen Lock</Str>
+		</Action>
 		<Action sr="act5" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%pages</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%pages</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act50" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">Screen Lock</Str>
+			<code>38</code>
 		</Action>
 		<Action sr="act51" ve="7">
 			<code>130</code>
@@ -17830,9 +18220,6 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
 			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>47</code>
@@ -18382,6 +18769,27 @@ Say:%SAY_STATE</Str>
 			</ConditionList>
 		</Action>
 	</Task>
+	<Task sr="task339">
+		<cdate>1535929806972</cdate>
+		<edate>1536185966209</edate>
+		<id>339</id>
+		<nme>setDayState年休</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">年休</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_collections_go_to_today</nme>
+		</Img>
+	</Task>
 	<Task sr="task34">
 		<cdate>1521383443273</cdate>
 		<edate>1536053332452</edate>
@@ -18466,9 +18874,289 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task340">
+		<cdate>1535929806972</cdate>
+		<edate>1536185996523</edate>
+		<id>340</id>
+		<nme>setDayState特別連続休暇</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">特別連続休暇</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_collections_go_to_today</nme>
+		</Img>
+	</Task>
+	<Task sr="task341">
+		<cdate>1535929806972</cdate>
+		<edate>1536185974831</edate>
+		<id>341</id>
+		<nme>setDayState夏季休暇</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">特別連続休暇</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_collections_go_to_today</nme>
+		</Img>
+	</Task>
+	<Task sr="task342">
+		<cdate>1536191428220</cdate>
+		<edate>1536192107974</edate>
+		<id>342</id>
+		<nme>toVolume</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Type %par2=VolumeLevel</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>303</code>
+			<Int sr="arg0">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>Alarm</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>9</op>
+					<rhs>%VOLA</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>305</code>
+			<Int sr="arg0">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>Notification</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>9</op>
+					<rhs>%VOLN</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>Media</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>9</op>
+					<rhs>%VOLM</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>304</code>
+			<Int sr="arg0">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>Ringer</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>9</op>
+					<rhs>%VOLR</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>308</code>
+			<Int sr="arg0">
+				<var>%par2</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>System</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>9</op>
+					<rhs>%VOLS</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Type=%par1 VolumeLevel=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task343">
+		<cdate>1535275951041</cdate>
+		<edate>1536198703472</edate>
+		<id>343</id>
+		<nme>setFlashStateOn</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_social_chat</nme>
+		</Img>
+	</Task>
+	<Task sr="task344">
+		<cdate>1535275951041</cdate>
+		<edate>1536198719770</edate>
+		<id>344</id>
+		<nme>setFlashStateOff</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_ab_content_remove</nme>
+		</Img>
+	</Task>
+	<Task sr="task345">
+		<cdate>1536199454167</cdate>
+		<edate>1536209050453</edate>
+		<id>345</id>
+		<nme>スクリーンショット（左開き）実行</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">スクリーンショット（左開き）</Str>
+			<Int sr="arg1" val="50"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_navigation_previous_item</nme>
+		</Img>
+	</Task>
+	<Task sr="task346">
+		<cdate>1536199454167</cdate>
+		<edate>1536209060186</edate>
+		<id>346</id>
+		<nme>スクリーンショット（右開き）実行</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">スクリーンショット（右開き）</Str>
+			<Int sr="arg1" val="50"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_navigation_next_item</nme>
+		</Img>
+	</Task>
+	<Task sr="task347">
+		<cdate>1536279041715</cdate>
+		<edate>1536279049048</edate>
+		<id>347</id>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1536101773200</edate>
+		<edate>1536288288822</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -18492,9 +19180,20 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>40</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%item</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -18505,11 +19204,12 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
+			<label>チェックインが久方振りか確認する</label>
 			<Str sr="arg0" ve="3">getLocationCheckInTime</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -18519,7 +19219,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18535,7 +19235,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ret</Str>
@@ -18543,7 +19243,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">の</Str>
@@ -18551,7 +19251,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%location</Str>
@@ -18559,7 +19259,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">です</Str>
@@ -18567,20 +19267,25 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
-			<code>43</code>
-		</Action>
 		<Action sr="act2" ve="7">
-			<code>37</code>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%locationtype</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>3</op>
-					<rhs>%LOCATION_LLAMA</rhs>
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%location</Str>
@@ -18588,7 +19293,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">にチェックイン</Str>
@@ -18596,10 +19301,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -18610,7 +19315,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -18621,7 +19326,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / 1</Str>
 			<Str sr="arg1" ve="3">%MY_CALENDAR</Str>
@@ -18631,11 +19336,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
+			<label>ロケーションに関する情報を取得する</label>
 			<Str sr="arg0" ve="3">checkLocationInformation</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -18645,7 +19351,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLocationInformation</Str>
 			<Int sr="arg1">
@@ -18663,8 +19369,20 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>ロケーションが変わった場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>3</op>
+					<rhs>%LOCATION_LLAMA</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
+			<label>forsquareのTipsをSayする</label>
 			<Str sr="arg0" ve="3">getFoursquareLocationPath</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -18674,8 +19392,130 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%foursquare_url</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act31" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">getFoursquareTips</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%foursquare_url</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%foursquare_tips</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%foursquare_url</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">FoursquareにTipsがあります。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%foursquare_tips</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%foursquare_tips</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%foursquare_tips</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%foursquare_tips</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>37</code>
+			<label>llamatype駆動でチェックイン時だけ実行する</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>130</code>
+			<label>チェックイン回数を記録する</label>
+			<Str sr="arg0" ve="3">addDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
+			<Str sr="arg3" ve="3">%locationtype</Str>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<label>ロケーションタイプをグローバル変数に代入する</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Str sr="arg1" ve="3">%locationtype</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>130</code>
+			<label>ロケーションが美容院の場合、散髪のログをカレンダーに追加</label>
+			<Str sr="arg0" ve="3">toCalendar散髪</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>2</op>
+					<rhs>美容院</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>43</code>
+			<label>ロケーションタイプがない場合</label>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>前ロケーションが自宅なら部屋の電気を消す</label>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -18698,140 +19538,9 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act30" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getFoursquareTips</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%foursquare_url</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%foursquare_tips</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%foursquare_url</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">FoursquareにTipsがあります。</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%foursquare_tips</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%foursquare_tips</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%foursquare_tips</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%foursquare_tips</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par2</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%locationtype</Str>
-			<Str sr="arg1" ve="3">%par2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">addDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
-			<Str sr="arg3" ve="3">%locationtype</Str>
-			<Str sr="arg4" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
-			<Str sr="arg1" ve="3">%locationtype</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toCalendar散髪</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%locationtype</lhs>
-					<op>2</op>
-					<rhs>美容院</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA</Str>
-			<Str sr="arg1" ve="3">%location</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
 		<Action sr="act40" ve="7">
 			<code>549</code>
+			<label>ロケーションタイプのグローバル変数をクリア</label>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
@@ -18841,6 +19550,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act42" ve="7">
 			<code>43</code>
+			<label>同じロケーションの場合</label>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>547</code>
@@ -18876,10 +19586,89 @@ Say:%SAY_STATE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act47" ve="7">
-			<code>38</code>
+			<code>37</code>
+			<label>llamatype駆動でチェックイン/ステイに関わらず実行する</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>37</code>
+			<label>ロケーションが駅の場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>.*駅</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>130</code>
+			<label>XEA20装着時は音量を10にする</label>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">10</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>4</op>
+					<rhs>.*XEA20.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA</Str>
+			<Str sr="arg1" ve="3">%location</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>43</code>
+			<label>ロケーションが駅以外の場合</label>
+		</Action>
+		<Action sr="act51" ve="7">
 			<code>130</code>
+			<label>XEA20装着時は音量を6にする</label>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>4</op>
+					<rhs>.*XEA20.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>ロケーションがカレンダーイベントに該当するか確認する</label>
 			<Str sr="arg0" ve="3">checkCalendarMovingEvent</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -18889,8 +19678,9 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%information</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>37</code>
+			<label>カレンダーイベントに該当する場合</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%information</lhs>
@@ -18899,24 +19689,42 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%information</Str>
 			<Str sr="arg1" ve="3">。</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">%information()</Str>
 		</Action>
-		<Action sr="act9" ve="7">
+	</Task>
+	<Task sr="task350">
+		<cdate>1535921492598</cdate>
+		<edate>1536010583358</edate>
+		<id>350</id>
+		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%item</Str>
+			<Str sr="arg0" ve="3">toPushbulletSleepOff</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task354">
+		<cdate>1521850504426</cdate>
+		<edate>1536310837634</edate>
+		<id>354</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayおはよう</Str>
+			<Int sr="arg1" val="20"/>
+			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -19122,7 +19930,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1536152521509</edate>
+		<edate>1536213427075</edate>
 		<id>38</id>
 		<nme>checkGoogleMapLocationAddress</nme>
 		<pri>100</pri>
@@ -19220,7 +20028,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
-			<Str sr="arg1" ve="3">%address8</Str>
+			<Str sr="arg1" ve="3">%address2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -19228,7 +20036,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
-			<Str sr="arg1" ve="3">%address7</Str>
+			<Str sr="arg1" ve="3">%address3</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -19239,48 +20047,97 @@ Say:%SAY_STATE</Str>
 		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
-			<Str sr="arg1" ve="3">%address6</Str>
+			<Str sr="arg1" ve="3">%address4</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_CITY</Str>
-			<Str sr="arg1" ve="3">%address5</Str>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">%address</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act22" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_WARD</Str>
-			<Str sr="arg1" ve="3">%address4 %address3</Str>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">,,,,,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"> </Str>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%city</Str>
+			<Str sr="arg1" ve="3">    </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act28" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_NUMBER</Str>
-			<Str sr="arg1" ve="3">%address2</Str>
+			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_CITY</Str>
+			<Str sr="arg1" ve="3">%city</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act29" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>40</code>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -19289,6 +20146,15 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>40</code>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>
@@ -19794,7 +20660,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task41">
 		<cdate>1524002615931</cdate>
-		<edate>1535603883599</edate>
+		<edate>1536213019561</edate>
 		<id>41</id>
 		<nme>checkCalendarMovingEvent</nme>
 		<pri>100</pri>
@@ -20506,7 +21372,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task43">
 		<cdate>1524546836635</cdate>
-		<edate>1535922437607</edate>
+		<edate>1536226779663</edate>
 		<id>43</id>
 		<nme>getLocationCheckInTime</nme>
 		<Action sr="act0" ve="7">
@@ -20860,7 +21726,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1536160586364</edate>
+		<edate>1536204039952</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -21418,7 +22284,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1521382753474</cdate>
-		<edate>1535543917330</edate>
+		<edate>1536204013200</edate>
 		<id>63</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -21435,7 +22301,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task65">
 		<cdate>1521383525570</cdate>
-		<edate>1535543924026</edate>
+		<edate>1536203745774</edate>
 		<id>65</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -21444,7 +22310,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Amazonからセールのお知らせです</Str>
+			<Str sr="arg2" ve="3">Amazonからセールのお知らせがあります</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -21452,7 +22318,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task67">
 		<cdate>1521383525570</cdate>
-		<edate>1535543935949</edate>
+		<edate>1536203774691</edate>
 		<id>67</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -21461,7 +22327,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">ご注文いただきました商品が出荷されました。</Str>
+			<Str sr="arg2" ve="3">ご注文いただきました商品が出荷されました</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -21469,7 +22335,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task69">
 		<cdate>1521383525570</cdate>
-		<edate>1535543942601</edate>
+		<edate>1536203793256</edate>
 		<id>69</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -21486,7 +22352,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task7">
 		<cdate>1535275951041</cdate>
-		<edate>1535862051801</edate>
+		<edate>1536195951169</edate>
 		<id>7</id>
 		<nme>setSayStateOff</nme>
 		<pri>7</pri>
@@ -21523,7 +22389,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task72">
 		<cdate>1521383525570</cdate>
-		<edate>1535543950310</edate>
+		<edate>1536203823214</edate>
 		<id>72</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -21866,7 +22732,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1536144868791</edate>
+		<edate>1536311216960</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -22795,7 +23661,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task80">
 		<cdate>1521729228705</cdate>
-		<edate>1536160663669</edate>
+		<edate>1536203974102</edate>
 		<id>80</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -22862,7 +23728,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task82">
 		<cdate>1521729228705</cdate>
-		<edate>1536160716790</edate>
+		<edate>1536203881811</edate>
 		<id>82</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -22910,7 +23776,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">でフォローされています</Str>
+			<Str sr="arg1" ve="3">でフォローされました</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
@@ -22929,7 +23795,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task84">
 		<cdate>1521729228705</cdate>
-		<edate>1536163041926</edate>
+		<edate>1536203905342</edate>
 		<id>84</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -23218,7 +24084,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task94">
 		<cdate>1524104455984</cdate>
-		<edate>1536112393520</edate>
+		<edate>1536203694896</edate>
 		<id>94</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
