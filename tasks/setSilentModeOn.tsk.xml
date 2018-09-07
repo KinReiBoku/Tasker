@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
-		<edate>1536195970257</edate>
+		<edate>1536229882298</edate>
 		<id>265</id>
 		<nme>setSilentModeOn</nme>
 		<pri>7</pri>
@@ -38,6 +38,17 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3">System</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
@@ -46,13 +57,7 @@
 		<Action sr="act2" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>5</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
 					<rhs>.*XEA20.*</rhs>
@@ -69,14 +74,39 @@
 			<Str sr="arg3" ve="3">11</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>5</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVolume</Str>
 			<Int sr="arg1">
@@ -87,19 +117,8 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Notification</Str>
-			<Str sr="arg3" ve="3">0</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
@@ -107,7 +126,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg2" ve="3">Notification</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>

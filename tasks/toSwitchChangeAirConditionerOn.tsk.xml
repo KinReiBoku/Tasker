@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task224">
 		<cdate>1535688823962</cdate>
-		<edate>1535981296074</edate>
+		<edate>1536230131805</edate>
 		<id>224</id>
 		<nme>toSwitchChangeAirConditionerOn</nme>
 		<pri>7</pri>

@@ -1,10 +1,10 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task264">
 		<cdate>1515388241199</cdate>
-		<edate>1536196051102</edate>
+		<edate>1536230116963</edate>
 		<id>264</id>
 		<nme>setSilentModeOff</nme>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -17,76 +17,8 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Notification</Str>
-			<Str sr="arg3" ve="3">0</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Notification</Str>
-			<Str sr="arg3" ve="3">7</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Ringer</Str>
-			<Str sr="arg3" ve="3">7</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">System</Str>
-			<Str sr="arg3" ve="3">7</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Ringer</Str>
-			<Str sr="arg3" ve="3">0</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toVolume</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">System</Str>
-			<Str sr="arg3" ve="3">0</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
 			<code>37</code>
+			<label>Bluetoothに接続している</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -101,24 +33,41 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">System</Str>
+			<Str sr="arg3" ve="3">7</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%WIFI</lhs>
-					<op>5</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
 					<rhs>.*XEA20.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
+			<label>XEA20かつ外出中の場合は音量を上げる</label>
 			<Str sr="arg0" ve="3">toVolume</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -127,14 +76,41 @@
 			<Str sr="arg3" ve="3">11</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>5</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>XEA20かつ自宅の場合は音量を下げる</label>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act6" ve="7">
 			<code>43</code>
+			<label>Bluetoothに接続していない</label>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVolume</Str>
 			<Int sr="arg1">
@@ -142,6 +118,20 @@
 			</Int>
 			<Str sr="arg2" ve="3">Media</Str>
 			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Notification</Str>
+			<Str sr="arg3" ve="3">7</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>

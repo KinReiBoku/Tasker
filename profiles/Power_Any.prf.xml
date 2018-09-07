@@ -2,7 +2,7 @@
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
 		<clp>true</clp>
-		<edate>1535971743369</edate>
+		<edate>1536207707745</edate>
 		<id>237</id>
 		<mid0>239</mid0>
 		<nme>Power Any</nme>
@@ -13,7 +13,7 @@
 	</Profile>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1535971743369</edate>
+		<edate>1536207707745</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -34,6 +34,29 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>1911640985</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Book;;;SYNC</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE>Book;;;SYNC</com.yourcompany.yourapp.extra.STRING_MESSAGE>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE-type>java.lang.String</com.yourcompany.yourapp.extra.STRING_MESSAGE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">dk.tacit.android.foldersync.full</Str>
+			<Str sr="arg2" ve="3">dk.tacit.android.foldersync.locale.ui.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>2</op>
+					<rhs>NTT幕張ビル</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
