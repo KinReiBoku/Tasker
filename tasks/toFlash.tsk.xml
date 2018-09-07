@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task13">
 		<cdate>1535275836793</cdate>
-		<edate>1536087020960</edate>
+		<edate>1536183121970</edate>
 		<id>13</id>
 		<nme>toFlash</nme>
 		<Action sr="act0" ve="7">
@@ -48,26 +48,12 @@
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : State=%state Force=%par2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -78,7 +64,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>

@@ -2,7 +2,7 @@
 	<Profile sr="prof68" ve="2">
 		<cdate>1535513654539</cdate>
 		<clp>true</clp>
-		<edate>1524519372833</edate>
+		<edate>1536203774691</edate>
 		<id>68</id>
 		<mid0>67</mid0>
 		<nme>Notify Amazon 商品出荷</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task67">
 		<cdate>1521383525570</cdate>
-		<edate>1535543935949</edate>
+		<edate>1536203774691</edate>
 		<id>67</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -33,7 +33,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">ご注文いただきました商品が出荷されました。</Str>
+			<Str sr="arg2" ve="3">ご注文いただきました商品が出荷されました</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>

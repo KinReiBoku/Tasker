@@ -2,7 +2,7 @@
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1536148871350</edate>
+		<edate>1536196078286</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1536098170004</edate>
+		<edate>1536196075977</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -45,19 +45,29 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="6"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">6</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>43</code>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="10"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">11</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -65,7 +75,7 @@
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1536017881638</edate>
+		<edate>1536196078286</edate>
 		<id>288</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

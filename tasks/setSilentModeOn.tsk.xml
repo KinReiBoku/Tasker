@@ -1,15 +1,20 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
-		<edate>1536155923303</edate>
+		<edate>1536195970257</edate>
 		<id>265</id>
 		<nme>setSilentModeOn</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Alarm</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -28,10 +33,15 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>308</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">System</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -50,10 +60,15 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="10"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">11</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>
@@ -62,25 +77,40 @@
 			<code>43</code>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Media</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Notification</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>304</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toVolume</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Ringer</Str>
+			<Str sr="arg3" ve="3">0</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_volume_muted</nme>

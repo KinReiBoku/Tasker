@@ -2,7 +2,7 @@
 	<Profile sr="prof66" ve="2">
 		<cdate>1535513650172</cdate>
 		<clp>true</clp>
-		<edate>1535513672322</edate>
+		<edate>1536203745774</edate>
 		<id>66</id>
 		<mid0>65</mid0>
 		<nme>Notify Amazon セール</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task65">
 		<cdate>1521383525570</cdate>
-		<edate>1535543924026</edate>
+		<edate>1536203745774</edate>
 		<id>65</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -33,7 +33,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Amazonからセールのお知らせです</Str>
+			<Str sr="arg2" ve="3">Amazonからセールのお知らせがあります</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
