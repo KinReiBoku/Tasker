@@ -1,13 +1,13 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<Task sr="task345">
+	<Task sr="task346">
 		<cdate>1536199454167</cdate>
-		<edate>1536209050453</edate>
-		<id>345</id>
-		<nme>スクリーンショット（左開き）実行</nme>
+		<edate>1536394166394</edate>
+		<id>346</id>
+		<nme>スクリーンショット（右開き）タップ 実行</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">スクリーンショット（左開き）</Str>
+			<Str sr="arg0" ve="3">スクリーンショット（右開き）タップ</Str>
 			<Int sr="arg1" val="50"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -15,7 +15,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_navigation_previous_item</nme>
+			<nme>hl_navigation_next_item</nme>
 		</Img>
 	</Task>
 </TaskerData>
