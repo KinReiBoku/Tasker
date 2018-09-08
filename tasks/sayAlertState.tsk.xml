@@ -1,13 +1,14 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task211">
 		<cdate>1535940322252</cdate>
-		<edate>1535940520407</edate>
+		<edate>1536445750935</edate>
 		<id>211</id>
 		<nme>sayAlertState</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Flash:%FLASH_STATE
+GetVoice:%GETVOICE_STATE
 Notify:%NOTIFY_STATE
 Say:%SAY_STATE</Str>
 			<Int sr="arg1" val="0"/>
