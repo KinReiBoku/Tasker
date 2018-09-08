@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task255">
 		<cdate>1535771760591</cdate>
-		<edate>1535771905569</edate>
+		<edate>1536408806196</edate>
 		<id>255</id>
 		<nme>setLocationRoomLightModeOff</nme>
 		<pri>100</pri>

@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1536088787436</edate>
+		<edate>1536412912458</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -65,15 +65,21 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Time</Str>
+			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%count</lhs>
 					<op>2</op>
 					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_ROOM_LIGHT_MODE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

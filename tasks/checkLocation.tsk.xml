@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1536288288822</edate>
+		<edate>1536413607350</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -25,6 +25,28 @@
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>37</code>
+			<label>カレンダーイベントに該当する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%information</lhs>
+					<op>12</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%information</Str>
+			<Str sr="arg1" ve="3">。</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%information()</Str>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -35,10 +57,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act14" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -49,10 +71,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act16" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<label>チェックインが久方振りか確認する</label>
 			<Str sr="arg0" ve="3">getLocationCheckInTime</Str>
@@ -64,7 +86,7 @@
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act18" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -80,34 +102,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%ret</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">の</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%location</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
 		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">です</Str>
+			<Str sr="arg1" ve="3">%ret</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -128,7 +126,12 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>43</code>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">の</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>547</code>
@@ -136,9 +139,28 @@
 			<Str sr="arg1" ve="3">%location</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">です</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%location</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">にチェックイン</Str>
@@ -146,10 +168,10 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act26" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act27" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -160,7 +182,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -171,7 +193,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act29" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / 1</Str>
 			<Str sr="arg1" ve="3">%MY_CALENDAR</Str>
@@ -181,10 +203,21 @@
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>ロケーションが変わった場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>3</op>
+					<rhs>%LOCATION_LLAMA</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act31" ve="7">
 			<code>130</code>
 			<label>ロケーションに関する情報を取得する</label>
 			<Str sr="arg0" ve="3">checkLocationInformation</Str>
@@ -196,7 +229,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act32" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLocationInformation</Str>
 			<Int sr="arg1">
@@ -214,18 +247,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<label>ロケーションが変わった場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>3</op>
-					<rhs>%LOCATION_LLAMA</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act33" ve="7">
 			<code>130</code>
 			<label>forsquareのTipsをSayする</label>
 			<Str sr="arg0" ve="3">getFoursquareLocationPath</Str>
@@ -237,7 +259,7 @@
 			<Str sr="arg4" ve="3">%foursquare_url</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act34" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getFoursquareTips</Str>
 			<Int sr="arg1">
@@ -255,7 +277,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">FoursquareにTipsがあります。</Str>
@@ -270,7 +292,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%foursquare_tips</Str>
@@ -285,7 +307,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -303,60 +325,16 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
-			<code>37</code>
-			<label>llamatype駆動でチェックイン時だけ実行する</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%locationtype</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>130</code>
-			<label>チェックイン回数を記録する</label>
-			<Str sr="arg0" ve="3">addDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
-			<Str sr="arg3" ve="3">%locationtype</Str>
-			<Str sr="arg4" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>547</code>
-			<label>ロケーションタイプをグローバル変数に代入する</label>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
-			<Str sr="arg1" ve="3">%locationtype</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
 		<Action sr="act38" ve="7">
-			<code>130</code>
-			<label>ロケーションが美容院の場合、散髪のログをカレンダーに追加</label>
-			<Str sr="arg0" ve="3">toCalendar散髪</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%locationtype</lhs>
-					<op>2</op>
-					<rhs>美容院</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act39" ve="7">
 			<code>43</code>
 			<label>ロケーションタイプがない場合</label>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>549</code>
+			<label>ロケーションタイプのグローバル変数をクリア</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -384,18 +362,18 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
-			<code>549</code>
-			<label>ロケーションタイプのグローバル変数をクリア</label>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act41" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act41" ve="7">
 			<code>43</code>
 			<label>同じロケーションの場合</label>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>888</code>
+			<label>ステイカウンタを追加</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_STAY_COUNT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>547</code>
@@ -415,6 +393,13 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>5</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act45" ve="7">
 			<code>130</code>
@@ -426,11 +411,94 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>5</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act46" ve="7">
-			<code>38</code>
+			<code>37</code>
+			<label>llamatype駆動でステイした時だけ実行する</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_LLAMA_STAY_COUNT</lhs>
+					<op>8</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act47" ve="7">
+			<code>130</code>
+			<label>チェックイン回数を記録する</label>
+			<Str sr="arg0" ve="3">addDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
+			<Str sr="arg3" ve="3">%locationtype</Str>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>547</code>
+			<label>ロケーションタイプをグローバル変数に代入する</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Str sr="arg1" ve="3">%locationtype</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>130</code>
+			<label>ロケーションが美容院の場合、散髪のログをカレンダーに追加</label>
+			<Str sr="arg0" ve="3">toCalendar散髪</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>2</op>
+					<rhs>美容院</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<label>ロケーションをカレンダーに記録する</label>
+			<Str sr="arg0" ve="3">toCalendarCheckIn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_LLAMA_CHECKIN_TIME</Str>
+			<Str sr="arg3" ve="3">%LOCATION_LLAMA</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_CHECKIN_TIME</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act51" ve="7">
 			<code>37</code>
 			<label>llamatype駆動でチェックイン/ステイに関わらず実行する</label>
 			<ConditionList sr="if">
@@ -441,7 +509,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act52" ve="7">
 			<code>37</code>
 			<label>ロケーションが駅の場合</label>
 			<ConditionList sr="if">
@@ -452,7 +520,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>XEA20装着時は音量を10にする</label>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -471,19 +539,11 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA</Str>
-			<Str sr="arg1" ve="3">%location</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act54" ve="7">
 			<code>43</code>
 			<label>ロケーションが駅以外の場合</label>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<label>XEA20装着時は音量を6にする</label>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -502,16 +562,43 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act56" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act57" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act58" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>ロケーションを更新する</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA</Str>
+			<Str sr="arg1" ve="3">%location</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>チェックインタイムを記録する</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_CHECKIN_TIME</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>ステイカウンタを初期化する</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_STAY_COUNT</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<label>ロケーションがカレンダーイベントに該当するか確認する</label>
 			<Str sr="arg0" ve="3">checkCalendarMovingEvent</Str>
@@ -522,28 +609,6 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%information</Str>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>37</code>
-			<label>カレンダーイベントに該当する場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%information</lhs>
-					<op>12</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%information</Str>
-			<Str sr="arg1" ve="3">。</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">%information()</Str>
 		</Action>
 	</Task>
 </TaskerData>

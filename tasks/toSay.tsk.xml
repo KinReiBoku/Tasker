@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1536314602931</edate>
+		<edate>1536314854443</edate>
 		<id>23</id>
 		<nme>toSay</nme>
 		<pri>100</pri>
@@ -117,6 +117,7 @@
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
+				<bool2>And2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>4</op>
@@ -128,6 +129,11 @@
 					<rhs>force</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs>Midori</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
 					<lhs>%par2</lhs>
 					<op>2</op>
 					<rhs>Midori</rhs>

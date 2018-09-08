@@ -1,0 +1,27 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof107" ve="2">
+		<cdate>1536386477329</cdate>
+		<clp>true</clp>
+		<edate>1536413178033</edate>
+		<id>107</id>
+		<mid0>110</mid0>
+		<nme>Display Off</nme>
+		<Event sr="con0" ve="2">
+			<code>210</code>
+		</Event>
+	</Profile>
+	<Task sr="task110">
+		<cdate>1536386483254</cdate>
+		<edate>1536386488479</edate>
+		<id>110</id>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">Screen Lock</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Screen Lock</Str>
+		</Action>
+	</Task>
+</TaskerData>

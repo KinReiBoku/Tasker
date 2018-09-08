@@ -4,6 +4,7 @@
 		<edate>1536313252443</edate>
 		<id>356</id>
 		<nme>sayRss</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>

@@ -4,7 +4,7 @@
 		<edate>1536150319353</edate>
 		<id>304</id>
 		<nme>checkinLocationRoomバスルーム</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>

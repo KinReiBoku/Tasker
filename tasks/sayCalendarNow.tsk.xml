@@ -1,10 +1,10 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task102">
 		<cdate>1524061793581</cdate>
-		<edate>1535981198157</edate>
+		<edate>1536404227733</edate>
 		<id>102</id>
 		<nme>sayCalendarNow</nme>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -54,10 +54,16 @@
 		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%CALDESCR</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%CALDESCR</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

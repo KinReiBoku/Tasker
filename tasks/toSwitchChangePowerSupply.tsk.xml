@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task256">
 		<cdate>1535688823962</cdate>
-		<edate>1535800023751</edate>
+		<edate>1536413044182</edate>
 		<id>256</id>
 		<nme>toSwitchChangePowerSupply</nme>
 		<pri>7</pri>

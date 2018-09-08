@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1536213427075</edate>
+		<edate>1536413102724</edate>
 		<id>38</id>
 		<nme>checkGoogleMapLocationAddress</nme>
 		<pri>100</pri>
@@ -126,6 +126,13 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ADDRESS_COUNTRY</lhs>
+					<op>3</op>
+					<rhs>%address2</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>547</code>
@@ -134,6 +141,13 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ADDRESS_POSTALCODE</lhs>
+					<op>3</op>
+					<rhs>%address3</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>43</code>
@@ -145,6 +159,13 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ADDRESS_PREFECTURE</lhs>
+					<op>3</op>
+					<rhs>%address4</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>547</code>

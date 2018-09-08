@@ -1,0 +1,141 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof360" ve="2">
+		<cdate>1536364283475</cdate>
+		<clp>true</clp>
+		<edate>1536406068084</edate>
+		<id>360</id>
+		<mid0>361</mid0>
+		<nme>VariableSet LocationAddressPrefecture</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task361">
+		<cdate>1536364295067</cdate>
+		<edate>1536406068084</edate>
+		<id>361</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">convertPrefecture</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%prefecture</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%prefecture</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getLocationAlarm</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%prefecture</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkLocationInformation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%prefecture</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_INFORMATION</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_INFORMATION</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_INFORMATION</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_INFORMATION</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
