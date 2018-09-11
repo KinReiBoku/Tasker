@@ -1,7 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof368" ve="2">
 		<cdate>1536414179693</cdate>
-		<edate>1536418821214</edate>
+		<clp>true</clp>
+		<edate>1536573995806</edate>
 		<id>368</id>
 		<mid0>369</mid0>
 		<nme>Notify 東武線アプリ スカイツリーライン 平常運転</nme>
@@ -13,7 +14,7 @@
 				<label>東武線アプリ</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">.*東武スカイツリーラインは平常運転.*</Str>
+			<Str sr="arg2" ve="3">*東武スカイツリーラインは平常運転*</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>

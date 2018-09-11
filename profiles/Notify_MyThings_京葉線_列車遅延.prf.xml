@@ -2,7 +2,7 @@
 	<Profile sr="prof135" ve="2">
 		<cdate>1535579792600</cdate>
 		<clp>true</clp>
-		<edate>1524521253451</edate>
+		<edate>1536414288072</edate>
 		<id>135</id>
 		<mid0>134</mid0>
 		<nme>Notify MyThings 京葉線 列車遅延</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task134">
 		<cdate>1523459831711</cdate>
-		<edate>1524521253451</edate>
+		<edate>1536414255645</edate>
 		<id>134</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>

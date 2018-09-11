@@ -2,7 +2,7 @@
 	<Profile sr="prof335" ve="2">
 		<cdate>1536414179693</cdate>
 		<clp>true</clp>
-		<edate>1536414477107</edate>
+		<edate>1536573964913</edate>
 		<id>335</id>
 		<mid0>348</mid0>
 		<nme>Notify 東武線アプリ 東武野田線 平常運転</nme>
@@ -14,7 +14,7 @@
 				<label>東武線アプリ</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">.*東武アーバンパークラインは平常運転.*</Str>
+			<Str sr="arg2" ve="3">*東武アーバンパークラインは平常運転*</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
