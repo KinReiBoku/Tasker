@@ -17810,7 +17810,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task319">
 		<cdate>1408601864481</cdate>
-		<edate>1536394302498</edate>
+		<edate>1536702689925</edate>
 		<id>319</id>
 		<nme>スクリーンショット（右開き）タップ</nme>
 		<pri>7</pri>
@@ -17833,6 +17833,17 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%getvoicestate</Str>
 			<Str sr="arg1" ve="3">%GETVOICE_STATE</Str>
@@ -17840,7 +17851,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -17851,7 +17862,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%brightlesslevel</Str>
 			<Str sr="arg1" ve="3">%BRIGHT</Str>
@@ -17859,18 +17870,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -17878,7 +17889,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%pages</Str>
 			<Int sr="arg1">
@@ -17886,7 +17897,7 @@ Say:%SAY_STATE</Str>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Book/</Str>
@@ -17894,7 +17905,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -17910,7 +17921,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE_OLD</Str>
@@ -17918,10 +17932,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -17943,7 +17954,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE</Str>
@@ -17951,7 +17962,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -17967,7 +17978,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE_OLD</Str>
@@ -17975,7 +17986,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -17997,7 +18008,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE</Str>
@@ -18005,10 +18016,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -18016,27 +18027,27 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ページ数を入力して下さい</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>409</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>595</code>
-			<Str sr="arg0" ve="3">ページ数</Str>
-			<Str sr="arg1" ve="3">%pages</Str>
-			<Int sr="arg2" val="4"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">Variable Query</Str>
-			<Int sr="arg6" val="600"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<label>ループ開始</label>
 			<Str sr="arg0" ve="3">%filename</Str>
@@ -18045,7 +18056,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">/</Str>
@@ -18053,7 +18064,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -18061,12 +18072,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>176</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -18074,16 +18085,16 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>985050481</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18113,7 +18124,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
 			<Int sr="arg3" val="30"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -18124,7 +18135,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">ページ数</Str>
+			<Str sr="arg1" ve="3">%pages</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -18132,16 +18154,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18157,16 +18176,16 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="11"/>
 			<Str sr="arg2" ve="3">ループ開始</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setFlashState</Str>
 			<Int sr="arg1">
@@ -18177,7 +18196,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -18188,7 +18207,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -18199,7 +18218,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>810</code>
 			<Int sr="arg0">
 				<var>%brightlesslevel</var>
@@ -18208,26 +18227,19 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%pages</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -18238,7 +18250,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -18249,7 +18261,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18279,10 +18291,20 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pages</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -18293,7 +18315,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>653801104</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18309,24 +18331,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%flashstate</Str>
 			<Str sr="arg1" ve="3">%FLASH_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setFlashState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">off</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task32">
@@ -18343,7 +18354,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task320">
 		<cdate>1408601864481</cdate>
-		<edate>1536620706255</edate>
+		<edate>1536702706450</edate>
 		<id>320</id>
 		<nme>スクリーンショット（左開き）タップ</nme>
 		<pri>7</pri>
@@ -18366,6 +18377,17 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%getvoicestate</Str>
 			<Str sr="arg1" ve="3">%GETVOICE_STATE</Str>
@@ -18373,7 +18395,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -18384,7 +18406,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%brightlesslevel</Str>
 			<Str sr="arg1" ve="3">%BRIGHT</Str>
@@ -18392,18 +18414,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -18411,7 +18433,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%pages</Str>
 			<Int sr="arg1">
@@ -18419,7 +18441,7 @@ Say:%SAY_STATE</Str>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Book/</Str>
@@ -18427,7 +18449,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18443,7 +18465,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE_OLD</Str>
@@ -18451,10 +18476,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18476,7 +18498,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE</Str>
@@ -18484,7 +18506,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18500,7 +18522,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE_OLD</Str>
@@ -18508,7 +18530,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18530,7 +18552,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE</Str>
@@ -18538,10 +18560,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -18549,27 +18571,27 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ページ数を入力して下さい</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>409</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>595</code>
-			<Str sr="arg0" ve="3">ページ数</Str>
-			<Str sr="arg1" ve="3">%pages</Str>
-			<Int sr="arg2" val="4"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">Variable Query</Str>
-			<Int sr="arg6" val="600"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<label>ループ開始</label>
 			<Str sr="arg0" ve="3">%filename</Str>
@@ -18578,7 +18600,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">/</Str>
@@ -18586,7 +18608,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -18594,12 +18616,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>176</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -18607,16 +18629,16 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>985050481</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18646,7 +18668,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformActions</Str>
 			<Int sr="arg3" val="30"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -18657,7 +18679,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">ページ数</Str>
+			<Str sr="arg1" ve="3">%pages</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -18665,16 +18698,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -18690,16 +18720,16 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="11"/>
 			<Str sr="arg2" ve="3">ループ開始</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setFlashState</Str>
 			<Int sr="arg1">
@@ -18710,7 +18740,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -18721,7 +18751,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -18732,7 +18762,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>810</code>
 			<Int sr="arg0">
 				<var>%brightlesslevel</var>
@@ -18741,35 +18771,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%pages</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%pages</lhs>
-					<op>5</op>
-					<rhs>\%.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -18780,7 +18797,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -18791,7 +18808,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18822,6 +18839,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%pages</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%pages</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -18832,7 +18865,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>653801104</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -18848,24 +18881,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%flashstate</Str>
 			<Str sr="arg1" ve="3">%FLASH_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setFlashState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">off</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task322">
@@ -19688,7 +19710,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task346">
 		<cdate>1536199454167</cdate>
-		<edate>1536394166394</edate>
+		<edate>1536702672869</edate>
 		<id>346</id>
 		<nme>スクリーンショット（右開き）タップ 実行</nme>
 		<pri>7</pri>
@@ -19748,7 +19770,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task349">
 		<cdate>1408601864481</cdate>
-		<edate>1536394313404</edate>
+		<edate>1536702684816</edate>
 		<id>349</id>
 		<nme>スクリーンショット（右開き）スワイプ</nme>
 		<pri>7</pri>
@@ -19771,6 +19793,17 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%getvoicestate</Str>
 			<Str sr="arg1" ve="3">%GETVOICE_STATE</Str>
@@ -19778,7 +19811,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -19789,7 +19822,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%brightlesslevel</Str>
 			<Str sr="arg1" ve="3">%BRIGHT</Str>
@@ -19797,18 +19830,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -19816,7 +19849,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%pages</Str>
 			<Int sr="arg1">
@@ -19824,7 +19857,7 @@ Say:%SAY_STATE</Str>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Book/</Str>
@@ -19832,7 +19865,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -19848,7 +19881,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE_OLD</Str>
@@ -19856,10 +19892,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -19881,7 +19914,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE</Str>
@@ -19889,7 +19922,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -19905,7 +19938,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE_OLD</Str>
@@ -19913,7 +19946,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -19935,7 +19968,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE</Str>
@@ -19943,10 +19976,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -19954,27 +19987,27 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ページ数を入力して下さい</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>409</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>595</code>
-			<Str sr="arg0" ve="3">ページ数</Str>
-			<Str sr="arg1" ve="3">%pages</Str>
-			<Int sr="arg2" val="4"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">Variable Query</Str>
-			<Int sr="arg6" val="600"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<label>ループ開始</label>
 			<Str sr="arg0" ve="3">%filename</Str>
@@ -19983,7 +20016,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">/</Str>
@@ -19991,7 +20024,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -19999,12 +20032,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>176</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -20012,16 +20045,16 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>199558826</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -20051,7 +20084,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformGestures</Str>
 			<Int sr="arg3" val="30"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -20062,7 +20095,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">ページ数</Str>
+			<Str sr="arg1" ve="3">%pages</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -20070,16 +20114,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -20095,16 +20136,16 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="11"/>
 			<Str sr="arg2" ve="3">ループ開始</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setFlashState</Str>
 			<Int sr="arg1">
@@ -20115,7 +20156,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -20126,7 +20167,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -20137,7 +20178,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>810</code>
 			<Int sr="arg0">
 				<var>%brightlesslevel</var>
@@ -20146,35 +20187,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%pages</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%pages</lhs>
-					<op>5</op>
-					<rhs>\%.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -20185,7 +20213,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -20196,7 +20224,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -20227,6 +20255,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%pages</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%pages</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -20237,7 +20281,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>653801104</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -20253,24 +20297,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%flashstate</Str>
 			<Str sr="arg1" ve="3">%FLASH_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setFlashState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">off</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task35">
@@ -21559,7 +21592,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task362">
 		<cdate>1408601864481</cdate>
-		<edate>1536394297499</edate>
+		<edate>1536702724368</edate>
 		<id>362</id>
 		<nme>スクリーンショット（左開き）スワイプ</nme>
 		<pri>7</pri>
@@ -21582,6 +21615,17 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%getvoicestate</Str>
 			<Str sr="arg1" ve="3">%GETVOICE_STATE</Str>
@@ -21589,7 +21633,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -21600,7 +21644,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%brightlesslevel</Str>
 			<Str sr="arg1" ve="3">%BRIGHT</Str>
@@ -21608,18 +21652,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -21627,7 +21671,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%pages</Str>
 			<Int sr="arg1">
@@ -21635,7 +21679,7 @@ Say:%SAY_STATE</Str>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Book/</Str>
@@ -21643,7 +21687,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -21659,7 +21703,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE_OLD</Str>
@@ -21667,10 +21714,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -21692,7 +21736,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_DMAGAZINE</Str>
@@ -21700,7 +21744,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -21716,7 +21760,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE_OLD</Str>
@@ -21724,7 +21768,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -21746,7 +21790,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%NTITLE_AMAZON_KINDLE</Str>
@@ -21754,10 +21798,10 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -21765,27 +21809,27 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ページ数を入力して下さい</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>409</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>595</code>
-			<Str sr="arg0" ve="3">ページ数</Str>
-			<Str sr="arg1" ve="3">%pages</Str>
-			<Int sr="arg2" val="4"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3">Variable Query</Str>
-			<Int sr="arg6" val="600"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<label>ループ開始</label>
 			<Str sr="arg0" ve="3">%filename</Str>
@@ -21794,7 +21838,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">/</Str>
@@ -21802,7 +21846,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Str sr="arg1" ve="3">%TIMEMS</Str>
@@ -21810,12 +21854,12 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>176</code>
 			<Str sr="arg0" ve="3">%filename</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -21823,16 +21867,16 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>199558826</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -21862,7 +21906,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">com.balda.touchtask.ui.FirePerformGestures</Str>
 			<Int sr="arg3" val="30"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -21873,7 +21917,18 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">ページ数</Str>
+			<Str sr="arg1" ve="3">%pages</Str>
+			<Int sr="arg2" val="4"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -21881,16 +21936,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -21906,16 +21958,16 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="11"/>
 			<Str sr="arg2" ve="3">ループ開始</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setFlashState</Str>
 			<Int sr="arg1">
@@ -21926,7 +21978,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setGetVoiceState</Str>
 			<Int sr="arg1">
@@ -21937,7 +21989,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -21948,7 +22000,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>810</code>
 			<Int sr="arg0">
 				<var>%brightlesslevel</var>
@@ -21957,35 +22009,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%pages</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%pages</lhs>
-					<op>5</op>
-					<rhs>\%.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -21996,7 +22035,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSay</Str>
 			<Int sr="arg1">
@@ -22007,7 +22046,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>277269574</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -22038,6 +22077,22 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%pages</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%pages</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
 			<Int sr="arg1" val="2"/>
@@ -22048,7 +22103,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>653801104</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -22064,24 +22119,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%flashstate</Str>
 			<Str sr="arg1" ve="3">%FLASH_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setFlashState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">off</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task363">
