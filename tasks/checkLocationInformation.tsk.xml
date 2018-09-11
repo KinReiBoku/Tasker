@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task250">
 		<cdate>1535769069591</cdate>
-		<edate>1536676850327</edate>
+		<edate>1536678366886</edate>
 		<id>250</id>
 		<nme>checkLocationInformation</nme>
 		<Action sr="act0" ve="7">
@@ -286,6 +286,24 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Str sr="arg2" ve="3">BURGERKINGJAPAN</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>バーガーキング.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3">bamiyan_CP</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -298,7 +316,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -316,7 +334,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -334,7 +352,25 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">FK_PR</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>ファーストキッチン.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -352,49 +388,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">McDonaldsJapan</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>4</op>
-					<rhs>マクドナルド.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getInformationミニストップ</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>4</op>
-					<rhs>ミニストップ.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">mos_burger</Str>
+			<Str sr="arg2" ve="3">Fleshness_1992</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
 			<Int sr="arg5" val="0"/>
@@ -402,7 +402,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%location</lhs>
 					<op>4</op>
-					<rhs>モスバーガー.*</rhs>
+					<rhs>フレッシュネスバーガー.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -430,6 +430,60 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Str sr="arg2" ve="3">McDonaldsJapan</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>マクドナルド.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getInformationミニストップ</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>ミニストップ.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">mos_burger</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>モスバーガー.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3">Yodobashi_X</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -442,7 +496,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act34" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -460,7 +514,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act35" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -478,7 +532,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -496,7 +550,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -514,7 +568,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act38" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -532,7 +586,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -547,60 +601,6 @@
 					<lhs>%location</lhs>
 					<op>4</op>
 					<rhs>上島珈琲.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Ootoya_Gohan</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>4</op>
-					<rhs>大戸屋.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">kourakuen_pr</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>4</op>
-					<rhs>幸楽苑.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">saruthikoffee</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location</lhs>
-					<op>4</op>
-					<rhs>猿田彦珈琲.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -628,6 +628,60 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Str sr="arg2" ve="3">Ootoya_Gohan</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>大戸屋.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">kourakuen_pr</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>幸楽苑.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">saruthikoffee</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>猿田彦珈琲.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3">UdonMarugame</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -640,7 +694,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
@@ -658,7 +712,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweet</Str>
 			<Int sr="arg1">
