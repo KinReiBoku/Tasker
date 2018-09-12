@@ -1,0 +1,166 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Task sr="task373">
+		<cdate>1536106580202</cdate>
+		<edate>1536714254717</edate>
+		<id>373</id>
+		<nme>getLifeSupportInformation</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<label>カレンダータイトルに関するTwitterを取得する</label>
+			<Str sr="arg0" ve="3">getCalendarInformation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="6"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<label>生活の知恵を取得する</label>
+			<Str sr="arg0" ve="3">getLineRandomizeRecord</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Tasker/files/Tips.txt</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>ゾーン 相場心理学入門のツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">zone_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<label>デイトレーダーのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">DayTrader_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>どうでもいい知識botのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">doudemo_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<label>言葉の知識botのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ktbimi_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<label>首都圏ラーメンbotのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">capital_noodle</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>6</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

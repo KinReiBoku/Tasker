@@ -1,7 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1536621035404</edate>
+		<clp>true</clp>
+		<edate>1536665233747</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -14,7 +15,7 @@
 	</Profile>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1536621035404</edate>
+		<edate>1536665233747</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -28,7 +29,7 @@
 		<Action sr="act1" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="15"/>
+			<Int sr="arg1" val="10"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>

@@ -22,7 +22,7 @@
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<label>ロケーションタイプが変わったら</label>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

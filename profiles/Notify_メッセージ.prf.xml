@@ -100,7 +100,7 @@
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1" val="49"/>
 			<Str sr="arg2" ve="3">%ntitle</Str>
 			<Str sr="arg3" ve="3">force</Str>

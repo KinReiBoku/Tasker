@@ -671,7 +671,7 @@
 	</Profile>
 	<Profile sr="prof213" ve="2">
 		<cdate>1535941101864</cdate>
-		<edate>1536027676506</edate>
+		<edate>1536714817420</edate>
 		<flags>2</flags>
 		<id>213</id>
 		<mid0>219</mid0>
@@ -719,10 +719,11 @@
 	</Profile>
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
-		<edate>1536207707745</edate>
+		<edate>1536714722955</edate>
 		<flags>2</flags>
 		<id>237</id>
 		<mid0>239</mid0>
+		<mid1>374</mid1>
 		<nme>Power Any</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
@@ -1276,8 +1277,7 @@
 	</Profile>
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<edate>1536204039952</edate>
-		<flags>2</flags>
+		<edate>1536714963577</edate>
 		<id>45</id>
 		<mid0>44</mid0>
 		<nme>Device Boot</nme>
@@ -1810,12 +1810,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1536453191601</mdate>
+		<mdate>1536715236547</mdate>
 		<name>Base</name>
 		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,213,237,267,314,33,316,321,324,327,329,330,337,325,351,355,358,360,107,333,335,366,368,370</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -2257,7 +2257,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2271,7 +2271,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2309,7 +2309,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2371,7 +2371,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2450,7 +2450,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2682,7 +2682,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2765,7 +2765,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2856,7 +2856,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -3131,7 +3131,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act44" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -3490,7 +3490,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -4201,7 +4201,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -4487,7 +4487,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -5476,7 +5476,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -5681,7 +5681,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -6609,7 +6609,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -6870,7 +6870,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -6928,7 +6928,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -7653,7 +7653,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8012,7 +8012,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8153,7 +8153,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8218,7 +8218,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8403,7 +8403,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8667,16 +8667,40 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task219">
 		<cdate>1535941105796</cdate>
-		<edate>1536027676506</edate>
+		<edate>1536714817420</edate>
 		<id>219</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MY_DEVICE_STATE</lhs>
+					<op>4</op>
+					<rhs>Charging.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MY_DEVICE_STATE</Str>
+			<Str sr="arg1" ve="3">Charging%BATT</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%MY_DEVICE_STATE</Str>
 			<Str sr="arg1" ve="3">%BATT</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task220">
@@ -8840,7 +8864,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -8898,7 +8922,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9088,7 +9112,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9146,7 +9170,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9331,7 +9355,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9389,7 +9413,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9446,9 +9470,9 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1536314854443</edate>
+		<edate>1536715224896</edate>
 		<id>23</id>
-		<nme>toSay</nme>
+		<nme>toSayMedia</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -9869,7 +9893,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -10294,7 +10318,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -10323,7 +10347,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1536207707745</edate>
+		<edate>1536714722955</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10550,7 +10574,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -11998,7 +12022,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -12070,7 +12094,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1536661426911</edate>
+		<edate>1536714863489</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
 		<pri>7</pri>
@@ -12086,8 +12110,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<label>カレンダータイトルに関するTwitterを取得する</label>
-			<Str sr="arg0" ve="3">getCalendarInformation</Str>
+			<Str sr="arg0" ve="3">getLifeSupportInformation</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -12096,175 +12119,48 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%message</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%message</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act2" ve="7">
-			<code>37</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
-					<op>13</op>
+					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>545</code>
-			<Str sr="arg0" ve="3">%num</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="6"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<label>生活の知恵を取得する</label>
-			<Str sr="arg0" ve="3">getLineRandomizeRecord</Str>
+			<Str sr="arg0" ve="3">toAiSpeaker</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Tasker/files/Tips.txt</Str>
+			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
+			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
 				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<label>ゾーン 相場心理学入門のツイートを取得する</label>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">zone_bot</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>2</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>130</code>
-			<label>デイトレーダーのツイートを取得する</label>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">DayTrader_bot</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>3</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>130</code>
-			<label>どうでもいい知識botのツイートを取得する</label>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">doudemo_bot</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>4</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>130</code>
-			<label>言葉の知識botのツイートを取得する</label>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">ktbimi_bot</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>5</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<label>首都圏ラーメンbotのツイートを取得する</label>
-			<Str sr="arg0" ve="3">getTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">capital_noodle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%message</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>6</rhs>
+				<Condition sr="c1" ve="3">
+					<lhs>%MY_DEVICE_STATE</lhs>
+					<op>4</op>
+					<rhs>Charging.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -12463,7 +12359,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -12521,7 +12417,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13566,7 +13462,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13580,7 +13476,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13663,7 +13559,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13685,7 +13581,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13718,7 +13614,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13795,7 +13691,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -13881,7 +13777,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14042,7 +13938,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task277">
 		<cdate>1520846827313</cdate>
-		<edate>1536152553374</edate>
+		<edate>1536715467296</edate>
 		<id>277</id>
 		<nme>toAiSpeaker</nme>
 		<pri>100</pri>
@@ -14107,7 +14003,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayNotification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14130,7 +14026,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayNotification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14381,7 +14277,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act47" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayNotification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14437,7 +14333,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayNotification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14876,7 +14772,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -14913,7 +14809,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -15312,7 +15208,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task293">
 		<cdate>1535976002001</cdate>
-		<edate>1535981374547</edate>
+		<edate>1536714791082</edate>
 		<id>293</id>
 		<nme>sayDeviceState</nme>
 		<pri>7</pri>
@@ -15380,8 +15276,8 @@ Say:%SAY_STATE</Str>
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%item</lhs>
-					<op>5</op>
-					<rhs>.*Charging.*</rhs>
+					<op>3</op>
+					<rhs>Charging</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -15401,7 +15297,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -15915,7 +15811,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -16337,7 +16233,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -16513,7 +16409,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -16530,7 +16426,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -17187,7 +17083,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -18100,7 +17996,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -18320,7 +18216,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act52" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -18644,7 +18540,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -18867,7 +18763,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -19099,7 +18995,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -19199,7 +19095,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -19510,7 +19406,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1" val="49"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3">force</Str>
@@ -19803,7 +19699,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<label>ロケーションタイプが変わったら</label>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20060,7 +19956,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20283,7 +20179,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20437,7 +20333,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20559,7 +20455,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20684,7 +20580,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act37" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -20760,7 +20656,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act44" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -21181,7 +21077,7 @@ Say:%SAY_STATE</Str>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -21573,7 +21469,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -21620,7 +21516,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -21882,7 +21778,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -22105,7 +22001,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -22435,6 +22331,286 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3">列車遅延</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task373">
+		<cdate>1536106580202</cdate>
+		<edate>1536714254717</edate>
+		<id>373</id>
+		<nme>getLifeSupportInformation</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<label>カレンダータイトルに関するTwitterを取得する</label>
+			<Str sr="arg0" ve="3">getCalendarInformation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="6"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<label>生活の知恵を取得する</label>
+			<Str sr="arg0" ve="3">getLineRandomizeRecord</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Tasker/files/Tips.txt</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>ゾーン 相場心理学入門のツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">zone_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<label>デイトレーダーのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">DayTrader_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>どうでもいい知識botのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">doudemo_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>4</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<label>言葉の知識botのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ktbimi_bot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<label>首都圏ラーメンbotのツイートを取得する</label>
+			<Str sr="arg0" ve="3">getTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">capital_noodle</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>6</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task374">
+		<cdate>1536714697601</cdate>
+		<edate>1536714720146</edate>
+		<id>374</id>
+		<Action sr="act0" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%MY_DEVICE_STATE</Str>
+			<Str sr="arg1" ve="3">Charging</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task375">
+		<cdate>1535275836793</cdate>
+		<edate>1536715407949</edate>
+		<id>375</id>
+		<nme>toSayNotification</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %par2=Force</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getSayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%state</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%VOLM</lhs>
+					<op>3</op>
+					<rhs>0</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>force</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toLine</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task38">
@@ -24256,7 +24432,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1536204039952</edate>
+		<edate>1536714963577</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -24339,7 +24515,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24693,7 +24869,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24713,7 +24889,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24730,7 +24906,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24747,7 +24923,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24764,7 +24940,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24802,7 +24978,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24819,7 +24995,7 @@ Say:%SAY_STATE</Str>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24836,7 +25012,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24853,7 +25029,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24870,7 +25046,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -24924,7 +25100,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25000,7 +25176,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1" val="49"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3">force</Str>
@@ -25079,7 +25255,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25468,7 +25644,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25524,7 +25700,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25600,7 +25776,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act33" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25742,7 +25918,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -25840,7 +26016,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act50" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26257,7 +26433,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26324,7 +26500,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26351,7 +26527,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26375,7 +26551,7 @@ Say:%SAY_STATE</Str>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26569,7 +26745,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1" val="49"/>
 			<Str sr="arg2" ve="3">%ntitle</Str>
 			<Str sr="arg3" ve="3">force</Str>
@@ -26659,7 +26835,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -26793,7 +26969,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

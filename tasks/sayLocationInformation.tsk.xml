@@ -32,7 +32,7 @@
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSay</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
