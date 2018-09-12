@@ -5101,7 +5101,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1536012164097</edate>
+		<edate>1536713856616</edate>
 		<id>131</id>
 		<nme>checkNewsMessage</nme>
 		<pri>100</pri>
@@ -14888,7 +14888,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task283">
 		<cdate>1521756278249</cdate>
-		<edate>1536010568239</edate>
+		<edate>1536713788011</edate>
 		<id>283</id>
 		<nme>sayおやすみ</nme>
 		<pri>100</pri>
@@ -14957,6 +14957,24 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSwitchChangeAirCleanerOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task284">
@@ -25244,7 +25262,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1536451912136</edate>
+		<edate>1536713917857</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
