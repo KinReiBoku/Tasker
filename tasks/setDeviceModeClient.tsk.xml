@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task352">
 		<cdate>1536296750222</cdate>
-		<edate>1536297060750</edate>
+		<edate>1536879003850</edate>
 		<id>352</id>
 		<nme>setDeviceModeClient</nme>
 		<Action sr="act0" ve="7">

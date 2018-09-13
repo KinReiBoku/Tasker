@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1536878854273</edate>
+		<edate>1536879033676</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -944,7 +944,7 @@
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<label>サーバが起動したらサーバモードにする</label>
+			<label>サーバが起動したらクライアントモードにする</label>
 			<Str sr="arg0" ve="3">setDeviceModeClient</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
