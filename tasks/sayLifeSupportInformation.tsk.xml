@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1536714863489</edate>
+		<edate>1536878331669</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
 		<pri>7</pri>
@@ -59,6 +59,7 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA</lhs>
 					<op>4</op>
@@ -68,6 +69,11 @@
 					<lhs>%MY_DEVICE_STATE</lhs>
 					<op>4</op>
 					<rhs>Charging.*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%MY_DEVICE_STATE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
