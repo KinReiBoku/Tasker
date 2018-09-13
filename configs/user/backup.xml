@@ -1,5 +1,5 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
-	<dmetric>1080.0,1798.0</dmetric>
+	<dmetric>1080.0,1813.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<edate>1536413178033</edate>
@@ -855,7 +855,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1536675984148</edate>
+		<edate>1536841343229</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -1810,12 +1810,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1536715236547</mdate>
+		<mdate>1536841495835</mdate>
 		<name>Base</name>
 		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,213,237,267,314,33,316,321,324,327,329,330,337,325,351,355,358,360,107,333,335,366,368,370</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -5101,7 +5101,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1536713856616</edate>
+		<edate>1536846656552</edate>
 		<id>131</id>
 		<nme>checkNewsMessage</nme>
 		<pri>100</pri>
@@ -5132,23 +5132,70 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%NEWS_MESSAGE</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
+		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">LTCUSD:</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ライトコインUSドル</Str>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">TRXU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">トロン</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">TRXUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">トロンUSドル</Str>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">XBTU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットコイン</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">XBTUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットコインUSドル</Str>
+		</Action>
+		<Action sr="act15" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act16" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -5160,13 +5207,32 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toLine</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NEWS_MESSAGE</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act21" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -5177,8 +5243,85 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act22" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ADAU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">エイダコイン</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ADAUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">エイダコインUSドル</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">BCHU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットコインキャッシュ</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">BCHUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットコインキャッシュUSドル</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ETHU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">イーサリアム</Str>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ETHUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">イーサリアムUSドル</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">LTCU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ライトコイン</Str>
 		</Action>
 	</Task>
 	<Task sr="task132">
@@ -13938,7 +14081,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task277">
 		<cdate>1520846827313</cdate>
-		<edate>1536715467296</edate>
+		<edate>1536877318656</edate>
 		<id>277</id>
 		<nme>toAiSpeaker</nme>
 		<pri>100</pri>
@@ -14446,7 +14589,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task279">
 		<cdate>1520677694586</cdate>
-		<edate>1535855373038</edate>
+		<edate>1536876182846</edate>
 		<id>279</id>
 		<nme>getAiSpeakerName</nme>
 		<pri>100</pri>
@@ -14454,7 +14597,7 @@ Say:%SAY_STATE</Str>
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="3"/>
+			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -14739,7 +14882,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task282">
 		<cdate>1521409865322</cdate>
-		<edate>1536113228710</edate>
+		<edate>1536877194016</edate>
 		<id>282</id>
 		<nme>toAlexaMusicRandomPlay</nme>
 		<pri>100</pri>
@@ -14772,7 +14915,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Str sr="arg0" ve="3">toSayNotification</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -16908,7 +17051,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1536703435196</edate>
+		<edate>1536846406531</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -22613,9 +22756,70 @@ Say:%SAY_STATE</Str>
 			<code>38</code>
 		</Action>
 	</Task>
+	<Task sr="task376">
+		<cdate>1536841361801</cdate>
+		<edate>1536841495835</edate>
+		<id>376</id>
+		<nme>setStateAllOn</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="135"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setFlashStateOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setGetVoiceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setNotifyState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSayStateOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_conv_a</nme>
+		</Img>
+	</Task>
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1536614998704</edate>
+		<edate>1536842249991</edate>
 		<id>38</id>
 		<nme>checkGoogleMapLocationAddress</nme>
 		<pri>100</pri>
@@ -22711,6 +22915,16 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%address2</lhs>
+					<op>2</op>
+					<rhs>Japan</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
 			<Str sr="arg1" ve="3">%address2</Str>
@@ -22725,7 +22939,10 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
 			<Str sr="arg1" ve="3">%address3</Str>
@@ -22740,10 +22957,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
 			<Str sr="arg1" ve="3">%address4</Str>
@@ -22758,7 +22972,7 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%address</Str>
@@ -22766,7 +22980,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
@@ -22777,7 +22991,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
@@ -22788,7 +23002,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
@@ -22799,7 +23013,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">,,,,,</Str>
@@ -22810,7 +23024,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">,</Str>
@@ -22821,7 +23035,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"> </Str>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">    </Str>
@@ -22832,18 +23046,13 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_CITY</Str>
 			<Str sr="arg1" ve="3">%city</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -22857,9 +23066,17 @@ Say:%SAY_STATE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act31" ve="7">
-			<code>38</code>
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act32" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act34" ve="7">
 			<code>40</code>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -25438,7 +25655,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1536713917857</edate>
+		<edate>1536848034601</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
@@ -25630,14 +25847,14 @@ Say:%SAY_STATE</Str>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%TWITTER_NEWS</Str>
-			<Str sr="arg3" ve="3">%ntitle3;%ntitle4</Str>
+			<Str sr="arg3" ve="3">%ntitle3;%ret</Str>
 			<Str sr="arg4" ve="3">%TWITTER_NEWS</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%ntitle4（%ntitle3）</Str>
+			<Str sr="arg1" ve="3">%ret（%ntitle3）</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
