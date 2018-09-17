@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof372" ve="2">
-		<cdate>1536750577544</cdate>
+		<cdate>1537061221360</cdate>
 		<clp>true</clp>
-		<edate>1536750682285</edate>
+		<edate>1537061258295</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -14,6 +14,10 @@
 			<cls3>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls3>
 			<cls4>jp.co.fsi.fs1seg.app.Main</cls4>
 			<cls5>com.sonyericsson.music.MusicActivity</cls5>
+			<cls6>org.cocos2dx.cpp.AppActivity</cls6>
+			<cls7>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls7>
+			<cls8>com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity</cls8>
+			<cls9>jp.colopl.wcat.StartActivity</cls9>
 			<flags>2</flags>
 			<label0>Amazon Music</label0>
 			<label1>DAZN</label1>
@@ -21,12 +25,20 @@
 			<label3>YouTube</label3>
 			<label4>テレビ</label4>
 			<label5>ミュージック</label5>
+			<label6>FEヒーローズ</label6>
+			<label7>Pokémon GO</label7>
+			<label8>ポケ森</label8>
+			<label9>白猫</label9>
 			<pkg0>com.amazon.mp3</pkg0>
 			<pkg1>com.dazn</pkg1>
 			<pkg2>com.google.android.videos</pkg2>
 			<pkg3>com.google.android.youtube</pkg3>
 			<pkg4>jp.co.fsi.fs1seg</pkg4>
 			<pkg5>com.sonyericsson.music</pkg5>
+			<pkg6>com.nintendo.zaba</pkg6>
+			<pkg7>com.nianticlabs.pokemongo</pkg7>
+			<pkg8>com.nintendo.zaca</pkg8>
+			<pkg9>jp.colopl.wcat</pkg9>
 		</App>
 	</Profile>
 	<Task sr="task6">

@@ -1,8 +1,10 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1536878428098</edate>
+		<clp>true</clp>
+		<edate>1536991263340</edate>
 		<id>314</id>
+		<limit>true</limit>
 		<mid0>101</mid0>
 		<nme>Every 2m</nme>
 		<Time sr="con0">
@@ -16,7 +18,7 @@
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1536878428098</edate>
+		<edate>1536991263340</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -31,7 +33,7 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MY_DEVICE_STATE</lhs>
+					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
 				</Condition>
@@ -49,7 +51,7 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MY_DEVICE_STATE</lhs>
+					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
 				</Condition>
