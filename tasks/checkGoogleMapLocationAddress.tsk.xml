@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1536992511048</edate>
+		<edate>1537164234214</edate>
 		<id>38</id>
 		<nme>checkGoogleMapLocationAddress</nme>
 		<pri>100</pri>
@@ -100,25 +100,13 @@
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%address2</lhs>
-					<op>2</op>
-					<rhs>Japan</rhs>
+					<lhs>%address3</lhs>
+					<op>4</op>
+					<rhs>^〒.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act19" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">%address</Str>
-			<Str sr="arg1" ve="3"/>
-			<Img sr="arg2" ve="2"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
 			<Str sr="arg1" ve="3">%address2</Str>
@@ -133,7 +121,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
 			<Str sr="arg1" ve="3">%address3</Str>
@@ -148,7 +139,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
 			<Str sr="arg1" ve="3">%address4</Str>
@@ -163,7 +154,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%address</Str>
@@ -171,7 +162,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act23" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_COUNTRY</Str>
@@ -182,7 +173,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_POSTALCODE</Str>
@@ -193,7 +184,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
@@ -204,7 +195,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">,,,,,</Str>
@@ -215,7 +206,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">,</Str>
@@ -226,7 +217,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"> </Str>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%city</Str>
 			<Str sr="arg1" ve="3">    </Str>
@@ -237,6 +228,14 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_CITY</Str>
+			<Str sr="arg1" ve="3">%city</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -246,28 +245,20 @@
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOCATION_ADDRESS_CITY</Str>
-			<Str sr="arg1" ve="3">%city</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act31" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act31" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act33" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act34" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act35" ve="7">
 			<code>40</code>
 		</Action>
 		<Action sr="act4" ve="7">
