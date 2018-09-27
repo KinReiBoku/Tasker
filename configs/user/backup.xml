@@ -719,7 +719,8 @@
 	</Profile>
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
-		<edate>1537910873029</edate>
+		<edate>1538083675027</edate>
+		<flags>2</flags>
 		<id>237</id>
 		<mid0>239</mid0>
 		<mid1>374</mid1>
@@ -746,7 +747,7 @@
 	</Profile>
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
-		<edate>1536229592742</edate>
+		<edate>1538083727144</edate>
 		<flags>2</flags>
 		<id>261</id>
 		<mid0>259</mid0>
@@ -10551,7 +10552,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1537910873029</edate>
+		<edate>1538083675027</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10583,6 +10584,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>1911640985</code>
@@ -12666,7 +12674,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1536229592742</edate>
+		<edate>1538083727144</edate>
 		<id>259</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12690,6 +12698,13 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -12779,7 +12794,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1536133083359</edate>
+		<edate>1538083709319</edate>
 		<id>260</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12819,6 +12834,13 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>

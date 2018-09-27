@@ -2,7 +2,7 @@
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
 		<clp>true</clp>
-		<edate>1536229592742</edate>
+		<edate>1538083727144</edate>
 		<id>261</id>
 		<mid0>259</mid0>
 		<mid1>260</mid1>
@@ -17,7 +17,7 @@
 	</Profile>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1536229592742</edate>
+		<edate>1538083727144</edate>
 		<id>259</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -41,6 +41,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -60,7 +67,7 @@
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1536133083359</edate>
+		<edate>1538083709319</edate>
 		<id>260</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -100,6 +107,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
