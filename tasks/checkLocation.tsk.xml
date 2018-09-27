@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1537167537574</edate>
+		<edate>1537826418464</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -340,8 +340,18 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act39" ve="7">
-			<code>43</code>
-			<label>ロケーションタイプがない場合</label>
+			<code>549</code>
+			<label>ロケーションタイプのグローバル変数をクリア</label>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -356,6 +366,7 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA</lhs>
 					<op>4</op>
@@ -366,30 +377,25 @@
 					<op>5</op>
 					<rhs>^自宅.*</rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
-			<code>549</code>
-			<label>ロケーションタイプのグローバル変数をクリア</label>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act41" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act42" ve="7">
 			<code>43</code>
 			<label>同じロケーションの場合</label>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<label>ステイカウンタを追加</label>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_STAY_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act42" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%location</Str>
 			<Str sr="arg1" ve="3">にステイ</Str>
@@ -397,7 +403,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -408,14 +414,20 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%location</lhs>
 					<op>5</op>
 					<rhs>自宅.*</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_LLAMA_STAY_COUNT</lhs>
+					<op>6</op>
+					<rhs>2</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -426,14 +438,20 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%location</lhs>
 					<op>5</op>
 					<rhs>自宅.*</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_LLAMA_STAY_COUNT</lhs>
+					<op>6</op>
+					<rhs>2</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<label>llamatype駆動でステイした時だけ実行する</label>
 			<ConditionList sr="if">
@@ -450,7 +468,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>チェックイン回数を記録する</label>
 			<Str sr="arg0" ve="3">addDataValue</Str>
@@ -462,7 +480,7 @@
 			<Str sr="arg4" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプをグローバル変数に代入する</label>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
@@ -470,6 +488,28 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>130</code>
+			<label>ロケーションが美容院の場合、散髪のログをカレンダーに追加</label>
+			<Str sr="arg0" ve="3">toCalendar散髪</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%locationtype</lhs>
+					<op>2</op>
+					<rhs>美容院</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -491,28 +531,9 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act50" ve="7">
-			<code>130</code>
-			<label>ロケーションが美容院の場合、散髪のログをカレンダーに追加</label>
-			<Str sr="arg0" ve="3">toCalendar散髪</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%locationtype</lhs>
-					<op>2</op>
-					<rhs>美容院</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act51" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act51" ve="7">
 			<code>37</code>
 			<label>llamatype駆動でチェックイン/ステイに関わらず実行する</label>
 			<ConditionList sr="if">
@@ -523,7 +544,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act52" ve="7">
 			<code>37</code>
 			<label>ロケーションが駅の場合</label>
 			<ConditionList sr="if">
@@ -534,7 +555,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>XEA20装着時は音量を10にする</label>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -553,11 +574,11 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act54" ve="7">
 			<code>43</code>
 			<label>ロケーションが駅以外の場合</label>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<label>XEA20装着時は音量を6にする</label>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -576,13 +597,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act56" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act57" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act58" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act59" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
