@@ -719,7 +719,7 @@
 	</Profile>
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
-		<edate>1538083675027</edate>
+		<edate>1538213017295</edate>
 		<flags>2</flags>
 		<id>237</id>
 		<mid0>239</mid0>
@@ -855,10 +855,8 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1536991263340</edate>
-		<flags>2</flags>
+		<edate>1538349410332</edate>
 		<id>314</id>
-		<limit>true</limit>
 		<mid0>101</mid0>
 		<nme>Every 2m</nme>
 		<Time sr="con0">
@@ -1335,6 +1333,16 @@
 			<pkg0>jp.colopl.wcat</pkg0>
 			<pkg1>jp.colopl.tennis</pkg1>
 		</App>
+	</Profile>
+	<Profile sr="prof380" ve="2">
+		<cdate>1538304745744</cdate>
+		<edate>1538304763493</edate>
+		<flags>2</flags>
+		<id>380</id>
+		<mid0>381</mid0>
+		<Event sr="con0" ve="2">
+			<code>1000</code>
+		</Event>
 	</Profile>
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
@@ -1872,12 +1880,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1537910854820</mdate>
+		<mdate>1538349198653</mdate>
 		<name>Base</name>
-		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,213,237,267,314,33,316,321,324,327,329,330,337,325,351,355,358,360,107,333,335,366,368,370,372,378</pids>
+		<pids>17,21,22,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,125,127,133,135,137,139,141,143,145,149,151,153,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,252,261,268,270,272,286,47,50,77,213,237,267,314,33,316,321,324,327,329,330,337,325,351,355,358,360,107,333,335,366,368,370,372,378,380</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,41,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,109,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,214,215,216,217,218,220,221,222,223,224,225,226,227,228,229,238,241,242,243,244,245,246,247,248,250,251,254,255,256,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,313,18,98,128,130,234,235,253,312,315,318,319,320,338,339,340,341,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -2264,7 +2272,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1536991263340</edate>
+		<edate>1538349410329</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2277,13 +2285,6 @@ Instagram</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -2295,13 +2296,6 @@ Instagram</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task102">
@@ -4145,7 +4139,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task116">
 		<cdate>1535540380169</cdate>
-		<edate>1536191574713</edate>
+		<edate>1538349260348</edate>
 		<id>116</id>
 		<nme>!template</nme>
 		<pri>100</pri>
@@ -4686,7 +4680,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1537914568609</edate>
+		<edate>1538349311575</edate>
 		<id>123</id>
 		<nme>checkRssMessage</nme>
 		<pri>100</pri>
@@ -9641,7 +9635,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1537917889807</edate>
+		<edate>1538349039629</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -9819,7 +9813,7 @@ Say:%SAY_STATE</Str>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toNotify</Str>
+			<Str sr="arg0" ve="3">toMidori</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -10418,7 +10412,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1537826361160</edate>
+		<edate>1538088617084</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -10552,7 +10546,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1538083675027</edate>
+		<edate>1538213017295</edate>
 		<id>239</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10584,13 +10578,6 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%FLASH_STATE</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>1911640985</code>
@@ -10702,7 +10689,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1537165280154</edate>
+		<edate>1538313540040</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -10954,7 +10941,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task244">
 		<cdate>1535735697172</cdate>
-		<edate>1535743104862</edate>
+		<edate>1538313553077</edate>
 		<id>244</id>
 		<nme>checkinLocationRoomトイレ2階</nme>
 		<pri>7</pri>
@@ -10965,6 +10952,17 @@ Say:%SAY_STATE</Str>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">トイレ2階</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toCalendarトイレ2階</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -16497,7 +16495,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task304">
 		<cdate>1535735697172</cdate>
-		<edate>1536150319353</edate>
+		<edate>1538314922149</edate>
 		<id>304</id>
 		<nme>checkinLocationRoomバスルーム</nme>
 		<pri>7</pri>
@@ -16529,27 +16527,27 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task305">
 		<cdate>1513252018332</cdate>
-		<edate>1536395944970</edate>
+		<edate>1538313682911</edate>
 		<id>305</id>
-		<nme>toCalendarお風呂</nme>
+		<nme>toCalendarトイレ2階</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>567</code>
-			<Str sr="arg0" ve="3">-31 / 30</Str>
+			<Str sr="arg0" ve="3">-31 / 10</Str>
 			<Str sr="arg1" ve="3">%MASTER_MAIL</Str>
-			<Str sr="arg2" ve="3">お風呂</Str>
+			<Str sr="arg2" ve="3">トイレ</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA%LOCATION_ROOM</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>mw_places_hot_tub</nme>
+			<nme>hl_aaa_ext_armchair</nme>
 		</Img>
 	</Task>
 	<Task sr="task306">
 		<cdate>1513252018332</cdate>
-		<edate>1536288223689</edate>
+		<edate>1538313694262</edate>
 		<id>306</id>
 		<nme>toCalendar散髪</nme>
 		<pri>7</pri>
@@ -16594,7 +16592,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Str sr="arg2" ve="3">散髪</Str>
 			<Str sr="arg3" ve="3">今月 %CNT_SANPATU_MONTH 回目
 今年 %CNT_SANPATU_YEAR 回目</Str>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
@@ -18566,7 +18564,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task320">
 		<cdate>1408601864481</cdate>
-		<edate>1537225568577</edate>
+		<edate>1538089517485</edate>
 		<id>320</id>
 		<nme>スクリーンショット（左開き）タップ</nme>
 		<pri>7</pri>
@@ -19903,7 +19901,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task345">
 		<cdate>1536199454167</cdate>
-		<edate>1536619135020</edate>
+		<edate>1538089486647</edate>
 		<id>345</id>
 		<nme>スクリーンショット（左開き）タップ 実行</nme>
 		<pri>7</pri>
@@ -20520,7 +20518,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1537826418464</edate>
+		<edate>1538088608067</edate>
 		<id>35</id>
 		<nme>checkLocation</nme>
 		<pri>100</pri>
@@ -21847,7 +21845,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task362">
 		<cdate>1408601864481</cdate>
-		<edate>1537225580972</edate>
+		<edate>1538324307385</edate>
 		<id>362</id>
 		<nme>スクリーンショット（左開き）スワイプ</nme>
 		<pri>7</pri>
@@ -22143,7 +22141,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 					<com.balda.fingertask.extra.POINT2-type>java.lang.String</com.balda.fingertask.extra.POINT2-type>
 					<com.balda.fingertask.extra.TYPE>0</com.balda.fingertask.extra.TYPE>
 					<com.balda.fingertask.extra.TYPE-type>java.lang.Integer</com.balda.fingertask.extra.TYPE-type>
-					<com.balda.meteotask.extra.INT_VERSION_CODE>90</com.balda.meteotask.extra.INT_VERSION_CODE>
+					<com.balda.meteotask.extra.INT_VERSION_CODE>91</com.balda.meteotask.extra.INT_VERSION_CODE>
 					<com.balda.meteotask.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.meteotask.extra.INT_VERSION_CODE-type>
 					<com.balda.meteotask.extra.OPERATION>0</com.balda.meteotask.extra.OPERATION>
 					<com.balda.meteotask.extra.OPERATION-type>java.lang.Integer</com.balda.meteotask.extra.OPERATION-type>
@@ -22404,7 +22402,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task364">
 		<cdate>1536199454167</cdate>
-		<edate>1537225570423</edate>
+		<edate>1538323874246</edate>
 		<id>364</id>
 		<nme>スクリーンショット（左開き）スワイプ 実行</nme>
 		<pri>7</pri>
@@ -22985,10 +22983,21 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task377">
 		<cdate>1537225698037</cdate>
-		<edate>1537914552126</edate>
+		<edate>1538349330805</edate>
 		<id>377</id>
 		<nme>checkSayMessage</nme>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %ret=Message</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%par1</Str>
@@ -22996,18 +23005,18 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">＼</Str>
+			<Str sr="arg1" ve="3">LTCU18:</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
+			<Str sr="arg7" ve="3">ライトコイン</Str>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">LTCUSD:</Str>
@@ -23018,7 +23027,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ライトコインUSドル</Str>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">TRXU18:</Str>
@@ -23029,7 +23038,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トロン</Str>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">TRXUSD:</Str>
@@ -23040,7 +23049,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トロンUSドル</Str>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XBTU18:</Str>
@@ -23051,7 +23060,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコイン</Str>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XBTUSD:</Str>
@@ -23062,7 +23071,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコインUSドル</Str>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPU18:</Str>
@@ -23073,7 +23082,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップル</Str>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPUSD:</Str>
@@ -23084,7 +23093,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップルUSドル</Str>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元大統領</Str>
@@ -23095,7 +23104,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元大統領</Str>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元首相</Str>
@@ -23106,7 +23115,18 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元首相</Str>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">＼</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
@@ -23118,7 +23138,24 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act21" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">／</Str>
@@ -23129,7 +23166,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ADAU18:</Str>
@@ -23140,7 +23177,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">エイダコイン</Str>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ADAUSD:</Str>
@@ -23151,7 +23188,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">エイダコインUSドル</Str>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">BCHU18:</Str>
@@ -23162,7 +23199,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコインキャッシュ</Str>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">BCHUSD:</Str>
@@ -23173,7 +23210,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコインキャッシュUSドル</Str>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ETHU18:</Str>
@@ -23184,7 +23221,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">イーサリアム</Str>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ETHUSD:</Str>
@@ -23195,21 +23232,10 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">イーサリアムUSドル</Str>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">LTCU18:</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ライトコイン</Str>
-		</Action>
 	</Task>
 	<Task sr="task379">
 		<cdate>1537910830099</cdate>
-		<edate>1537910854820</edate>
+		<edate>1538212976829</edate>
 		<id>379</id>
 		<nme>toDaydream</nme>
 		<Action sr="act0" ve="7">
@@ -23222,6 +23248,19 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SAY_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task38">
@@ -23528,6 +23567,162 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<code>39</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">%httpd()</Str>
+		</Action>
+	</Task>
+	<Task sr="task381">
+		<cdate>1538304749559</cdate>
+		<edate>1538304763493</edate>
+		<id>381</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>653801104</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Rotation>PORTRAIT</Rotation>
+					<Rotation-type>java.lang.String</Rotation-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>縦長</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">nl.fameit.rotate</Str>
+			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task383">
+		<cdate>1513252018332</cdate>
+		<edate>1538313726740</edate>
+		<id>383</id>
+		<nme>toCalendarお風呂</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">-31 / 30</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL</Str>
+			<Str sr="arg2" ve="3">お風呂</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%LOCATION_LLAMA</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_places_hot_tub</nme>
+		</Img>
+	</Task>
+	<Task sr="task384">
+		<cdate>1535540380169</cdate>
+		<edate>1538349167544</edate>
+		<id>384</id>
+		<nme>toMidori</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkMidoriMessage</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toNotify</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">Flash</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task385">
+		<cdate>1537225698037</cdate>
+		<edate>1538349336621</edate>
+		<id>385</id>
+		<nme>checkMidoriMessage</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %ret=Message</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ニュー速</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ニューそく</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task39">
@@ -26123,7 +26318,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1537226573855</edate>
+		<edate>1538323772002</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>6</pri>
