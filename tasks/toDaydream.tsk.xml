@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task379">
 		<cdate>1537910830099</cdate>
-		<edate>1537910854820</edate>
+		<edate>1538212976829</edate>
 		<id>379</id>
 		<nme>toDaydream</nme>
 		<Action sr="act0" ve="7">
@@ -14,6 +14,19 @@
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SAY_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
