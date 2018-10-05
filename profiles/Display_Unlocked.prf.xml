@@ -1,0 +1,35 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof380" ve="2">
+		<cdate>1538304745744</cdate>
+		<clp>true</clp>
+		<edate>1538740580840</edate>
+		<id>380</id>
+		<mid0>381</mid0>
+		<nme>Display Unlocked</nme>
+		<Event sr="con0" ve="2">
+			<code>1000</code>
+		</Event>
+	</Profile>
+	<Task sr="task381">
+		<cdate>1538304749559</cdate>
+		<edate>1538740564741</edate>
+		<id>381</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>653801104</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Rotation>PORTRAIT</Rotation>
+					<Rotation-type>java.lang.String</Rotation-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>縦長</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">nl.fameit.rotate</Str>
+			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

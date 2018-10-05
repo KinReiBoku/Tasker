@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task384">
 		<cdate>1535540380169</cdate>
-		<edate>1538349167544</edate>
+		<edate>1538354374905</edate>
 		<id>384</id>
 		<nme>toMidori</nme>
 		<pri>100</pri>
@@ -22,9 +22,9 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%par1</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">

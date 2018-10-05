@@ -2,7 +2,7 @@
 	<Profile sr="prof33" ve="2">
 		<cdate>1535513755527</cdate>
 		<clp>true</clp>
-		<edate>1536053332452</edate>
+		<edate>1538697221922</edate>
 		<id>33</id>
 		<mid0>34</mid0>
 		<nme>Notify +メッセージ</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task34">
 		<cdate>1521383443273</cdate>
-		<edate>1536053332452</edate>
+		<edate>1538697221922</edate>
 		<id>34</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -81,7 +81,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">Normal</Str>
+			<Str sr="arg2" ve="3">Low</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
