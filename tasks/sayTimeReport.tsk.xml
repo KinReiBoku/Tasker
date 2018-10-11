@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task52">
 		<cdate>1513139785991</cdate>
-		<edate>1536048085076</edate>
+		<edate>1539293445857</edate>
 		<id>52</id>
 		<nme>sayTimeReport</nme>
 		<pri>100</pri>
@@ -67,7 +67,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%time1</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
