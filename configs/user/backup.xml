@@ -4682,7 +4682,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1539406144439</edate>
+		<edate>1539409937054</edate>
 		<id>123</id>
 		<nme>checkRssMessage</nme>
 		<pri>100</pri>
@@ -4716,7 +4716,7 @@ Instagram</label>
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
+			<Str sr="arg1" ve="3">lLLMM0.net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4727,7 +4727,7 @@ Instagram</label>
 		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">引用元:.*</Str>
+			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4738,7 +4738,9 @@ Instagram</label>
 		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
+			<Str sr="arg1" ve="3">
+
+この記事を読むのにかかる時間</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4749,7 +4751,7 @@ Instagram</label>
 		<Action sr="act13" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">全文を読む</Str>
+			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4760,7 +4762,7 @@ Instagram</label>
 		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">全文読む</Str>
+			<Str sr="arg1" ve="3">引用元:.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4771,7 +4773,7 @@ Instagram</label>
 		<Action sr="act15" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">続きはJ-CASTニュースへ</Str>
+			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4782,7 +4784,7 @@ Instagram</label>
 		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">続きを読む</Str>
+			<Str sr="arg1" ve="3">全文を読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4793,7 +4795,7 @@ Instagram</label>
 		<Action sr="act17" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txtは</Str>
+			<Str sr="arg1" ve="3">全文読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4804,7 +4806,7 @@ Instagram</label>
 		<Action sr="act18" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txt</Str>
+			<Str sr="arg1" ve="3">続きはJ-CASTニュースへ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4815,7 +4817,7 @@ Instagram</label>
 		<Action sr="act19" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image: </Str>
+			<Str sr="arg1" ve="3">続きを読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4834,7 +4836,7 @@ Instagram</label>
 		<Action sr="act20" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Str sr="arg1" ve="3">ads\.txtは</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4845,7 +4847,7 @@ Instagram</label>
 		<Action sr="act21" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">|</Str>
+			<Str sr="arg1" ve="3">ads\.txt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4854,14 +4856,47 @@ Instagram</label>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">Image: </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act26" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act27" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -4873,25 +4908,11 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
 		<Action sr="act28" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>43</code>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>598</code>
@@ -4903,6 +4924,20 @@ Instagram</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>598</code>
@@ -4918,7 +4953,7 @@ Instagram</label>
 		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">12018.*net</Str>
+			<Str sr="arg1" ve="3">1.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4929,7 +4964,7 @@ Instagram</label>
 		<Action sr="act6" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> #higobashiaws</Str>
+			<Str sr="arg1" ve="3">2.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4940,7 +4975,7 @@ Instagram</label>
 		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
+			<Str sr="arg1" ve="3">12018.*net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4951,7 +4986,7 @@ Instagram</label>
 		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
+			<Str sr="arg1" ve="3"> #higobashiaws</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4962,9 +4997,7 @@ Instagram</label>
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">
-
-この記事を読むのにかかる時間</Str>
+			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10193,7 +10226,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task235">
 		<cdate>1536106429231</cdate>
-		<edate>1537139487561</edate>
+		<edate>1539407185971</edate>
 		<id>235</id>
 		<nme>getCalendarInformation</nme>
 		<pri>100</pri>
@@ -12307,7 +12340,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1537139903990</edate>
+		<edate>1539407148095</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
 		<pri>100</pri>
@@ -14802,7 +14835,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task280">
 		<cdate>1520675032319</cdate>
-		<edate>1536113256082</edate>
+		<edate>1539410924281</edate>
 		<id>280</id>
 		<nme>getLineRandomize</nme>
 		<pri>100</pri>
@@ -17473,7 +17506,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1537146557420</edate>
+		<edate>1539411034081</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
 		<Action sr="act0" ve="7">
@@ -17484,7 +17517,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>F1</rhs>
+					<rhs>.*F1.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17496,7 +17529,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>NASCAR</rhs>
+					<rhs>.*NASCAR.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17517,10 +17550,16 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 			<Str sr="arg0" ve="3">wecjp</Str>
 			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>WEC</rhs>
+					<rhs>.*WEC.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*世界耐久.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17532,7 +17571,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>WRC</rhs>
+					<rhs>.*WRC.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17544,7 +17583,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>インディカー</rhs>
+					<rhs>.*インディカー.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17556,7 +17595,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>スーパーフォーミュラ</rhs>
+					<rhs>.*スーパーフォーミュラ.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17568,7 +17607,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>笑点</rhs>
+					<rhs>.*笑点.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -17580,7 +17619,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>鈴鹿8耐</rhs>
+					<rhs>.*鈴鹿8耐.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -22664,7 +22703,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task373">
 		<cdate>1536106580202</cdate>
-		<edate>1537139453343</edate>
+		<edate>1539407159596</edate>
 		<id>373</id>
 		<nme>getLifeSupportInformation</nme>
 		<pri>7</pri>
@@ -23023,7 +23062,7 @@ The post 電通イージス系360iads.txt限定入札オプションを導入全
 	</Task>
 	<Task sr="task377">
 		<cdate>1537225698037</cdate>
-		<edate>1538670338823</edate>
+		<edate>1539409909311</edate>
 		<id>377</id>
 		<nme>checkSayMessage</nme>
 		<Action sr="act0" ve="7">
