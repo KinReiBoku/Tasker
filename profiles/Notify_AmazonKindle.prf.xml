@@ -2,7 +2,7 @@
 	<Profile sr="prof327" ve="2">
 		<cdate>1536135713258</cdate>
 		<clp>true</clp>
-		<edate>1536373006157</edate>
+		<edate>1538820741874</edate>
 		<id>327</id>
 		<mid0>326</mid0>
 		<nme>Notify AmazonKindle</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task326">
 		<cdate>1521383525570</cdate>
-		<edate>1536373006157</edate>
+		<edate>1538820741874</edate>
 		<id>326</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

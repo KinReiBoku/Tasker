@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task362">
 		<cdate>1408601864481</cdate>
-		<edate>1538324307385</edate>
+		<edate>1538889557017</edate>
 		<id>362</id>
 		<nme>スクリーンショット（左開き）スワイプ</nme>
 		<pri>7</pri>
@@ -340,7 +340,7 @@
 		<Action sr="act40" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
