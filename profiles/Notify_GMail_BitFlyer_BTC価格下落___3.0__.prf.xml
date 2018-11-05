@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof396" ve="2">
+		<cdate>1541455056862</cdate>
+		<clp>true</clp>
+		<edate>1541456016983</edate>
+		<id>396</id>
+		<mid0>395</mid0>
+		<nme>Notify GMail BitFlyer BTC価格下落 (-3.0%)</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.gm.ConversationListActivityGmail</appClass>
+				<appPkg>com.google.android.gm</appPkg>
+				<label>Gmail</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">*価格下落*3*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task395">
+		<cdate>1521381764005</cdate>
+		<edate>1541455069492</edate>
+		<id>395</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ビットコインの価格が3%下落しました</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
