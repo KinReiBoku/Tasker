@@ -2,7 +2,7 @@
 	<Profile sr="prof60" ve="2">
 		<cdate>1535513080489</cdate>
 		<clp>true</clp>
-		<edate>1535513297672</edate>
+		<edate>1541454932034</edate>
 		<id>60</id>
 		<mid0>59</mid0>
 		<nme>Notify ヤフオク！高値更新されました</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task59">
 		<cdate>1525247343410</cdate>
-		<edate>1535513297672</edate>
+		<edate>1541454932034</edate>
 		<id>59</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

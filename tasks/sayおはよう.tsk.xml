@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1538740891866</edate>
+		<edate>1541406963273</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>100</pri>
@@ -202,6 +202,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%voice</Str>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>30</code>
@@ -211,8 +218,14 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%GETVOICE_STATE</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>off</rhs>
 				</Condition>
@@ -295,8 +308,14 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%GETVOICE_STATE</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>off</rhs>
 				</Condition>

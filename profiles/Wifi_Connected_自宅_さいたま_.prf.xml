@@ -2,7 +2,7 @@
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
 		<clp>true</clp>
-		<edate>1538083727144</edate>
+		<edate>1540250914846</edate>
 		<id>261</id>
 		<mid0>259</mid0>
 		<mid1>260</mid1>
@@ -67,7 +67,7 @@
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1538083709319</edate>
+		<edate>1540250914846</edate>
 		<id>260</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -128,6 +128,7 @@
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>808</code>
+			<on>false</on>
 			<Int sr="arg0" val="1"/>
 		</Action>
 	</Task>

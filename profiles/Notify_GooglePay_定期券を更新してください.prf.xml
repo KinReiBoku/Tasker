@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.2.bf1">
+	<Profile sr="prof409" ve="2">
+		<cdate>1535519713219</cdate>
+		<clp>true</clp>
+		<edate>1541462126381</edate>
+		<id>409</id>
+		<mid0>410</mid0>
+		<nme>Notify GooglePay 定期券を更新してください</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.commerce.tapandpay.android.cardlist.CardListActivity</appClass>
+				<appPkg>com.google.android.apps.walletnfcrel</appPkg>
+				<label>Google Pay</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">定期券を更新してください</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task410">
+		<cdate>1521729228705</cdate>
+		<edate>1541462126381</edate>
+		<id>410</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">定期券の有効期限は本日です。定期券を更新してください。</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

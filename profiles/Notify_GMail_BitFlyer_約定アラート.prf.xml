@@ -2,7 +2,7 @@
 	<Profile sr="prof398" ve="2">
 		<cdate>1541455292351</cdate>
 		<clp>true</clp>
-		<edate>1541455385017</edate>
+		<edate>1541456125468</edate>
 		<id>398</id>
 		<mid0>397</mid0>
 		<nme>Notify GMail BitFlyer 約定アラート</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task397">
 		<cdate>1521384946880</cdate>
-		<edate>1541455385017</edate>
+		<edate>1541456125468</edate>
 		<id>397</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -32,7 +32,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">high</Str>
+			<Str sr="arg2" ve="3">High</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
