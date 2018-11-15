@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task377">
 		<cdate>1537225698037</cdate>
-		<edate>1542188401391</edate>
+		<edate>1542274295432</edate>
 		<id>377</id>
 		<nme>checkSayMessage</nme>
 		<Action sr="act0" ve="7">
@@ -70,6 +70,17 @@
 		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">Niantic</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ナイアンティック</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">RT：</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -78,7 +89,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リツイート：</Str>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">TRXU18:</Str>
@@ -89,7 +100,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トロン</Str>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">TRXUSD:</Str>
@@ -100,7 +111,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トロンUSドル</Str>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">W杯</Str>
@@ -111,7 +122,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ワールドカップ</Str>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">Ｗ杯</Str>
@@ -121,17 +132,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ワールドカップ</Str>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">XBTU18:</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ビットコイン</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>598</code>
@@ -148,6 +148,17 @@
 		<Action sr="act20" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">XBTU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットコイン</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XBTUSD:</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -156,7 +167,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコインUSドル</Str>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPU18:</Str>
@@ -167,7 +178,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップル</Str>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPUSD:</Str>
@@ -178,7 +189,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップルUSドル</Str>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">アホ面</Str>
@@ -189,7 +200,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アホづら</Str>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">金が目的</Str>
@@ -200,7 +211,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">かねが目的</Str>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">米トランプ</Str>
@@ -211,7 +222,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アメリカ、トランプ</Str>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元大統領</Str>
@@ -222,7 +233,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元大統領</Str>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元首相</Str>
@@ -233,7 +244,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元首相</Str>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">中三</Str>
@@ -243,17 +254,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ちゅうさん</Str>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">二重まぶた</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ふたえまぶた</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>598</code>
@@ -269,6 +269,17 @@
 		<Action sr="act30" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">二重まぶた</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ふたえまぶた</Str>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">八柱</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -277,7 +288,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">やはしら</Str>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">下記リンクより一部抜粋続きはソースで.*</Str>
@@ -288,7 +299,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">やはしら</Str>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
@@ -300,10 +311,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -314,7 +325,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
