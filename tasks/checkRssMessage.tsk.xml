@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.2.bf1">
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1541495803522</edate>
+		<edate>1542204589126</edate>
 		<id>123</id>
 		<nme>checkRssMessage</nme>
 		<pri>100</pri>
@@ -35,7 +35,7 @@
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">2.*Z4U</Str>
+			<Str sr="arg1" ve="3">1.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -46,7 +46,7 @@
 		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">12018.*net</Str>
+			<Str sr="arg1" ve="3">2.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -57,7 +57,7 @@
 		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> #higobashiaws</Str>
+			<Str sr="arg1" ve="3">12018.*net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -68,7 +68,7 @@
 		<Action sr="act13" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">App StoreGoogle Play.*</Str>
+			<Str sr="arg1" ve="3"> #higobashiaws</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -79,8 +79,7 @@
 		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">
-Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.</Str>
+			<Str sr="arg1" ve="3">#ldnews</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -91,7 +90,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act15" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> https.* #nhk_bknews。</Str>
+			<Str sr="arg1" ve="3">App StoreGoogle Play.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -102,7 +101,8 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
+			<Str sr="arg1" ve="3">
+Copyright (C) IMPRESS.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -113,7 +113,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act17" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">lLLMM0.net</Str>
+			<Str sr="arg1" ve="3"> https.* #nhk_bknews。</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -124,11 +124,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act18" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">jhalS0.net
-
-
-
-</Str>
+			<Str sr="arg1" ve="3"> is a post from: Social Game Info</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -139,7 +135,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act19" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
+			<Str sr="arg1" ve="3">lLLMM0.net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -158,9 +154,11 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act20" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">
+			<Str sr="arg1" ve="3">jhalS0.net
 
-この記事を読むのにかかる時間</Str>
+
+
+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -171,7 +169,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act21" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
+			<Str sr="arg1" ve="3">ｗｗｗｗｗｗｗ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -180,6 +178,30 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">
+
+この記事を読むのにかかる時間</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">すべて読む | アニメ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">
@@ -194,7 +216,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">画像=キャリコネニュース</Str>
@@ -205,18 +227,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">関連記事キャリコネニュース.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">引用元:.*</Str>
@@ -227,7 +238,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
@@ -238,21 +249,10 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act27" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">参照元Instagram.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">全文を読む</Str>
+			<Str sr="arg1" ve="3">関連記事$</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -263,7 +263,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act29" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">全文読む</Str>
+			<Str sr="arg1" ve="3">関連記事キャリコネニュース.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -285,7 +285,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act30" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">続きはJ-CASTニュースへ</Str>
+			<Str sr="arg1" ve="3">参照元Instagram.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -296,7 +296,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act31" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">続きを読む</Str>
+			<Str sr="arg1" ve="3">全文を読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -307,7 +307,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act32" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txtは</Str>
+			<Str sr="arg1" ve="3">全文読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -318,7 +318,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act33" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txt</Str>
+			<Str sr="arg1" ve="3">続きはJ-CASTニュースへ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -329,7 +329,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act34" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image: </Str>
+			<Str sr="arg1" ve="3">続きを読む</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -340,7 +340,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act35" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Str sr="arg1" ve="3">ads\.txtは</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -351,7 +351,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act36" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">|</Str>
+			<Str sr="arg1" ve="3">ads\.txt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -360,24 +360,37 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act37" ve="7">
-			<code>126</code>
+			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Int sr="arg1" val="1"/>
+			<Str sr="arg1" ve="3">Image: </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act38" ve="7">
-			<code>43</code>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">tnEKX0.net</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act39" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>598</code>
@@ -391,12 +404,65 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act40" ve="7">
-			<code>38</code>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act41" ve="7">
-			<code>43</code>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act42" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act48" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -407,7 +473,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act49" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
@@ -457,7 +523,7 @@ Copyright (C) IMPRESS CORPORATION an Impress Group company. All rights reserved.
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">1.*Z4U</Str>
+			<Str sr="arg1" ve="3">1本当にあった怖い名無し.*.net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
