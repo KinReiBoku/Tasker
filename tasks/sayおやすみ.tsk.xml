@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task283">
 		<cdate>1521756278249</cdate>
-		<edate>1536713788011</edate>
+		<edate>1548208584667</edate>
 		<id>283</id>
 		<nme>sayおやすみ</nme>
 		<pri>100</pri>
@@ -43,24 +43,6 @@
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>90406179</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>睡眠の解析を開始する</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK</com.urbandroid.sleep.taskerplugin.extra.EVENT>
-					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>1963</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
-					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
-			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
 			<Int sr="arg1">
@@ -71,7 +53,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeAirCleanerOff</Str>
 			<Int sr="arg1">
@@ -81,13 +63,27 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">😴おやすみ</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Server</rhs>
+					<rhs>Client</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_device_access_brightness_high</nme>
+		</Img>
 	</Task>
 </TaskerData>

@@ -1,0 +1,100 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task305">
+		<cdate>1548972572197</cdate>
+		<edate>1548972607249</edate>
+		<id>305</id>
+		<nme>setCalendarMovingEvent</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>2</op>
+					<rhs>移動</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cald</Str>
+			<Str sr="arg1" ve="3">%CALDESCR</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%trains</Str>
+			<Str sr="arg1" ve="3">%TRAIN_DELAY_STATUS</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%trains</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%train</Str>
+			<Str sr="arg1" ve="3">%trains()</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">
+%train</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cald</lhs>
+					<op>4</op>
+					<rhs>.*%train.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">【遅延】%train</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

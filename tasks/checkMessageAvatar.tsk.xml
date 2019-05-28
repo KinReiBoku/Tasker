@@ -1,0 +1,581 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task385">
+		<cdate>1537225698037</cdate>
+		<edate>1558566911600</edate>
+		<id>385</id>
+		<nme>checkMessageAvatar</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %ret=Message</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">○</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">▼</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">☆</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">★</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">→</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">→</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">←</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">↑</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">↓</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">\|</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">BTC板</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">BTCいた</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">●</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">Pixel</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ピクセル</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">SAMさん</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">サムさん</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ＳＡＭさん</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">サムさん</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">SNS上</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">SNSじょう</Str>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ＳＮＳ上</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">SNSじょう</Str>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ＺＯＺＯ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ゾゾ</Str>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">大船</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">おおふな</Str>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ケーシー高峯</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ケーシーたかみね</Str>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">湖池屋</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">こいけや</Str>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ジャニーズWEST</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ジャニーズウエスト</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">◇</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">高梨沙羅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">タカナシ沙羅</Str>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">タクシーを止め</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">タクシーをとめ</Str>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">竹内涼真</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">竹内りょうま</Str>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">中１女子</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ちゅういち女子</Str>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">艶やか</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">つややか</Str>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">歳男</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">歳おとこ</Str>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ハム速</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ハムそく</Str>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ビットメックス板</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ビットメックスいた</Str>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ひょっこりはん</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ひょっこりハん</Str>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">深けれ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ふかけれ</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">◆</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ニュー速</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ニューそく</Str>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">白米</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">はくまい</Str>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">布袋寅泰</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ほてい寅泰</Str>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">経て</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">へて</Str>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">まだの方は</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">まだのかたは</Str>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">梨花</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">りか</Str>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">´</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">りか</Str>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">｀</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">りか</Str>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">ω</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">りか</Str>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">□</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">■</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">△</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">▲</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">▽</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>

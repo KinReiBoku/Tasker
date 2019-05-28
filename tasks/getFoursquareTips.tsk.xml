@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task36">
 		<cdate>1524548260435</cdate>
-		<edate>1535432821541</edate>
+		<edate>1543187174778</edate>
 		<id>36</id>
 		<nme>getFoursquareTips</nme>
 		<pri>100</pri>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task235">
 		<cdate>1536106429231</cdate>
-		<edate>1539407185971</edate>
+		<edate>1545656359908</edate>
 		<id>235</id>
 		<nme>getCalendarInformation</nme>
 		<pri>100</pri>
@@ -45,6 +45,12 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%tag</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getTwitterTweetHashTag</Str>
 			<Int sr="arg1">
@@ -62,7 +68,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%tweet</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="1"/>

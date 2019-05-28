@@ -1,0 +1,43 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task436">
+		<cdate>1543384453235</cdate>
+		<edate>1543384639630</edate>
+		<id>436</id>
+		<nme>toHomeApex</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>714606470</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ShortcutBeforeUse>#Intent;action=com.anddoes.launcher.ACTION;component=com.anddoes.launcher/.Launcher;S.LAUNCHER_ACTION=GOTO_DEFAULT_SCREEN;end</ShortcutBeforeUse>
+					<ShortcutBeforeUse-type>java.lang.String</ShortcutBeforeUse-type>
+					<ShortcutIntentString>#Intent;action=com.anddoes.launcher.ACTION;component=com.anddoes.launcher/.Launcher;S.LAUNCHER_ACTION=GOTO_DEFAULT_SCREEN;end</ShortcutIntentString>
+					<ShortcutIntentString-type>java.lang.String</ShortcutIntentString-type>
+					<ShortcutLabel>Apex Launcher: デフォルトスクリーンに移動</ShortcutLabel>
+					<ShortcutLabel-type>java.lang.String</ShortcutLabel-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Apex Launcher: デフォルトスクリーンに移動</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid ShortcutIntentString ShortcutLabel </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>0c2d40f5-52c5-4566-953f-5c143d54decd</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoshortcut.IntentAutoShortcut</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoshortcut.pro</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoshortcut.ActivityAutoShortcut</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>25</code>
+			<on>false</on>
+			<Int sr="arg0" val="3"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Task>
+</TaskerData>

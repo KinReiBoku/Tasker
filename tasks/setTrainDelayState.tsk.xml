@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task158">
 		<cdate>1535587077967</cdate>
-		<edate>1541975662531</edate>
+		<edate>1548798840372</edate>
 		<id>158</id>
 		<nme>setTrainDelayState</nme>
 		<Action sr="act0" ve="7">
@@ -25,6 +25,7 @@
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
 					<op>2</op>
@@ -34,6 +35,11 @@
 					<lhs>%par2</lhs>
 					<op>2</op>
 					<rhs>遅延の可能性</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>運転見合わせ</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -118,10 +124,16 @@
 		<Action sr="act5" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
 					<op>2</op>
 					<rhs>平常運転</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>運転再開</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task293">
 		<cdate>1535976002001</cdate>
-		<edate>1536714791082</edate>
+		<edate>1543355258501</edate>
 		<id>293</id>
 		<nme>sayDeviceState</nme>
 		<pri>7</pri>

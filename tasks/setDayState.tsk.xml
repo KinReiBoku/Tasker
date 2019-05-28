@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task170">
 		<cdate>1535929806972</cdate>
-		<edate>1536185596349</edate>
+		<edate>1547817065972</edate>
 		<id>170</id>
 		<nme>setDayState</nme>
 		<Action sr="act0" ve="7">

@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task2">
 		<cdate>1535592682260</cdate>
-		<edate>1541975165233</edate>
+		<edate>1545231705600</edate>
 		<id>2</id>
 		<nme>sayTrainDelayState</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -16,45 +16,17 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">【遅延】</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">isTrainDelay</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%train_delay</Str>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">
-%item</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_DATA_TRAIN_ALTERNATIVE</lhs>
-					<op>4</op>
-					<rhs>%item</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">※%MASTER_DATA_TRAIN_ALTERNATIVE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act14" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">電車遅延はありません</Str>
@@ -62,10 +34,24 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act11" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">電車遅延はありません</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -76,7 +62,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -88,65 +74,75 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%enter</Str>
-			<Str sr="arg1" ve="3">
-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%train_delay</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">%TRAIN_DELAY_STATUS</Str>
+			<Str sr="arg0" ve="3">%AVATAR_STATE</Str>
+			<Str sr="arg1" ve="3">バツ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">%state()</Str>
-		</Action>
-		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">
-%item</Str>
+			<Str sr="arg1" ve="3">【遅延】</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%train_delay</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">isTrainDelayAlt</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%train_delay_alt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%train_delay_alt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_DATA_TRAIN</lhs>
-					<op>4</op>
-					<rhs>.*%item.*</rhs>
+					<lhs>%train_delay_alt</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>40</code>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">※%MASTER_DATA_TRAIN</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<code>43</code>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">%state()</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AVATAR_STATE</Str>
+			<Str sr="arg1" ve="3">マル</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_alerts_and_states_error</nme>

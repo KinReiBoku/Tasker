@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task298">
 		<cdate>1535982220579</cdate>
-		<edate>1535983200520</edate>
+		<edate>1545450831344</edate>
 		<id>298</id>
 		<nme>saySwitchStateAirCleaner</nme>
 		<pri>7</pri>

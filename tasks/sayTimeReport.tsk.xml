@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task52">
 		<cdate>1513139785991</cdate>
-		<edate>1539293445857</edate>
+		<edate>1542908402169</edate>
 		<id>52</id>
 		<nme>sayTimeReport</nme>
 		<pri>100</pri>

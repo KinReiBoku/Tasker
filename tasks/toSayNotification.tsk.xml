@@ -1,11 +1,20 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task375">
 		<cdate>1535275836793</cdate>
-		<edate>1537911397070</edate>
+		<edate>1546946754148</edate>
 		<id>375</id>
 		<nme>toSayNotification</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">テスト</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<label>%par1=Message %par2=Force</label>
 			<ConditionList sr="if">
@@ -16,7 +25,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getSayState</Str>
 			<Int sr="arg1">
@@ -27,7 +39,7 @@
 			<Str sr="arg4" ve="3">%state</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -49,9 +61,9 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkSayMessage</Str>
+			<Str sr="arg0" ve="3">checkMessageSay</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -60,14 +72,14 @@
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="5"/>
+			<Int sr="arg2" val="2"/>
 			<Int sr="arg3" val="5"/>
 			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
+			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 			<ConditionList sr="if">
@@ -78,12 +90,12 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toLine</Str>
+			<Str sr="arg0" ve="3">toLineMyId</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -99,10 +111,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -112,9 +124,6 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>

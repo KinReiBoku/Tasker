@@ -1,0 +1,23 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task539">
+		<cdate>1535678750334</cdate>
+		<edate>1545903712117</edate>
+		<id>539</id>
+		<nme>toSwitchChangeTelevisionToggle</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSwitchChangeTelevision</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">トグル</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ret</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_hardware_dock</nme>
+		</Img>
+	</Task>
+</TaskerData>

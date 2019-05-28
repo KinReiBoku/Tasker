@@ -1,0 +1,19 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task139">
+		<cdate>1536750598037</cdate>
+		<edate>1545925493983</edate>
+		<id>139</id>
+		<nme>AppGroup SayOff</nme>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSayStateOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

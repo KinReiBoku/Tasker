@@ -1,21 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1539407148095</edate>
+		<edate>1547255133066</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
-					<op>4</op>
-					<rhs>.*XEA20.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getLifeSupportInformation</Str>
 			<Int sr="arg1">
@@ -26,9 +16,28 @@
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<label>URL削除</label>
+			<Str sr="arg0" ve="3">delUrl</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Str sr="arg0" ve="3">toZoomAvatar</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -45,9 +54,40 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>38</code>
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>4</op>
+					<rhs>.*XEA20.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toSayAvatar</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toAiSpeaker</Str>
 			<Int sr="arg1">

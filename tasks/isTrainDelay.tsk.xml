@@ -1,0 +1,59 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task424">
+		<cdate>1543149596294</cdate>
+		<edate>1545231323391</edate>
+		<id>424</id>
+		<nme>isTrainDelay</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">%MASTER_DATA_TRAIN</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%state()</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">
+%item</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TRAIN_DELAY_STATUS</lhs>
+					<op>4</op>
+					<rhs>.*%item.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>

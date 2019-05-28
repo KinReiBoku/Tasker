@@ -1,16 +1,14 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task246">
 		<cdate>1535735697172</cdate>
-		<edate>1536096714334</edate>
+		<edate>1548910223139</edate>
 		<id>246</id>
 		<nme>checkinLocationRoomリビング</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
+			<Int sr="arg1" val="50"/>
 			<Str sr="arg2" ve="3">リビング</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task280">
 		<cdate>1520675032319</cdate>
-		<edate>1539410924281</edate>
+		<edate>1547220385558</edate>
 		<id>280</id>
 		<nme>getLineRandomize</nme>
 		<pri>100</pri>
@@ -17,6 +17,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>417</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%word_list</Str>
 		</Action>

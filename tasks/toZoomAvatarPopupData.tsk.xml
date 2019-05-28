@@ -1,0 +1,217 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task620">
+		<cdate>1547702699584</cdate>
+		<edate>1549192981470</edate>
+		<id>620</id>
+		<nme>toZoomAvatarPopupData</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">テスト</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータの文字色を透明にする</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupFontColor# = #00000000</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>#00000000</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupFontColor</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータの背景を透明にする</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupBg# = #00111111</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>#00111111</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupBg</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>345</code>
+			<label>文字数を取得する</label>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Str sr="arg2" ve="3">%length</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<label>行数を取得する</label>
+			<Str sr="arg0" ve="3">%length</Str>
+			<Str sr="arg1" ve="3">((%length/16)+1)*20</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータの吹き出しサイズを変更する</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupHigh# = %length</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%length</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupHigh</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%length</lhs>
+					<op>7</op>
+					<rhs>130</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータを表示する</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupMessage# = %par1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%par1</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupMessage</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータの文字色を黒くする</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupFontColor# = #ff000000</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>#ff000000</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupFontColor</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>1000294689</code>
+			<label>ポップアップデータの背景を白する</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupBg# = #ffffffff</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>#ffffffff</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupBg</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomAvatarPopupMessage# =  </com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT> </org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomAvatarPopupMessage</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

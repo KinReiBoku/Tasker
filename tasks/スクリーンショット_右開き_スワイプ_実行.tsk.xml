@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task363">
 		<cdate>1536199454167</cdate>
-		<edate>1536394309733</edate>
+		<edate>1545035096910</edate>
 		<id>363</id>
 		<nme>スクリーンショット（右開き）スワイプ 実行</nme>
 		<pri>7</pri>

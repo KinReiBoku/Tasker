@@ -1,100 +1,26 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1539411034081</edate>
+		<edate>1548659531651</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">f1jp</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*F1.*</rhs>
-				</Condition>
-			</ConditionList>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Str sr="arg1" ve="3">F1;f1jp,F2;f2jp,F3;f3jp,GP3;gp3jp,フォーミュラE
+;fejp,NASCAR;nascarjp,インディーカー;indyjp,スーパーフォーミュラ;sformula,WEC;wecjp,DTM;dtmjp,WTCC;wtccjp,WTCR;wtcrjp,WRC;wrcjp,IRC;ircjp,Moto GPMotoGP_jp,スーパーバイク;sbkjp,鈴鹿8耐;鈴鹿8耐,デイトナ;Daytona24jp,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">nascarjp</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*NASCAR.*</rhs>
-				</Condition>
-			</ConditionList>
+			<code>590</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">wbs</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>WBS</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">wecjp</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*WEC.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*世界耐久.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">wrcjp</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*WRC.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">indyjp</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*インディカー.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">sformula</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*スーパーフォーミュラ.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act10" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">笑点</Str>
 			<Int sr="arg1" val="1"/>
@@ -106,15 +32,111 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act11" ve="7">
 			<code>126</code>
-			<Str sr="arg0" ve="3">鈴鹿8耐</Str>
+			<Str sr="arg0" ve="3">ルパン三世</Str>
 			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*鈴鹿8耐.*</rhs>
+					<rhs>.*ルパン三世.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">アイを繋げ</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*のとく番.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%key</Str>
+			<Str sr="arg1" ve="3">%keys()</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%key</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3">🏎️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>5</op>
+					<rhs>.*🏎️.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*%key1.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%key2</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*%key1.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">NHKスペシャル</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*NHKスペシャル.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">wbs</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>WBS</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">M1</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*M-1グランプリ.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

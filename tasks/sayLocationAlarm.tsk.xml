@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task155">
 		<cdate>1523587320062</cdate>
-		<edate>1535981252558</edate>
+		<edate>1547560611021</edate>
 		<id>155</id>
 		<nme>sayLocationAlarm</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">

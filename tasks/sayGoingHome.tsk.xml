@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task233">
 		<cdate>1498643997275</cdate>
-		<edate>1537872762552</edate>
+		<edate>1548902117899</edate>
 		<id>233</id>
 		<nme>sayGoingHome</nme>
 		<pri>7</pri>
@@ -179,10 +179,16 @@
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%time1</lhs>
 					<op>7</op>
 					<rhs>16</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

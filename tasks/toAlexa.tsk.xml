@@ -1,0 +1,34 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task591">
+		<cdate>1547131276346</cdate>
+		<edate>1549532122505</edate>
+		<id>591</id>
+		<nme>toAlexa</nme>
+		<Action sr="act0" ve="7">
+			<code>714606470</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ShortcutBeforeUse>#Intent;action=com.amazon.alexa.action.WIDGET_SHORTCUT;launchFlags=0x10000000;component=com.amazon.dee.app/.ui.voice.LaunchAlexaActivity;end</ShortcutBeforeUse>
+					<ShortcutBeforeUse-type>java.lang.String</ShortcutBeforeUse-type>
+					<ShortcutIntentString>#Intent;action=com.amazon.alexa.action.WIDGET_SHORTCUT;launchFlags=0x10000000;component=com.amazon.dee.app/.ui.voice.LaunchAlexaActivity;end</ShortcutIntentString>
+					<ShortcutIntentString-type>java.lang.String</ShortcutIntentString-type>
+					<ShortcutLabel>Amazon Alexa: Alexaを使用</ShortcutLabel>
+					<ShortcutLabel-type>java.lang.String</ShortcutLabel-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Amazon Alexa: Alexaを使用</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid ShortcutIntentString ShortcutLabel </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7e68efac-a1a6-4ece-9ad7-0bc6b62999bc</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoshortcut.IntentAutoShortcut</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoshortcut.pro</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoshortcut.ActivityAutoShortcut</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

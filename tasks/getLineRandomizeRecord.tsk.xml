@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task294">
 		<cdate>1524635924999</cdate>
-		<edate>1535858084927</edate>
+		<edate>1543245216569</edate>
 		<id>294</id>
 		<nme>getLineRandomizeRecord</nme>
 		<pri>100</pri>
@@ -307,7 +307,7 @@
 		</Action>
 		<Action sr="act46" ve="7">
 			<code>410</code>
-			<Str sr="arg0" ve="3">%path</Str>
+			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%files</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -317,6 +317,7 @@
 		</Action>
 		<Action sr="act48" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%ret</Str>
 			<Str sr="arg1" ve="3">%par1</Str>
 			<Int sr="arg2" val="0"/>
@@ -339,6 +340,13 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%ret</Str>
 			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ret</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act52" ve="7">
 			<code>43</code>

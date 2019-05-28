@@ -1,13 +1,13 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task376">
 		<cdate>1536841361801</cdate>
-		<edate>1536841495835</edate>
+		<edate>1549445829887</edate>
 		<id>376</id>
 		<nme>setStateAllOn</nme>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>810</code>
-			<Int sr="arg0" val="135"/>
+			<Int sr="arg0" val="50"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -48,6 +48,28 @@
 		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSayStateOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setProfileOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toLlamaStateOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>

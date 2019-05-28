@@ -1,0 +1,783 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task556">
+		<cdate>1546177258136</cdate>
+		<edate>1548945138373</edate>
+		<id>556</id>
+		<nme>setHomeApplianceState</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%items</Str>
+			<Str sr="arg1" ve="3">%HOME_APPLIANCE_STATE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_マイルーム</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<label>就寝中かどうかでアイコンを変える</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_END</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_myroom</Str>
+			<Str sr="arg1" ve="3">🛌%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_myroom</Str>
+			<Str sr="arg1" ve="3">🛏️%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_バスルーム</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%items</lhs>
+					<op>4</op>
+					<rhs>%location.+お湯;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%MASTER_HOME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>5</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MASTER_HOME</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_bathroom</Str>
+			<Str sr="arg1" ve="3">🛁%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_bathroom</Str>
+			<Str sr="arg1" ve="3">🚿%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_トイレ1階</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
+			<Str sr="arg1" ve="3">🚹️%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_トイレ2階</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
+			<Str sr="arg1" ve="3">🚺️%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%items</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%items()</Str>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🗝️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+キー;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">⚡️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+タップ;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🕯️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+ライト;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">⌨️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+パソコン;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🌡️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+エアコン;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🗑️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+エアクリーナ;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🖥️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+テレビ;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_リビング</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%item
+%state</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_livingroom</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*リビング.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_diningroom</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*ダイニング.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_myroom</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*マイルーム.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_bathroom</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*バスルーム.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*トイレ1階.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*トイレ2階.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%state_livingroom
+%state_myroom
+%state_bathroom</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">:</Str>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateHomeName# = %time %location</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%time %location</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateHomeName</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateHomeName# = %time %par1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%time %par1</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateHomeName</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%state_bathroom
+%state_diningroom
+%state_livingroom
+%state_myroom
+%state_toiletroom1
+%state_toiletroom2</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateLivingRoom# = %state_livingroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_livingroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateLivingRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateDiningRoom# = %state_diningroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_diningroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateDiningRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateMyRoom# = %state_myroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_myroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateMyRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateBathRoom# = %state_bathroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_bathroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateBathRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom1# = %state_toiletroom1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom1</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom1</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_livingroom</Str>
+			<Str sr="arg1" ve="3">🛋️%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom2# = %state_toiletroom2</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom2</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom2</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">_ダイニング</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_diningroom</Str>
+			<Str sr="arg1" ve="3">🍳%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>hl_aaa_ext_home</nme>
+		</Img>
+	</Task>
+</TaskerData>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Task sr="task128">
 		<cdate>1536017143639</cdate>
-		<edate>1536096951157</edate>
+		<edate>1545231692512</edate>
 		<id>128</id>
 		<nme>sayTwitterTrainInfo</nme>
 		<pri>100</pri>

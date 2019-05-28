@@ -1,0 +1,189 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Task sr="task668">
+		<cdate>1546225691558</cdate>
+		<edate>1549520934354</edate>
+		<id>668</id>
+		<nme>toCalendarMasterWork</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%par2</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ROOM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>567</code>
+			<Str sr="arg0" ve="3">%checkin / %checkout</Str>
+			<Str sr="arg1" ve="3">%MASTER_MAIL_WORK</Str>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%location</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">に</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%checkin</Str>
+			<Str sr="arg1" ve="3">分から</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%checkout</Str>
+			<Str sr="arg1" ve="3">分間</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%checkin</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%checkout</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : CalendarTitle=%par1 CheckinTime=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%par21</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%par22</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>597</code>
+			<Str sr="arg0" ve="3">%times</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="8"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%checkin</Str>
+			<Str sr="arg1" ve="3">%par21</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%checkout</Str>
+			<Str sr="arg1" ve="3">%par22</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%checkin</Str>
+			<Int sr="arg1">
+				<var>%times</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%checkout</Str>
+			<Int sr="arg1">
+				<var>%par21</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
