@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof653" ve="2">
+		<cdate>1541454766393</cdate>
+		<clp>true</clp>
+		<edate>1548798678959</edate>
+		<id>653</id>
+		<mid0>654</mid0>
+		<nme>Notify NHK 山陽新幹線 遅延</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>jp.or.nhk.news.activities.MainActivity</appClass>
+				<appPkg>jp.or.nhk.news</appPkg>
+				<label>NHK NEWS</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">*山陽新幹線*遅延*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task654">
+		<cdate>1521381764005</cdate>
+		<edate>1548798678959</edate>
+		<id>654</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setTrainDelayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">山陽新幹線</Str>
+			<Str sr="arg3" ve="3">遅延</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

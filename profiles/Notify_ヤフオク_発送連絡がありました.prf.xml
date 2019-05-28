@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof58" ve="2">
 		<cdate>1535513077373</cdate>
 		<clp>true</clp>
-		<edate>1535525431337</edate>
+		<edate>1543833311336</edate>
 		<id>58</id>
 		<mid0>57</mid0>
 		<nme>Notify ヤフオク！発送連絡がありました</nme>
@@ -24,9 +24,9 @@
 	</Profile>
 	<Task sr="task57">
 		<cdate>1525247343410</cdate>
-		<edate>1535525431337</edate>
+		<edate>1543833311336</edate>
 		<id>57</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>

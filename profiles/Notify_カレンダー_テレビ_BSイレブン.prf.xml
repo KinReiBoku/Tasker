@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof159" ve="2">
 		<cdate>1535673391339</cdate>
 		<clp>true</clp>
@@ -26,7 +26,7 @@
 		<cdate>1521638112038</cdate>
 		<edate>1535673868555</edate>
 		<id>157</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotify</Str>

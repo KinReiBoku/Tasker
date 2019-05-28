@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof513" ve="2">
+		<cdate>1544784721531</cdate>
+		<clp>true</clp>
+		<edate>1549026470411</edate>
+		<id>513</id>
+		<mid0>514</mid0>
+		<nme>Notify Google 日経平均株価 下落</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.googlequicksearchbox.SearchActivity</appClass>
+				<appPkg>com.google.android.googlequicksearchbox</appPkg>
+				<label>Google</label>
+			</App>
+			<Str sr="arg1" ve="3">日経平均株価.*</Str>
+			<Str sr="arg2" ve="3">.*下落.*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task514">
+		<cdate>1544784726550</cdate>
+		<edate>1545083183405</edate>
+		<id>514</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">日経平均株価が下落しました</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

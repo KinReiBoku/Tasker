@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<clp>true</clp>
-		<edate>1536413178033</edate>
+		<edate>1548212519185</edate>
 		<id>107</id>
 		<mid0>110</mid0>
 		<nme>Display Off</nme>
@@ -12,8 +12,9 @@
 	</Profile>
 	<Task sr="task110">
 		<cdate>1536386483254</cdate>
-		<edate>1536386488479</edate>
+		<edate>1548212519185</edate>
 		<id>110</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
@@ -22,6 +23,23 @@
 		<Action sr="act1" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Screen Lock</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setGetVoiceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%SHAKE_EVENT</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

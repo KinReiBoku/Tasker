@@ -1,0 +1,33 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof449" ve="2">
+		<cdate>1544090461399</cdate>
+		<clp>true</clp>
+		<edate>1559038492048</edate>
+		<id>449</id>
+		<mid0>475</mid0>
+		<nme>VariableSet Location</nme>
+		<Event sr="con0" ve="2">
+			<code>3050</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3">%LOC</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task475">
+		<cdate>1544090465104</cdate>
+		<edate>1544090523916</edate>
+		<id>475</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkLocationAddressGoogleMap</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

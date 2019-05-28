@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
 		<clp>true</clp>
-		<edate>1541406790657</edate>
+		<edate>1553726928053</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 2m</nme>
@@ -17,7 +17,7 @@
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1538349410329</edate>
+		<edate>1553726928053</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -30,6 +30,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -41,6 +48,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>

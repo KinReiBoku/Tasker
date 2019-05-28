@@ -1,0 +1,39 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof561" ve="2">
+		<cdate>1547071819665</cdate>
+		<clp>true</clp>
+		<edate>1547071898930</edate>
+		<id>561</id>
+		<mid0>562</mid0>
+		<nme>Notify AmazonAlexa 自宅さいたまマイルームのライトがオンになりました</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.amazon.dee.app.Launcher</appClass>
+				<appPkg>com.amazon.dee.app</appPkg>
+				<label>Amazon Alexa</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">自宅さいたまマイルームのライトがオンになりました</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task562">
+		<cdate>1547071823400</cdate>
+		<edate>1547071898930</edate>
+		<id>562</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">fromPushbullet</Str>
+			<Int sr="arg1" val="50"/>
+			<Str sr="arg2" ve="3">ALL;SWITCHSTATE;自宅（さいたま）マイルームのライト;オン</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

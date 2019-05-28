@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof325" ve="2">
 		<cdate>1536279036210</cdate>
 		<clp>true</clp>
-		<edate>1536364236844</edate>
+		<edate>1559038180766</edate>
 		<id>325</id>
 		<mid0>347</mid0>
 		<nme>VariableSet LocationLlamaType</nme>
@@ -16,9 +16,9 @@
 	</Profile>
 	<Task sr="task347">
 		<cdate>1536279041715</cdate>
-		<edate>1536364076717</edate>
+		<edate>1559038180766</edate>
 		<id>347</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<label>ロケーションタイプが変わったら</label>

@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof33" ve="2">
 		<cdate>1535513755527</cdate>
 		<clp>true</clp>
-		<edate>1538697221922</edate>
+		<edate>1549596028926</edate>
 		<id>33</id>
 		<mid0>34</mid0>
 		<nme>Notify +メッセージ</nme>
@@ -24,12 +24,12 @@
 	</Profile>
 	<Task sr="task34">
 		<cdate>1521383443273</cdate>
-		<edate>1538697221922</edate>
+		<edate>1549596028926</edate>
 		<id>34</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotify</Str>
+			<Str sr="arg0" ve="3">checkNotifyUnPushbullet</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -41,6 +41,25 @@
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>5</op>
+					<rhs>.*バックアップ中….*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>5</op>
+					<rhs>.*＋メッセージ.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>
 					<op>12</op>
@@ -48,7 +67,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%ntitle</Str>
@@ -56,7 +75,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">から</Str>
@@ -64,10 +83,10 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">＋メッセージがあります</Str>
@@ -75,7 +94,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -86,7 +105,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1" val="49"/>
@@ -95,7 +114,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>567</code>
 			<Str sr="arg0" ve="3">0 / 1</Str>
 			<Str sr="arg1" ve="3">%MY_CALENDAR</Str>

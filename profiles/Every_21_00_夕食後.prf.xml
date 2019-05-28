@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof121" ve="2">
 		<cdate>1535545982353</cdate>
 		<clp>true</clp>
-		<edate>1536112413246</edate>
+		<edate>1546939782859</edate>
 		<id>121</id>
 		<mid0>120</mid0>
 		<nme>Every 21:00 夕食後</nme>
@@ -15,8 +15,9 @@
 	</Profile>
 	<Task sr="task120">
 		<cdate>1524104455984</cdate>
-		<edate>1536112413246</edate>
+		<edate>1546939782859</edate>
 		<id>120</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getLifeEatState</Str>
@@ -69,6 +70,17 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toTwitterTweet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">😟夕食抜き～</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>

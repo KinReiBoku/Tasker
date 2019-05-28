@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof77" ve="2">
 		<cdate>1535894554386</cdate>
 		<clp>true</clp>
-		<edate>1535878649383</edate>
+		<edate>1543979100321</edate>
 		<id>77</id>
 		<mid0>71</mid0>
 		<nme>Notify DAZN</nme>
@@ -24,8 +24,9 @@
 	</Profile>
 	<Task sr="task71">
 		<cdate>1535878538502</cdate>
-		<edate>1535878589808</edate>
+		<edate>1543979100321</edate>
 		<id>71</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayCalendarNotify</Str>

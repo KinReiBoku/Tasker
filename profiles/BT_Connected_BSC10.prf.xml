@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof330" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1536148918999</edate>
+		<edate>1543105561773</edate>
 		<id>330</id>
 		<mid0>331</mid0>
 		<mid1>332</mid1>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task331">
 		<cdate>1535709461296</cdate>
-		<edate>1536148900303</edate>
+		<edate>1543105561772</edate>
 		<id>331</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -30,7 +30,7 @@
 		<cdate>1535709668194</cdate>
 		<edate>1536148918999</edate>
 		<id>332</id>
-		<pri>100</pri>
+		<pri>1006</pri>
 		<Action sr="act0" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%BLUETOOTH_CONNECTED_DEVICE</Str>

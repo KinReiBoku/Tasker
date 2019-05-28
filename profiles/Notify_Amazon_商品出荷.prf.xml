@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof68" ve="2">
 		<cdate>1535513654539</cdate>
 		<clp>true</clp>
-		<edate>1536203774691</edate>
+		<edate>1548843618341</edate>
 		<id>68</id>
 		<mid0>67</mid0>
 		<nme>Notify Amazon 商品出荷</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task67">
 		<cdate>1521383525570</cdate>
-		<edate>1536203774691</edate>
+		<edate>1548843618341</edate>
 		<id>67</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

@@ -1,0 +1,41 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof525" ve="2">
+		<cdate>1544784721531</cdate>
+		<clp>true</clp>
+		<edate>1545083222702</edate>
+		<id>525</id>
+		<mid0>526</mid0>
+		<nme>Notify Google S&amp;P 上昇</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.googlequicksearchbox.SearchActivity</appClass>
+				<appPkg>com.google.android.googlequicksearchbox</appPkg>
+				<label>Google</label>
+			</App>
+			<Str sr="arg1" ve="3">S&amp;P.*</Str>
+			<Str sr="arg2" ve="3">.*上昇.*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task526">
+		<cdate>1544784726550</cdate>
+		<edate>1545083222702</edate>
+		<id>526</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">S&amp;P 500が上昇しました</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,135 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof413" ve="2">
+		<cdate>1542732903857</cdate>
+		<clp>true</clp>
+		<edate>1559038706117</edate>
+		<id>413</id>
+		<mid0>414</mid0>
+		<nme>Sleep 睡眠の解析を開始しました</nme>
+		<Event sr="con0" ve="2">
+			<code>801067335</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>睡眠の解析を開始しました</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.SLEEP_TRACKING_STARTED</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>2042</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+		</Event>
+	</Profile>
+	<Task sr="task414">
+		<cdate>1542732907555</cdate>
+		<edate>1548208631444</edate>
+		<id>414</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayおやすみ</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SLEEP_TIMES_START</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%SLEEP_TIMES_END</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getTimeZone</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%zone</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3">🛏️</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>5</op>
+					<rhs>.*🛏️.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%zone</lhs>
+					<op>3</op>
+					<rhs>夜</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%zone</lhs>
+					<op>3</op>
+					<rhs>深夜</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3">🛌</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>5</op>
+					<rhs>.*🛌.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%zone</lhs>
+					<op>2</op>
+					<rhs>夜</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%zone</lhs>
+					<op>2</op>
+					<rhs>深夜</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

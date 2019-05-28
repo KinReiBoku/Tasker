@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.6">
+	<Profile sr="prof135" ve="2">
+		<cdate>1536414179693</cdate>
+		<clp>true</clp>
+		<edate>1545405069985</edate>
+		<id>135</id>
+		<mid0>136</mid0>
+		<nme>Notify 東武線アプリ 東武野田線 運転見合わせ</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>jp.co.tobuspapp.ui.setting.init.InitSettingActivity</appClass>
+				<appPkg>jp.co.tobuspapp</appPkg>
+				<label>東武線アプリ</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">*東武アーバンパークラインで運転見合わせ*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Task sr="task136">
+		<cdate>1536414189828</cdate>
+		<edate>1545405053714</edate>
+		<id>136</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setTrainDelayState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">東武野田線</Str>
+			<Str sr="arg3" ve="3">列車遅延</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

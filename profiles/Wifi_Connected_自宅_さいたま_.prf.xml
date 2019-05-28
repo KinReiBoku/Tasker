@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.2.bf1">
+<TaskerData sr="" dvi="1" tv="5.6">
 	<Profile sr="prof261" ve="2">
 		<cdate>1535776178249</cdate>
 		<clp>true</clp>
-		<edate>1540250914846</edate>
+		<edate>1548066892875</edate>
 		<id>261</id>
 		<mid0>259</mid0>
 		<mid1>260</mid1>
@@ -17,9 +17,8 @@
 	</Profile>
 	<Task sr="task259">
 		<cdate>1521384755669</cdate>
-		<edate>1538083727144</edate>
+		<edate>1547675091929</edate>
 		<id>259</id>
-		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOff</Str>
@@ -30,9 +29,17 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -67,9 +74,9 @@
 	</Task>
 	<Task sr="task260">
 		<cdate>1521384780904</cdate>
-		<edate>1540250914846</edate>
+		<edate>1548066892875</edate>
 		<id>260</id>
-		<pri>100</pri>
+		<pri>1006</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
@@ -80,6 +87,19 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>3</op>
+					<rhs>マイルーム</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>3</op>
+					<rhs>バスルーム</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>1911640985</code>
@@ -99,6 +119,7 @@
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
