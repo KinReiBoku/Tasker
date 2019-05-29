@@ -2,10 +2,10 @@
 	<Profile sr="prof368" ve="2">
 		<cdate>1536414179693</cdate>
 		<clp>true</clp>
-		<edate>1536573995806</edate>
+		<edate>1559100437143</edate>
 		<id>368</id>
 		<mid0>369</mid0>
-		<nme>Notify 東武線アプリ スカイツリーライン 平常運転</nme>
+		<nme>Notify 東武線アプリ 東武スカイツリーライン 平常運転</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
