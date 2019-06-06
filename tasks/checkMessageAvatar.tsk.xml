@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task385">
 		<cdate>1537225698037</cdate>
-		<edate>1558566911600</edate>
+		<edate>1559558373044</edate>
 		<id>385</id>
 		<nme>checkMessageAvatar</nme>
 		<pri>100</pri>
@@ -393,6 +393,17 @@
 		<Action sr="act40" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">投げ銭</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">投げせん</Str>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">ニュー速</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -401,7 +412,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ニューそく</Str>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">白米</Str>
@@ -412,7 +423,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">はくまい</Str>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">布袋寅泰</Str>
@@ -423,7 +434,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ほてい寅泰</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">経て</Str>
@@ -434,7 +445,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">へて</Str>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">まだの方は</Str>
@@ -445,7 +456,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">まだのかたは</Str>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">梨花</Str>
@@ -456,7 +467,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">りか</Str>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">´</Str>
@@ -467,7 +478,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">りか</Str>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">｀</Str>
@@ -478,7 +489,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">りか</Str>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">ω</Str>
@@ -488,17 +499,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">りか</Str>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">_</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>598</code>
@@ -512,14 +512,25 @@
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act50" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">_</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act51" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -530,7 +541,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
