@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task384">
 		<cdate>1535540380169</cdate>
-		<edate>1558566885190</edate>
+		<edate>1559860778347</edate>
 		<id>384</id>
 		<nme>toSayAvatar</nme>
 		<pri>100</pri>
@@ -9,10 +9,22 @@
 			<code>37</code>
 			<label>%par1=Message</label>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>GO Plusが切断されました</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>5</op>
+					<rhs>.*スキャンが終了しました</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
