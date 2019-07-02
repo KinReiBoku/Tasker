@@ -1,11 +1,20 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1547723294149</edate>
+		<edate>1561590778574</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">yahoonewstopics</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -15,15 +24,18 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">https://mobile.twitter.com/%par1?lang=ja</Str>
+		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">&lt;/a&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">&amp;#10;</Str>
@@ -34,7 +46,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -46,7 +58,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%enter</Str>
 			<Str sr="arg1" ve="3">
@@ -55,7 +67,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
@@ -66,7 +78,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -85,7 +97,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -104,7 +116,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -123,7 +135,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -142,7 +154,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>598</code>
 			<label>URLを削除</label>
 			<on>false</on>
@@ -174,7 +186,15 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%path</Str>
+			<Str sr="arg1" ve="3">https://mobile.twitter.com/%par1?lang=ja</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>598</code>
 			<label>URLを削除</label>
 			<on>false</on>
@@ -206,7 +226,94 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act21" ve="7">
+			<code>598</code>
+			<label>URLを削除</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>598</code>
+			<label>URLを削除</label>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>yahoonewstopics</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<label>URLを削除</label>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/[0-9a-zA-Z_:=?\.\-]*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>yahoonewstopics</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">^ </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3"> %path</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>118</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3"/>
@@ -218,94 +325,7 @@
 			<Str sr="arg7" ve="3">a.txt</Str>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act20" ve="7">
-			<code>598</code>
-			<label>URLを削除</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>598</code>
-			<label>URLを削除</label>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>yahoonewstopics</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>598</code>
-			<label>URLを削除</label>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/[0-9a-zA-Z_:=?\.\-]*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>yahoonewstopics</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">^ </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3"> %path</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%httpd</Str>
 			<Str sr="arg1" ve="3">%HTTPD</Str>
@@ -313,13 +333,13 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%httpd</Str>
 			<Str sr="arg1" ve="3">&lt;div class="dir-ltr" dir="ltr"&gt;</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -329,7 +349,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">%httpd3</Str>
@@ -337,27 +357,16 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">&lt;/div</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">&lt;a.+?&gt;</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">&lt;/a&gt;</Str>
+			<Str sr="arg1" ve="3">&lt;a.+?&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
