@@ -1,8 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Profile sr="prof327" ve="2">
 		<cdate>1536135713258</cdate>
-		<clp>true</clp>
-		<edate>1547113240073</edate>
+		<edate>1559514960218</edate>
 		<id>327</id>
 		<mid0>326</mid0>
 		<nme>Notify AmazonKindle</nme>
@@ -24,7 +23,7 @@
 	</Profile>
 	<Task sr="task326">
 		<cdate>1521383525570</cdate>
-		<edate>1547113240073</edate>
+		<edate>1559514960218</edate>
 		<id>326</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -78,6 +77,7 @@
 				<bool2>And</bool2>
 				<bool3>And</bool3>
 				<bool4>And</bool4>
+				<bool5>And</bool5>
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>
 					<op>3</op>
@@ -107,6 +107,11 @@
 					<lhs>%ntitle</lhs>
 					<op>5</op>
 					<rhs>.*OFF.*</rhs>
+				</Condition>
+				<Condition sr="c6" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>5</op>
+					<rhs>^ダウンロードキュー</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
