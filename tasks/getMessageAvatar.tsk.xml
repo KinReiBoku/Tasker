@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task463">
 		<cdate>1535342314560</cdate>
-		<edate>1558566936113</edate>
+		<edate>1562315104824</edate>
 		<id>463</id>
 		<nme>getMessageAvatar</nme>
 		<pri>100</pri>
@@ -98,6 +98,18 @@
 		</Action>
 		<Action sr="act104" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act105" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toTwitterTweetAvatar</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>43</code>
