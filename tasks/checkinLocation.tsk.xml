@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1558570544379</edate>
+		<edate>1562462635856</edate>
 		<id>35</id>
 		<nme>checkinLocation</nme>
 		<pri>100</pri>
@@ -999,11 +999,23 @@
 			<code>38</code>
 		</Action>
 		<Action sr="act194" ve="7">
+			<code>130</code>
+			<label>背景写真の確認</label>
+			<Str sr="arg0" ve="3">addWallpaper</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act195" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
-			<label>ロケーションルームタイプが存在する場合は代表者する</label>
+			<label>ロケーションルームタイプが存在する場合は代入する</label>
 			<Str sr="arg0" ve="3">%locationtype</Str>
 			<Str sr="arg1" ve="3">%par2</Str>
 			<Int sr="arg2" val="0"/>
