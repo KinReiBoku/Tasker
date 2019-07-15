@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task463">
 		<cdate>1535342314560</cdate>
-		<edate>1562570482619</edate>
+		<edate>1562649799397</edate>
 		<id>463</id>
 		<nme>getMessageAvatar</nme>
 		<pri>100</pri>
@@ -339,7 +339,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act30" ve="7">
