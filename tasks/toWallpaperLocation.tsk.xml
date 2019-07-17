@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task420">
 		<cdate>1535342314560</cdate>
-		<edate>1548837943973</edate>
+		<edate>1563233642443</edate>
 		<id>420</id>
 		<nme>toWallpaperLocation</nme>
 		<pri>100</pri>
@@ -77,55 +77,40 @@
 			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act15" ve="7">
-			<code>547</code>
+			<code>130</code>
 			<label>天気を追加する</label>
-			<Str sr="arg0" ve="3">%weather</Str>
-			<Str sr="arg1" ve="3">%LOCATION_WEATHER</Str>
+			<Str sr="arg0" ve="3">getWeatherJapanese</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%weather</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_%weather</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>412</code>
+			<label>該当する壁紙が存在するか確認する</label>
+			<Str sr="arg0" ve="3">%path</Str>
+			<Str sr="arg1" ve="3">%file*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Sunny.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Clear.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_晴れ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Cloud.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_曇り</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%items</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -136,108 +121,6 @@
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<bool2>Or</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Rain.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Showers.*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Thunderstorms.*</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%weather</lhs>
-					<op>4</op>
-					<rhs>.*Thundershowers.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%emergency</Str>
-			<Str sr="arg1" ve="3">%TIMES-%LOCATION_WEATHER_EMERGENCY</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%emergency</lhs>
-					<op>6</op>
-					<rhs>3600</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_降雨</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_雨</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_晴れ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-			<label>壁紙が指定されていない場合</label>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>412</code>
-			<label>該当する壁紙が存在するか確認する</label>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%file*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">%items</Str>
-		</Action>
-		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -245,19 +128,19 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act21" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%items(#)
 %items()</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act22" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">%items()</Str>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act23" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
@@ -270,17 +153,17 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act24" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act25" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%file
 %cnt</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act26" ve="7">
 			<code>37</code>
 			<label>該当する壁紙が存在する場合</label>
 			<ConditionList sr="if">
@@ -291,17 +174,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act27" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%max</Str>
 			<Str sr="arg1" ve="3">%cnt</Str>
@@ -309,7 +182,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act28" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -317,7 +190,7 @@
 				<var>%max</var>
 			</Int>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -338,7 +211,11 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act3" ve="7">
+			<code>43</code>
+			<label>壁紙が指定されていない場合</label>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -363,7 +240,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">%file%num</Str>
@@ -371,7 +248,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<label>拡張子を追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -380,7 +257,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act33" ve="7">
 			<code>109</code>
 			<label>壁紙を設定する</label>
 			<Int sr="arg0" val="0"/>
@@ -388,11 +265,11 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act34" ve="7">
 			<code>43</code>
 			<label>壁紙が存在しない場合</label>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act35" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">\.jpg$</Str>
@@ -403,7 +280,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act36" ve="7">
 			<code>37</code>
 			<label>削れる付属要素がある場合</label>
 			<ConditionList sr="if">
@@ -413,6 +290,145 @@
 					<rhs>.*_.*</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>598</code>
+			<label>付属要素を削除する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_[^_]+$</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>135</code>
+			<label>再度ファイル存在確認を行う</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">該当する壁紙が存在するか確認する</Str>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>43</code>
+			<label>ファイル名にスペースがある場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%file</lhs>
+					<op>4</op>
+					<rhs>.* .*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>598</code>
+			<label>スペース以降の支店名を削除する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3"> .*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">時間帯を追加する</Str>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>43</code>
+			<label>ロケーションタイプが存在する
+かつ
+ファイル名にスペースがない
+かつ
+ロケーションタイプではない場合</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>12</op>
+					<rhs>%LOCATION_LLAMA</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%file</lhs>
+					<op>5</op>
+					<rhs>.* .*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%file</lhs>
+					<op>3</op>
+					<rhs>%LOCATION_LLAMA_TYPE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>547</code>
+			<label>ロケーションタイプを代入する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA_TYPE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">時間帯を追加する</Str>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>37</code>
+			<label>自宅の場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>12</op>
+					<rhs>マイルーム</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>547</code>
+			<label>ファイル名をロケーションルームを代入する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ROOM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>37</code>
@@ -444,144 +460,6 @@
 		</Action>
 		<Action sr="act50" ve="7">
 			<code>598</code>
-			<label>付属要素を削除する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_[^_]+$</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act51" ve="7">
-			<code>135</code>
-			<label>再度ファイル存在確認を行う</label>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">該当する壁紙が存在するか確認する</Str>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>43</code>
-			<label>ファイル名にスペースがある場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%file</lhs>
-					<op>4</op>
-					<rhs>.* .*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>598</code>
-			<label>スペース以降の支店名を削除する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3"> .*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">時間帯を追加する</Str>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>43</code>
-			<label>ロケーションタイプが存在する
-かつ
-ファイル名にスペースがない
-かつ
-ロケーションタイプではない場合</label>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>12</op>
-					<rhs>%LOCATION_LLAMA</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%file</lhs>
-					<op>5</op>
-					<rhs>.* .*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%file</lhs>
-					<op>3</op>
-					<rhs>%LOCATION_LLAMA_TYPE</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act56" ve="7">
-			<code>547</code>
-			<label>ロケーションタイプを代入する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">%LOCATION_LLAMA_TYPE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act57" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">時間帯を追加する</Str>
-		</Action>
-		<Action sr="act58" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act59" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<label>駅の場合</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">駅</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act60" ve="7">
-			<code>37</code>
-			<label>自宅の場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>4</op>
-					<rhs>自宅.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>12</op>
-					<rhs>マイルーム</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>547</code>
-			<label>ファイル名をロケーションルームを代入する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">%LOCATION_ROOM</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>598</code>
 			<label>ファイル名がトイレだったら階数を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">トイレ.*</Str>
@@ -592,10 +470,10 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トイレ</Str>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act51" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act52" ve="7">
 			<code>547</code>
 			<label>ファイル名が空ならダイニングを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -611,10 +489,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act53" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act54" ve="7">
 			<code>547</code>
 			<label>デフォルトキーを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -623,7 +501,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act55" ve="7">
 			<code>547</code>
 			<label>駅の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -645,7 +523,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<label>乗車駅または降車駅の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -673,10 +551,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act57" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプがオフィスビルの場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -692,7 +567,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act58" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプが居酒屋の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -708,20 +583,32 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act59" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>駅の場合</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">駅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">時間帯を追加する</Str>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act61" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act62" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>547</code>
