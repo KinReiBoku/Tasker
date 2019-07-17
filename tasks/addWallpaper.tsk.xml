@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task689">
 		<cdate>1562460307271</cdate>
-		<edate>1563233840442</edate>
+		<edate>1563342590238</edate>
 		<id>689</id>
 		<nme>addWallpaper</nme>
 		<pri>100</pri>
@@ -81,13 +81,16 @@
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
+			<code>404</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">DCIM/ロック画面用/%LOCATION_LLAMA%cnt_dist%type</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>400</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper/%LOCATION_LLAMA%cnt_dist%type</Str>
 			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>40</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -107,6 +110,20 @@
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">壁紙追加:%LOCATION_LLAMA%cnt_dist%type</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -116,10 +133,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act23" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act24" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
