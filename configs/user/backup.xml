@@ -2354,8 +2354,7 @@
 	</Profile>
 	<Profile sr="prof484" ve="2">
 		<cdate>1535346702361</cdate>
-		<edate>1563491532260</edate>
-		<flags>2</flags>
+		<edate>1563679248874</edate>
 		<id>484</id>
 		<mid0>485</mid0>
 		<nme>Notify Pushbullet ALL;RSS;</nme>
@@ -15196,7 +15195,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1562315077289</edate>
+		<edate>1563680039167</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -15672,18 +15671,30 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>Or2</bool1>
+				<bool1>And2</bool1>
+				<bool2>Or2</bool2>
+				<bool3>And2</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
 					<rhs>マイルーム</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
+				<Condition sr="c3" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
 					<rhs>バスルーム</rhs>
@@ -23976,7 +23987,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task302">
 		<cdate>1535982220579</cdate>
-		<edate>1535984523903</edate>
+		<edate>1563679278723</edate>
 		<id>302</id>
 		<nme>saySwitchStatePowerSupply</nme>
 		<pri>7</pri>
@@ -45646,7 +45657,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task485">
 		<cdate>1535853547096</cdate>
-		<edate>1562319287404</edate>
+		<edate>1563679248874</edate>
 		<id>485</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -54279,7 +54290,7 @@ https://t.co/91XPPED1U2
 		<cdate>1521383525570</cdate>
 		<edate>1549610711395</edate>
 		<id>72</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -54793,7 +54804,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1563342143488</edate>
+		<edate>1563679083858</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
