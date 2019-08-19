@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1561777601670</edate>
+		<edate>1563680039167</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -477,18 +477,30 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>Or2</bool1>
+				<bool1>And2</bool1>
+				<bool2>Or2</bool2>
+				<bool3>And2</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
 					<rhs>マイルーム</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
+				<Condition sr="c3" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
 					<rhs>バスルーム</rhs>
