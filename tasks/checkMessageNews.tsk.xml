@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.7.2">
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1562021085582</edate>
+		<edate>1563746032557</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
@@ -54,8 +54,7 @@
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>598</code>
-			<label>北海道新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
+			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3"> どうしん電子版</Str>
 			<Int sr="arg2" val="0"/>
@@ -74,8 +73,7 @@
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>598</code>
-			<label>北海道新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
+			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">：北海道新聞</Str>
 			<Int sr="arg2" val="0"/>
