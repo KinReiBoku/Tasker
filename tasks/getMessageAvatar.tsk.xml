@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8">
 	<Task sr="task463">
 		<cdate>1535342314560</cdate>
-		<edate>1562649799397</edate>
+		<edate>1564972743185</edate>
 		<id>463</id>
 		<nme>getMessageAvatar</nme>
 		<pri>100</pri>
@@ -13,6 +13,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
@@ -22,6 +23,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
@@ -35,14 +37,7 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act100" ve="7">
-			<code>135</code>
-			<label>再度ファイル存在確認を行う</label>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">拡張子を追加する</Str>
-		</Action>
-		<Action sr="act101" ve="7">
-			<code>43</code>
+			<code>37</code>
 			<label>ファイル名にスペースがある場合</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -76,7 +71,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act102" ve="7">
+		<Action sr="act101" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
@@ -88,7 +83,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act103" ve="7">
+		<Action sr="act102" ve="7">
 			<code>598</code>
 			<label>スペース以降の支店名を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -100,13 +95,58 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act104" ve="7">
+		<Action sr="act103" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">時間帯を追加する</Str>
 		</Action>
+		<Action sr="act104" ve="7">
+			<code>43</code>
+		</Action>
 		<Action sr="act105" ve="7">
+			<code>37</code>
+			<label>削れる付属要素がある場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%file</lhs>
+					<op>4</op>
+					<rhs>.*_.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act106" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toLineMyId</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">メッセージ切れ (%file)</Str>
+			<Str sr="arg3" ve="3">midori</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act107" ve="7">
+			<code>598</code>
+			<label>付属要素を削除する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_[^_]+$</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>135</code>
+			<label>再度ファイル存在確認を行う</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">拡張子を追加する</Str>
+		</Action>
+		<Action sr="act109" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act11" ve="7">
@@ -117,6 +157,10 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act110" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>43</code>
@@ -136,6 +180,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>43</code>
@@ -155,6 +200,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>43</code>
@@ -174,6 +220,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>43</code>
@@ -186,6 +233,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -202,6 +250,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -220,18 +269,12 @@
 			<code>38</code>
 		</Action>
 		<Action sr="act21" ve="7">
-			<code>547</code>
-			<label>電車に乗っている場合ロケーション駅を追加する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_駅</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*駅$</rhs>
+					<rhs>%LOCATION_LLAMA_TYPE.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -243,21 +286,30 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<label>電車に乗っている場合ロケーション駅を追加する</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">_駅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>%LOCATION_LLAMA_TYPE.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>5</op>
 					<rhs>.*駅$</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<label>ロケーションを追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -265,6 +317,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -273,7 +326,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<label>ロケーションルームを追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -281,6 +334,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -289,10 +343,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act29" ve="7">
 			<code>37</code>
 			<label>ロケーションを設定する</label>
 			<ConditionList sr="if">
@@ -300,33 +357,6 @@
 					<lhs>%file</lhs>
 					<op>2</op>
 					<rhs>日常会話</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>545</code>
-			<Str sr="arg0" ve="3">%num</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>37</code>
-			<label>自宅の場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>4</op>
-					<rhs>自宅.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -343,6 +373,33 @@
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act30" ve="7">
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>37</code>
+			<label>自宅の場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<label>自宅の場合</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -350,8 +407,9 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act34" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -361,7 +419,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<label>ファイル名をロケーションルームを代入する</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -369,8 +427,9 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act36" ve="7">
 			<code>598</code>
 			<label>ファイル名がトイレだったら階数を削除する</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -382,13 +441,13 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act37" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act38" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<label>デフォルトキーを代入する</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -396,8 +455,18 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<label>駅の場合</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -405,6 +474,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA</lhs>
@@ -413,7 +483,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<label>乗車駅または降車駅の場合</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -421,6 +491,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
@@ -441,7 +512,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act42" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプがオフィスビルの場合</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -449,6 +520,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA_TYPE</lhs>
@@ -457,15 +529,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプが居酒屋の場合</label>
 			<Str sr="arg0" ve="3">%location</Str>
@@ -473,6 +537,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA_TYPE</lhs>
@@ -481,7 +546,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<label>キーを追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -489,6 +554,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%location</lhs>
@@ -497,85 +563,37 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act43" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act44" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act45" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<label>イベントを設定する</label>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%file</lhs>
 					<op>2</op>
 					<rhs>日常会話</rhs>
 				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act46" ve="7">
-			<code>545</code>
-			<Str sr="arg0" ve="3">%num</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%num</lhs>
+				<Condition sr="c1" ve="3">
+					<lhs>%file</lhs>
 					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>547</code>
-			<label>仕事中の場合</label>
-			<Str sr="arg0" ve="3">%event</Str>
-			<Str sr="arg1" ve="3">_仕事中</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>2</op>
-					<rhs>オフィスビル</rhs>
+					<rhs>XEA20に接続しました</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act49" ve="7">
-			<code>547</code>
-			<label>仕事直後の場合</label>
-			<Str sr="arg0" ve="3">%event</Str>
-			<Str sr="arg1" ve="3">_仕事直後</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>4</op>
-					<rhs>.*🏗️.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>3</op>
-					<rhs>オフィスビル</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE_PREVIOUS</lhs>
-					<op>2</op>
-					<rhs>オフィスビル</rhs>
-				</Condition>
-			</ConditionList>
+			<code>545</code>
+			<Str sr="arg0" ve="3">%num</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>37</code>
@@ -606,6 +624,62 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act50" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%num</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>547</code>
+			<label>仕事中の場合</label>
+			<Str sr="arg0" ve="3">%event</Str>
+			<Str sr="arg1" ve="3">_仕事中</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>2</op>
+					<rhs>オフィスビル</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>547</code>
+			<label>仕事直後の場合</label>
+			<Str sr="arg0" ve="3">%event</Str>
+			<Str sr="arg1" ve="3">_仕事直後</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>4</op>
+					<rhs>.*🏗️.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>3</op>
+					<rhs>オフィスビル</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE_PREVIOUS</lhs>
+					<op>2</op>
+					<rhs>オフィスビル</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<label>仕事後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -613,6 +687,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -633,7 +708,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act54" ve="7">
 			<code>547</code>
 			<label>仕事帰宅後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -641,6 +716,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -655,7 +731,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act55" ve="7">
 			<code>547</code>
 			<label>トレーニング後場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -663,6 +739,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -671,7 +748,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<label>トレーニング帰宅後場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -679,6 +756,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -693,7 +771,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act57" ve="7">
 			<code>547</code>
 			<label>買い物中の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -701,6 +779,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA_TYPE</lhs>
@@ -709,7 +788,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act58" ve="7">
 			<code>547</code>
 			<label>買い物直後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -717,6 +796,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -737,7 +817,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act59" ve="7">
 			<code>547</code>
 			<label>買い物後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -745,6 +825,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -765,7 +846,24 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<label>ニアーを代入する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">ニアー</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*にニアー</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>547</code>
 			<label>買い物帰宅後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -773,6 +871,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -787,7 +886,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act61" ve="7">
 			<code>547</code>
 			<label>居酒屋に行く場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -795,6 +894,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -809,7 +909,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act62" ve="7">
 			<code>547</code>
 			<label>居酒屋にいる場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -817,6 +917,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA_TYPE</lhs>
@@ -825,23 +926,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<label>ニアーを代入する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">ニアー</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*にニアー</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act63" ve="7">
 			<code>547</code>
 			<label>2件目の居酒屋にいる場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -849,6 +934,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -869,7 +955,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act64" ve="7">
 			<code>547</code>
 			<label>居酒屋直後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -877,6 +963,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -897,7 +984,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act65" ve="7">
 			<code>547</code>
 			<label>居酒屋後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -905,6 +992,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -925,7 +1013,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act66" ve="7">
 			<code>547</code>
 			<label>居酒屋帰宅後の場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -933,6 +1021,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -947,7 +1036,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act67" ve="7">
 			<code>547</code>
 			<label>映画館に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -955,6 +1044,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -969,7 +1059,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act68" ve="7">
 			<code>547</code>
 			<label>会議をした場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -977,6 +1067,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -991,7 +1082,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act69" ve="7">
 			<code>547</code>
 			<label>格闘技を観戦した場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -999,59 +1090,12 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
 					<op>4</op>
 					<rhs>.*🤼.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act67" ve="7">
-			<code>547</code>
-			<label>競馬場に行った場合</label>
-			<Str sr="arg0" ve="3">%event</Str>
-			<Str sr="arg1" ve="3">_競馬観戦後</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>4</op>
-					<rhs>.*🏇.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act68" ve="7">
-			<code>547</code>
-			<label>裁判所に行った場合</label>
-			<Str sr="arg0" ve="3">%event</Str>
-			<Str sr="arg1" ve="3">_裁判後</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>4</op>
-					<rhs>.*⚖️.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act69" ve="7">
-			<code>547</code>
-			<label>サッカー観戦した場合</label>
-			<Str sr="arg0" ve="3">%event</Str>
-			<Str sr="arg1" ve="3">_サッカー観戦後</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>4</op>
-					<rhs>.*🥅.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -1063,6 +1107,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
@@ -1097,12 +1142,64 @@
 		</Action>
 		<Action sr="act70" ve="7">
 			<code>547</code>
+			<label>競馬場に行った場合</label>
+			<Str sr="arg0" ve="3">%event</Str>
+			<Str sr="arg1" ve="3">_競馬観戦後</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>4</op>
+					<rhs>.*🏇.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>547</code>
+			<label>裁判所に行った場合</label>
+			<Str sr="arg0" ve="3">%event</Str>
+			<Str sr="arg1" ve="3">_裁判後</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>4</op>
+					<rhs>.*⚖️.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>547</code>
+			<label>サッカー観戦した場合</label>
+			<Str sr="arg0" ve="3">%event</Str>
+			<Str sr="arg1" ve="3">_サッカー観戦後</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>4</op>
+					<rhs>.*🥅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>547</code>
 			<label>神社に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
 			<Str sr="arg1" ve="3">_お参り後</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -1117,7 +1214,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act74" ve="7">
 			<code>547</code>
 			<label>バラエティ観戦した場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1125,6 +1222,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1133,7 +1231,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act75" ve="7">
 			<code>547</code>
 			<label>美術館または博物館に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1141,6 +1239,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1149,7 +1248,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act76" ve="7">
 			<code>547</code>
 			<label>美容院に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1157,6 +1256,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -1171,7 +1271,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act77" ve="7">
 			<code>547</code>
 			<label>墓地に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1179,6 +1279,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -1193,7 +1294,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act78" ve="7">
 			<code>547</code>
 			<label>ホテルに行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1201,6 +1302,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1209,7 +1311,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act79" ve="7">
 			<code>547</code>
 			<label>マッサージに行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1217,6 +1319,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1225,7 +1328,24 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act77" ve="7">
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<label>ステイを代入する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">ステイ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*にステイ</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act80" ve="7">
 			<code>547</code>
 			<label>レース観戦した場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1233,6 +1353,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1241,7 +1362,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act78" ve="7">
+		<Action sr="act81" ve="7">
 			<code>547</code>
 			<label>レストランに行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1249,6 +1370,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -1263,7 +1385,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act79" ve="7">
+		<Action sr="act82" ve="7">
 			<code>547</code>
 			<label>野球観戦した場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1271,6 +1393,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1279,23 +1402,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<label>ステイを代入する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">ステイ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*にステイ</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act80" ve="7">
+		<Action sr="act83" ve="7">
 			<code>547</code>
 			<label>役所に行った場合</label>
 			<Str sr="arg0" ve="3">%event</Str>
@@ -1303,6 +1410,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -1311,13 +1419,14 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act84" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">%event</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%event</lhs>
@@ -1326,13 +1435,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act85" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act86" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act87" ve="7">
 			<code>130</code>
 			<label>時間帯を追加する</label>
 			<Str sr="arg0" ve="3">getTimeZone</Str>
@@ -1344,15 +1453,16 @@
 			<Str sr="arg4" ve="3">%zone</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act88" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">_%zone</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act89" ve="7">
 			<code>547</code>
 			<label>拡張子を追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -1360,8 +1470,26 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>ロケーションを代入する</label>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">チェックアウト</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*からチェックアウト</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act90" ve="7">
 			<code>412</code>
 			<label>該当するメッセージファイルが存在するか確認する</label>
 			<Str sr="arg0" ve="3">%path</Str>
@@ -1371,13 +1499,13 @@
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">%lists</Str>
 		</Action>
-		<Action sr="act88" ve="7">
+		<Action sr="act91" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act89" ve="7">
+		<Action sr="act92" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getLineRandomizeRecord</Str>
 			<Int sr="arg1">
@@ -1395,23 +1523,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<label>ロケーションを代入する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">チェックアウト</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*からチェックアウト</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act90" ve="7">
+		<Action sr="act93" ve="7">
 			<code>598</code>
 			<label>メッセージ内の#MasterNameを変更</label>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -1430,7 +1542,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act94" ve="7">
 			<code>598</code>
 			<label>メッセージ内の#Locationをロケーションに変更</label>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -1449,7 +1561,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act92" ve="7">
+		<Action sr="act95" ve="7">
 			<code>598</code>
 			<label>メッセージ内の#LocationTypeをロケーションタイプに変更</label>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -1468,7 +1580,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act93" ve="7">
+		<Action sr="act96" ve="7">
 			<code>598</code>
 			<label>メッセージ内の#LocationRoomをロケーションルームに変更</label>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -1487,7 +1599,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act94" ve="7">
+		<Action sr="act97" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
 			<Int sr="arg1">
@@ -1505,7 +1617,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act95" ve="7">
+		<Action sr="act98" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
@@ -1517,45 +1629,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act96" ve="7">
+		<Action sr="act99" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">\.txt$</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act97" ve="7">
-			<code>37</code>
-			<label>削れる付属要素がある場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%file</lhs>
-					<op>4</op>
-					<rhs>.*_.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act98" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">toLineMyId</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">メッセージ切れ (%file)</Str>
-			<Str sr="arg3" ve="3">midori</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>598</code>
-			<label>付属要素を削除する</label>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">_[^_]+$</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
