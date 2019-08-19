@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8">
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
 		<clp>true</clp>
-		<edate>1563265750333</edate>
+		<edate>1564484747298</edate>
 		<id>237</id>
 		<mid0>239</mid0>
 		<mid1>374</mid1>
@@ -23,6 +23,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -91,7 +92,7 @@
 	</Task>
 	<Task sr="task374">
 		<cdate>1536714697601</cdate>
-		<edate>1563265750332</edate>
+		<edate>1564484747298</edate>
 		<id>374</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -144,7 +145,7 @@
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
+			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
@@ -155,6 +156,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>890</code>
@@ -170,7 +172,7 @@
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%time</lhs>
-					<op>6</op>
+					<op>7</op>
 					<rhs>60</rhs>
 				</Condition>
 			</ConditionList>

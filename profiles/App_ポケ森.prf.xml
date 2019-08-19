@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8">
 	<Profile sr="prof447" ve="2">
 		<cdate>1543542989008</cdate>
 		<clp>true</clp>
-		<edate>1543720069610</edate>
+		<edate>1565020820385</edate>
 		<id>447</id>
 		<mid0>448</mid0>
+		<mid1>698</mid1>
 		<nme>App ポケ森</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity</cls0>
@@ -15,20 +16,48 @@
 	</Profile>
 	<Task sr="task448">
 		<cdate>1543542991835</cdate>
-		<edate>1543720069610</edate>
+		<edate>1565020820385</edate>
 		<id>448</id>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
+			<Str sr="arg1" ve="3">ポケ森</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
 			<Str sr="arg1" ve="3">🌲</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
 					<op>5</op>
 					<rhs>.*🌲.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task698">
+		<cdate>1565019739858</cdate>
+		<edate>1565019749019</edate>
+		<id>698</id>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_FOREGROUND</lhs>
+					<op>2</op>
+					<rhs>ポケ森</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

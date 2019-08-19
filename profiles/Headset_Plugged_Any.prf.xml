@@ -1,8 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.7.2">
 	<Profile sr="prof518" ve="2">
 		<cdate>1544852417081</cdate>
-		<clp>true</clp>
-		<edate>1553867691091</edate>
+		<edate>1563981744530</edate>
 		<id>518</id>
 		<limit>true</limit>
 		<mid0>519</mid0>
@@ -15,7 +14,7 @@
 	</Profile>
 	<Task sr="task519">
 		<cdate>1544852422541</cdate>
-		<edate>1549651247886</edate>
+		<edate>1563981739079</edate>
 		<id>519</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -23,7 +22,7 @@
 			<Str sr="arg1" ve="3">on</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>20</code>
@@ -90,7 +89,7 @@
 	</Task>
 	<Task sr="task522">
 		<cdate>1544864522726</cdate>
-		<edate>1549638670107</edate>
+		<edate>1563981744530</edate>
 		<id>522</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -99,7 +98,7 @@
 			<Str sr="arg1" ve="3">off</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
