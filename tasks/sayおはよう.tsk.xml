@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.3">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1548198505610</edate>
+		<edate>1566337909346</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<label>ロケーションが自宅またはホテルでない場合は停止</label>
@@ -54,6 +54,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>130</code>
@@ -91,6 +92,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>547</code>
@@ -99,6 +101,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>547</code>
@@ -107,6 +110,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>130</code>
@@ -189,7 +193,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">Notification</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -249,6 +253,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>130</code>
@@ -614,6 +619,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
@@ -627,7 +633,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_device_access_bightness_low</nme>
+			<nme>mw_image_brightness_7</nme>
 		</Img>
 	</Task>
 </TaskerData>
