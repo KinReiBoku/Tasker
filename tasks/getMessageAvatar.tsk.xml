@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8">
+<TaskerData sr="" dvi="1" tv="5.8.3">
 	<Task sr="task463">
 		<cdate>1535342314560</cdate>
-		<edate>1564972743185</edate>
+		<edate>1566518304040</edate>
 		<id>463</id>
 		<nme>getMessageAvatar</nme>
 		<pri>100</pri>
@@ -37,6 +37,17 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act100" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">\.txt$</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act101" ve="7">
 			<code>37</code>
 			<label>ファイル名にスペースがある場合</label>
 			<ConditionList sr="if">
@@ -71,7 +82,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act101" ve="7">
+		<Action sr="act102" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
@@ -83,7 +94,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act102" ve="7">
+		<Action sr="act103" ve="7">
 			<code>598</code>
 			<label>スペース以降の支店名を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -95,16 +106,16 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act103" ve="7">
+		<Action sr="act104" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">時間帯を追加する</Str>
 		</Action>
-		<Action sr="act104" ve="7">
+		<Action sr="act105" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act105" ve="7">
+		<Action sr="act106" ve="7">
 			<code>37</code>
 			<label>削れる付属要素がある場合</label>
 			<ConditionList sr="if">
@@ -115,7 +126,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act106" ve="7">
+		<Action sr="act107" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
@@ -127,7 +138,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act107" ve="7">
+		<Action sr="act108" ve="7">
 			<code>598</code>
 			<label>付属要素を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -139,15 +150,12 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act108" ve="7">
+		<Action sr="act109" ve="7">
 			<code>135</code>
 			<label>再度ファイル存在確認を行う</label>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">拡張子を追加する</Str>
-		</Action>
-		<Action sr="act109" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
@@ -160,6 +168,9 @@
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act110" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act111" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act12" ve="7">
@@ -1502,7 +1513,7 @@
 		<Action sr="act91" ve="7">
 			<code>548</code>
 			<on>false</on>
-			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg0" ve="3">%lists(#) %file</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act92" ve="7">
@@ -1618,6 +1629,12 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act98" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act99" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
@@ -1628,17 +1645,6 @@
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">\.txt$</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_social_person</nme>
