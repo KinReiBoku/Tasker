@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof673" ve="2">
 		<cdate>1553727023453</cdate>
 		<clp>true</clp>
@@ -39,7 +39,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_ab_content_remove</nme>
+			<nme>mw_action_speaker_notes_off</nme>
 		</Img>
 	</Task>
 </TaskerData>

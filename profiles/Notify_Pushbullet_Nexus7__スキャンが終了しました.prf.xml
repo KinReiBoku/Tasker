@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof255" ve="2">
 		<cdate>1535346702361</cdate>
 		<clp>true</clp>
-		<edate>1548553474628</edate>
+		<edate>1559518806481</edate>
 		<id>255</id>
 		<mid0>480</mid0>
 		<nme>Notify Pushbullet Nexus7: スキャンが終了しました</nme>
@@ -33,7 +33,7 @@
 	</Profile>
 	<Task sr="task480">
 		<cdate>1535853547096</cdate>
-		<edate>1544790430774</edate>
+		<edate>1559518806481</edate>
 		<id>480</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

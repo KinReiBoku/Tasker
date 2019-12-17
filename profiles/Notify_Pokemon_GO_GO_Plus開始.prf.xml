@@ -1,6 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof680" ve="2">
 		<cdate>1559460481519</cdate>
+		<clp>true</clp>
 		<edate>1559519174937</edate>
 		<id>680</id>
 		<mid0>681</mid0>

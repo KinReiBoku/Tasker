@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task245">
 		<cdate>1535735697172</cdate>
 		<edate>1548910218650</edate>
 		<id>245</id>
 		<nme>checkinLocationRoomマイルーム</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
@@ -15,7 +15,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_home</nme>
+			<nme>mw_places_free_breakfast</nme>
 		</Img>
 	</Task>
 </TaskerData>

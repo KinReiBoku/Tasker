@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof124" ve="2">
 		<cdate>1545219536127</cdate>
 		<clp>true</clp>
-		<edate>1556768845992</edate>
+		<edate>1562879260542</edate>
 		<id>124</id>
 		<mid0>127</mid0>
 		<mid1>126</mid1>
@@ -10,47 +10,44 @@
 		<App sr="con0" ve="2">
 			<cls0>com.dazn.splash.view.SplashScreenActivity</cls0>
 			<cls1>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls1>
-			<cls10>org.cocos2dx.cpp.AppActivity</cls10>
-			<cls11>net.zaim.android.activity.MainActivity</cls11>
-			<cls12>com.twitter.android.StartActivity</cls12>
-			<cls13>jp.r246.twicca.timelines.Home</cls13>
+			<cls10>net.zaim.android.activity.MainActivity</cls10>
+			<cls11>com.twitter.android.StartActivity</cls11>
+			<cls12>jp.r246.twicca.timelines.Home</cls12>
 			<cls2>jp.co.fsi.fs1seg.app.Main</cls2>
 			<cls3>jp.colopl.tennis.StartActivity</cls3>
 			<cls4>jp.colopl.wcat.StartActivity</cls4>
-			<cls5>com.linecorp.foodcam.android.camera.CameraActivity</cls5>
-			<cls6>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls6>
-			<cls7>jp.naver.line.android.activity.SplashActivity</cls7>
-			<cls8>com.nttdocomo.android.msg.SplashScreenActivity</cls8>
-			<cls9>com.amazon.drive.activity.MainActivity</cls9>
+			<cls5>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls5>
+			<cls6>jp.naver.line.android.activity.SplashActivity</cls6>
+			<cls7>com.nttdocomo.android.msg.SplashScreenActivity</cls7>
+			<cls8>com.amazon.drive.activity.MainActivity</cls8>
+			<cls9>org.cocos2dx.cpp.AppActivity</cls9>
 			<flags>2</flags>
 			<label0>DAZN</label0>
 			<label1>Pokémon GO</label1>
-			<label10>FEヒーローズ</label10>
-			<label11>Zaim</label11>
-			<label12>Twitter</label12>
-			<label13>twicca</label13>
+			<label10>Zaim</label10>
+			<label11>Twitter</label11>
+			<label12>twicca</label12>
 			<label2>テレビ</label2>
 			<label3>白テニ</label3>
 			<label4>白猫</label4>
-			<label5>Foodie</label5>
-			<label6>YouTube</label6>
-			<label7>LINE</label7>
-			<label8>＋メッセージ</label8>
-			<label9>Amazon Drive</label9>
+			<label5>YouTube</label5>
+			<label6>LINE</label6>
+			<label7>＋メッセージ</label7>
+			<label8>Amazon Drive</label8>
+			<label9>FEヒーローズ</label9>
 			<pkg0>com.dazn</pkg0>
 			<pkg1>com.nianticlabs.pokemongo</pkg1>
-			<pkg10>com.nintendo.zaba</pkg10>
-			<pkg11>net.zaim.android</pkg11>
-			<pkg12>com.twitter.android</pkg12>
-			<pkg13>jp.r246.twicca</pkg13>
+			<pkg10>net.zaim.android</pkg10>
+			<pkg11>com.twitter.android</pkg11>
+			<pkg12>jp.r246.twicca</pkg12>
 			<pkg2>jp.co.fsi.fs1seg</pkg2>
 			<pkg3>jp.colopl.tennis</pkg3>
 			<pkg4>jp.colopl.wcat</pkg4>
-			<pkg5>com.linecorp.foodcam.android</pkg5>
-			<pkg6>com.google.android.youtube</pkg6>
-			<pkg7>jp.naver.line.android</pkg7>
-			<pkg8>com.nttdocomo.android.msg</pkg8>
-			<pkg9>com.amazon.drive</pkg9>
+			<pkg5>com.google.android.youtube</pkg5>
+			<pkg6>jp.naver.line.android</pkg6>
+			<pkg7>com.nttdocomo.android.msg</pkg7>
+			<pkg8>com.amazon.drive</pkg8>
+			<pkg9>com.nintendo.zaba</pkg9>
 		</App>
 	</Profile>
 	<Task sr="task126">

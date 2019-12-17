@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
 		<clp>true</clp>
-		<edate>1555034485990</edate>
+		<edate>1564903167006</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -74,7 +74,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_device_access_volume_on</nme>
+			<nme>mw_av_volume_up</nme>
 		</Img>
 	</Task>
 	<Task sr="task7">
@@ -94,7 +94,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_device_access_volume_muted</nme>
+			<nme>mw_av_volume_off</nme>
 		</Img>
 	</Task>
 </TaskerData>

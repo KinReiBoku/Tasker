@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task376">
 		<cdate>1536841361801</cdate>
 		<edate>1549445829887</edate>
 		<id>376</id>
 		<nme>setStateAllOn</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="50"/>
@@ -79,7 +79,7 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_conv_a</nme>
+			<nme>mw_action_done_all</nme>
 		</Img>
 	</Task>
 </TaskerData>

@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof447" ve="2">
 		<cdate>1543542989008</cdate>
 		<clp>true</clp>
@@ -48,6 +48,7 @@
 		<cdate>1565019739858</cdate>
 		<edate>1565019749019</edate>
 		<id>698</id>
+		<pri>1006</pri>
 		<Action sr="act0" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>

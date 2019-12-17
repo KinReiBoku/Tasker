@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof675" ve="2">
 		<cdate>1559460481519</cdate>
-		<edate>1559863056003</edate>
+		<clp>true</clp>
+		<edate>1559902977364</edate>
 		<id>675</id>
 		<mid0>676</mid0>
 		<nme>Notify Pokemon GO ポケストップを回しました</nme>
@@ -23,7 +24,7 @@
 	</Profile>
 	<Task sr="task676">
 		<cdate>1559460495310</cdate>
-		<edate>1559515540645</edate>
+		<edate>1559902977364</edate>
 		<id>676</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -33,6 +34,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -44,13 +46,6 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>2</op>
-					<rhs>マイルーム</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>

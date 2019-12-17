@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof587" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1547129897654</edate>
+		<edate>1559460524178</edate>
 		<id>587</id>
 		<mid0>588</mid0>
 		<nme>Notify AmazonAlexa エアクリーナをつけます</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task588">
 		<cdate>1547071823400</cdate>
-		<edate>1547129890477</edate>
+		<edate>1559460524178</edate>
 		<id>588</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>

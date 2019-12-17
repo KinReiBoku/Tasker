@@ -1,22 +1,24 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1560723516111</edate>
+		<clp>true</clp>
+		<edate>1565134368648</edate>
 		<id>314</id>
+		<limit>true</limit>
 		<mid0>101</mid0>
 		<nme>Every 2m</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
 			<fm>-1</fm>
 			<rep>2</rep>
-			<repval>2</repval>
+			<repval>3</repval>
 			<th>-1</th>
 			<tm>-1</tm>
 		</Time>
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1560723516111</edate>
+		<edate>1565134368648</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -33,7 +35,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Client</rhs>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -51,7 +53,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Client</rhs>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -69,7 +71,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Client</rhs>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

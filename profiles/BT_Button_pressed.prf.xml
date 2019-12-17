@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof337" ve="2">
 		<cdate>1536148957680</cdate>
 		<clp>true</clp>
-		<edate>1545960200269</edate>
+		<edate>1559345725716</edate>
 		<id>337</id>
 		<mid0>336</mid0>
 		<nme>BT Button pressed</nme>
@@ -27,7 +27,7 @@
 	</Profile>
 	<Task sr="task336">
 		<cdate>1524145797131</cdate>
-		<edate>1545960200269</edate>
+		<edate>1559345725716</edate>
 		<id>336</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -37,6 +37,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
@@ -45,6 +46,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BT_BUTTON_PRESS_TIME</lhs>
@@ -151,6 +153,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>547</code>
@@ -159,6 +162,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -306,6 +310,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>

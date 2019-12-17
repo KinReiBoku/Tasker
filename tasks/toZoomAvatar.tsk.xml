@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task339">
 		<cdate>1535540380169</cdate>
-		<edate>1562467408392</edate>
+		<edate>1566517928279</edate>
 		<id>339</id>
 		<nme>toZoomAvatar</nme>
 		<pri>100</pri>
@@ -39,6 +39,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>1000294689</code>
@@ -113,6 +114,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
@@ -128,6 +130,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
@@ -143,6 +146,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>

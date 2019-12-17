@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.8.3">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1567722116139</edate>
+		<edate>1575980665335</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1567722116139</edate>
+		<edate>1575980665335</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -25,7 +25,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
@@ -36,6 +36,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>35</code>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="10"/>
 			<Int sr="arg2" val="0"/>
@@ -87,7 +88,7 @@
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1566930451026</edate>
+		<edate>1575980656568</edate>
 		<id>288</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -100,6 +101,13 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>4</op>
+					<rhs>.*XEA20.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>

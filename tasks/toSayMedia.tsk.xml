@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1563680039167</edate>
+		<edate>1568447932142</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -60,6 +60,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>598</code>
@@ -221,6 +222,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message_midori</lhs>
@@ -436,6 +438,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message_midori</lhs>
@@ -488,7 +491,7 @@
 				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Server</rhs>
+					<rhs>Client</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
@@ -589,6 +592,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message_midori</lhs>

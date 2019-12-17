@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task302">
 		<cdate>1535982220579</cdate>
-		<edate>1535984523903</edate>
+		<edate>1563679278723</edate>
 		<id>302</id>
 		<nme>saySwitchStatePowerSupply</nme>
 		<pri>7</pri>

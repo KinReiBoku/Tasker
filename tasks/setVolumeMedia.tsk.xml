@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.3">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task707">
 		<cdate>1567216507641</cdate>
-		<edate>1567721761808</edate>
+		<edate>1569138504415</edate>
 		<id>707</id>
 		<nme>setVolumeMedia</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">

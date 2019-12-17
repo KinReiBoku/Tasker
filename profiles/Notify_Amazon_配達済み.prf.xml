@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof567" ve="2">
 		<cdate>1535513658567</cdate>
 		<clp>true</clp>
-		<edate>1548843642088</edate>
+		<edate>1573273445292</edate>
 		<id>567</id>
 		<mid0>568</mid0>
 		<nme>Notify Amazon 配達済み</nme>
@@ -24,9 +24,9 @@
 	</Profile>
 	<Task sr="task568">
 		<cdate>1521383525570</cdate>
-		<edate>1548843642088</edate>
+		<edate>1573273445292</edate>
 		<id>568</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">

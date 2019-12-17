@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Profile sr="prof17" ve="2">
 		<cdate>1535346702361</cdate>
 		<clp>true</clp>
-		<edate>1549069495523</edate>
+		<edate>1569968035729</edate>
 		<id>17</id>
+		<limit>true</limit>
 		<mid0>292</mid0>
 		<nme>Notify Pushbullet ALL;NEWS;</nme>
 		<Event sr="con0" ve="2">
@@ -33,7 +34,7 @@
 	</Profile>
 	<Task sr="task292">
 		<cdate>1535853547096</cdate>
-		<edate>1548496419171</edate>
+		<edate>1565424023619</edate>
 		<id>292</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.7.2">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1560723746605</edate>
+		<edate>1561330136117</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
-		<pri>7</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">

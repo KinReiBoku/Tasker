@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.6">
+<TaskerData sr="" dvi="1" tv="5.8.5">
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1545542210249</edate>
+		<edate>1563233168020</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
@@ -12,6 +12,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -28,6 +29,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>38</code>
@@ -39,6 +41,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>590</code>
@@ -69,6 +72,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>38</code>
@@ -80,6 +84,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>109</code>
@@ -95,6 +100,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -131,6 +137,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>
@@ -167,6 +174,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>43</code>
