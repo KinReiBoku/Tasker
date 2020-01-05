@@ -1,8 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.1">
 	<Profile sr="prof488" ve="2">
 		<cdate>1535346702361</cdate>
-		<clp>true</clp>
-		<edate>1549441219894</edate>
+		<edate>1577662750775</edate>
 		<id>488</id>
 		<mid0>489</mid0>
 		<nme>Notify Pushbullet ALL;DEVICE;</nme>
@@ -33,7 +32,7 @@
 	</Profile>
 	<Task sr="task489">
 		<cdate>1535853547096</cdate>
-		<edate>1549441219894</edate>
+		<edate>1577662750775</edate>
 		<id>489</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -336,7 +335,7 @@
 				<Condition sr="c1" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>4</op>
-					<rhs>Boot.*</rhs>
+					<rhs>.*Boot.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -356,7 +355,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>2</op>
-					<rhs>ShutdownServer</rhs>
+					<rhs>.*ShutdownServer.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%MY_DEVICE_STATE</lhs>
@@ -397,12 +396,12 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>4</op>
-					<rhs>Shutdown.*</rhs>
+					<rhs>.*Shutdown.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%ntitle4</lhs>
 					<op>4</op>
-					<rhs>StorageLow.*</rhs>
+					<rhs>.*StorageLow.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
