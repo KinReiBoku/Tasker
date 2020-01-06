@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.1">
 	<Task sr="task714">
 		<cdate>1578215912313</cdate>
-		<edate>1578216892481</edate>
+		<edate>1578226822952</edate>
 		<id>714</id>
 		<nme>checkInterval</nme>
 		<pri>100</pri>
@@ -18,6 +18,127 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>37</code>
+			<label>データが複数存在する場合のみ確認する</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%haircuts_interval</lhs>
+					<op>12</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<label>爪切り間隔を取得する</label>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%MASTER_DATA_RECENT</Str>
+			<Str sr="arg3" ve="3">nailclippers_interval</Str>
+			<Str sr="arg4" ve="3">%nailclippers_interval</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<label>データが複数存在する場合のみ確認する</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nailclippers_interval</lhs>
+					<op>12</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%nailclippers_interval</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nailclippers_interval(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<label>平均間隔を取得する</label>
+			<Str sr="arg0" ve="3">getDataInterval</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%nailclippers_interval</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%interval</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<label>最後から現在までの間隔を計算する</label>
+			<Str sr="arg0" ve="3">%interval_last</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%interval_last</Str>
+			<Int sr="arg1">
+				<var>%nailclippers_interval(&lt;)</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<label>間隔が平均を超えている場合は追加する</label>
+			<Str sr="arg0" ve="3">setHomeState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">💅</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%interval_last</lhs>
+					<op>7</op>
+					<rhs>%interval</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%haircuts_interval</Str>
+			<Str sr="arg1" ve="3">:</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%haircuts_interval(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<label>平均間隔を取得する</label>
 			<Str sr="arg0" ve="3">getDataInterval</Str>
@@ -29,15 +150,9 @@
 			<Str sr="arg4" ve="3">%interval</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>590</code>
-			<label>最後から現在までの間隔を計算する</label>
-			<Str sr="arg0" ve="3">%haircuts_interval</Str>
-			<Str sr="arg1" ve="3">:</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
+			<label>最後から現在までの間隔を計算する</label>
 			<Str sr="arg0" ve="3">%interval_last</Str>
 			<Str sr="arg1" ve="3">%TIMES</Str>
 			<Int sr="arg2" val="0"/>
@@ -45,7 +160,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act6" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%interval_last</Str>
 			<Int sr="arg1">
@@ -53,9 +168,9 @@
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
-			<label>散髪間隔が平均を超えている場合は追加する</label>
+			<label>間隔が平均を超えている場合は追加する</label>
 			<Str sr="arg0" ve="3">setHomeState</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -71,6 +186,12 @@
 					<rhs>%interval</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>
