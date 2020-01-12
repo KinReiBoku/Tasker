@@ -1,8 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.1">
 	<Profile sr="prof639" ve="2">
 		<cdate>1548106672795</cdate>
-		<clp>true</clp>
-		<edate>1548402484350</edate>
+		<edate>1578793067533</edate>
 		<id>639</id>
 		<mid0>640</mid0>
 		<nme>Sleep 睡眠の解析 停止</nme>
@@ -27,7 +26,7 @@
 	</Profile>
 	<Task sr="task640">
 		<cdate>1548106679707</cdate>
-		<edate>1548402484350</edate>
+		<edate>1578793067533</edate>
 		<id>640</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -38,6 +37,10 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>989</code>
+			<Int sr="arg0" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>
