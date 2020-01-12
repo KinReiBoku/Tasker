@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="5.9.1">
-	<Task sr="task252">
+	<Task sr="task254">
 		<cdate>1578613002838</cdate>
-		<edate>1578745811539</edate>
-		<id>252</id>
-		<nme>getLocationStationNearest</nme>
+		<edate>1578745800802</edate>
+		<id>254</id>
+		<nme>getLocationLandmarkFromYahoo</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -40,7 +40,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">最寄り駅データ取得エラー</Str>
+			<Str sr="arg2" ve="3">ランドマークデータ取得エラー</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -121,9 +121,9 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 				</Vals>
 			</Bundle>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3">http://express.heartrails.com/api/json?method=getStations&amp;x=%gl_longitude&amp;y=%gl_latitude</Str>
+			<Str sr="arg2" ve="3">https://map.yahooapis.jp/placeinfo/V1/get?lat=%gl_latitude&amp;lon=%gl_longitude&amp;appid=%YAHOO_APP_ID&amp;output=json</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -149,7 +149,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%http_data</Str>
-			<Str sr="arg3" ve="3">station</Str>
+			<Str sr="arg3" ve="3">Result</Str>
 			<Str sr="arg4" ve="3">%http_data</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
