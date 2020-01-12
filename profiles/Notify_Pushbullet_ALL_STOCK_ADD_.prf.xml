@@ -1,10 +1,11 @@
 <TaskerData sr="" dvi="1" tv="5.9.1">
 	<Profile sr="prof616" ve="2">
 		<cdate>1535346702361</cdate>
-		<edate>1578229343024</edate>
+		<clp>true</clp>
+		<edate>1578233381229</edate>
 		<id>616</id>
 		<mid0>617</mid0>
-		<nme>Notify Pushbullet ALL;STOCK;ADD;冷蔵庫;</nme>
+		<nme>Notify Pushbullet ALL;STOCK;ADD;</nme>
 		<Event sr="con0" ve="2">
 			<code>1743678352</code>
 			<pri>0</pri>
@@ -14,13 +15,13 @@
 					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
 					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
 					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;STOCK;ADD;冷蔵庫;</com.pushbullet.android.tasker.TEXT_FILTER>
+					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;STOCK;ADD;</com.pushbullet.android.tasker.TEXT_FILTER>
 					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
 					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
 					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
 					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
 					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;STOCK;ADD;冷蔵庫;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note ～を含む "ALL;STOCK;ADD;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
@@ -32,9 +33,9 @@
 	</Profile>
 	<Task sr="task617">
 		<cdate>1535853547096</cdate>
-		<edate>1578229343024</edate>
+		<edate>1578233359437</edate>
 		<id>617</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
