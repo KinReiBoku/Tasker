@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.1">
 	<Profile sr="prof488" ve="2">
 		<cdate>1535346702361</cdate>
-		<edate>1577662750775</edate>
+		<edate>1578756282495</edate>
 		<id>488</id>
 		<mid0>489</mid0>
 		<nme>Notify Pushbullet ALL;DEVICE;</nme>
@@ -32,7 +32,7 @@
 	</Profile>
 	<Task sr="task489">
 		<cdate>1535853547096</cdate>
-		<edate>1577662750775</edate>
+		<edate>1578756282495</edate>
 		<id>489</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -55,6 +55,7 @@
 		<Action sr="act10" ve="7">
 			<code>523</code>
 			<label>バッテリー不足の場合は通知する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%ntitle3 %ntitle4%</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg10" ve="3"/>
@@ -72,10 +73,12 @@
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>547</code>
 			<label>デバイス状態を代入する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%devicesstate</Str>
 			<Str sr="arg1" ve="3">%DEVICES_STATE</Str>
 			<Int sr="arg2" val="0"/>
@@ -86,6 +89,7 @@
 		<Action sr="act13" ve="7">
 			<code>598</code>
 			<label>セミコロンをスペースに置換する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%devicesstate</Str>
 			<Str sr="arg1" ve="3">;</Str>
 			<Int sr="arg2" val="0"/>
@@ -98,6 +102,7 @@
 		<Action sr="act14" ve="7">
 			<code>598</code>
 			<label>数値＋カンマがある場合は%に置換する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%devicesstate</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
@@ -117,6 +122,7 @@
 		<Action sr="act15" ve="7">
 			<code>598</code>
 			<label>カンマがある場合はスペースに置換する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%devicesstate</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
@@ -128,6 +134,7 @@
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">%TIME</Str>
 			<Int sr="arg2" val="0"/>
@@ -137,6 +144,7 @@
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">\.</Str>
 			<Int sr="arg2" val="0"/>
@@ -149,6 +157,7 @@
 		<Action sr="act18" ve="7">
 			<code>1000294689</code>
 			<label>Zoomのデバイス状態表示を更新する</label>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>#TDeviceState# = %time %devicesstate</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -171,6 +180,7 @@
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -187,6 +197,7 @@
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle2</lhs>
@@ -198,6 +209,7 @@
 		<Action sr="act20" ve="7">
 			<code>1000294689</code>
 			<label>デバイスステートの背景を黄色くする</label>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomDevicesStateBg# = #b0ffb800</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -220,6 +232,7 @@
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>43</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%devicesstate</lhs>
@@ -231,6 +244,7 @@
 		<Action sr="act22" ve="7">
 			<code>1000294689</code>
 			<label>デバイスステートの背景を黄色くする</label>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomDevicesStateBg# = #b0ffb800</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -253,10 +267,12 @@
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>43</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>1000294689</code>
 			<label>デバイスステートの背景を黒くする</label>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomDevicesStateBg# = #93111111</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -279,13 +295,14 @@
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>130</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">fromPushbullet</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -298,6 +315,7 @@
 		<Action sr="act3" ve="7">
 			<code>130</code>
 			<label>デバイス状態を保存する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -317,6 +335,7 @@
 		<Action sr="act4" ve="7">
 			<code>130</code>
 			<label>デバイス状態問合わせ（Now）の場合</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayMyDeviceState</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -342,6 +361,7 @@
 		<Action sr="act5" ve="7">
 			<code>130</code>
 			<label>サーバが停止したらサーバモードにする</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">setDeviceModeServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -367,6 +387,7 @@
 		<Action sr="act6" ve="7">
 			<code>130</code>
 			<label>サーバが起動したらクライアントモードにする</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">setDeviceModeClient</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -391,6 +412,7 @@
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -408,6 +430,7 @@
 		<Action sr="act8" ve="7">
 			<code>523</code>
 			<label>停止またはストレージ不足の場合は通知する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%ntitle3 %ntitle4</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg10" ve="3"/>
@@ -425,6 +448,7 @@
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
