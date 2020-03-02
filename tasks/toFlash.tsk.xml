@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.1">
 	<Task sr="task13">
 		<cdate>1535275836793</cdate>
-		<edate>1546535730285</edate>
+		<edate>1581494243843</edate>
 		<id>13</id>
 		<nme>toFlash</nme>
 		<Action sr="act0" ve="7">
@@ -29,16 +29,10 @@
 		<Action sr="act2" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>
 					<op>2</op>
 					<rhs>on</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par2</lhs>
-					<op>2</op>
-					<rhs>force</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

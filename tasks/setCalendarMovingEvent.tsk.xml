@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.1">
 	<Task sr="task305">
 		<cdate>1548972572197</cdate>
-		<edate>1548972607249</edate>
+		<edate>1579129668387</edate>
 		<id>305</id>
 		<nme>setCalendarMovingEvent</nme>
 		<Action sr="act0" ve="7">
@@ -25,8 +25,8 @@
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>
-					<op>2</op>
-					<rhs>移動</rhs>
+					<op>4</op>
+					<rhs>移動.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

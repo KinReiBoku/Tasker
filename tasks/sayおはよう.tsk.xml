@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1566337909346</edate>
+		<edate>1583027650216</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -346,6 +346,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%voice</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>130</code>
@@ -522,6 +523,16 @@ Alexaに天気と予定を聞く</label>
 			<code>38</code>
 		</Action>
 		<Action sr="act51" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOff</Str>
 			<Int sr="arg1">
@@ -531,15 +542,11 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFI</lhs>
-					<op>4</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
 			<Int sr="arg1">
@@ -549,33 +556,11 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFI</lhs>
-					<op>5</op>
-					<rhs>.*%WIFI_HOME_SSID.*</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toTwitterTweet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">😴おはよう</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
+		<Action sr="act55" ve="7">
+			<code>38</code>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act56" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toLlamaStateOn</Str>
 			<Int sr="arg1">
@@ -586,7 +571,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act57" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setProfileOn</Str>
 			<Int sr="arg1">
