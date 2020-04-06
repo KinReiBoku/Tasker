@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1549527659666</edate>
+		<edate>1586131628757</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -264,13 +264,14 @@
 			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
 			<label>バスルームのお湯が沸いている場合</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%items</lhs>
+					<lhs>%HOME_APPLIANCE_STATE</lhs>
 					<op>4</op>
 					<rhs>.*%LOCATION_LLAMA.+お湯;オン.*</rhs>
 				</Condition>
@@ -303,6 +304,7 @@
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_CHECKIN_TIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>547</code>
@@ -346,7 +348,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
