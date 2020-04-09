@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.8.3">
 	<Task sr="task98">
 		<cdate>1536084978072</cdate>
-		<edate>1586446193852</edate>
+		<edate>1586446832650</edate>
 		<id>98</id>
 		<nme>checkTrainDelay</nme>
 		<pri>100</pri>
@@ -33,7 +33,6 @@
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
@@ -242,7 +241,6 @@
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>598</code>
@@ -282,7 +280,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg2" ve="3">ALL;TRAIN;%item1;%item2</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -477,7 +475,6 @@
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
