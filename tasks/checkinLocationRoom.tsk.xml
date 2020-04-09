@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1586448323840</edate>
+		<edate>1586450291531</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -20,16 +20,10 @@
 			<label>%par1=Room %par2=Location+Room
 自端末のチェックインの場合</label>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
 					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>5</op>
-					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
