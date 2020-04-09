@@ -27860,7 +27860,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1582552399643</edate>
+		<edate>1586446125042</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -28575,45 +28575,26 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act59" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;NEWS;%key1;%message;http%newtweet</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;NEWS;%key1;%message;http%newtweet" w</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>Now</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>Now</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61211,7 +61192,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task710">
 		<cdate>1535407856353</cdate>
-		<edate>1586352380106</edate>
+		<edate>1586446210554</edate>
 		<id>710</id>
 		<nme>toWebhookPushbullet</nme>
 		<pri>100</pri>
@@ -65103,12 +65084,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1586445643129</edate>
+		<edate>1586446215384</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">いいう</Str>
 			<Int sr="arg2" val="0"/>
@@ -65177,12 +65159,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task745">
 		<cdate>1535407856353</cdate>
-		<edate>1586445744376</edate>
+		<edate>1586446218988</edate>
 		<id>745</id>
 		<nme>toWebhookServer</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">あああ</Str>
 			<Int sr="arg2" val="0"/>
@@ -65650,7 +65633,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1586445863186</edate>
+		<edate>1586446060038</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -66848,6 +66831,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>547</code>
@@ -68354,7 +68344,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task98">
 		<cdate>1536084978072</cdate>
-		<edate>1586436942298</edate>
+		<edate>1586446193852</edate>
 		<id>98</id>
 		<nme>checkTrainDelay</nme>
 		<pri>100</pri>
@@ -68630,34 +68620,15 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>38</code>
 		</Action>
 		<Action sr="act33" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;TRAIN;%item1;%item2</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;TRAIN;%item1;%item2" with the messag</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
