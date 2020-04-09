@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
-	<Task sr="task744">
+	<Task sr="task745">
 		<cdate>1535407856353</cdate>
-		<edate>1586447904618</edate>
-		<id>744</id>
-		<nme>toWebhookClients</nme>
+		<edate>1586447899054</edate>
+		<id>745</id>
+		<nme>toWebhookServer</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -33,10 +33,20 @@
 			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getPathIftttTrigger</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%path</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>116</code>
-			<label>SO-04Kへ送信</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/5d45f535-a95f-4409-8fcc-34125694e53a/task?task=%message</Str>
+			<Str sr="arg0" ve="3">%path/server/with/key/%IFTTT_WEBHOOK_KEY?value1=%message</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -46,10 +56,25 @@
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
+			<code>116</code>
+			<label>SO-04Kへ送信</label>
+			<on>false</on>
+			<se>false</se>
+			<Str sr="arg0" ve="3">http://trigger.macrodroid.com/522bdd1d-83c6-4a5f-b088-ba4ea6ac64a7/task?task=%message</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="15"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -60,7 +85,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act8" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
