@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1586450204205</edate>
+		<edate>1586452762377</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -400,6 +400,7 @@
 		<Action sr="act41" ve="7">
 			<code>130</code>
 			<label>クライアントモードの場合は部屋にチェックアウトしたことをサーバに通知する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -417,9 +418,14 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act42" ve="7">
-			<code>38</code>
+			<code>126</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act43" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
