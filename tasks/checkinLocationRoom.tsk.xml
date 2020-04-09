@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1586132534203</edate>
+		<edate>1586418613294</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -33,6 +33,38 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<label>前の部屋からチェックアウトする</label>
+			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<label>グローバル変数に部屋名を代入する</label>
+			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg1" ve="3">%room</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>1000294689</code>
 			<label>Zoomの部屋名表示を更新する</label>
 			<Bundle sr="arg0">
@@ -55,7 +87,7 @@
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act14" ve="7">
 			<code>547</code>
 			<label>ロケーションルームカウントを初期化する</label>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_COUNT</Str>
@@ -65,7 +97,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act15" ve="7">
 			<code>37</code>
 			<label>マイルームの場合</label>
 			<ConditionList sr="if">
@@ -76,7 +108,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act16" ve="7">
 			<code>37</code>
 			<label>Bluetooth未接続の場合</label>
 			<ConditionList sr="if">
@@ -84,59 +116,10 @@
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
 					<op>13</op>
 					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setSilentModeOff</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%SLEEP_TIMES_START</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SLEEP_TIMES_END</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>43</code>
-			<label>バスルームの場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%room</lhs>
-					<op>2</op>
-					<rhs>バスルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act17" ve="7">
-			<code>37</code>
-			<label>Bluetooth未接続の場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act18" ve="7">
 			<code>130</code>
 			<label>サイレントモードをオフにする</label>
 			<Str sr="arg0" ve="3">setSilentModeOff</Str>
@@ -161,8 +144,19 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act18" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+			<label>バスルームの場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%room</lhs>
+					<op>2</op>
+					<rhs>バスルーム</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -175,6 +169,45 @@
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>37</code>
+			<label>Bluetooth未接続の場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<label>サイレントモードをオフにする</label>
+			<Str sr="arg0" ve="3">setSilentModeOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_END</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>37</code>
 			<label>バスルームのお湯が沸いている場合</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -184,7 +217,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act24" ve="7">
 			<code>130</code>
 			<label>「😇シャワーなう」とつぶやく</label>
 			<Str sr="arg0" ve="3">toTwitterTweet</Str>
@@ -196,10 +229,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act25" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
 			<label>「😇お風呂なう」とつぶやく</label>
 			<Str sr="arg0" ve="3">toTwitterTweet</Str>
@@ -211,14 +244,14 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act28" ve="7">
 			<code>43</code>
 			<label>それ以外の場合</label>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act29" ve="7">
 			<code>37</code>
 			<label>Bluetooth未接続の場合</label>
 			<ConditionList sr="if">
@@ -229,7 +262,18 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>同じ部屋の場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>2</op>
+					<rhs>%room</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<label>サイレントモードをオンにする</label>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
@@ -254,24 +298,13 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act31" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act32" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<label>同じ部屋の場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>2</op>
-					<rhs>%room</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<label>ロケーションと部屋名を連結し代入する</label>
 			<Str sr="arg0" ve="3">%room</Str>
@@ -279,9 +312,9 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act34" ve="7">
 			<code>277269574</code>
 			<label>部屋にチェックインしたことを全端末に通知する</label>
 			<Bundle sr="arg0">
@@ -312,7 +345,7 @@
 			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<label>チェックインタイムを記録する</label>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_CHECKIN_TIME</Str>
@@ -322,18 +355,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act33" ve="7">
-			<code>37</code>
-			<label>自宅の場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>4</op>
-					<rhs>^自宅.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<label>ロケーションルームカウントをインクリメントする</label>
 			<Str sr="arg0" ve="3">addDataValue</Str>
@@ -345,7 +367,7 @@
 			<Str sr="arg4" ve="3">%LOCATION_ROOM_STATE</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<label>部屋にチェックインしている人数を取得する</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -357,9 +379,47 @@
 			<Str sr="arg4" ve="3">%count</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
+			<code>37</code>
+			<label>自宅かつサーバの場合</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>^自宅.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>37</code>
+			<label>部屋に自分一人しかいない場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%count</lhs>
+					<op>2</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>チェックインタイムを記録する</label>
+			<Str sr="arg0" ve="3">%LOCATION_ROOM_STAY_TIME</Str>
+			<Str sr="arg1" ve="3">%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>130</code>
-			<label>部屋に自分一人しかいない場合はタップをオンにする</label>
+			<label>タップをオンにする</label>
 			<Str sr="arg0" ve="3">toSwitchChangePowerSupplyOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -369,20 +429,14 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%count</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%par2</lhs>
 					<op>2</op>
 					<rhs>local</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<label>時間帯を取得する</label>
 			<Str sr="arg0" ve="3">getTimeZone</Str>
@@ -394,11 +448,9 @@
 			<Str sr="arg4" ve="3">%zone</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act42" ve="7">
 			<code>130</code>
-			<label>時間帯が夜または深夜
-かつ
-部屋に自分一人しかいない場合はライトをオンにする</label>
+			<label>時間帯が夜または深夜の場合はライトをオンにする</label>
 			<Str sr="arg0" ve="3">toSwitchChangeLightOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -408,26 +460,38 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>Or2</bool1>
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%count</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%zone</lhs>
 					<op>2</op>
 					<rhs>夜</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%zone</lhs>
 					<op>2</op>
 					<rhs>深夜</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act43" ve="7">
+			<code>130</code>
+			<label>エアクリーナをオフにする</label>
+			<Str sr="arg0" ve="3">toSwitchChangeAirCleanerOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>ルームにステイしている人数を更新する</label>
 			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
@@ -439,20 +503,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<label>チェックインタイムを記録する</label>
-			<Str sr="arg0" ve="3">%LOCATION_ROOM_STAY_TIME</Str>
-			<Str sr="arg1" ve="3">%TIMES</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act40" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<label>チェックインメッセージを作成する</label>
 			<Str sr="arg0" ve="3">%room</Str>
@@ -462,22 +513,10 @@
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act42" ve="7">
-			<code>130</code>
-			<label>壁紙を変更する</label>
-			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act48" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act49" ve="7">
 			<code>130</code>
 			<label>音声メッセージを出力する</label>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -489,7 +528,14 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act5" ve="7">
+			<code>888</code>
+			<label>ロケーションルームカウントをインクリメントする</label>
+			<Str sr="arg0" ve="3">%LOCATION_ROOM_COUNT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>130</code>
 			<label>表示メッセージを出力する</label>
 			<Str sr="arg0" ve="3">toFlash</Str>
@@ -501,10 +547,22 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act51" ve="7">
+			<code>130</code>
+			<label>壁紙を変更する</label>
+			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act52" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>引数が不足している場合はエラーメッセージを出力する</label>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -516,15 +574,8 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act54" ve="7">
 			<code>38</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>888</code>
-			<label>ロケーションルームカウントをインクリメントする</label>
-			<Str sr="arg0" ve="3">%LOCATION_ROOM_COUNT</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -541,9 +592,26 @@
 			<label>違う部屋の場合</label>
 		</Action>
 		<Action sr="act8" ve="7">
+			<code>37</code>
+			<label>自宅かつサーバの場合</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>^自宅.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>130</code>
-			<label>前の部屋からチェックアウトする</label>
-			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
+			<label>部屋に誰もいなくなる場合はエアクリーナをオンにする</label>
+			<Str sr="arg0" ve="3">toSwitchChangeAirCleanerOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -553,21 +621,11 @@
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<lhs>%LOCATION_ROOM_STATE</lhs>
+					<op>4</op>
+					<rhs>.*%LOCATION_LLAMA_%LOCATION_ROOM;1,.*</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<label>グローバル変数に部屋名を代入する</label>
-			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
-			<Str sr="arg1" ve="3">%room</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
 		</Action>
 	</Task>
 </TaskerData>
