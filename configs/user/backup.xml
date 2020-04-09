@@ -4183,8 +4183,7 @@
 	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1586453356648</edate>
-		<flags>2</flags>
+		<edate>1586453607380</edate>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -55967,7 +55966,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task592">
 		<cdate>1547156094428</cdate>
-		<edate>1586450828382</edate>
+		<edate>1586453658092</edate>
 		<id>592</id>
 		<nme>setHomeApplianceState自宅（さいたま）</nme>
 		<pri>100</pri>
@@ -57593,7 +57592,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586453356648</edate>
+		<edate>1586453607380</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -57691,7 +57690,7 @@ https://t.co/91XPPED1U2
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">%task1</Str>
+			<Str sr="arg3" ve="3">%task2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -57702,7 +57701,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%task2</Str>
+			<Str sr="arg2" ve="3">%task1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
