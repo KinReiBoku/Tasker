@@ -975,16 +975,16 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1585750630615</edate>
+		<edate>1586454659622</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
-		<nme>Every 2m</nme>
+		<nme>Every 3m</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
 			<fm>-1</fm>
 			<rep>2</rep>
-			<repval>2</repval>
+			<repval>3</repval>
 			<th>-1</th>
 			<tm>-1</tm>
 		</Time>
@@ -3418,7 +3418,6 @@
 	<Profile sr="prof573" ve="2">
 		<cdate>1547071819665</cdate>
 		<edate>1547116409044</edate>
-		<flags>2</flags>
 		<id>573</id>
 		<mid0>574</mid0>
 		<nme>Notify AmazonAlexa 自宅さいたまマイルームのテレビがオンになりました</nme>
@@ -3724,7 +3723,7 @@
 	</Profile>
 	<Profile sr="prof600" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1547301037878</edate>
+		<edate>1586455231412</edate>
 		<flags>2</flags>
 		<id>600</id>
 		<mid0>601</mid0>
@@ -4183,7 +4182,8 @@
 	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1586453607380</edate>
+		<edate>1586454672857</edate>
+		<flags>2</flags>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -12561,7 +12561,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task137">
 		<cdate>1545448377781</cdate>
-		<edate>1586435449981</edate>
+		<edate>1586455350899</edate>
 		<id>137</id>
 		<nme>toSwitchChange</nme>
 		<Action sr="act0" ve="7">
@@ -34292,7 +34292,7 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Every 2m</Str>
+			<Str sr="arg0" ve="3">Every 3m</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -34346,7 +34346,7 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Every 2m</Str>
+			<Str sr="arg0" ve="3">Every 3m</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -46317,7 +46317,7 @@ https://t.co/91XPPED1U2
 		<nme>setProfileOff</nme>
 		<Action sr="act0" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Every 2m</Str>
+			<Str sr="arg0" ve="3">Every 3m</Str>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -46366,7 +46366,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Every 2m</Str>
+			<Str sr="arg0" ve="3">Every 3m</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
@@ -56078,7 +56078,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task601">
 		<cdate>1547071823400</cdate>
-		<edate>1547301037878</edate>
+		<edate>1586455231412</edate>
 		<id>601</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -57592,7 +57592,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586453607380</edate>
+		<edate>1586454672857</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -57616,16 +57616,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%task</lhs>
-					<op>4</op>
-					<rhs>.*にチェックイン</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
@@ -57644,7 +57634,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">にチェックイン</Str>
@@ -57655,7 +57645,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -57665,7 +57655,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act13" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
@@ -57676,13 +57666,13 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act14" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">;</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
@@ -57694,7 +57684,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
@@ -57706,10 +57696,10 @@ https://t.co/91XPPED1U2
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act17" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act18" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
@@ -57720,6 +57710,9 @@ https://t.co/91XPPED1U2
 			<Str sr="arg3" ve="3">%task</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>43</code>
@@ -57733,9 +57726,6 @@ https://t.co/91XPPED1U2
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act21" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -57745,7 +57735,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
@@ -57764,7 +57754,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act22" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
@@ -57775,7 +57765,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
@@ -57787,10 +57777,10 @@ https://t.co/91XPPED1U2
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act24" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act25" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
@@ -57803,8 +57793,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>Or2</bool1>
-				<bool2>Or2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
@@ -57813,21 +57801,11 @@ https://t.co/91XPPED1U2
 				<Condition sr="c1" ve="3">
 					<lhs>%task</lhs>
 					<op>4</op>
-					<rhs>^ALL;NEWS;.*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%task</lhs>
-					<op>4</op>
-					<rhs>^ALL;NOTIFY;.*</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%task</lhs>
-					<op>4</op>
-					<rhs>^ALL;RSS;.*</rhs>
+					<rhs>^ALL;.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">fromPushbullet</Str>
 			<Int sr="arg1">
@@ -57838,10 +57816,10 @@ https://t.co/91XPPED1U2
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act28" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -57907,9 +57885,14 @@ https://t.co/91XPPED1U2
 			</ConditionList>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%task</Str>
-			<Int sr="arg1" val="1"/>
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%task</lhs>
+					<op>4</op>
+					<rhs>.*にチェックイン</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task640">
@@ -65124,7 +65107,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1586450145895</edate>
+		<edate>1586455619973</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -65755,12 +65738,60 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act151" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle3</Str>
+			<Str sr="arg1" ve="3">を</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act152" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle3</Str>
+			<Str sr="arg1" ve="3">%ntitle4</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act153" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle3</Str>
+			<Str sr="arg1" ve="3">にしました</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle4</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act154" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%ntitle3</Str>
 			<Str sr="arg1" ve="3">を</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act152" ve="7">
+		<Action sr="act155" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -65770,7 +65801,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act153" ve="7">
+		<Action sr="act156" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%ntitle32</Str>
 			<Str sr="arg1" ve="3">オン</Str>
@@ -65779,7 +65810,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act154" ve="7">
+		<Action sr="act157" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -65789,7 +65820,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act155" ve="7">
+		<Action sr="act158" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%ntitle32</Str>
 			<Str sr="arg1" ve="3">オフ</Str>
@@ -65798,41 +65829,15 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act156" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act157" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg3" ve="3">%ntitle31;%ntitle32</Str>
-			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act158" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3">force</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
 		<Action sr="act159" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle32</lhs>
+					<op>4</op>
+					<rhs>^トグル.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>547</code>
@@ -65845,6 +65850,98 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act160" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%HOME_APPLIANCE_STATE</Str>
+			<Str sr="arg3" ve="3">%ntitle31</Str>
+			<Str sr="arg4" ve="3">%state</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act161" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>オフ</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act162" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle32</Str>
+			<Str sr="arg1" ve="3">オン</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act163" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act164" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle32</Str>
+			<Str sr="arg1" ve="3">オフ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act165" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act166" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act167" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%HOME_APPLIANCE_STATE</Str>
+			<Str sr="arg3" ve="3">%ntitle31;%ntitle32</Str>
+			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act168" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act169" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%ntitle3</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%devicesstate_zoom_time</Str>
+			<Str sr="arg1" ve="3">\.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">:</Str>
+		</Action>
+		<Action sr="act170" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -65854,7 +65951,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act161" ve="7">
+		<Action sr="act171" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -65864,7 +65961,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act162" ve="7">
+		<Action sr="act172" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setTrainDelayState</Str>
 			<Int sr="arg1">
@@ -65875,7 +65972,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act163" ve="7">
+		<Action sr="act173" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%ntitle3</Str>
 			<Str sr="arg1" ve="3">線</Str>
@@ -65903,7 +66000,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act164" ve="7">
+		<Action sr="act174" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toZoomPopupData</Str>
 			<Int sr="arg1">
@@ -65939,7 +66036,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act165" ve="7">
+		<Action sr="act175" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -65949,7 +66046,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act166" ve="7">
+		<Action sr="act176" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOCATION_WEATHER</Str>
 			<Str sr="arg1" ve="3">%ntitle3</Str>
@@ -65958,7 +66055,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act167" ve="7">
+		<Action sr="act177" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWallpaperWeather</Str>
 			<Int sr="arg1">
@@ -65969,7 +66066,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3">%path</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act168" ve="7">
+		<Action sr="act178" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
 			<Int sr="arg1">
@@ -65980,82 +66077,8 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act169" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%devicesstate_zoom_time</Str>
-			<Str sr="arg1" ve="3">\.</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">:</Str>
-		</Action>
-		<Action sr="act170" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act171" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act172" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act173" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>2</op>
-					<rhs>Nexus7: スキャンが終了しました</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act174" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">ALL;NOTIFY;Nexus7スキャンが終了しました</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act175" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">Start</Str>
-		</Action>
-		<Action sr="act176" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act177" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">toLineMyId</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Unknown Type : %ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act178" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act179" ve="7">
-			<code>38</code>
+			<code>43</code>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>1000294689</code>
@@ -66079,6 +66102,69 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act180" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Unknown Type : Type1=%ntitle2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act181" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act182" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act183" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ntitle</lhs>
+					<op>2</op>
+					<rhs>Nexus7: スキャンが終了しました</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act184" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ntitle</Str>
+			<Str sr="arg1" ve="3">ALL;NOTIFY;Nexus7スキャンが終了しました</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act185" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Start</Str>
+		</Action>
+		<Action sr="act186" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act187" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toLineMyId</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Unknown Type : %ntitle</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act188" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act189" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>1000294689</code>
