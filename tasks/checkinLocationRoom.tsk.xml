@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1586418613294</edate>
+		<edate>1586419328641</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -368,18 +368,6 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act37" ve="7">
-			<code>130</code>
-			<label>部屋にチェックインしている人数を取得する</label>
-			<Str sr="arg0" ve="3">getDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
-			<Str sr="arg3" ve="3">%room</Str>
-			<Str sr="arg4" ve="3">%count</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act38" ve="7">
 			<code>37</code>
 			<label>自宅かつサーバの場合</label>
 			<ConditionList sr="if">
@@ -395,6 +383,18 @@
 					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>130</code>
+			<label>部屋にチェックインしている人数を取得する</label>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%room</Str>
+			<Str sr="arg4" ve="3">%count</Str>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act39" ve="7">
 			<code>37</code>
