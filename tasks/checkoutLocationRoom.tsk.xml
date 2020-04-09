@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1586419255725</edate>
+		<edate>1586442607806</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -16,6 +16,39 @@
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -25,7 +58,115 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>2</op>
+					<rhs>バスルーム</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<label>バスルームのお湯が沸いている場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HOME_APPLIANCE_STATE</lhs>
+					<op>4</op>
+					<rhs>.*%LOCATION_LLAMA.+お湯;オン.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<label>行動履歴にお風呂を追加する</label>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3">🛁</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>5</op>
+					<rhs>.*🛁.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toCalendarMasterPersonal</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">お風呂</Str>
+			<Str sr="arg3" ve="3">%LOCATION_ROOM_CHECKIN_TIME;%TIMES</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<label>行動履歴にシャワーを追加する</label>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3">🚿</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MASTER_RECENT</lhs>
+					<op>5</op>
+					<rhs>.*🚿.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<label>他端末からのチェックインの場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location</lhs>
+					<op>12</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toCalendarMasterPersonal</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">シャワー</Str>
+			<Str sr="arg3" ve="3">%LOCATION_ROOM_CHECKIN_TIME;%TIMES</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>130</code>
 			<label>お疲れ様メッセージを発声する</label>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -37,7 +178,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<label>トイレの場合</label>
 			<ConditionList sr="if">
@@ -48,7 +189,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act24" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -58,7 +199,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<label>滞在時間を計算する</label>
 			<Str sr="arg0" ve="3">%lag</Str>
@@ -68,7 +209,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
 			<label>滞在時間が5分以上ならうんこカウントをインクリメントする</label>
 			<Str sr="arg0" ve="3">addUnko</Str>
@@ -87,11 +228,11 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 			<label>それ以外の場合</label>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<label>滞在時間が5分以上ならうんこカウントをインクリメントする</label>
 			<Str sr="arg0" ve="3">addUnko</Str>
@@ -110,10 +251,21 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">subtractValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location</Str>
+			<Str sr="arg4" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<label>個人カレンダーに登録する</label>
 			<Str sr="arg0" ve="3">toCalendarMasterPersonal</Str>
@@ -132,129 +284,19 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act31" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>2</op>
-					<rhs>バスルーム</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">%LOCATION_LLAMA_%LOCATION_ROOM</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA%LOCATION_ROOM</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>2</op>
-					<rhs>自宅</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
-			<Str sr="arg3" ve="3">%room</Str>
-			<Str sr="arg4" ve="3">%count</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSwitchChangeLightOff</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%count</lhs>
-					<op>2</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">subtractValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
-			<Str sr="arg3" ve="3">%room</Str>
-			<Str sr="arg4" ve="3">%LOCATION_ROOM_STATE</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>277269574</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.ACCOUNT_NAME>kinreiboku.tomorrow@gmail.com</com.pushbullet.android.tasker.ACCOUNT_NAME>
-					<com.pushbullet.android.tasker.ACCOUNT_NAME-type>java.lang.String</com.pushbullet.android.tasker.ACCOUNT_NAME-type>
-					<com.pushbullet.android.tasker.BODY></com.pushbullet.android.tasker.BODY>
-					<com.pushbullet.android.tasker.BODY-type>java.lang.String</com.pushbullet.android.tasker.BODY-type>
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.TARGET_EMAIL>&lt;null&gt;</com.pushbullet.android.tasker.TARGET_EMAIL>
-					<com.pushbullet.android.tasker.TARGET_EMAIL-type>java.lang.String</com.pushbullet.android.tasker.TARGET_EMAIL-type>
-					<com.pushbullet.android.tasker.TARGET_IDEN>all-of-my-devices</com.pushbullet.android.tasker.TARGET_IDEN>
-					<com.pushbullet.android.tasker.TARGET_IDEN-type>java.lang.String</com.pushbullet.android.tasker.TARGET_IDEN-type>
-					<com.pushbullet.android.tasker.TITLE>ALL;LOCATIONROOM;CHECKOUT;%room</com.pushbullet.android.tasker.TITLE>
-					<com.pushbullet.android.tasker.TITLE-type>java.lang.String</com.pushbullet.android.tasker.TITLE-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Push a note titled "ALL;LOCATIONROOM;CHECKOUT;%room" with th</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pushbullet.android.tasker.TITLE com.pushbullet.android.tasker.BODY</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.action.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act33" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toCalendarMyCalendar</Str>
 			<Int sr="arg1">
@@ -265,25 +307,14 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act34" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<label>バスルームのお湯が沸いている場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%HOME_APPLIANCE_STATE</lhs>
-					<op>4</op>
-					<rhs>.*%LOCATION_LLAMA.+お湯;オン.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act35" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -305,23 +336,23 @@
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act36" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_CHECKIN_TIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act38" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -332,7 +363,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -343,81 +374,84 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act4" ve="7">
-			<code>547</code>
-			<label>行動履歴にお風呂を追加する</label>
-			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
-			<Str sr="arg1" ve="3">🛁</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="3"/>
+			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>5</op>
-					<rhs>.*🛁.*</rhs>
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>130</code>
+			<label>クライアントモードの場合は部屋にチェックアウトしたことをサーバに通知する</label>
+			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%room</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toCalendarMasterPersonal</Str>
+			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">お風呂</Str>
-			<Str sr="arg3" ve="3">%LOCATION_ROOM_CHECKIN_TIME;%TIMES</Str>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location</Str>
+			<Str sr="arg4" ve="3">%count</Str>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<label>行動履歴にシャワーを追加する</label>
-			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
-			<Str sr="arg1" ve="3">🚿</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MASTER_RECENT</lhs>
-					<op>5</op>
-					<rhs>.*🚿.*</rhs>
+					<lhs>%count</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSwitchChangeLightOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%location</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toCalendarMasterPersonal</Str>
+			<label>エアクリーナをオンにする</label>
+			<Str sr="arg0" ve="3">toSwitchChangeAirCleanerOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">シャワー</Str>
-			<Str sr="arg3" ve="3">%LOCATION_ROOM_CHECKIN_TIME;%TIMES</Str>
+			<Str sr="arg2" ve="3">%location</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>38</code>
