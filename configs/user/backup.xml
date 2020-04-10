@@ -1,5 +1,5 @@
-<TaskerData sr="" dvi="1" tv="5.8.3">
-	<dmetric>1080.0,1798.0</dmetric>
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+	<dmetric>1080.0,1813.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<edate>1548212519185</edate>
@@ -919,6 +919,7 @@
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
 		</Event>
 	</Profile>
 	<Profile sr="prof272" ve="2">
@@ -974,7 +975,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1586495543898</edate>
+		<edate>1586496051384</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -4183,6 +4184,7 @@
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
 		<edate>1586494331299</edate>
+		<flags>2</flags>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -5598,30 +5600,35 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%CALENDAR_RECENT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%DAY_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA</lhs>
@@ -6045,18 +6052,21 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%POPUP_DATA</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CNT_UNKO_DAY</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CNT_SPACE_DAY</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>598</code>
@@ -6120,6 +6130,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%AVATAR_NUMBER</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -6139,6 +6150,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%DAY_EVENT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
@@ -6177,6 +6189,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA</lhs>
@@ -6201,11 +6214,12 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%LOCATION_ALARM</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1586493475639</edate>
+		<edate>1586496051384</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6451,18 +6465,13 @@ Instagram</label>
 		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayTwitterNews</Str>
-			<Int sr="arg1" val="4"/>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -6477,34 +6486,24 @@ Instagram</label>
 		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayTwitterTrainInfo</Str>
-			<Int sr="arg1" val="4"/>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act31" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLifeSupportInformation</Str>
-			<Int sr="arg1" val="4"/>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
 			<Str sr="arg2" ve="3">Every</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>43</code>
@@ -6830,6 +6829,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
@@ -7413,6 +7413,8 @@ Instagram</label>
 			<Str sr="arg2" ve="3">ja-JP</Str>
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="40"/>
+			<Int sr="arg5" val="0"/>
+			<Bundle sr="arg6"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -8867,6 +8869,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%SHAKE_EVENT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task111">
@@ -10516,6 +10519,7 @@ Instagram</label>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
@@ -16133,6 +16137,7 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>38</code>
@@ -19002,6 +19007,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act37" ve="7">
 			<code>1000294689</code>
@@ -19030,6 +19036,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM_CHECKIN_TIME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act39" ve="7">
 			<code>547</code>
@@ -20525,6 +20532,7 @@ Say:%SAY_STATE</Str>
 			<Str sr="arg0" ve="3">%LOCATION_INFORMATION</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
@@ -21610,6 +21618,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">http://express.heartrails.com/api/json?method=getStations&amp;x=%gl_longitude&amp;y=%gl_latitude</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -21867,6 +21876,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">https://map.yahooapis.jp/placeinfo/V1/get?lat=%gl_latitude&amp;lon=%gl_longitude&amp;appid=%YAHOO_APP_ID&amp;output=json</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -22277,6 +22287,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>116</code>
@@ -22878,6 +22889,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -23516,6 +23528,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%voice</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>130</code>
@@ -24993,6 +25006,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%calendar</Str>
 			<Int sr="arg1" val="28"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
@@ -25454,6 +25468,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%BLUETOOTH_CONNECTED_DEVICE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -26485,6 +26500,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task296">
@@ -26701,6 +26717,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%MASTER_DATA_TRAIN_ALTERNATIVE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>590</code>
@@ -26742,6 +26759,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%MASTER_DATA_LOCATION</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>590</code>
@@ -26835,6 +26853,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%MASTER_DATA_TRAIN</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>590</code>
@@ -26903,6 +26922,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -26925,6 +26945,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%par2</Str>
 			<Int sr="arg1" val="28"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -28441,6 +28462,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%newtweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>130</code>
@@ -30320,6 +30342,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task326">
@@ -31450,6 +31473,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -32625,6 +32649,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%LIST_TODO</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act125" ve="7">
 			<code>590</code>
@@ -32637,6 +32662,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%newitems</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act127" ve="7">
 			<code>39</code>
@@ -32726,6 +32752,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%LIST_TODO</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act138" ve="7">
 			<code>590</code>
@@ -32738,6 +32765,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%newitems</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>37</code>
@@ -32857,6 +32885,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%LIST_SHOPPING</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act152" ve="7">
 			<code>590</code>
@@ -32869,6 +32898,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%newitems</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act154" ve="7">
 			<code>39</code>
@@ -32969,6 +32999,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%LIST_SHOPPING</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act164" ve="7">
 			<code>590</code>
@@ -32981,6 +33012,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%newitems</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act166" ve="7">
 			<code>39</code>
@@ -34036,6 +34068,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act73" ve="7">
 			<code>37</code>
@@ -39976,6 +40009,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -40290,6 +40324,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%SLEEP_TIMES_END</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -40696,6 +40731,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%CALENDAR_MOVE_DESCRIPTION</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -41139,6 +41175,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act47" ve="7">
 			<code>37</code>
@@ -43589,6 +43626,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg0" ve="3">%AVATAR_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act44" ve="7">
 			<code>43</code>
@@ -44286,6 +44324,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%NEWS_URL</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
@@ -44597,6 +44636,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%BLUETOOTH_CONNECTED_DEVICE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -48678,6 +48718,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%LOCATION_STATION_TYPE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act60" ve="7">
 			<code>590</code>
@@ -48972,12 +49013,14 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%CALENDAR_MOVE_TITLE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act89" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CALENDAR_MOVE_DESCRIPTION</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>37</code>
@@ -49220,24 +49263,28 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%value</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%value_prev</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%value_next</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%value_station</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>37</code>
@@ -50709,6 +50756,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%value</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>37</code>
@@ -54047,6 +54095,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%state</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>547</code>
@@ -55309,12 +55358,14 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_LLAMA_TYPE</lhs>
@@ -56238,6 +56289,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -59751,6 +59803,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%avatar</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>116</code>
@@ -59814,6 +59867,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
@@ -59829,6 +59883,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%event</Str>
 			<Int sr="arg1" val="28"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
@@ -59855,6 +59910,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%par2</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 	</Task>
 	<Task sr="task687">
@@ -59881,6 +59937,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task689">
@@ -60540,6 +60597,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%WIFI_NEAR</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFI_NEAR</lhs>
@@ -60636,6 +60694,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -60655,6 +60714,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -60674,6 +60734,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -60882,6 +60943,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_FOREGROUND</lhs>
@@ -61534,6 +61596,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -62547,6 +62610,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">http://api.olp.yahooapis.jp/v1/review/%par1?appid=%YAHOO_APP_ID</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -63376,12 +63440,14 @@ https://transit.yahoo.co.jp/smartphone/app/?referrer=app_share
 			<Str sr="arg0" ve="3">%CALENDAR_MOVE_TITLE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act48" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CALENDAR_MOVE_DESCRIPTION</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act49" ve="7">
 			<code>38</code>
@@ -64044,6 +64110,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%ret</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act48" ve="7">
 			<code>135</code>
@@ -64312,6 +64379,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%recent</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>135</code>
@@ -64668,6 +64736,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -64834,6 +64903,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%ntitle3</Str>
 			<Int sr="arg1" val="18"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>130</code>
@@ -65017,6 +65087,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>116</code>
@@ -65081,6 +65152,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -68443,6 +68515,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
@@ -68672,6 +68745,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>43</code>
@@ -68885,6 +68959,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
@@ -68931,6 +69006,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%LIFE_EAT_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
