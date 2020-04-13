@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<clp>true</clp>
-		<edate>1586482897151</edate>
+		<edate>1586513977208</edate>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -18,30 +17,64 @@
 	</Profile>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586482897151</edate>
+		<edate>1586513977208</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>37</code>
-			<label>MacroDroidデータが存在する場合</label>
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">sayTwitterNews</Str>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%macrodroiddata</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">sayTwitterTrainInfo</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%MACRO_DROID_DATA</Str>
-			<Str sr="arg1" ve="3">%macrodroiddata</Str>
+			<Str sr="arg0" ve="3">%MACRO_DROID_DATA_SUNRISE</Str>
+			<Str sr="arg1" ve="3">%sunset</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act11" ve="7">
+			<code>43</code>
+			<label>タスクが存在する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%task</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%task</lhs>
+					<op>4</op>
+					<rhs>.*にチェックイン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
@@ -60,7 +93,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">にチェックイン</Str>
@@ -71,7 +104,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act15" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -81,7 +114,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
@@ -92,13 +125,13 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act17" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">;</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act18" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
@@ -110,7 +143,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act19" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
@@ -122,10 +155,15 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">sayLifeSupportInformation</Str>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act21" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
@@ -137,21 +175,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act22" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-			<label>スクリーンショットが存在する場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%screenshot</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -161,7 +188,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act24" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
@@ -180,7 +207,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
@@ -191,7 +218,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act26" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
@@ -203,10 +230,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act27" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">fromPushbullet</Str>
 			<Int sr="arg1">
@@ -217,13 +244,44 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>MacroDroidデータが存在する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%macrodroiddata</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MACRO_DROID_DATA</Str>
+			<Str sr="arg1" ve="3">%macrodroiddata</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<label>スクリーンショットが存在する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%screenshot</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toScreenshot</Str>
 			<Int sr="arg1">
@@ -234,7 +292,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>43</code>
 			<label>日の出時刻が存在する場合</label>
 			<ConditionList sr="if">
@@ -245,7 +303,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%MACRO_DROID_DATA_SUNRISE</Str>
 			<Str sr="arg1" ve="3">%sunrise</Str>
@@ -254,7 +312,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act9" ve="7">
 			<code>43</code>
 			<label>日の入時刻が存在する場合</label>
 			<ConditionList sr="if">
@@ -262,36 +320,6 @@
 					<lhs>%sunset</lhs>
 					<op>12</op>
 					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%MACRO_DROID_DATA_SUNRISE</Str>
-			<Str sr="arg1" ve="3">%sunset</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>43</code>
-			<label>タスクが存在する場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%task</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%task</lhs>
-					<op>4</op>
-					<rhs>.*にチェックイン</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

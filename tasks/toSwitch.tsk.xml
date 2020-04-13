@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task220">
 		<cdate>1535688823962</cdate>
-		<edate>1565020596958</edate>
+		<edate>1586745362854</edate>
 		<id>220</id>
 		<nme>toSwitch</nme>
 		<pri>7</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Button %par2=HomeAppliance</label>
@@ -49,7 +50,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>547</code>
@@ -58,29 +59,11 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>130</code>
 			<on>false</on>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%message</Str>
-			<Str sr="arg3" ve="3">force</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>
-					<op>5</op>
-					<rhs>.*XEA20.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>130</code>
 			<Str sr="arg0" ve="3">toNotify</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -90,36 +73,52 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act15" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">fromPushbullet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;SWITCHSTATE;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act17" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toFlash</Str>
+			<Str sr="arg0" ve="3">toWebhook</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;SWITCHSTATE;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhook</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%par2;%state</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -134,6 +133,39 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toFlash</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par2;%state</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -193,7 +225,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 	</Task>
 </TaskerData>
