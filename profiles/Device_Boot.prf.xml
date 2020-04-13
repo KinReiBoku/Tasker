@@ -1,8 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.1">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<clp>true</clp>
-		<edate>1578795569000</edate>
+		<edate>1578800124573</edate>
 		<id>45</id>
 		<mid0>44</mid0>
 		<nme>Device Boot</nme>
@@ -13,7 +12,7 @@
 	</Profile>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1578795569000</edate>
+		<edate>1586758945288</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

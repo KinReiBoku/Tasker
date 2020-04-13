@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1586513977208</edate>
+		<edate>1586745391470</edate>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -17,7 +17,7 @@
 	</Profile>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586513977208</edate>
+		<edate>1586745391470</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
