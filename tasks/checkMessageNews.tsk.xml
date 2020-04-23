@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1563746032557</edate>
+		<edate>1587609469800</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Message</label>
@@ -33,6 +34,18 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<label>ハッシュタグ削除</label>
+			<Str sr="arg0" ve="3">delHashTag</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%par1</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>598</code>
 			<label>大分合同新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -52,7 +65,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
@@ -71,7 +84,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>598</code>
 			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
@@ -90,7 +103,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>598</code>
 			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -110,7 +123,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>598</code>
 			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -123,7 +136,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<label>秋田新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -136,15 +149,15 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -153,17 +166,6 @@
 			</Int>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toLineMyId</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
-			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -177,12 +179,23 @@
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toLineMyId</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act21" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -193,7 +206,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -266,21 +279,20 @@
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>130</code>
-			<label>URL削除</label>
-			<Str sr="arg0" ve="3">delUrl</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%par1</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%par1</Str>
-			<Int sr="arg5" val="0"/>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">@</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<label>ハッシュタグ削除</label>
-			<Str sr="arg0" ve="3">delHashTag</Str>
+			<label>URL削除</label>
+			<Str sr="arg0" ve="3">delUrl</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
