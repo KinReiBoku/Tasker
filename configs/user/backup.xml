@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.4">
 	<dmetric>1080.0,1813.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
@@ -234,25 +234,6 @@
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
-		</State>
-	</Profile>
-	<Profile sr="prof152" ve="2">
-		<cdate>1586963066225</cdate>
-		<edate>1587007637587</edate>
-		<flags>2</flags>
-		<id>152</id>
-		<mid0>150</mid0>
-		<mid1>151</mid1>
-		<nme>Wifi Near 自宅（さいたま）</nme>
-		<pri>6</pri>
-		<State sr="con0" ve="2">
-			<code>170</code>
-			<Str sr="arg0" ve="3">001D73C1CDEC</Str>
-			<Str sr="arg1" ve="3">00:1d:73:c1:cd:ed</Str>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
 		</State>
 	</Profile>
 	<Profile sr="prof159" ve="2">
@@ -633,6 +614,22 @@
 			<code>203</code>
 		</Event>
 	</Profile>
+	<Profile sr="prof214" ve="2">
+		<cdate>1587741283636</cdate>
+		<edate>1587741346463</edate>
+		<flags>10</flags>
+		<id>214</id>
+		<mid0>223</mid0>
+		<nme>Every 15m</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>15</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
 	<Profile sr="prof230" ve="2">
 		<cdate>1535709448560</cdate>
 		<edate>1536148868894</edate>
@@ -658,6 +655,23 @@
 		<State sr="con0" ve="2">
 			<code>10</code>
 			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof256" ve="2">
+		<cdate>1587779757300</cdate>
+		<edate>1587779991630</edate>
+		<flags>2</flags>
+		<id>256</id>
+		<mid0>226</mid0>
+		<mid1>255</mid1>
+		<nme>Wifi Connected 自宅（さいたま）</nme>
+		<pri>6</pri>
+		<State sr="con0" ve="2">
+			<code>160</code>
+			<Str sr="arg0" ve="3">001D73C1CDEC</Str>
+			<Str sr="arg1" ve="3">00:1d:73:c1:cd:ed</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
 		</State>
 	</Profile>
 	<Profile sr="prof267" ve="2">
@@ -719,7 +733,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1586913015196</edate>
+		<edate>1587978001183</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -757,7 +771,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1586925406895</edate>
+		<edate>1588991484086</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -1160,7 +1174,7 @@
 	</Profile>
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
-		<edate>1586739288609</edate>
+		<edate>1588685053226</edate>
 		<flags>2</flags>
 		<id>372</id>
 		<mid0>7</mid0>
@@ -2243,7 +2257,7 @@
 	</Profile>
 	<Profile sr="prof50" ve="2">
 		<cdate>1535871961973</cdate>
-		<edate>1587371896080</edate>
+		<edate>1587741336021</edate>
 		<flags>2</flags>
 		<id>50</id>
 		<mid0>48</mid0>
@@ -3517,7 +3531,7 @@
 	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1586875145023</edate>
+		<edate>1587914877179</edate>
 		<flags>2</flags>
 		<id>637</id>
 		<mid0>638</mid0>
@@ -3615,7 +3629,7 @@
 	</Profile>
 	<Profile sr="prof648" ve="2">
 		<cdate>1548246656313</cdate>
-		<edate>1586780054875</edate>
+		<edate>1592077898725</edate>
 		<flags>2</flags>
 		<id>648</id>
 		<mid0>649</mid0>
@@ -4536,9 +4550,9 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1587370576911</mdate>
+		<mdate>1587779839932</mdate>
 		<name>Base</name>
-		<pids>17,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,466,449,476,478,482,484,486,488,490,492,494,498,500,502,504,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,142,546,563,561,565,567,569,571,573,575,577,579,581,583,585,587,589,594,596,593,600,564,603,605,607,609,616,622,624,621,627,629,631,633,635,637,639,648,643,316,653,655,657,659,663,670,677,673,674,41,441,542,675,680,686,690,439,701,705,685,719,725,727,736,731,739,729,746,750,753,147,145,152</pids>
+		<pids>17,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,466,449,476,478,482,484,486,488,490,492,494,498,500,502,504,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,142,546,563,561,565,567,569,571,573,575,577,579,581,583,585,587,589,594,596,593,600,564,603,605,607,609,616,622,624,621,627,629,631,633,635,637,639,648,643,316,653,655,657,659,663,670,677,673,674,41,441,542,675,680,686,690,439,701,705,685,719,725,727,736,731,739,729,746,750,753,147,145,214,256</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock,Popup</scenes>
 		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154</tids>
@@ -5551,7 +5565,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1586925406895</edate>
+		<edate>1588991484086</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -5884,7 +5898,7 @@ Instagram</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%lag</lhs>
 					<op>7</op>
-					<rhs>1500</rhs>
+					<rhs>1600</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -10207,7 +10221,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1586498991427</edate>
+		<edate>1587794910447</edate>
 		<id>123</id>
 		<nme>checkMessageRss</nme>
 		<pri>100</pri>
@@ -10242,7 +10256,7 @@ Instagram</label>
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\(画像=.+\)</Str>
+			<Str sr="arg1" ve="3">&amp;amp</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10253,7 +10267,7 @@ Instagram</label>
 		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\[…\]</Str>
+			<Str sr="arg1" ve="3">&amp;quot</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10264,7 +10278,7 @@ Instagram</label>
 		<Action sr="act12" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\[BBCNews\]</Str>
+			<Str sr="arg1" ve="3">/test.+/</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10275,7 +10289,7 @@ Instagram</label>
 		<Action sr="act13" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\| サイエンスセクション.*</Str>
+			<Str sr="arg1" ve="3">\(画像=.+\)</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10286,7 +10300,7 @@ Instagram</label>
 		<Action sr="act14" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\| セキュリティセクション.*</Str>
+			<Str sr="arg1" ve="3">\[…\]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10297,7 +10311,7 @@ Instagram</label>
 		<Action sr="act15" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\| ハードウェアセクション.*</Str>
+			<Str sr="arg1" ve="3">\[BBCNews\]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10308,7 +10322,7 @@ Instagram</label>
 		<Action sr="act16" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">\| 軍事.*</Str>
+			<Str sr="arg1" ve="3">\| サイエンスセクション.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10319,7 +10333,7 @@ Instagram</label>
 		<Action sr="act17" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">1: 20[0-9/\(\)日月火水木金土 :\.]+</Str>
+			<Str sr="arg1" ve="3">\| セキュリティセクション.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10330,7 +10344,7 @@ Instagram</label>
 		<Action sr="act18" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ID:[a-zA-Z0-9]+0</Str>
+			<Str sr="arg1" ve="3">\| ハードウェアセクション.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10341,7 +10355,7 @@ Instagram</label>
 		<Action sr="act19" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9]20.+ux0</Str>
+			<Str sr="arg1" ve="3">\| 軍事.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10368,7 +10382,7 @@ Instagram</label>
 		<Action sr="act20" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9]20.+ID:[0-9A-Za-z\.]+</Str>
+			<Str sr="arg1" ve="3">1: 20[0-9/\(\)日月火水木金土 :\.]+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10379,7 +10393,7 @@ Instagram</label>
 		<Action sr="act21" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9] :名無しさん.+ID:[A-Za-z0-9]+</Str>
+			<Str sr="arg1" ve="3">ID:[a-zA-Z0-9]+0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10390,7 +10404,7 @@ Instagram</label>
 		<Action sr="act22" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9]名も無き被検体774号.+0</Str>
+			<Str sr="arg1" ve="3">[0-9]20.+ux0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10401,7 +10415,7 @@ Instagram</label>
 		<Action sr="act23" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9]にぼしん.+usagi_drive</Str>
+			<Str sr="arg1" ve="3">[0-9]20.+ID:[0-9A-Za-z\.]+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10412,7 +10426,7 @@ Instagram</label>
 		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">[0-9]GARLAND/獣頭人身.+garlandex</Str>
+			<Str sr="arg1" ve="3">[0-9] :名無しさん.+ID:[A-Za-z0-9]+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10423,7 +10437,7 @@ Instagram</label>
 		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">1: 以下ニュー速クオリティでお送りします .* ID:ID:...</Str>
+			<Str sr="arg1" ve="3">[0-9]名も無き被検体774号.+0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10434,7 +10448,7 @@ Instagram</label>
 		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">1本当にあった怖い名無し.+.net</Str>
+			<Str sr="arg1" ve="3">[0-9]にぼしん.+usagi_drive</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10445,7 +10459,7 @@ Instagram</label>
 		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">1.*Z4U</Str>
+			<Str sr="arg1" ve="3">[0-9]GARLAND/獣頭人身.+garlandex</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10456,7 +10470,7 @@ Instagram</label>
 		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">2.*Z4U</Str>
+			<Str sr="arg1" ve="3">1: 以下ニュー速クオリティでお送りします .* ID:ID:...</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10467,7 +10481,7 @@ Instagram</label>
 		<Action sr="act29" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">20.+posted at.+JST</Str>
+			<Str sr="arg1" ve="3">1本当にあった怖い名無し.+.net</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10487,7 +10501,7 @@ Instagram</label>
 		<Action sr="act30" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> #higobashiaws</Str>
+			<Str sr="arg1" ve="3">1.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10498,7 +10512,7 @@ Instagram</label>
 		<Action sr="act31" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">#ldnews</Str>
+			<Str sr="arg1" ve="3">2.*Z4U</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10509,7 +10523,7 @@ Instagram</label>
 		<Action sr="act32" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">#nhk</Str>
+			<Str sr="arg1" ve="3">20.+posted at.+JST</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10520,7 +10534,7 @@ Instagram</label>
 		<Action sr="act33" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">A post shared by.+PST</Str>
+			<Str sr="arg1" ve="3"> #higobashiaws</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10531,7 +10545,7 @@ Instagram</label>
 		<Action sr="act34" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">AndreyPopoviStockGetty Images Plus写真はイメージです</Str>
+			<Str sr="arg1" ve="3">#ldnews</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10542,7 +10556,7 @@ Instagram</label>
 		<Action sr="act35" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">App StoreGoogle Play.*</Str>
+			<Str sr="arg1" ve="3">#nhk</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10553,8 +10567,7 @@ Instagram</label>
 		<Action sr="act36" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">
-Copyright .*All rights reserved\.</Str>
+			<Str sr="arg1" ve="3">A post shared by.+PST</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10565,7 +10578,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act37" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> https.* #nhk_bknews。</Str>
+			<Str sr="arg1" ve="3">AndreyPopoviStockGetty Images Plus写真はイメージです</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10576,7 +10589,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act38" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image:KokiNagahama/GettyImagesNews/ゲッティイメージズ</Str>
+			<Str sr="arg1" ve="3">App StoreGoogle Play.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10587,7 +10600,8 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act39" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image[0-9a-zA-Z_:/=?\.\- ()]*</Str>
+			<Str sr="arg1" ve="3">
+Copyright .*All rights reserved\.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10609,7 +10623,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act40" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">image credit:YouTube</Str>
+			<Str sr="arg1" ve="3"> https.* #nhk_bknews。</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10620,7 +10634,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act41" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">bbossomi.+写真はイメージです</Str>
+			<Str sr="arg1" ve="3">Image:KokiNagahama/GettyImagesNews/ゲッティイメージズ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10631,7 +10645,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act42" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">is a post from: Social Game Info</Str>
+			<Str sr="arg1" ve="3">Image[0-9a-zA-Z_:/=?\.\- ()]*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10642,7 +10656,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act43" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">lLLMM0.net</Str>
+			<Str sr="arg1" ve="3">image credit:YouTube</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10651,6 +10665,39 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act44" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">bbossomi.+写真はイメージです</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">is a post from: Social Game Info</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">lLLMM0.net</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act47" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">jhalS0.net
@@ -10665,7 +10712,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act48" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">pimg src=.*</Str>
@@ -10676,7 +10723,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act49" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">thanasusiStockGetty 画像はイメージです
@@ -10687,39 +10734,6 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">View Entire Post &amp;rsaquo</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">View this post on Instagram</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ｗｗ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ｗ</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>598</code>
@@ -10735,7 +10749,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act50" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">この記事を読むのにかかる時間</Str>
+			<Str sr="arg1" ve="3">View Entire Post &amp;rsaquo</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10746,7 +10760,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act51" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">すべての画像はソースで</Str>
+			<Str sr="arg1" ve="3">View this post on Instagram</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10757,18 +10771,18 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act52" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">すべて読む 医療.*</Str>
+			<Str sr="arg1" ve="3">ｗｗ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
+			<Str sr="arg7" ve="3">ｗ</Str>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">イケハヤちゃんねるに登録する</Str>
+			<Str sr="arg1" ve="3">この記事を読むのにかかる時間</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10779,7 +10793,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act54" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">引用元:.*</Str>
+			<Str sr="arg1" ve="3">すべての画像はソースで</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10790,7 +10804,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act55" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
+			<Str sr="arg1" ve="3">すべて読む 医療.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10799,6 +10813,39 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act56" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">イケハヤちゃんねるに登録する</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">引用元:.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">引用元.*続きを読む</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act59" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">
@@ -10811,44 +10858,10 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act57" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">関連記事</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act58" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">関連記事キャリコネニュース.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act59" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">関連ストーリー.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act6" ve="7">
 			<code>598</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">&lt;[a-z]*?&gt;</Str>
+			<Str sr="arg1" ve="3">&lt;".*?&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10859,7 +10872,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act60" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">画像=キャリコネニュース</Str>
+			<Str sr="arg1" ve="3">関連記事</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10870,7 +10883,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act61" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">参照元Instagram.*</Str>
+			<Str sr="arg1" ve="3">関連記事キャリコネニュース.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10879,6 +10892,39 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act62" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">関連ストーリー.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">画像=キャリコネニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">参照元Instagram.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act65" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">写真.*com
@@ -10891,7 +10937,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act66" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">全文を読む</Str>
@@ -10902,7 +10948,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act67" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">全文読む</Str>
@@ -10913,7 +10959,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act68" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">続きはJ-CASTニュースへ</Str>
@@ -10924,7 +10970,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act69" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">続きを読む</Str>
@@ -10935,43 +10981,10 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act67" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txtは</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act68" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">ads\.txt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act69" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">Image: </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">&amp;amp</Str>
+			<Str sr="arg1" ve="3">&lt;/.*?&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10982,7 +10995,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act70" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">tnEKX0.net</Str>
+			<Str sr="arg1" ve="3">ads\.txtは</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -10993,7 +11006,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act71" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Str sr="arg1" ve="3">ads\.txt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -11004,7 +11017,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act72" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">.+\.net</Str>
+			<Str sr="arg1" ve="3">Image: </Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -11013,6 +11026,39 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act73" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">tnEKX0.net</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3"> \[&amp;#8230</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">.+\.net</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act76" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
@@ -11024,7 +11070,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act77" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">\|</Str>
@@ -11035,7 +11081,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act78" ve="7">
 			<code>130</code>
 			<label>URL削除</label>
 			<Str sr="arg0" ve="3">delUrl</Str>
@@ -11047,53 +11093,21 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3">%par1</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act76" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">  </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"> </Str>
-		</Action>
-		<Action sr="act77" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">  </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"> </Str>
-		</Action>
-		<Action sr="act78" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%enter</Str>
-			<Str sr="arg1" ve="3">
-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
 		<Action sr="act79" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%double_enter</Str>
-			<Str sr="arg1" ve="3">
-
-</Str>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">  </Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"> </Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">&amp;quot</Str>
+			<Str sr="arg1" ve="3">&lt;.&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -11104,6 +11118,38 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act80" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"> </Str>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%enter</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%double_enter</Str>
+			<Str sr="arg1" ve="3">
+
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%double_enter</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11112,7 +11158,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%enter</Str>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act84" ve="7">
 			<code>130</code>
 			<label>ハッシュタグ削除</label>
 			<on>false</on>
@@ -11125,7 +11171,7 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3">%par1</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act85" ve="7">
 			<code>130</code>
 			<label>HTML削除</label>
 			<Str sr="arg0" ve="3">delHtml</Str>
@@ -11137,7 +11183,7 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3">%par1</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act86" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
 			<Int sr="arg1">
@@ -11155,28 +11201,46 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act87" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act88" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>5</op>
+					<rhs>^\%.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act89" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act9" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">&lt;[a-z]*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act90" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -11188,24 +11252,13 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act88" ve="7">
+		<Action sr="act91" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act89" ve="7">
+		<Action sr="act92" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">/test.+/</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act90" ve="7">
+		<Action sr="act93" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -11216,7 +11269,7 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act94" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -11566,7 +11619,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1586498985618</edate>
+		<edate>1587609469800</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
@@ -11599,6 +11652,18 @@ Copyright .*All rights reserved\.</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<label>ハッシュタグ削除</label>
+			<Str sr="arg0" ve="3">delHashTag</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%par1</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>598</code>
 			<label>大分合同新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -11618,7 +11683,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
@@ -11637,7 +11702,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>598</code>
 			<label>北海道新聞の場合、固定タグを削除する</label>
 			<Str sr="arg0" ve="3">%par1</Str>
@@ -11656,7 +11721,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>598</code>
 			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -11676,7 +11741,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>598</code>
 			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -11689,7 +11754,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<label>秋田新聞の場合、固定ハッシュタグを削除する</label>
 			<on>false</on>
@@ -11702,15 +11767,15 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">sayError</Str>
@@ -11719,17 +11784,6 @@ Copyright .*All rights reserved\.</Str>
 			</Int>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toLineMyId</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
-			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -11743,12 +11797,23 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toLineMyId</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act21" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -11759,7 +11824,7 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -11832,21 +11897,20 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>130</code>
-			<label>URL削除</label>
-			<Str sr="arg0" ve="3">delUrl</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%par1</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%par1</Str>
-			<Int sr="arg5" val="0"/>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">@</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
-			<label>ハッシュタグ削除</label>
-			<Str sr="arg0" ve="3">delHashTag</Str>
+			<label>URL削除</label>
+			<Str sr="arg0" ve="3">delUrl</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -12791,224 +12855,6 @@ Copyright .*All rights reserved\.</Str>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task150">
-		<cdate>1521384755669</cdate>
-		<edate>1584928771971</edate>
-		<id>150</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setSilentModeOff</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>3</op>
-					<rhs>バスルーム</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%FLASH_STATE</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
-			<Str sr="arg0" ve="3">toBrightness</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Normal</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%SLEEP_TIMES_START</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SLEEP_TIMES_END</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>808</code>
-			<Int sr="arg0" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>2056966535</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<CUSTOM_VERSION>1</CUSTOM_VERSION>
-					<CUSTOM_VERSION-type>java.lang.Integer</CUSTOM_VERSION-type>
-					<SETT_DOWHAT>startserver</SETT_DOWHAT>
-					<SETT_DOWHAT-type>java.lang.String</SETT_DOWHAT-type>
-					<SETT_LOCALSERVERS_SERVERS>&lt;StringArrayList sr=""&gt;&lt;_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;simple1smb1&lt;/_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;&lt;/StringArrayList&gt;</SETT_LOCALSERVERS_SERVERS>
-					<SETT_LOCALSERVERS_SERVERS-type>java.util.ArrayList</SETT_LOCALSERVERS_SERVERS-type>
-					<SETT_REMOTESERVERS_SERVERS>&lt;StringArrayList sr=""/&gt;</SETT_REMOTESERVERS_SERVERS>
-					<SETT_REMOTESERVERS_SERVERS-type>java.util.ArrayList</SETT_REMOTESERVERS_SERVERS-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Start server
-Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
-			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task151">
-		<cdate>1521384780904</cdate>
-		<edate>1584928815444</edate>
-		<id>151</id>
-		<pri>1007</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setSilentModeOn</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>3</op>
-					<rhs>バスルーム</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>1911640985</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>-- すべて同期 --;;;CANCEL_SYNC</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<com.yourcompany.yourapp.extra.STRING_MESSAGE>-- すべて同期 --;;;CANCEL_SYNC</com.yourcompany.yourapp.extra.STRING_MESSAGE>
-					<com.yourcompany.yourapp.extra.STRING_MESSAGE-type>java.lang.String</com.yourcompany.yourapp.extra.STRING_MESSAGE-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">dk.tacit.android.foldersync.full</Str>
-			<Str sr="arg2" ve="3">dk.tacit.android.foldersync.locale.ui.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%FLASH_STATE</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
-			<Str sr="arg0" ve="3">toBrightness</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Normal</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%SLEEP_TIMES_START</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SLEEP_TIMES_END</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>808</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>113</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>2056966535</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<CUSTOM_VERSION>1</CUSTOM_VERSION>
-					<CUSTOM_VERSION-type>java.lang.Integer</CUSTOM_VERSION-type>
-					<SETT_DOWHAT>stopserver</SETT_DOWHAT>
-					<SETT_DOWHAT-type>java.lang.String</SETT_DOWHAT-type>
-					<SETT_LOCALSERVERS_SERVERS>&lt;StringArrayList sr=""&gt;&lt;_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;simple1smb1&lt;/_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;&lt;/StringArrayList&gt;</SETT_LOCALSERVERS_SERVERS>
-					<SETT_LOCALSERVERS_SERVERS-type>java.util.ArrayList</SETT_LOCALSERVERS_SERVERS-type>
-					<SETT_REMOTESERVERS_SERVERS>&lt;StringArrayList sr=""/&gt;</SETT_REMOTESERVERS_SERVERS>
-					<SETT_REMOTESERVERS_SERVERS-type>java.util.ArrayList</SETT_REMOTESERVERS_SERVERS-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Stop server
-Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
-			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
-			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task153">
@@ -16707,6 +16553,64 @@ Say:%SAY_STATE</Str>
 			<nme>hl_content_discard</nme>
 		</Img>
 	</Task>
+	<Task sr="task223">
+		<cdate>1587741287148</cdate>
+		<edate>1587741346463</edate>
+		<id>223</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayHomeApplianceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayRoomState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
 	<Task sr="task224">
 		<cdate>1535688823962</cdate>
 		<edate>1586435713691</edate>
@@ -16794,6 +16698,107 @@ Say:%SAY_STATE</Str>
 		<Img sr="icn" ve="2">
 			<nme>hl_collections_cloud</nme>
 		</Img>
+	</Task>
+	<Task sr="task226">
+		<cdate>1521384755669</cdate>
+		<edate>1587779969927</edate>
+		<id>226</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSilentModeOff</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>3</op>
+					<rhs>バスルーム</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
+			<Str sr="arg0" ve="3">toBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Normal</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_END</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>2056966535</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CUSTOM_VERSION>1</CUSTOM_VERSION>
+					<CUSTOM_VERSION-type>java.lang.Integer</CUSTOM_VERSION-type>
+					<SETT_DOWHAT>startserver</SETT_DOWHAT>
+					<SETT_DOWHAT-type>java.lang.String</SETT_DOWHAT-type>
+					<SETT_LOCALSERVERS_SERVERS>&lt;StringArrayList sr=""&gt;&lt;_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;simple1smb1&lt;/_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;&lt;/StringArrayList&gt;</SETT_LOCALSERVERS_SERVERS>
+					<SETT_LOCALSERVERS_SERVERS-type>java.util.ArrayList</SETT_LOCALSERVERS_SERVERS-type>
+					<SETT_REMOTESERVERS_SERVERS>&lt;StringArrayList sr=""/&gt;</SETT_REMOTESERVERS_SERVERS>
+					<SETT_REMOTESERVERS_SERVERS-type>java.util.ArrayList</SETT_REMOTESERVERS_SERVERS-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Start server
+Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
+			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
 	</Task>
 	<Task sr="task227">
 		<cdate>1535688823962</cdate>
@@ -16917,7 +16922,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1586499351940</edate>
+		<edate>1587528818234</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -17205,7 +17210,7 @@ Say:%SAY_STATE</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message_midori</lhs>
@@ -19132,7 +19137,7 @@ Say:%SAY_STATE</Str>
 		<edate>1587134813690</edate>
 		<id>241</id>
 		<nme>checkinLocationRoomダイニング</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -19902,7 +19907,7 @@ Say:%SAY_STATE</Str>
 		<edate>1587134982251</edate>
 		<id>244</id>
 		<nme>checkinLocationRoomトイレ2階</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -19946,7 +19951,7 @@ Say:%SAY_STATE</Str>
 		<edate>1587135667394</edate>
 		<id>245</id>
 		<nme>checkinLocationRoomマイルーム</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -21492,6 +21497,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">http://express.heartrails.com/api/json?method=getStations&amp;x=%gl_longitude&amp;y=%gl_latitude</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -21751,6 +21757,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">https://map.yahooapis.jp/placeinfo/V1/get?lat=%gl_latitude&amp;lon=%gl_longitude&amp;appid=%YAHOO_APP_ID&amp;output=json</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -21788,6 +21795,123 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task255">
+		<cdate>1521384780904</cdate>
+		<edate>1587779991630</edate>
+		<id>255</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSilentModeOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>3</op>
+					<rhs>バスルーム</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1911640985</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>-- すべて同期 --;;;CANCEL_SYNC</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE>-- すべて同期 --;;;CANCEL_SYNC</com.yourcompany.yourapp.extra.STRING_MESSAGE>
+					<com.yourcompany.yourapp.extra.STRING_MESSAGE-type>java.lang.String</com.yourcompany.yourapp.extra.STRING_MESSAGE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">dk.tacit.android.foldersync.full</Str>
+			<Str sr="arg2" ve="3">dk.tacit.android.foldersync.locale.ui.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
+			<Str sr="arg0" ve="3">toBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Normal</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_END</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>808</code>
+			<on>false</on>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>113</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>2056966535</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CUSTOM_VERSION>1</CUSTOM_VERSION>
+					<CUSTOM_VERSION-type>java.lang.Integer</CUSTOM_VERSION-type>
+					<SETT_DOWHAT>stopserver</SETT_DOWHAT>
+					<SETT_DOWHAT-type>java.lang.String</SETT_DOWHAT-type>
+					<SETT_LOCALSERVERS_SERVERS>&lt;StringArrayList sr=""&gt;&lt;_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;simple1smb1&lt;/_arrlst_SETT_LOCALSERVERS_SERVERS0&gt;&lt;/StringArrayList&gt;</SETT_LOCALSERVERS_SERVERS>
+					<SETT_LOCALSERVERS_SERVERS-type>java.util.ArrayList</SETT_LOCALSERVERS_SERVERS-type>
+					<SETT_REMOTESERVERS_SERVERS>&lt;StringArrayList sr=""/&gt;</SETT_REMOTESERVERS_SERVERS>
+					<SETT_REMOTESERVERS_SERVERS-type>java.util.ArrayList</SETT_REMOTESERVERS_SERVERS-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Stop server
+Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
+			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task257">
@@ -21880,7 +22004,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1586875114155</edate>
+		<edate>1587824583201</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -21922,7 +22046,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">ビットコイン売買サイン通知bot</Str>
+			<Str sr="arg1" ve="3">菅原 潮</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -21952,6 +22076,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<Action sr="act7" ve="7">
 			<code>105</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%WIFII</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -24668,7 +24797,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task283">
 		<cdate>1521756278249</cdate>
-		<edate>1586909274375</edate>
+		<edate>1587741720252</edate>
 		<id>283</id>
 		<nme>sayおやすみ</nme>
 		<pri>100</pri>
@@ -24907,9 +25036,9 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1586913015196</edate>
+		<edate>1587978001183</edate>
 		<id>287</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%BLUETOOTH_CONNECTED_DEVICE</Str>
@@ -27413,7 +27542,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1586499051978</edate>
+		<edate>1587373673996</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -27591,7 +27720,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act23" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">（ハチャプリ）</Str>
+			<Str sr="arg1" ve="3"> - 47NEWS</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27609,7 +27738,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act24" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">（司馬）</Str>
+			<Str sr="arg1" ve="3">（ハチャプリ）</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27627,7 +27756,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3"> yamashin</Str>
+			<Str sr="arg1" ve="3">（司馬）</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27638,14 +27767,14 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%key1</lhs>
 					<op>2</op>
-					<rhs>山形新聞</rhs>
+					<rhs>共同通信</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">山形新聞</Str>
+			<Str sr="arg1" ve="3"> yamashin</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27663,6 +27792,24 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Str sr="arg1" ve="3">山形新聞</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%key1</lhs>
+					<op>2</op>
+					<rhs>山形新聞</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%newtweet</Str>
 			<Str sr="arg1" ve="3">\[京都新聞\]</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -27678,22 +27825,10 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
 			<Str sr="arg1" ve="3">（八柱）</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>598</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Str sr="arg1" ve="3">#nhk_bknews</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27708,6 +27843,18 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Str sr="arg1" ve="3">#nhk_bknews</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act31" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%newtweet</Str>
@@ -27726,7 +27873,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%newtweet</Str>
@@ -27745,7 +27892,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%newtweet</Str>
@@ -27764,7 +27911,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%newtweet</Str>
@@ -27783,7 +27930,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>130</code>
 			<label>URL削除</label>
 			<Str sr="arg0" ve="3">delUrl</Str>
@@ -27795,7 +27942,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%tweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>598</code>
 			<label>スペース削除</label>
 			<Str sr="arg0" ve="3">%tweet</Str>
@@ -27807,7 +27954,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<label>ハッシュタグ削除する</label>
 			<Str sr="arg0" ve="3">delHashTag</Str>
@@ -27819,7 +27966,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%tweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>598</code>
 			<label>表示用ツイートに置換する</label>
 			<Str sr="arg0" ve="3">%newtweet</Str>
@@ -27831,7 +27978,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%tweet http</Str>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>598</code>
 			<label>スラッシュを削除する</label>
 			<Str sr="arg0" ve="3">%tweet</Str>
@@ -27843,7 +27990,14 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%newtweet</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>130</code>
 			<label>前回のツイートを取得する</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -27855,14 +28009,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%oldtweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%newtweet</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<label>URL削除</label>
 			<Str sr="arg0" ve="3">delUrl</Str>
@@ -27874,7 +28021,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%oldtweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>598</code>
 			<label>スペース削除</label>
 			<Str sr="arg0" ve="3">%oldtweet</Str>
@@ -27886,7 +28033,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<label>ハッシュタグ削除</label>
 			<Str sr="arg0" ve="3">delHashTag</Str>
@@ -27898,7 +28045,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%oldtweet</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>598</code>
 			<label>スラッシュを削除する</label>
 			<Str sr="arg0" ve="3">%oldtweet</Str>
@@ -27910,7 +28057,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toLineMyId</Str>
@@ -27929,7 +28076,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -27957,7 +28104,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -27975,7 +28122,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -27991,7 +28138,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
@@ -28002,7 +28149,13 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%key2</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%newtweet (%key1)</Str>
@@ -28011,13 +28164,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%key2</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%enter</Str>
 			<Str sr="arg1" ve="3">
@@ -28027,7 +28174,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
@@ -28038,7 +28185,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%oldtweet</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
@@ -28049,7 +28196,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -28079,7 +28226,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -28090,7 +28237,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%newtweet</Str>
@@ -28099,7 +28246,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%newtweet</Str>
 			<Str sr="arg1" ve="3">.*http</Str>
@@ -28110,7 +28257,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>130</code>
 			<label>URL削除</label>
 			<Str sr="arg0" ve="3">delUrl</Str>
@@ -28122,13 +28269,22 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">ALL;NEWS;%key1;%message;http%newtweet</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act6" ve="7">
+			<code>30</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
 			<Int sr="arg1">
@@ -28152,25 +28308,13 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>30</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act61" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act62" ve="7">
 			<code>38</code>
@@ -28179,9 +28323,12 @@ Alexaに天気と予定を聞く</label>
 			<code>38</code>
 		</Action>
 		<Action sr="act64" ve="7">
-			<code>40</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act65" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act66" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -36005,7 +36152,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task377">
 		<cdate>1537225698037</cdate>
-		<edate>1586499002369</edate>
+		<edate>1590572132663</edate>
 		<id>377</id>
 		<nme>checkMessageSay</nme>
 		<rty>2</rty>
@@ -36039,6 +36186,9 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">CFIUS</Str>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>598</code>
@@ -36220,18 +36370,18 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act26" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">GSOMIA</Str>
+			<Str sr="arg1" ve="3">GENROQ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ジーソミア</Str>
+			<Str sr="arg7" ve="3">ゲンロク</Str>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">ＧＳＯＭＩＡ</Str>
+			<Str sr="arg1" ve="3">GSOMIA</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -36242,6 +36392,17 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act28" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">ＧＳＯＭＩＡ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ジーソミア</Str>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">GYAO</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -36249,17 +36410,6 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ギャオ</Str>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">LTCU18:</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ライトコイン</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -36276,6 +36426,17 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act30" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">LTCU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ライトコイン</Str>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">LTCUSD:</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -36284,7 +36445,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ライトコインUSドル</Str>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">Niantic</Str>
@@ -36295,7 +36456,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ナイアンティック</Str>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">onにします</Str>
@@ -36306,7 +36467,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">オンにします</Str>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">offにします</Str>
@@ -36317,7 +36478,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">オフにします</Str>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">PSYCHO-PASS</Str>
@@ -36328,7 +36489,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">サイコパス</Str>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">RAW</Str>
@@ -36339,7 +36500,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ロウ</Str>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">RT：</Str>
@@ -36350,7 +36511,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リツイート：</Str>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">^RT </Str>
@@ -36361,27 +36522,16 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リツイート：</Str>
 		</Action>
-		<Action sr="act38" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">TRXU18:</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">トロン</Str>
-		</Action>
 		<Action sr="act39" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">TRXUSD:</Str>
+			<Str sr="arg1" ve="3">TBSNEWS</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">トロンUSドル</Str>
+			<Str sr="arg7" ve="3">TBS NEWS</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>598</code>
@@ -36397,6 +36547,39 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act40" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">TRXU18:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">トロン</Str>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">TRXUSD:</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">トロンUSドル</Str>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">TVer</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ティーバー</Str>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">W杯</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -36405,7 +36588,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ワールドカップ</Str>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act44" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">Ｗ杯</Str>
@@ -36416,7 +36599,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ワールドカップ</Str>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act45" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XBTU18:</Str>
@@ -36427,7 +36610,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコイン</Str>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act46" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XBTUSD:</Str>
@@ -36438,7 +36621,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ビットコインUSドル</Str>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act47" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPU18:</Str>
@@ -36449,7 +36632,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップル</Str>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act48" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">XRPUSD:</Str>
@@ -36460,7 +36643,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">リップルUSドル</Str>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act49" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">アホ面</Str>
@@ -36470,39 +36653,6 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アホづら</Str>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">駅前</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">えきまえ</Str>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">大トリ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">おおトリ</Str>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">億り人</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">おくりびと</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>598</code>
@@ -36518,6 +36668,39 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act50" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">駅前</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">えきまえ</Str>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">大トリ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">おおトリ</Str>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">億り人</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">おくりびと</Str>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">米トランプ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -36526,7 +36709,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アメリカ、トランプ</Str>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act54" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">米時間</Str>
@@ -36537,7 +36720,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アメリカ時間</Str>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act55" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">米大統領</Str>
@@ -36548,7 +36731,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">アメリカ大統領</Str>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act56" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">印北部</Str>
@@ -36559,7 +36742,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">インド北部</Str>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act57" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">印東部</Str>
@@ -36570,7 +36753,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">インド東部</Str>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act58" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">印西部</Str>
@@ -36581,7 +36764,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">インド西部</Str>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act59" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">印南部</Str>
@@ -36592,7 +36775,18 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">インド南部</Str>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act6" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">\[生\]</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">生中継</Str>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">金が目的</Str>
@@ -36603,7 +36797,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">かねが目的</Str>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act61" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">紙の記事</Str>
@@ -36614,7 +36808,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">かみの記事</Str>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act62" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">辛い</Str>
@@ -36632,18 +36826,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">\[生\]</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">生中継</Str>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act63" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">韓国中</Str>
@@ -36654,7 +36837,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">韓国ぢゅう</Str>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act64" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">金正男</Str>
@@ -36665,7 +36848,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">キム・ジョンナム</Str>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act65" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">鬼滅の刃</Str>
@@ -36676,7 +36859,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">きめつのヤイバ</Str>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act66" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">久保建英</Str>
@@ -36687,7 +36870,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">くぼたけふさ</Str>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act67" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">血流した</Str>
@@ -36698,7 +36881,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">血ながした</Str>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act68" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">順大</Str>
@@ -36709,7 +36892,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">順天堂大学</Str>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act69" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">正呂地</Str>
@@ -36720,7 +36903,18 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">しょうろじ</Str>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">（板）</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act70" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仕分け人</Str>
@@ -36731,7 +36925,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">仕分けにん</Str>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act71" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">孫さん</Str>
@@ -36742,7 +36936,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">そんさん</Str>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act72" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">大文字</Str>
@@ -36760,18 +36954,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">（板）</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act73" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">忠行</Str>
@@ -36782,7 +36965,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ただゆき</Str>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act74" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">男性</Str>
@@ -36793,7 +36976,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">だんせい</Str>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act75" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">中三</Str>
@@ -36804,7 +36987,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ちゅうさん</Str>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act76" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">槌田</Str>
@@ -36815,7 +36998,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">つちだ</Str>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act77" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">豚コレラ</Str>
@@ -36826,7 +37009,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トンコレラ</Str>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act78" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">七里</Str>
@@ -36844,7 +37027,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act79" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">西川</Str>
@@ -36862,39 +37045,6 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act77" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">年に一度</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">ねんにいちど</Str>
-		</Action>
-		<Action sr="act78" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">八村塁</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">はちむらるい</Str>
-		</Action>
-		<Action sr="act79" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">半日</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">はんにち</Str>
-		</Action>
 		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -36909,6 +37059,39 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act80" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">年に一度</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">ねんにいちど</Str>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">八村塁</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">はちむらるい</Str>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">半日</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">はんにち</Str>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">日まで行っている</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -36917,7 +37100,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">日までおこなっている</Str>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act84" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">藤兼</Str>
@@ -36928,7 +37111,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ふじかね</Str>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act85" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">二重まぶた</Str>
@@ -36939,7 +37122,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ふたえまぶた</Str>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act86" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元大統領</Str>
@@ -36950,7 +37133,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元大統領</Str>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act87" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">仏元首相</Str>
@@ -36961,7 +37144,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">フランス元首相</Str>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act88" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">百足</Str>
@@ -36972,7 +37155,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">むかで</Str>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act89" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">八柱</Str>
@@ -36982,39 +37165,6 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">やはしら</Str>
-		</Action>
-		<Action sr="act87" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">真凜</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">まりん</Str>
-		</Action>
-		<Action sr="act88" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">設け</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">もうけ</Str>
-		</Action>
-		<Action sr="act89" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">元夫</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">もとおっと</Str>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>598</code>
@@ -37030,6 +37180,39 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act90" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">真凜</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">まりん</Str>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">設け</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">もうけ</Str>
+		</Action>
+		<Action sr="act92" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">元夫</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">もとおっと</Str>
+		</Action>
+		<Action sr="act93" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">令和</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -37038,7 +37221,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">れいわ</Str>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act94" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">横審</Str>
@@ -37049,7 +37232,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">横綱審議委員会</Str>
 		</Action>
-		<Action sr="act92" ve="7">
+		<Action sr="act95" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -37061,7 +37244,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ロシア</Str>
 		</Action>
-		<Action sr="act93" ve="7">
+		<Action sr="act96" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">下記リンクより一部抜粋続きはソースで.*</Str>
@@ -37072,7 +37255,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act94" ve="7">
+		<Action sr="act97" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
@@ -37084,10 +37267,10 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act95" ve="7">
+		<Action sr="act98" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act96" ve="7">
+		<Action sr="act99" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -37097,9 +37280,6 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act97" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task379">
@@ -39721,7 +39901,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task415">
 		<cdate>1535375988054</cdate>
-		<edate>1586143626014</edate>
+		<edate>1587824612486</edate>
 		<id>415</id>
 		<nme>!!testSay</nme>
 		<pri>100</pri>
@@ -39752,7 +39932,7 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>559</code>
-			<Str sr="arg0" ve="3">新英雄さん</Str>
+			<Str sr="arg0" ve="3">刺傷</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
 			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="5"/>
@@ -39762,6 +39942,17 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">アーカンソー</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>559</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">アレクサ、音楽かけて</Str>
@@ -39773,7 +39964,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>559</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">アレクサ、電気消して</Str>
@@ -39785,7 +39976,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>559</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">アレクサ、牛乳を買い物リストに追加して</Str>
@@ -50800,7 +50991,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task48">
 		<cdate>1521421893486</cdate>
-		<edate>1587371896080</edate>
+		<edate>1587741336021</edate>
 		<id>48</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -50823,7 +51014,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">sayHomeApplianceState</Str>
+			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -50831,18 +51022,8 @@ https://t.co/91XPPED1U2
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">delQuickPicCache</Str>
 			<Int sr="arg1">
@@ -50853,36 +51034,7 @@ https://t.co/91XPPED1U2
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayRoomState</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toWallpaperLocation</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -50892,7 +51044,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">%TIME</Str>
@@ -50901,13 +51053,13 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">.</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%popupdata</Str>
 			<Str sr="arg1" ve="3">%POPUP_DATA</Str>
@@ -50916,13 +51068,13 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%popupdata</Str>
 			<Str sr="arg1" ve="3">:</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Str sr="arg1" ve="3">%time1-%popupdata1</Str>
@@ -50931,7 +51083,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>1000294689</code>
 			<label>ポップアップデータの背景を黒くする</label>
 			<Bundle sr="arg0">
@@ -50966,6 +51118,9 @@ https://t.co/91XPPED1U2
 					<rhs>-20</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task483">
@@ -57007,7 +57162,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586875145023</edate>
+		<edate>1587914877179</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -57438,7 +57593,7 @@ https://t.co/91XPPED1U2
 		<edate>1586740987409</edate>
 		<id>642</id>
 		<nme>addUnko</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%CNT_UNKO_DAY</Str>
@@ -57661,7 +57816,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task649">
 		<cdate>1548246667111</cdate>
-		<edate>1586780054875</edate>
+		<edate>1592077898725</edate>
 		<id>649</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -57674,10 +57829,16 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%CNT_UNKO_DAY</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -59726,7 +59887,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task7">
 		<cdate>1535275951041</cdate>
-		<edate>1553309240882</edate>
+		<edate>1588684848394</edate>
 		<id>7</id>
 		<nme>setSayStateOff</nme>
 		<Action sr="act0" ve="7">
@@ -61433,10 +61594,51 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task717">
 		<cdate>1578745847580</cdate>
-		<edate>1578745889887</edate>
+		<edate>1587741493520</edate>
 		<id>717</id>
 		<nme>getLocationV2</nme>
 		<Action sr="act0" ve="7">
+			<code>366</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%gl_coordinates_accuracy
+3. Lat, Lon Accuracy
+In meters&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%gl_altitude
+Altitude (meters)
+In meters&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%gl_altitude_accuracy
+Altitude Accuracy
+In meters&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%gl_bearing
+Bearing
+in the range 0.0–360.0; Horizontal direction of travel of this device; not related to the device orientation&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%gl_bearing_accuracy
+Bearing Accuracy
+In degrees&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%gl_latitude
+1. Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%gl_coordinates
+Latitude and Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%gl_longitude
+2. Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%gl_map_url
+Google Maps URL
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%gl_speed
+Speed
+In meters per second&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%gl_speed_accuracy
+Speed
+In meters per second&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%gl_time_seconds
+Time
+Time in seconds since EPOCH the location was gotten&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="30"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%gl_latitude:%gl_longitude</Str>
 			<Int sr="arg1" val="1"/>
@@ -61593,6 +61795,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">http://api.olp.yahooapis.jp/v1/review/%par1?appid=%YAHOO_APP_ID</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -61696,7 +61899,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task723">
 		<cdate>1578761427073</cdate>
-		<edate>1586782403188</edate>
+		<edate>1587741694382</edate>
 		<id>723</id>
 		<nme>fromPushbulletNotifyおやすみ</nme>
 		<pri>7</pri>
@@ -64386,7 +64589,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<cdate>1546985003759</cdate>
 		<edate>1587007502533</edate>
 		<id>751</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeKeyOn</Str>
@@ -64872,7 +65075,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1587371783208</edate>
+		<edate>1587914917905</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>

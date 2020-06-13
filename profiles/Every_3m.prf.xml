@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.9.3.beta.4">
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1586925406895</edate>
+		<clp>true</clp>
+		<edate>1588991484086</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -16,7 +17,7 @@
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1586925406895</edate>
+		<edate>1588991484086</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -349,7 +350,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%lag</lhs>
 					<op>7</op>
-					<rhs>1500</rhs>
+					<rhs>1600</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
