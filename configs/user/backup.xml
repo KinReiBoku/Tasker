@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.4">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<dmetric>1080.0,1813.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
@@ -659,7 +659,7 @@
 	</Profile>
 	<Profile sr="prof256" ve="2">
 		<cdate>1587779757300</cdate>
-		<edate>1587779991630</edate>
+		<edate>1592923555884</edate>
 		<flags>2</flags>
 		<id>256</id>
 		<mid0>226</mid0>
@@ -771,7 +771,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1588991484086</edate>
+		<edate>1592923188873</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -5565,9 +5565,9 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1588991484086</edate>
+		<edate>1592923188873</edate>
 		<id>101</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -5895,10 +5895,16 @@ Instagram</label>
 		<Action sr="act36" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%lag</lhs>
 					<op>7</op>
 					<rhs>1600</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_ROOM</lhs>
+					<op>3</op>
+					<rhs>バスルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -16701,11 +16707,35 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task226">
 		<cdate>1521384755669</cdate>
-		<edate>1587779969927</edate>
+		<edate>1592923555884</edate>
 		<id>226</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>睡眠中ではない場合</label>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SLEEP_TIMES_END</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>130</code>
+			<label>クライアントモードかつバスルームではない場合</label>
 			<Str sr="arg0" ve="3">setSilentModeOff</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -16728,8 +16758,24 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>130</code>
+			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
+			<Str sr="arg0" ve="3">toBrightness</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Normal</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>デスクトップロックをトグルにする</label>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toApexLauncherDesktopLockToggle</Str>
 			<Int sr="arg1">
@@ -16747,37 +16793,14 @@ Say:%SAY_STATE</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
-			<Str sr="arg0" ve="3">toBrightness</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Normal</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%SLEEP_TIMES_START</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SLEEP_TIMES_END</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act5" ve="7">
 			<code>808</code>
+			<label>明るさ自動調整をオフにする</label>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act6" ve="7">
 			<code>2056966535</code>
+			<label>サーバを起動する</label>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<CUSTOM_VERSION>1</CUSTOM_VERSION>
@@ -21497,7 +21520,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">http://express.heartrails.com/api/json?method=getStations&amp;x=%gl_longitude&amp;y=%gl_latitude</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -21678,7 +21700,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task254">
 		<cdate>1578613002838</cdate>
-		<edate>1579259025053</edate>
+		<edate>1592923126417</edate>
 		<id>254</id>
 		<nme>getLocationLandmarkFromYahoo</nme>
 		<pri>100</pri>
@@ -21757,7 +21779,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">https://map.yahooapis.jp/placeinfo/V1/get?lat=%gl_latitude&amp;lon=%gl_longitude&amp;appid=%YAHOO_APP_ID&amp;output=json</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -21799,9 +21820,9 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task255">
 		<cdate>1521384780904</cdate>
-		<edate>1587779991630</edate>
+		<edate>1592923493016</edate>
 		<id>255</id>
-		<pri>100</pri>
+		<pri>1007</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
@@ -24528,7 +24549,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task28">
 		<cdate>1535346415604</cdate>
-		<edate>1579400274740</edate>
+		<edate>1592912282609</edate>
 		<id>28</id>
 		<nme>initDataDevice</nme>
 		<pri>100</pri>
@@ -26201,7 +26222,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task3">
 		<cdate>1535596217213</cdate>
-		<edate>1578212351629</edate>
+		<edate>1592912288630</edate>
 		<id>3</id>
 		<nme>initDataMaster</nme>
 		<pri>100</pri>
@@ -61795,7 +61816,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</Bundle>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="0"/>
 			<Str sr="arg2" ve="3">http://api.olp.yahooapis.jp/v1/review/%par1?appid=%YAHOO_APP_ID</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -68337,7 +68357,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task99">
 		<cdate>1527156848146</cdate>
-		<edate>1550000456925</edate>
+		<edate>1592912295789</edate>
 		<id>99</id>
 		<nme>initLifeEatState</nme>
 		<pri>100</pri>
