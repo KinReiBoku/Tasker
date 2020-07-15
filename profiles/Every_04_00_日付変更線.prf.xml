@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.1">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<Profile sr="prof97" ve="2">
 		<cdate>1535527172678</cdate>
-		<edate>1578608393778</edate>
+		<clp>true</clp>
+		<edate>1594828620620</edate>
 		<id>97</id>
 		<mid0>96</mid0>
 		<nme>Every 04:00 日付変更線</nme>
@@ -15,7 +16,7 @@
 	</Profile>
 	<Task sr="task96">
 		<cdate>1521421923791</cdate>
-		<edate>1578608393778</edate>
+		<edate>1594828620620</edate>
 		<id>96</id>
 		<pri>51</pri>
 		<Action sr="act0" ve="7">
@@ -101,7 +102,7 @@
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>20</code>
-			<label>金曜日の場合はラッキータッチを起動する</label>
+			<label>火曜日または金曜日の場合はラッキータッチを起動する</label>
 			<App sr="arg0">
 				<appClass>com.felicanetworks.lpapp.activities.LaunchActivity</appClass>
 				<appPkg>com.felicanetworks.lpapp</appPkg>
@@ -111,10 +112,16 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Friday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>Tuesday</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
