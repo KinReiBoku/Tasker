@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<Task sr="task696">
 		<cdate>1564996058615</cdate>
-		<edate>1565312578524</edate>
+		<edate>1596470589706</edate>
 		<id>696</id>
 		<nme>delQuickPicCache</nme>
 		<pri>100</pri>
@@ -32,6 +32,20 @@
 			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>408</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Pictures/.thumbnails</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>408</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Movies/.thumbnails</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
