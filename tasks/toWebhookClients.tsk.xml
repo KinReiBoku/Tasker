@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1586453401019</edate>
+		<edate>1598885482608</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Message</label>
@@ -36,7 +37,7 @@
 			<code>116</code>
 			<label>SO-04Kへ送信</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/5d45f535-a95f-4409-8fcc-34125694e53a/task?task=%message</Str>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_SO04K/task?task=%message</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
