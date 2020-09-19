@@ -771,7 +771,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1594993402040</edate>
+		<edate>1599905586475</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -1173,8 +1173,7 @@
 	</Profile>
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
-		<edate>1588685053226</edate>
-		<flags>2</flags>
+		<edate>1599905628164</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -1187,10 +1186,10 @@
 			<cls12>jp.r246.twicca.timelines.Home</cls12>
 			<cls13>com.twitter.android.StartActivity</cls13>
 			<cls14>com.hecorat.screenrecorder.free.activities.MainActivity</cls14>
-			<cls15>com.sidefeed.TCViewer.ui.main.MainActivity</cls15>
-			<cls16>jp.naver.line.android.activity.SplashActivity</cls16>
-			<cls17>com.customcast.plugin.SchemeActivity</cls17>
-			<cls18>com.gworks.oneapp.entry.EntryActivity</cls18>
+			<cls15>jp.naver.line.android.activity.SplashActivity</cls15>
+			<cls16>com.customcast.plugin.SchemeActivity</cls16>
+			<cls17>com.gworks.oneapp.entry.EntryActivity</cls17>
+			<cls18>st.moi.tcviewer.presentation.home.HomeActivity</cls18>
 			<cls2>com.google.android.youtube.videos.EntryPoint</cls2>
 			<cls3>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls3>
 			<cls4>jp.co.fsi.fs1seg.app.Main</cls4>
@@ -1207,10 +1206,10 @@
 			<label12>twicca</label12>
 			<label13>Twitter</label13>
 			<label14>AZ Screen Recorder</label14>
-			<label15>ツイキャス ビュワー</label15>
-			<label16>LINE</label16>
-			<label17>カスタムキャスト</label17>
-			<label18>LINE WORKS</label18>
+			<label15>LINE</label15>
+			<label16>カスタムキャスト</label16>
+			<label17>LINE WORKS</label17>
+			<label18>ツイキャス ビュワー</label18>
 			<label2>Playムービー＆TV</label2>
 			<label3>YouTube</label3>
 			<label4>テレビ</label4>
@@ -1226,10 +1225,10 @@
 			<pkg12>jp.r246.twicca</pkg12>
 			<pkg13>com.twitter.android</pkg13>
 			<pkg14>com.hecorat.screenrecorder.free</pkg14>
-			<pkg15>com.sidefeed.TCViewer</pkg15>
-			<pkg16>jp.naver.line.android</pkg16>
-			<pkg17>jp.customcast.cc2</pkg17>
-			<pkg18>com.gworks.oneapp.works</pkg18>
+			<pkg15>jp.naver.line.android</pkg15>
+			<pkg16>jp.customcast.cc2</pkg16>
+			<pkg17>com.gworks.oneapp.works</pkg17>
+			<pkg18>com.sidefeed.TCViewer</pkg18>
 			<pkg2>com.google.android.videos</pkg2>
 			<pkg3>com.google.android.youtube</pkg3>
 			<pkg4>jp.co.fsi.fs1seg</pkg4>
@@ -1785,6 +1784,7 @@
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
 		<edate>1598890043255</edate>
+		<flags>2</flags>
 		<id>45</id>
 		<mid0>44</mid0>
 		<nme>Device Boot</nme>
@@ -5562,7 +5562,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1594993402040</edate>
+		<edate>1599905586475</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -5927,6 +5927,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act39" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -5949,6 +5950,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -11398,7 +11400,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task13">
 		<cdate>1535275836793</cdate>
-		<edate>1595593379875</edate>
+		<edate>1599193136346</edate>
 		<id>13</id>
 		<nme>toFlash</nme>
 		<rty>2</rty>
@@ -11453,7 +11455,7 @@ Copyright .*All rights reserved\.</Str>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>3</op>
-					<rhs>Server</rhs>
+					<rhs>Display</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -16949,7 +16951,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1587528818234</edate>
+		<edate>1600499360290</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -22047,7 +22049,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1593257676191</edate>
+		<edate>1599193612324</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -22120,6 +22122,17 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>105</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toNotify</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">あああ</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task262">
@@ -25277,7 +25290,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task289">
 		<cdate>1535850891747</cdate>
-		<edate>1586499324714</edate>
+		<edate>1600499448902</edate>
 		<id>289</id>
 		<nme>toNotify</nme>
 		<pri>100</pri>
@@ -25286,10 +25299,16 @@ Alexaに天気と予定を聞く</label>
 			<code>37</code>
 			<label>%par1=Message %par2=Force/Flash</label>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -27357,7 +27376,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task309">
 		<cdate>1498736075308</cdate>
-		<edate>1561589943180</edate>
+		<edate>1600019688945</edate>
 		<id>309</id>
 		<nme>getTwitterTweetHashTag</nme>
 		<pri>100</pri>
@@ -28438,7 +28457,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1561218416244</edate>
+		<edate>1600019704240</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
 		<pri>100</pri>
@@ -28450,7 +28469,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>590</code>
@@ -35979,7 +35998,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task375">
 		<cdate>1535275836793</cdate>
-		<edate>1546946754148</edate>
+		<edate>1599193464000</edate>
 		<id>375</id>
 		<nme>toSayNotification</nme>
 		<pri>100</pri>
@@ -36055,7 +36074,7 @@ Alexaに天気と予定を聞く</label>
 			<code>559</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="2"/>
+			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="5"/>
 			<Int sr="arg4" val="5"/>
 			<Int sr="arg5" val="0"/>
@@ -37867,7 +37886,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task384">
 		<cdate>1535540380169</cdate>
-		<edate>1586499338666</edate>
+		<edate>1600499404798</edate>
 		<id>384</id>
 		<nme>toSayAvatar</nme>
 		<pri>100</pri>
@@ -39004,6 +39023,7 @@ Alexaに天気と予定を聞く</label>
 		<cdate>1521384946880</cdate>
 		<edate>1541456125468</edate>
 		<id>397</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
@@ -54200,7 +54220,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task558">
 		<cdate>1535850891747</cdate>
-		<edate>1586499331852</edate>
+		<edate>1600499443086</edate>
 		<id>558</id>
 		<nme>toNotifyLow</nme>
 		<pri>100</pri>
@@ -59946,6 +59966,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<edate>1588684848394</edate>
 		<id>7</id>
 		<nme>setSayStateOff</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSayState</Str>
@@ -63671,7 +63692,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<cdate>1521382753474</cdate>
 		<edate>1579408204637</edate>
 		<id>737</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
