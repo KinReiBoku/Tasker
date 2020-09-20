@@ -771,8 +771,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1599905586475</edate>
-		<flags>2</flags>
+		<edate>1600602996341</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -1174,6 +1173,7 @@
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
 		<edate>1599905628164</edate>
+		<flags>2</flags>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -2256,8 +2256,7 @@
 	</Profile>
 	<Profile sr="prof50" ve="2">
 		<cdate>1535871961973</cdate>
-		<edate>1597629822401</edate>
-		<flags>2</flags>
+		<edate>1600603013287</edate>
 		<id>50</id>
 		<mid0>48</mid0>
 		<nme>Every 1h</nme>
@@ -5563,7 +5562,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1599905586475</edate>
+		<edate>1600602996341</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -11401,7 +11400,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task13">
 		<cdate>1535275836793</cdate>
-		<edate>1599193136346</edate>
+		<edate>1600600746550</edate>
 		<id>13</id>
 		<nme>toFlash</nme>
 		<rty>2</rty>
@@ -13503,12 +13502,23 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1586499408378</edate>
+		<edate>1600603124346</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>クライアントモードの場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%LOCATION_WEATHER</Str>
@@ -13524,20 +13534,15 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<label>%par1=WeatherState</label>
-			<Str sr="arg0" ve="3">%weather</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
 		<Action sr="act10" ve="7">
-			<code>38</code>
+			<code>126</code>
+			<Str sr="arg0" ve="3">%weather</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">%TIME</Str>
@@ -13546,13 +13551,13 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">.</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -13568,7 +13573,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">_Night</Str>
@@ -13577,10 +13582,10 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">.jpg</Str>
@@ -13589,14 +13594,27 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>109</code>
 			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">%path</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>%par1=WeatherState</label>
+			<Str sr="arg0" ve="3">%weather</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Tasker/files/Wallpaper/</Str>
@@ -13605,7 +13623,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -13633,7 +13651,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Droid_Sunny</Str>
@@ -13642,7 +13660,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -13670,7 +13688,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">Droid_Rain</Str>
@@ -13679,10 +13697,10 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -13692,11 +13710,6 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg3" ve="3">UnknownData:WeatherState=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%weather</Str>
-			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task160">
@@ -16952,7 +16965,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1600535220000</edate>
+		<edate>1600601033537</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -27600,7 +27613,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1600535322426</edate>
+		<edate>1600600938332</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -28602,7 +28615,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task313">
 		<cdate>1536017143639</cdate>
-		<edate>1586500197699</edate>
+		<edate>1600600869433</edate>
 		<id>313</id>
 		<nme>sayTwitterNews</nme>
 		<pri>100</pri>
@@ -40348,11 +40361,22 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task420">
 		<cdate>1535342314560</cdate>
-		<edate>1568937317453</edate>
+		<edate>1600603108995</edate>
 		<id>420</id>
 		<nme>toWallpaperLocation</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>クライアントモードの場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<label>壁紙のディレクトリパスを代入する</label>
 			<Str sr="arg0" ve="3">%path</Str>
@@ -40362,18 +40386,18 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<label>壁紙が指定されている場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act10" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">/</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<label>ロケーションルームを追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40390,7 +40414,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>598</code>
 			<label>ファイル名がトイレだったら階数を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40402,10 +40426,10 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トイレ</Str>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<label>時間帯を追加する</label>
 			<Str sr="arg0" ve="3">getTimeZone</Str>
@@ -40417,7 +40441,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%zone</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">_%zone</Str>
@@ -40426,7 +40450,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>130</code>
 			<label>天気を追加する</label>
 			<Str sr="arg0" ve="3">getWeatherJapanese</Str>
@@ -40438,7 +40462,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3">%weather</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">_%weather</Str>
@@ -40447,13 +40471,24 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act17" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act18" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<label>壁紙が指定されている場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>412</code>
 			<label>該当する壁紙が存在するか確認する</label>
 			<Str sr="arg0" ve="3">%path</Str>
@@ -40463,16 +40498,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">%items</Str>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -40481,19 +40507,19 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%items(#)
 %items()</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">%items()</Str>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%cnt</Str>
 			<Int sr="arg1" val="1"/>
@@ -40506,17 +40532,17 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%file
 %cnt</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>37</code>
 			<label>該当する壁紙が存在する場合</label>
 			<ConditionList sr="if">
@@ -40527,7 +40553,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%max</Str>
 			<Str sr="arg1" ve="3">%cnt</Str>
@@ -40536,7 +40562,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -40544,7 +40570,16 @@ Alexaに天気と予定を聞く</label>
 				<var>%max</var>
 			</Int>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%file</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Str sr="arg1" ve="3">1</Str>
@@ -40566,11 +40601,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-			<label>壁紙が指定されていない場合</label>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -40595,7 +40626,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">%file%num</Str>
@@ -40604,7 +40635,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<label>拡張子を追加する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40614,7 +40645,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>109</code>
 			<label>壁紙を設定する</label>
 			<Int sr="arg0" val="0"/>
@@ -40622,11 +40653,11 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>43</code>
 			<label>壁紙が存在しない場合</label>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Str sr="arg1" ve="3">\.jpg$</Str>
@@ -40637,7 +40668,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>37</code>
 			<label>削れる付属要素がある場合</label>
 			<ConditionList sr="if">
@@ -40648,7 +40679,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>598</code>
 			<label>付属要素を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40660,14 +40691,18 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>135</code>
 			<label>再度ファイル存在確認を行う</label>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">該当する壁紙が存在するか確認する</Str>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<label>壁紙が指定されていない場合</label>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>43</code>
 			<label>ファイル名にスペースがある場合</label>
 			<ConditionList sr="if">
@@ -40678,17 +40713,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>598</code>
 			<label>スペース以降の支店名を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40700,13 +40725,13 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">時間帯を追加する</Str>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>43</code>
 			<label>ロケーションタイプが存在する
 かつ
@@ -40733,7 +40758,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40743,23 +40768,23 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">時間帯を追加する</Str>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%file</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<label>自宅の場合</label>
 			<ConditionList sr="if">
@@ -40770,7 +40795,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -40780,7 +40805,17 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>547</code>
 			<label>ファイル名をロケーションルームを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40790,35 +40825,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<bool2>And</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_STATION_TYPE</lhs>
-					<op>3</op>
-					<rhs>乗車駅</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%LOCATION_STATION_TYPE</lhs>
-					<op>3</op>
-					<rhs>降車駅</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>4</op>
-					<rhs>.*駅$</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>5</op>
-					<rhs>.*道の駅.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>598</code>
 			<label>ファイル名がトイレだったら階数を削除する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40830,10 +40837,10 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">トイレ</Str>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<label>ファイル名が空ならダイニングを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40850,10 +40857,10 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>547</code>
 			<label>デフォルトキーを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40863,7 +40870,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<label>駅の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40886,7 +40893,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>547</code>
 			<label>乗車駅または降車駅の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40915,7 +40922,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプがオフィスビルの場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40932,7 +40939,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>547</code>
 			<label>ロケーションタイプが居酒屋の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40949,10 +40956,53 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_STATION_TYPE</lhs>
+					<op>3</op>
+					<rhs>乗車駅</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOCATION_STATION_TYPE</lhs>
+					<op>3</op>
+					<rhs>降車駅</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>.*駅$</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>5</op>
+					<rhs>.*道の駅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act61" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">時間帯を追加する</Str>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<label>駅の場合</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40962,22 +41012,10 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act60" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">時間帯を追加する</Str>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<label>ロケーションを代入する</label>
 			<Str sr="arg0" ve="3">%file</Str>
@@ -40986,17 +41024,6 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%file</Str>
-			<Str sr="arg1" ve="3">/</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_content_picture</nme>
@@ -51072,7 +51099,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task48">
 		<cdate>1521421893486</cdate>
-		<edate>1597629822401</edate>
+		<edate>1600603013287</edate>
 		<id>48</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
