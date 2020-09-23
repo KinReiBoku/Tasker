@@ -28,6 +28,7 @@
 	<Profile sr="prof121" ve="2">
 		<cdate>1535545982353</cdate>
 		<edate>1546939782859</edate>
+		<flags>2</flags>
 		<id>121</id>
 		<mid0>120</mid0>
 		<nme>Every 21:00 夕食後</nme>
@@ -770,7 +771,8 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1600847467014</edate>
+		<edate>1600850731387</edate>
+		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -4547,7 +4549,7 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1600847492009</mdate>
+		<mdate>1600852093259</mdate>
 		<name>Base</name>
 		<pids>17,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,466,449,476,478,482,484,486,488,490,492,494,498,500,502,504,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,142,546,563,561,565,567,569,571,573,575,577,579,581,583,585,587,589,594,596,593,600,564,603,605,607,609,616,622,624,621,627,629,631,633,635,637,639,648,643,316,653,655,657,659,663,670,677,673,674,41,441,542,675,680,686,690,439,701,705,685,719,725,727,736,731,739,729,746,750,753,147,145,214,256</pids>
 		<psort>ActiveAlpha</psort>
@@ -5562,7 +5564,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1600847657336</edate>
+		<edate>1600850731387</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -5850,6 +5852,14 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act32" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayTwitterMedia</Str>
 			<Int sr="arg1">
@@ -5860,7 +5870,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>43</code>
 			<label>クライアントモードの場合</label>
 			<ConditionList sr="if">
@@ -5871,7 +5881,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>37</code>
 			<label>自宅Wi-Fiに接続していない場合</label>
 			<ConditionList sr="if">
@@ -5882,7 +5892,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<label>財布が近くにあるかチェックする</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -5894,7 +5904,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%time</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Str sr="arg1" ve="3">%TIMES</Str>
@@ -5903,7 +5913,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Int sr="arg1">
@@ -5911,7 +5921,7 @@ Instagram</label>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -5927,15 +5937,6 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">財布はありますか？</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
 			<on>false</on>
@@ -5948,6 +5949,15 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act40" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">財布はありますか？</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toNotify</Str>
 			<Int sr="arg1">
@@ -5958,7 +5968,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toVibrate</Str>
@@ -5970,7 +5980,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -5982,7 +5992,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -5993,10 +6003,10 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>現在地を取得する</label>
 			<Str sr="arg0" ve="3">getLocationV2</Str>
@@ -6008,7 +6018,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%latitude_longitude</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -6024,13 +6034,13 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%latitude_longitude</Str>
 			<Str sr="arg1" ve="3">:</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を取得する</label>
 			<Str sr="arg0" ve="3">getLocationStationNearest</Str>
@@ -6042,7 +6052,14 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%device_task_list</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkFromYahoo</Str>
@@ -6054,14 +6071,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%device_task_list</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を編集する</label>
 			<Str sr="arg0" ve="3">modLocationStationNearest</Str>
@@ -6073,7 +6083,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを編集する</label>
 			<Str sr="arg0" ve="3">modLocationLandmarkFromYahoo</Str>
@@ -6085,7 +6095,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo_mod</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>乗車駅、乗換駅、降車駅が近い場合は発声する</label>
 			<Str sr="arg0" ve="3">sayLocationStationNearest</Str>
@@ -6097,7 +6107,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を設定する</label>
 			<Str sr="arg0" ve="3">setLocationStationNearest</Str>
@@ -6109,7 +6119,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>37</code>
 			<label>ロケーションが異なる場合</label>
 			<ConditionList sr="if">
@@ -6126,7 +6136,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>130</code>
 			<label>Yahoo!から口コミを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkReviewFromYahoo</Str>
@@ -6138,10 +6148,10 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_review_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを設定する</label>
 			<Str sr="arg0" ve="3">setLocationLandmarkFromYahoo</Str>
@@ -6160,7 +6170,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>37</code>
 			<label>口コミが存在する場合</label>
 			<ConditionList sr="if">
@@ -6170,15 +6180,6 @@ Instagram</label>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act59" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
@@ -6194,16 +6195,16 @@ Instagram</label>
 		<Action sr="act60" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">の口コミには、</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act61" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">%location_landmark_review_from_yahoo</Str>
+			<Str sr="arg1" ve="3">の口コミには、</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
@@ -6212,13 +6213,22 @@ Instagram</label>
 		<Action sr="act62" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">と書いてあります。</Str>
+			<Str sr="arg1" ve="3">%location_landmark_review_from_yahoo</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act63" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">と書いてあります。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act64" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -6229,16 +6239,16 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act64" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act65" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act66" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act67" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act68" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -6260,9 +6270,6 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act68" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act69" ve="7">
 			<code>38</code>
 		</Action>
@@ -6273,6 +6280,9 @@ Instagram</label>
 			<Str sr="arg1" ve="3">%device_task_list()</Str>
 		</Action>
 		<Action sr="act70" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act71" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLifeSupportInformation</Str>
 			<Int sr="arg1">
@@ -6283,7 +6293,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act72" ve="7">
 			<code>130</code>
 			<label>カレンダーの予定をチェックする</label>
 			<Str sr="arg0" ve="3">setCalendarEntry</Str>
@@ -12886,7 +12896,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task150">
 		<cdate>1600845016586</cdate>
-		<edate>1600848169796</edate>
+		<edate>1600852153375</edate>
 		<id>150</id>
 		<nme>checkTwitter</nme>
 		<rty>2</rty>
@@ -13648,27 +13658,48 @@ Copyright .*All rights reserved\.</Str>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%par1</lhs>
 					<op>3</op>
 					<rhs>Now</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act62" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NEWS;%key1;%message;http%newtweet</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>Now</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Subserver</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act63" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act64" ve="7">
 			<code>38</code>
@@ -13677,9 +13708,12 @@ Copyright .*All rights reserved\.</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act66" ve="7">
-			<code>40</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act67" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act68" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -13703,19 +13737,8 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act68" ve="7">
-			<code>43</code>
-		</Action>
 		<Action sr="act69" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
+			<code>43</code>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>30</code>
@@ -13727,6 +13750,17 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act70" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act71" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act8" ve="7">
@@ -13750,14 +13784,14 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task151">
 		<cdate>1536012677374</cdate>
-		<edate>1600847384909</edate>
+		<edate>1600855123792</edate>
 		<id>151</id>
 		<nme>checkTwitterMedia</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%keys</Str>
-			<Str sr="arg1" ve="3">Fndr;fndr_bot,grape;grapeejp,iedge;iedge_tech,TopNews;topnewsf1,菅原 潮;nekokumicho2,全力2階建;kabumatome,ナゾロジー;NazologyInfo,日経 秋田浩之;Hiroakitanikkei,ロイタービジネス;ReutersJapanBiz,ビットバンクマーケット;bitbank_markets,QUICK Money World;QUICK_QMW,サンスポコム;SANSPOCOM,TBS NEWS生活・防災;TBSNEWS6,ビットコイン売買サイン通知bot;btcjpy_macd_not,TBS NEWS;tbs_news,2NN ニュース速報プラス;2NN_Newsplus,SBIリクイディティ・マーケット;SBILM,会社四季報オンライン;shikihojp_lvh,Strainer;strainerjp,日経クイックニュース;nqn_news,食品新聞社;shokuhinet,GENROQ Web;GENROQ_Web,日経 村山恵一;kmurayama,日経 中村直文;nikkei_nakamura,日経 梶原誠;kajiwara_nikkei,春日部経済新聞;kasukabekeizai,日経 上杉素直;MotonaoUesugi,神戸新聞おもろいプロジェクト;kobe_omoroi,日経 平本信敬;nikkei_hiramoto,日経 石川潤;junishikawa_nk,日経 外山尚之;NaoyukiToyama,日経 中山敦史;a_nakayama_nk,日経 中西豊紀;TNakanishiNY,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,日経 鈴木淳;JunSuzukiNikkei,日経 坂本英二;sakamoto_nikkei,日経 峰岸博;minegishinikkei,日経 高橋徹;ToruTakaNikkei,足立通信社;pressadachi,</Str>
+			<Str sr="arg1" ve="3">2NN ニュース速報プラス;2NN_Newsplus,BIGLOBE;shunkannews,BTCNビットコインニュース;btcnews_jp,BTC板アラート;btc_orderalert,BloombergJapan;BloombergJapan,BusinessInsiderJapan;BIJapan,Donald Trump;realDonaldTrump,FXTF_MT4;FXTF_MT4,Fndr;fndr_bot,GENROQ Web;GENROQ_Web,NHKキャスターズアイ;nhk_burakoshi,NHK国際;nhk_kokusai,NHK生活;nhk_seikatsu,NHK科学文化部;nhk_kabun,NHK関西;nhk_bknews,NHK青森;nhk_aomori_pr,NHK首都圏;nhk_shutoken,Newsweek JAPAN;Newsweek_JAPAN,QUICK Money World;QUICK_QMW,SBIリクイディティ・マーケット;SBILM,Share News Japan;sharenewsjapan,Stock Train;stocktrain2,Strainer;strainerjp,TBS NEWS;tbs_news,TBS NEWS生活・防災;TBSNEWS6,TopNews;topnewsf1,grape;grapeejp,iedge;iedge_tech,tenkijp地震;tenkijp_jishin,かずー;shiawasesaku3,じぇいわ君;jwakun_official,はちま寄稿;htmk73,アダム・スミス２世;AdamSmith2sei,アノニマポスト;anonymous201504,カイエン;FaL5ons,クローズアップ現代;nhk_kurogen,コズミックフロントNEXT;nhk_space,サンスポコム;SANSPOCOM,ナゾロジー;NazologyInfo,ニッポンの数字;nippon_num,ビットコイン売買サイン通知bot;btcjpy_macd_not,ビットバンクマーケット;bitbank_markets,ファイアーエムブレムヒーローズ;FE_Heroes_JP,ポケ森;pokemori_jp,マイナビ;news_mynavi_jp,ロイタービジネス;ReutersJapanBiz,一部報道;ichibuhoudou,乗りものニュース;TrafficNewsJp,京都新聞;kyoto_np,人生に捧げるコント;nhk_life_comedy,会社四季報オンライン;shikihojp_lvh,働く人のお医者さん;morishig0,全力2階建;kabumatome,共同通信PRワイヤー プレスリリース;kyodonewsprwire,共同通信外信部;kyodo_gaishin,共同通信大阪編集部;kyodonewsosaka,北海道新聞;doshinweb,南日本新聞;373news_twit,埼玉新聞;saitamanp,大分合同新聞;oitagodo,山形新聞;press_yamashin,山本一郎;kirik,山陽新聞;sanyo_news,岩手日報;iwatenippo,弁護士ドットコムニュース;bengo4topics,徳島新聞;tokushimapress,新潟日報;niigata_nippo,新華社通信;XHJapanese,日経 上杉素直;MotonaoUesugi,日経 中山敦史;a_nakayama_nk,日経 中村直文;nikkei_nakamura,日経 中西豊紀;TNakanishiNY,日経 兼松雄一郎;kanematsuyui,日経 坂本英二;sakamoto_nikkei,日経 外山尚之;NaoyukiToyama,日経 小平龍四郎;Kodaira_Nikkei,日経 峰岸博;minegishinikkei,日経 平本信敬;nikkei_hiramoto,日経 村山恵一;kmurayama,日経 梶原誠;kajiwara_nikkei,日経 滝田洋一;yoichitakita,日経 石川潤;junishikawa_nk,日経 秋田浩之;Hiroakitanikkei,日経 秋田浩之;Hiroakitanikkei,日経 鈴木淳;JunSuzukiNikkei,日経 高橋徹;ToruTakaNikkei,日経アメリカ;nikkeiusa,日経クイックニュース;nqn_news,日経スタイル;nikkeistyle,日経スポーツ;nikkei_sports,日経テクノロジー;nikkei_tech,日経ビジネス;nikkei_business,日経マーケット;nikkei_market,日経ヨーロッパ;nikkei_europe,日経九州沖縄;nkkyushuokinawa,日経北海道;nikkei_hokkaido,日経名古屋;nikkeinagoya,日経平均9日RSI速報;nikkei225rsi,日経社会部;nikkeishakai,日経関西;nikkeikansai,春日部経済新聞;kasukabekeizai,朝日新聞 尾形聡彦;ToshihikoOgata,朝日新聞グローバル;asahi_globe,朝日新聞北海道センター;asahi_hokkaido,朝日新聞東京編集局;asahi_tokyo,東京ほっとWeb;tokyohotweb,東奥日報;toonippo,松井証券;Matsui06,気象庁;JMA_kishou,流通ニュース;RyutsuNEWS,熊本日日新聞;KUMANICHIs,特務機関NERV;UN_NERV,白猫プロジェクト;wcat_project,相場変動お知らせBot;GOLD_OIL,神戸新聞;kobeshinbun,神戸新聞おもろいプロジェクト;kobe_omoroi,神戸新聞北播総局;kobehokuban,神戸新聞明石総局;akashiban,神戸新聞映像写真部;kobenp_photo,福井新聞;fukuinpmedia,福島民報;FKSminpo,秋田魁新聞;sakigake,筋トレ;badassceo,菅原 潮;nekokumicho2,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,足立通信社;pressadachi,食品新聞社;shokuhinet,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -23003,7 +23037,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1600844915503</edate>
+		<edate>1600855103587</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -23026,6 +23060,31 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Str sr="arg1" ve="3">Fndr;fndr_bot,grape;grapeejp,iedge;iedge_tech,TopNews;topnewsf1,菅原 潮;nekokumicho2,全力2階建;kabumatome,ナゾロジー;NazologyInfo,日経 秋田浩之;Hiroakitanikkei,ロイタービジネス;ReutersJapanBiz,ビットバンクマーケット;bitbank_markets,QUICK Money World;QUICK_QMW,サンスポコム;SANSPOCOM,TBS NEWS生活・防災;TBSNEWS6,ビットコイン売買サイン通知bot;btcjpy_macd_not,TBS NEWS;tbs_news,2NN ニュース速報プラス;2NN_Newsplus,SBIリクイディティ・マーケット;SBILM,会社四季報オンライン;shikihojp_lvh,Strainer;strainerjp,日経クイックニュース;nqn_news,食品新聞社;shokuhinet,GENROQ Web;GENROQ_Web,日経 村山恵一;kmurayama,日経 中村直文;nikkei_nakamura,日経 梶原誠;kajiwara_nikkei,春日部経済新聞;kasukabekeizai,日経 上杉素直;MotonaoUesugi,神戸新聞おもろいプロジェクト;kobe_omoroi,日経 平本信敬;nikkei_hiramoto,日経 石川潤;junishikawa_nk,日経 外山尚之;NaoyukiToyama,日経 中山敦史;a_nakayama_nk,日経 中西豊紀;TNakanishiNY,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,日経 鈴木淳;JunSuzukiNikkei,日経 坂本英二;sakamoto_nikkei,日経 峰岸博;minegishinikkei,日経 高橋徹;ToruTakaNikkei,足立通信社;pressadachi,日経平均9日RSI速報;nikkei225rsi,日経スポーツ;nikkei_sports,日経アメリカ;nikkeiusa,人生に捧げるコント;nhk_life_comedy,ポケ森;pokemori_jp,NHK科学文化部;nhk_kabun,流通ニュース;RyutsuNEWS,朝日新聞グローバル;asahi_globe,朝日新聞 尾形聡彦;ToshihikoOgata,日経 滝田洋一;yoichitakita,アノニマポスト;anonymous201504,Stock Train;stocktrain2,共同通信PRワイヤー プレスリリース;kyodonewsprwire,神戸新聞明石総局;akashiban,神戸新聞北播総局;kobehokuban,東京ほっとWeb;tokyohotweb,岩手日報;iwatenippo,相場変動お知らせBot;GOLD_OIL,朝日新聞北海道センター;asahi_hokkaido,南日本新聞;373news_twit,北海道新聞;doshinweb,徳島新聞;tokushimapress,山形新聞;press_yamashin,新潟日報;niigata_nippo,秋田魁新聞;sakigake,日経 兼松雄一郎;kanematsuyui,大分合同新聞;oitagodo,東奥日報;toonippo,熊本日日新聞;KUMANICHIs,ニッポンの数字;nippon_num,福井新聞;fukuinpmedia,日経 秋田浩之;Hiroakitanikkei,共同通信外信部;kyodo_gaishin,山陽新聞;sanyo_news,弁護士ドットコムニュース;bengo4topics,FXTF_MT4;FXTF_MT4,京都新聞;kyoto_np,日経 小平龍四郎;Kodaira_Nikkei,神戸新聞映像写真部;kobenp_photo,神戸新聞;kobeshinbun,共同通信大阪編集部;kyodonewsosaka,BTC板アラート;btc_orderalert,朝日新聞東京編集局;asahi_tokyo,一部報道;ichibuhoudou,カイエン;FaL5ons,アダム・スミス２世;AdamSmith2sei,BTCNビットコインニュース;btcnews_jp,BusinessInsiderJapan;BIJapan,Share News Japan;sharenewsjapan,新華社通信;XHJapanese,BloombergJapan;BloombergJapan,福島民報;FKSminpo,松井証券;Matsui06,じぇいわ君;jwakun_official,気象庁;JMA_kishou,特務機関NERV;UN_NERV,埼玉新聞;saitamanp,日経ヨーロッパ;nikkei_europe,NHK国際;nhk_kokusai,NHK首都圏;nhk_shutoken,NHK生活;nhk_seikatsu,日経テクノロジー;nikkei_tech,日経関西;nikkeikansai,日経名古屋;nikkeinagoya,日経九州沖縄;nkkyushuokinawa,日経北海道;nikkei_hokkaido,日経社会部;nikkeishakai,日経ビジネス;nikkei_business,日経マーケット;nikkei_market,tenkijp地震;tenkijp_jishin,かずー;shiawasesaku3,筋トレ;badassceo,マイナビ;news_mynavi_jp,働く人のお医者さん;morishig0,BIGLOBE;shunkannews,白猫プロジェクト;wcat_project,ファイアーエムブレムヒーローズ;FE_Heroes_JP,クローズアップ現代;nhk_kurogen,コズミックフロントNEXT;nhk_space,Newsweek JAPAN;Newsweek_JAPAN,Donald Trump;realDonaldTrump,NHK関西;nhk_bknews,はちま寄稿;htmk73,NHKキャスターズアイ;nhk_burakoshi,NHK青森;nhk_aomori_pr,山本一郎;kirik,乗りものニュース;TrafficNewsJp,日経スタイル;nikkeistyle,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Int sr="arg1" val="5"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%keys()</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -23061,6 +23120,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -61553,7 +61613,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task716">
 		<cdate>1578228717156</cdate>
-		<edate>1578232933087</edate>
+		<edate>1600854924605</edate>
 		<id>716</id>
 		<nme>setStockData</nme>
 		<Action sr="act0" ve="7">
