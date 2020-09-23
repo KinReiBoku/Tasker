@@ -1,0 +1,29 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<Task sr="task151">
+		<cdate>1536012677374</cdate>
+		<edate>1600847384909</edate>
+		<id>151</id>
+		<nme>checkTwitterMedia</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%keys</Str>
+			<Str sr="arg1" ve="3">Fndr;fndr_bot,grape;grapeejp,iedge;iedge_tech,TopNews;topnewsf1,菅原 潮;nekokumicho2,全力2階建;kabumatome,ナゾロジー;NazologyInfo,日経 秋田浩之;Hiroakitanikkei,ロイタービジネス;ReutersJapanBiz,ビットバンクマーケット;bitbank_markets,QUICK Money World;QUICK_QMW,サンスポコム;SANSPOCOM,TBS NEWS生活・防災;TBSNEWS6,ビットコイン売買サイン通知bot;btcjpy_macd_not,TBS NEWS;tbs_news,2NN ニュース速報プラス;2NN_Newsplus,SBIリクイディティ・マーケット;SBILM,会社四季報オンライン;shikihojp_lvh,Strainer;strainerjp,日経クイックニュース;nqn_news,食品新聞社;shokuhinet,GENROQ Web;GENROQ_Web,日経 村山恵一;kmurayama,日経 中村直文;nikkei_nakamura,日経 梶原誠;kajiwara_nikkei,春日部経済新聞;kasukabekeizai,日経 上杉素直;MotonaoUesugi,神戸新聞おもろいプロジェクト;kobe_omoroi,日経 平本信敬;nikkei_hiramoto,日経 石川潤;junishikawa_nk,日経 外山尚之;NaoyukiToyama,日経 中山敦史;a_nakayama_nk,日経 中西豊紀;TNakanishiNY,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,日経 鈴木淳;JunSuzukiNikkei,日経 坂本英二;sakamoto_nikkei,日経 峰岸博;minegishinikkei,日経 高橋徹;ToruTakaNikkei,足立通信社;pressadachi,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkTwitter</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%keys</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
