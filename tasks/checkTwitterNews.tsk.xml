@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.2">
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1600845164023</edate>
+		<edate>1600856789438</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -21,8 +21,8 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%keys</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%keys</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
