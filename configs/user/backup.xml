@@ -163,38 +163,6 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof142" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703049838</edate>
-		<flags>2</flags>
-		<id>142</id>
-		<mid0>143</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;アレクサが呼んでいます</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;アレクサが呼んでいます</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;アレクサが呼んでいます" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof145" ve="2">
 		<cdate>1547071819665</cdate>
 		<edate>1586958805660</edate>
@@ -378,38 +346,6 @@
 			<Str sr="arg5" ve="3">*NHKEテレ*</Str>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof17" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1585479488262</edate>
-		<flags>2</flags>
-		<id>17</id>
-		<mid0>292</mid0>
-		<nme>Notify Pushbullet ALL;NEWS;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NEWS;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NEWS;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof173" ve="2">
@@ -674,6 +610,29 @@
 			<Int sr="arg3" val="0"/>
 		</State>
 	</Profile>
+	<Profile sr="prof260" ve="2">
+		<cdate>1541455808163</cdate>
+		<edate>1600912309535</edate>
+		<flags>2</flags>
+		<id>260</id>
+		<mid0>292</mid0>
+		<nme>Notify GMail ヤフオク! - 落札者：</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.gm.ConversationListActivityGmail</appClass>
+				<appPkg>com.google.android.gm</appPkg>
+				<label>Gmail</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">ヤフオク! - 落札者：*</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
 	<Profile sr="prof267" ve="2">
 		<cdate>1535975619247</cdate>
 		<edate>1562430589159</edate>
@@ -771,7 +730,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1600850731387</edate>
+		<edate>1600959141534</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -1295,7 +1254,7 @@
 	</Profile>
 	<Profile sr="prof386" ve="2">
 		<cdate>1543268898907</cdate>
-		<edate>1559038442670</edate>
+		<edate>1600909472453</edate>
 		<flags>2</flags>
 		<id>386</id>
 		<mid0>428</mid0>
@@ -1470,7 +1429,7 @@
 	</Profile>
 	<Profile sr="prof403" ve="2">
 		<cdate>1541455808163</cdate>
-		<edate>1541455854055</edate>
+		<edate>1600912335321</edate>
 		<flags>2</flags>
 		<id>403</id>
 		<mid0>402</mid0>
@@ -1724,10 +1683,9 @@
 	</Profile>
 	<Profile sr="prof443" ve="2">
 		<cdate>1543542842746</cdate>
-		<edate>1600535273530</edate>
+		<edate>1600911372164</edate>
 		<flags>2</flags>
 		<id>443</id>
-		<limit>true</limit>
 		<mid0>444</mid0>
 		<mid1>697</mid1>
 		<nme>App FEヒーローズ</nme>
@@ -1770,7 +1728,7 @@
 	</Profile>
 	<Profile sr="prof449" ve="2">
 		<cdate>1544090461399</cdate>
-		<edate>1559038492048</edate>
+		<edate>1600912011905</edate>
 		<flags>2</flags>
 		<id>449</id>
 		<mid0>475</mid0>
@@ -1907,70 +1865,6 @@
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof476" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703046572</edate>
-		<flags>2</flags>
-		<id>476</id>
-		<mid0>477</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;おやすみ</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;おやすみ</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;おやすみ" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof478" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703047872</edate>
-		<flags>2</flags>
-		<id>478</id>
-		<mid0>479</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;ただいま</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;ただいま;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note ～を含む "ALL;NOTIFY;ただいま;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof481" ve="2">
 		<cdate>1544140760492</cdate>
 		<edate>1545207250398</edate>
@@ -2017,103 +1911,6 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof484" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1566776277814</edate>
-		<flags>2</flags>
-		<id>484</id>
-		<mid0>485</mid0>
-		<nme>Notify Pushbullet ALL;RSS;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;RSS;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;RSS;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof486" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578761389667</edate>
-		<flags>2</flags>
-		<id>486</id>
-		<mid0>487</mid0>
-		<nme>Notify Pushbullet ALL;APP;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;APP;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;APP;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof488" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1585479478871</edate>
-		<flags>2</flags>
-		<id>488</id>
-		<mid0>489</mid0>
-		<nme>Notify Pushbullet ALL;DEVICE;</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;DEVICE;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;DEVICE;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof49" ve="2">
 		<cdate>1535508703297</cdate>
 		<edate>1579427715975</edate>
@@ -2123,136 +1920,6 @@
 		<nme>Device Shutdown</nme>
 		<Event sr="con0" ve="2">
 			<code>413</code>
-		</Event>
-	</Profile>
-	<Profile sr="prof490" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578892976877</edate>
-		<flags>2</flags>
-		<id>490</id>
-		<mid0>491</mid0>
-		<nme>Notify Pushbullet ALL;LOCATION;CHECKIN;</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;LOCATION;CHECKIN;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;LOCATION;CHECKIN;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof492" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578892970319</edate>
-		<flags>2</flags>
-		<id>492</id>
-		<mid0>493</mid0>
-		<nme>Notify Pushbullet ALL;LOCATIONROOM;</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;LOCATIONROOM;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;LOCATIONROOM;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof494" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578234121621</edate>
-		<flags>2</flags>
-		<id>494</id>
-		<mid0>495</mid0>
-		<nme>Notify Pushbullet ALL;SWITCHCHANGE;自宅（さいたま）マイルームのエアクリーナ;オフ</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;SWITCHCHANGE;自宅（さいたま）マイルームのエアクリーナ;オフ</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;SWITCHCHANGE;自宅（さいたま）マイルームのエアクリー</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof498" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703035274</edate>
-		<flags>2</flags>
-		<id>498</id>
-		<mid0>499</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;ISS passes overhead</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;ISS passes overhead</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;ISS passes overhead" 差出人 </com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof50" ve="2">
@@ -2270,102 +1937,6 @@
 			<th>-1</th>
 			<tm>-1</tm>
 		</Time>
-	</Profile>
-	<Profile sr="prof500" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703038110</edate>
-		<flags>2</flags>
-		<id>500</id>
-		<mid0>501</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;PlayedSong;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;PlayedSong;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;PlayedSong;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof502" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1586519730955</edate>
-		<flags>2</flags>
-		<id>502</id>
-		<mid0>503</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;いってきます</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;いってきます</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;いってきます" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof504" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703045202</edate>
-		<flags>2</flags>
-		<id>504</id>
-		<mid0>505</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;おはよう</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;おはよう</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;おはよう" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
 	</Profile>
 	<Profile sr="prof507" ve="2">
 		<cdate>1544140760492</cdate>
@@ -2590,7 +2161,7 @@
 	</Profile>
 	<Profile sr="prof546" ve="2">
 		<cdate>1545917669789</cdate>
-		<edate>1559038610754</edate>
+		<edate>1600912023562</edate>
 		<flags>2</flags>
 		<id>546</id>
 		<mid0>547</mid0>
@@ -2670,38 +2241,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof564" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578348277797</edate>
-		<flags>2</flags>
-		<id>564</id>
-		<mid0>602</mid0>
-		<nme>Notify Pushbullet ALL;TODOLIST;ADD;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;TODOLIST;ADD;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;TODOLIST;ADD;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof565" ve="2">
@@ -3149,134 +2688,6 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof605" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703052761</edate>
-		<flags>2</flags>
-		<id>605</id>
-		<mid0>606</mid0>
-		<nme>Notify Pushbullet ALL;SHOPPINGLIST;ADD;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;SHOPPINGLIST;ADD;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;SHOPPINGLIST;ADD;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof607" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1548946295881</edate>
-		<flags>2</flags>
-		<id>607</id>
-		<mid0>608</mid0>
-		<nme>Notify Pushbullet ALL;TODOLIST;DEL;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;TODOLIST;DEL;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;TODOLIST;DEL;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof609" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703054352</edate>
-		<flags>2</flags>
-		<id>609</id>
-		<mid0>610</mid0>
-		<nme>Notify Pushbullet ALL;SHOPPINGLIST;DEL;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;SHOPPINGLIST;DEL;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;SHOPPINGLIST;DEL;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof616" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703055971</edate>
-		<flags>2</flags>
-		<id>616</id>
-		<mid0>617</mid0>
-		<nme>Notify Pushbullet ALL;STOCK;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;STOCK;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note ～を含む "ALL;STOCK;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof62" ve="2">
 		<cdate>1535513220794</cdate>
 		<edate>1535513402521</edate>
@@ -3298,134 +2709,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof621" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578800386405</edate>
-		<flags>2</flags>
-		<id>621</id>
-		<mid0>626</mid0>
-		<nme>Notify Pushbullet ALL;TRAIN;（自分）</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;TRAIN;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;TRAIN;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof622" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1579053665475</edate>
-		<flags>2</flags>
-		<id>622</id>
-		<mid0>623</mid0>
-		<nme>Notify Pushbullet ALL;TRAIN;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;TRAIN;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;TRAIN;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof624" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1585479482998</edate>
-		<flags>2</flags>
-		<id>624</id>
-		<mid0>625</mid0>
-		<nme>Notify Pushbullet ALL;NEWS;（自分）</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>0</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NEWS;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NEWS;" 差出人 自分自身.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof627" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578913649258</edate>
-		<flags>2</flags>
-		<id>627</id>
-		<mid0>628</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;SO04J スキャンが終了しました</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;SO04J スキャンが終了しました</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;SO04J スキャンが終了しました" 差出人 誰で</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof629" ve="2">
@@ -3497,38 +2780,6 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof635" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703041592</edate>
-		<flags>2</flags>
-		<id>635</id>
-		<mid0>636</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;SO04K スキャンが終了しました</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;SO04K スキャンが終了しました</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;NOTIFY;SO04K スキャンが終了しました" 差出人 誰で</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
 		<edate>1587914877179</edate>
@@ -3593,38 +2844,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof643" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1548945823755</edate>
-		<flags>2</flags>
-		<id>643</id>
-		<mid0>650</mid0>
-		<nme>Notify Pushbullet ALL;WEATHER;</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;WEATHER;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;WEATHER;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof648" ve="2">
@@ -3754,39 +2973,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof663" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578892964114</edate>
-		<flags>2</flags>
-		<id>663</id>
-		<mid0>664</mid0>
-		<nme>Notify Pushbullet ALL;INSTAGRAM;</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;INSTAGRAM;</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note テキストを含む "ALL;INSTAGRAM;" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
 		</Event>
 	</Profile>
 	<Profile sr="prof670" ve="2">
@@ -3928,44 +3114,11 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof685" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703036700</edate>
-		<flags>2</flags>
-		<id>685</id>
-		<mid0>692</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;Nexus7 スキャンが終了しました</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;Nexus7 スキャンが終了しました</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note ～を含む "ALL;NOTIFY;Nexus7 スキャンが終了しました" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
 	<Profile sr="prof686" ve="2">
 		<cdate>1562398946252</cdate>
-		<edate>1566343602202</edate>
+		<edate>1600911382159</edate>
 		<flags>2</flags>
 		<id>686</id>
-		<limit>true</limit>
 		<mid0>687</mid0>
 		<mid1>688</mid1>
 		<nme>App Llama</nme>
@@ -4027,72 +3180,6 @@
 			<label0>あすけん</label0>
 			<pkg0>jp.co.greenhouse.asken</pkg0>
 		</App>
-	</Profile>
-	<Profile sr="prof705" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578703033810</edate>
-		<flags>2</flags>
-		<id>705</id>
-		<mid0>706</mid0>
-		<nme>Notify Pushbullet ALL;NOTIFY;ALL;Received SMS</nme>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER>ALL;NOTIFY;Received SMS</com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note ～を含む "ALL;NOTIFY;Received SMS" 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
-	</Profile>
-	<Profile sr="prof719" ve="2">
-		<cdate>1535346702361</cdate>
-		<edate>1578702956041</edate>
-		<flags>2</flags>
-		<id>719</id>
-		<limit>true</limit>
-		<mid0>720</mid0>
-		<nme>Notify Pushbullet</nme>
-		<pri>6</pri>
-		<Event sr="con0" ve="2">
-			<code>1743678352</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.pushbullet.android.tasker.PUSH_TYPE>note</com.pushbullet.android.tasker.PUSH_TYPE>
-					<com.pushbullet.android.tasker.PUSH_TYPE-type>java.lang.String</com.pushbullet.android.tasker.PUSH_TYPE-type>
-					<com.pushbullet.android.tasker.SOURCE>2</com.pushbullet.android.tasker.SOURCE>
-					<com.pushbullet.android.tasker.SOURCE-type>java.lang.Integer</com.pushbullet.android.tasker.SOURCE-type>
-					<com.pushbullet.android.tasker.TEXT_FILTER></com.pushbullet.android.tasker.TEXT_FILTER>
-					<com.pushbullet.android.tasker.TEXT_FILTER-type>java.lang.String</com.pushbullet.android.tasker.TEXT_FILTER-type>
-					<com.pushbullet.android.tasker.THEN>1</com.pushbullet.android.tasker.THEN>
-					<com.pushbullet.android.tasker.THEN-type>java.lang.Integer</com.pushbullet.android.tasker.THEN-type>
-					<com.pushbullet.android.tasker.VERSION_CODE>1</com.pushbullet.android.tasker.VERSION_CODE>
-					<com.pushbullet.android.tasker.VERSION_CODE-type>java.lang.Integer</com.pushbullet.android.tasker.VERSION_CODE-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>以下を受信した時： note 差出人 誰でも.</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.pushbullet.android</Str>
-			<Str sr="arg2" ve="3">com.pushbullet.android.tasker.event.EditActivity</Str>
-		</Event>
 	</Profile>
 	<Profile sr="prof725" ve="2">
 		<cdate>1578898080123</cdate>
@@ -4306,7 +3393,7 @@ com.companyname.CloudPokeMap</appPkg>
 	</Profile>
 	<Profile sr="prof753" ve="2">
 		<cdate>1586822499239</cdate>
-		<edate>1586909312164</edate>
+		<edate>1600910125353</edate>
 		<flags>2</flags>
 		<id>753</id>
 		<mid0>752</mid0>
@@ -4549,12 +3636,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1600852093259</mdate>
+		<mdate>1600915516786</mdate>
 		<name>Base</name>
-		<pids>17,45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,466,449,476,478,482,484,486,488,490,492,494,498,500,502,504,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,142,546,563,561,565,567,569,571,573,575,577,579,581,583,585,587,589,594,596,593,600,564,603,605,607,609,616,622,624,621,627,629,631,633,635,637,639,648,643,316,653,655,657,659,663,670,677,673,674,41,441,542,675,680,686,690,439,701,705,685,719,725,727,736,731,739,729,746,750,753,147,145,214,256</pids>
+		<pids>45,49,51,54,56,58,60,62,64,66,68,70,73,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,466,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,563,561,565,567,569,571,573,575,577,579,581,583,585,587,589,594,596,593,600,603,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,439,701,725,727,736,731,739,729,746,750,753,147,145,214,256,260</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock,Popup</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -5564,7 +4651,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1600850731387</edate>
+		<edate>1600959141534</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -5871,6 +4958,17 @@ Instagram</label>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkRssMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
 			<code>43</code>
 			<label>クライアントモードの場合</label>
 			<ConditionList sr="if">
@@ -5881,7 +4979,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>37</code>
 			<label>自宅Wi-Fiに接続していない場合</label>
 			<ConditionList sr="if">
@@ -5892,7 +4990,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<label>財布が近くにあるかチェックする</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -5904,7 +5002,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%time</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Str sr="arg1" ve="3">%TIMES</Str>
@@ -5913,7 +5011,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Int sr="arg1">
@@ -5921,7 +5019,18 @@ Instagram</label>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_task_list</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -5937,18 +5046,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<on>false</on>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_task_list</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">財布はありますか？</Str>
@@ -5957,7 +5055,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toNotify</Str>
 			<Int sr="arg1">
@@ -5968,7 +5066,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toVibrate</Str>
@@ -5980,7 +5078,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -5992,7 +5090,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -6003,10 +5101,10 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<label>現在地を取得する</label>
 			<Str sr="arg0" ve="3">getLocationV2</Str>
@@ -6018,7 +5116,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%latitude_longitude</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -6034,13 +5132,20 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%latitude_longitude</Str>
 			<Str sr="arg1" ve="3">:</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%device_task_list</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を取得する</label>
 			<Str sr="arg0" ve="3">getLocationStationNearest</Str>
@@ -6052,14 +5157,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%device_task_list</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkFromYahoo</Str>
@@ -6071,7 +5169,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を編集する</label>
 			<Str sr="arg0" ve="3">modLocationStationNearest</Str>
@@ -6083,7 +5181,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを編集する</label>
 			<Str sr="arg0" ve="3">modLocationLandmarkFromYahoo</Str>
@@ -6095,7 +5193,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo_mod</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<label>乗車駅、乗換駅、降車駅が近い場合は発声する</label>
 			<Str sr="arg0" ve="3">sayLocationStationNearest</Str>
@@ -6107,7 +5205,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を設定する</label>
 			<Str sr="arg0" ve="3">setLocationStationNearest</Str>
@@ -6119,7 +5217,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>37</code>
 			<label>ロケーションが異なる場合</label>
 			<ConditionList sr="if">
@@ -6136,7 +5234,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>130</code>
 			<label>Yahoo!から口コミを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkReviewFromYahoo</Str>
@@ -6148,10 +5246,10 @@ Instagram</label>
 			<Str sr="arg4" ve="3">%location_landmark_review_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを設定する</label>
 			<Str sr="arg0" ve="3">setLocationLandmarkFromYahoo</Str>
@@ -6170,17 +5268,6 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
-			<code>37</code>
-			<label>口コミが存在する場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location_landmark_review_from_yahoo</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
 			<on>false</on>
@@ -6193,6 +5280,17 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act60" ve="7">
+			<code>37</code>
+			<label>口コミが存在する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location_landmark_review_from_yahoo</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act61" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
@@ -6201,7 +5299,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act62" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">の口コミには、</Str>
@@ -6210,7 +5308,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act63" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%location_landmark_review_from_yahoo</Str>
@@ -6219,7 +5317,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act64" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">と書いてあります。</Str>
@@ -6228,7 +5326,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act65" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -6239,16 +5337,16 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act65" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act66" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act67" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act68" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act69" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -6270,9 +5368,6 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act69" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act7" ve="7">
 			<code>39</code>
 			<on>false</on>
@@ -6283,6 +5378,9 @@ Instagram</label>
 			<code>38</code>
 		</Action>
 		<Action sr="act71" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act72" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLifeSupportInformation</Str>
 			<Int sr="arg1">
@@ -6293,7 +5391,7 @@ Instagram</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act73" ve="7">
 			<code>130</code>
 			<label>カレンダーの予定をチェックする</label>
 			<Str sr="arg0" ve="3">setCalendarEntry</Str>
@@ -6723,7 +5821,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task104">
 		<cdate>1524104123592</cdate>
-		<edate>1579094712888</edate>
+		<edate>1600957242138</edate>
 		<id>104</id>
 		<nme>setLifeEatState</nme>
 		<pri>100</pri>
@@ -8354,7 +7452,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task111">
 		<cdate>1527232390511</cdate>
-		<edate>1579095075396</edate>
+		<edate>1600957267313</edate>
 		<id>111</id>
 		<nme>setLife</nme>
 		<pri>100</pri>
@@ -9003,7 +8101,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task112">
 		<cdate>1535921595983</cdate>
-		<edate>1586782895004</edate>
+		<edate>1600911334485</edate>
 		<id>112</id>
 		<nme>toPushbulletSleepOff</nme>
 		<Action sr="act0" ve="7">
@@ -9493,7 +8591,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task116">
 		<cdate>1535540380169</cdate>
-		<edate>1600845034865</edate>
+		<edate>1600915359760</edate>
 		<id>116</id>
 		<nme>!template</nme>
 		<pri>100</pri>
@@ -10258,7 +9356,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1587794910447</edate>
+		<edate>1600919420651</edate>
 		<id>123</id>
 		<nme>checkMessageRss</nme>
 		<pri>100</pri>
@@ -12492,21 +11590,6 @@ Copyright .*All rights reserved\.</Str>
 			<nme>hl_device_access_accounts</nme>
 		</Img>
 	</Task>
-	<Task sr="task143">
-		<cdate>1535853547096</cdate>
-		<edate>1545636038984</edate>
-		<id>143</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;アレクサが呼んでいます</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task144">
 		<cdate>1535688823962</cdate>
 		<edate>1586435959666</edate>
@@ -12896,7 +11979,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task150">
 		<cdate>1600845016586</cdate>
-		<edate>1600856852159</edate>
+		<edate>1600915828199</edate>
 		<id>150</id>
 		<nme>checkTwitter</nme>
 		<rty>2</rty>
@@ -13790,7 +12873,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task151">
 		<cdate>1536012677374</cdate>
-		<edate>1600856772717</edate>
+		<edate>1600959070722</edate>
 		<id>151</id>
 		<nme>checkTwitterMedia</nme>
 		<pri>100</pri>
@@ -14482,7 +13565,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1600603124346</edate>
+		<edate>1600907424651</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
@@ -14863,6 +13946,162 @@ Copyright .*All rights reserved\.</Str>
 					<lhs>%ntitle</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task17">
+		<cdate>1600915484030</cdate>
+		<edate>1600959757310</edate>
+		<id>17</id>
+		<nme>checkRssMedia</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%feeds</Str>
+			<Str sr="arg1" ve="3">AUTOSPORTS海外;http://www.as-web.jp/overseas/feed,Buzzfeed;https://www.buzzfeed.com/jp/index.xml,GameIndustry;http://jp.gamesindustry.biz/rss/index.xml,MoneyZine;https://moneyzine.jp/rss/new/,News US;https://news-us.org/feed,Paiza開発日誌;https://paiza.hatenablog.com/feed,ZAPZAP;http://zapzapjp.com/index.rdf,Zuu Online;https://zuuonline.com/feed/,いつもていねいに;http://teineini.net/feed/,きんどう;https://kindou.info/feed,しらべぇ;https://sirabee.com/feed/,まいじつ;https://myjitsu.jp/feed,エンジニアライフ;https://el.jibun.atmarkit.co.jp/noriwo_t/index.rdf,ミドルエッジ;https://middle-edge.jp/middle-edge.rss,パウエルのオタク部屋;http://rssblog.ameba.jp/wasted169/rss20.xml,ラジオライフ;https://radiolife.com/feed/,ロボスタ;https://robotstart.info/feed,海外SEO情報ブログ;https://www.suzukikenichi.com/blog/feed,家電ウォッチ;https://kaden.watch.impress.co.jp/data/rss/1.0/kdw/feed.rdf,笑うメディア クレイジー;https://curazy.com/feed,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%feeds</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%RSS_DATA</Str>
+			<Str sr="arg3" ve="3">%feed1;%ret</Str>
+			<Str sr="arg4" ve="3">%RSS_DATA</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;RSS;%feed1;%ret;%feed2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;RSS;%feed1;%ret;%feed2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Subserver</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%feed</Str>
+			<Str sr="arg1" ve="3">%feeds()</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%feed</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getRss2</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%feed2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ret</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ret</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ret</lhs>
+					<op>5</op>
+					<rhs>^\%</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%RSS_DATA</Str>
+			<Str sr="arg3" ve="3">%feed1</Str>
+			<Str sr="arg4" ve="3">%old</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ret</lhs>
+					<op>3</op>
+					<rhs>%old</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -20043,7 +19282,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task24">
 		<cdate>1535275951041</cdate>
-		<edate>1549472024346</edate>
+		<edate>1600907981987</edate>
 		<id>24</id>
 		<nme>setSayState</nme>
 		<pri>100</pri>
@@ -21423,7 +20662,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task25">
 		<cdate>1535275917993</cdate>
-		<edate>1560616840735</edate>
+		<edate>1600929195543</edate>
 		<id>25</id>
 		<nme>getSayState</nme>
 		<Action sr="act0" ve="7">
@@ -23041,9 +22280,73 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<nme>hl_aaa_nixx_plug</nme>
 		</Img>
 	</Task>
+	<Task sr="task259">
+		<cdate>1535407856353</cdate>
+		<edate>1600911046063</edate>
+		<id>259</id>
+		<nme>toIntentMyDevice</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %par2=Key</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">tasker</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%par2:%message</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1600856743138</edate>
+		<edate>1600940770907</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -23096,6 +22399,134 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">%keys()</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
+		<Action sr="act14" ve="7">
+			<code>339</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">http://zapzapjp.com/index.rdf</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">rss.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>339</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">https://kindou.info/feed</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">rss.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>339</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">http://feeds.youpouch.com/youpouch</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">rss.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>339</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">https://maimokumemo.blogspot.com/feeds/posts/default</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">rss.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getRss2</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">http://feeds.youpouch.com/youpouch</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ret</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">start %task</Str>
@@ -23103,6 +22534,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">ALL;NEWS;テスたト;テストただお;デザートた、</Str>
 			<Int sr="arg2" val="0"/>
@@ -23130,6 +22562,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -23170,6 +22603,78 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task261">
+		<cdate>1535407856353</cdate>
+		<edate>1600959089578</edate>
+		<id>261</id>
+		<nme>toWebhookMyDevice</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Message %par2=Key</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="19"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>116</code>
+			<label>SO-04Kへ送信</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_MYDEVICE/%par2?%par2=%message</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="15"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task262">
@@ -26527,29 +26032,18 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 	</Task>
 	<Task sr="task292">
-		<cdate>1535853547096</cdate>
-		<edate>1585479488262</edate>
+		<cdate>1521381764005</cdate>
+		<edate>1600912309535</edate>
 		<id>292</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg2" ve="3">ヤフオク！で落札しました</Str>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -28031,7 +27525,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1578613624395</edate>
+		<edate>1600912839139</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
@@ -28356,7 +27850,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">a.txt</Str>
+			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
@@ -34149,6 +33643,403 @@ Alexaに天気と予定を聞く</label>
 			</ConditionList>
 		</Action>
 	</Task>
+	<Task sr="task350">
+		<cdate>1600912857241</cdate>
+		<edate>1600959045721</edate>
+		<id>350</id>
+		<nme>getRss2</nme>
+		<pri>100</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Feed %ret=Data</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%feed</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>.*?&lt;/image&gt;.*?&lt;title.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">.*?&lt;/image&gt;.*?&lt;title.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>&lt;/title&gt;.*?&lt;summary.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;/title&gt;.*?&lt;summary.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%enter</Str>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>&lt;/title&gt;.*?&lt;description.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;/title&gt;.*?&lt;description.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%enter</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>&lt;/title&gt;.*?&lt;content.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%feed</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;/title&gt;.*?&lt;content.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%enter</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>&lt;/summary&gt;.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;/summary&gt;.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>&lt;/description&gt;.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;/description&gt;.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;!\[.+?\[</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">\[.+?\]&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">\]\]&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&amp;.+?;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">&lt;.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">delUrl</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%http_data</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%http_data</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">//.* </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">Photo by [0-9a-zA-Z]* [0-9a-zA-Z]* </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">Photo by [0-9a-zA-Z]* </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%enter</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">%enter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>.*?&lt;entry.*?&gt;.*?&lt;title.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">.*?&lt;entry.*?&gt;.*?&lt;title.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_data</lhs>
+					<op>4</op>
+					<rhs>.*?&lt;item.*?&gt;.*?&lt;title.*?&gt;</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Str sr="arg1" ve="3">.*?&lt;item.*?&gt;.*?&lt;title.*?&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+	</Task>
 	<Task sr="task352">
 		<cdate>1536296750222</cdate>
 		<edate>1586523236214</edate>
@@ -39726,7 +39617,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task402">
 		<cdate>1521381764005</cdate>
-		<edate>1541455822878</edate>
+		<edate>1600912332755</edate>
 		<id>402</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -39777,7 +39668,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task408">
 		<cdate>1535407856353</cdate>
-		<edate>1562304695408</edate>
+		<edate>1600959242231</edate>
 		<id>408</id>
 		<nme>toTwitterTweet</nme>
 		<pri>100</pri>
@@ -39802,40 +39693,32 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>596</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Int sr="arg1" val="19"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">getPathIftttTrigger</Str>
+			<on>false</on>
+			<Str sr="arg0" ve="3">toWebhookMyDevice</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%path</Str>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">tweet</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toIntentMyDevice</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3">tweet</Str>
+			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>116</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%path/tweet/with/key/%IFTTT_WEBHOOK_KEY?value1=%message</Str>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="15"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -39846,7 +39729,7 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -40327,7 +40210,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task418">
 		<cdate>1535375988054</cdate>
-		<edate>1600856418584</edate>
+		<edate>1600929438408</edate>
 		<id>418</id>
 		<nme>!!testReplace</nme>
 		<pri>100</pri>
@@ -42154,7 +42037,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task431">
 		<cdate>1543290382331</cdate>
-		<edate>1545926908367</edate>
+		<edate>1600944883668</edate>
 		<id>431</id>
 		<nme>converteKatakana</nme>
 		<Action sr="act0" ve="7">
@@ -44240,7 +44123,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task435">
 		<cdate>1543369879237</cdate>
-		<edate>1586450154579</edate>
+		<edate>1600919584936</edate>
 		<id>435</id>
 		<nme>delUrl</nme>
 		<Action sr="act0" ve="7">
@@ -44830,7 +44713,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task444">
 		<cdate>1543542846657</cdate>
-		<edate>1565019778377</edate>
+		<edate>1600911368187</edate>
 		<id>444</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -45250,7 +45133,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task455">
 		<cdate>1543802130180</cdate>
-		<edate>1578241881240</edate>
+		<edate>1600919566788</edate>
 		<id>455</id>
 		<nme>delHashTag</nme>
 		<Action sr="act0" ve="7">
@@ -46263,7 +46146,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task460">
 		<cdate>1543965870849</cdate>
-		<edate>1600596552410</edate>
+		<edate>1600911280133</edate>
 		<id>460</id>
 		<nme>setProfileOff</nme>
 		<Action sr="act0" ve="7">
@@ -46280,42 +46163,22 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Notify Pushbullet ALL;NEWS;</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Notify Pushbullet ALL;RSS;</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>159</code>
 			<Str sr="arg0" ve="3">Intent Received Llama</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task461">
 		<cdate>1543965887519</cdate>
-		<edate>1586403929433</edate>
+		<edate>1600911285378</edate>
 		<id>461</id>
 		<nme>setProfileOn</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">Notify Pushbullet ALL;NEWS;</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Notify Pushbullet ALL;RSS;</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
 			<Str sr="arg0" ve="3">Intent Received Llama</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act1" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Every 3m</Str>
 			<Int sr="arg1" val="1"/>
@@ -51092,216 +50955,11 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task475">
 		<cdate>1544090465104</cdate>
-		<edate>1544090523916</edate>
+		<edate>1600912011905</edate>
 		<id>475</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkLocationAddressGoogleMap</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task477">
-		<cdate>1535853547096</cdate>
-		<edate>1552161741424</edate>
-		<id>477</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;おやすみ</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle5</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle5</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task479">
-		<cdate>1535853547096</cdate>
-		<edate>1578233936943</edate>
-		<id>479</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle5</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle5</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%ntitle4</lhs>
-					<op>2</op>
-					<rhs>%LOCATION_LLAMA</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;ただいま;自宅（さいたま）;マイルーム</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle4</lhs>
-					<op>2</op>
-					<rhs>自宅（さいたま）</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%ntitle5</lhs>
-					<op>2</op>
-					<rhs>マイルーム</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getTimeZone</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%timezone</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのライト;オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのライト;オン</Str>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%timezone</lhs>
-					<op>2</op>
-					<rhs>夜</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%timezone</lhs>
-					<op>2</op>
-					<rhs>深夜</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのタップ;オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのタップ;オン</Str>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのエアクリーナ;オン</Str>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのパソコン;オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのパソコン;オン</Str>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setHomeApplianceState自宅（さいたま）</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -51498,241 +51156,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task485">
-		<cdate>1535853547096</cdate>
-		<edate>1566776277814</edate>
-		<id>485</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">%NTITLE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>^ALL.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>^%MY_ID.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task487">
-		<cdate>1535853547096</cdate>
-		<edate>1578761389667</edate>
-		<id>487</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task489">
-		<cdate>1535853547096</cdate>
-		<edate>1585479478871</edate>
-		<id>489</id>
-		<pri>7</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task491">
-		<cdate>1535853547096</cdate>
-		<edate>1578798362896</edate>
-		<id>491</id>
-		<pri>7</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>3</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>3</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task493">
-		<cdate>1535853547096</cdate>
-		<edate>1547675815873</edate>
-		<id>493</id>
-		<pri>7</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task495">
-		<cdate>1535853547096</cdate>
-		<edate>1578234121621</edate>
-		<id>495</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;SWITCHCHANGE;自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Server</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task499">
-		<cdate>1535853547096</cdate>
-		<edate>1557030611796</edate>
-		<id>499</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">addSpace</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task5">
 		<cdate>1535242794666</cdate>
 		<edate>1545231334272</edate>
@@ -51849,168 +51272,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-		</Action>
-	</Task>
-	<Task sr="task501">
-		<cdate>1535853547096</cdate>
-		<edate>1544104166741</edate>
-		<id>501</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task503">
-		<cdate>1535853547096</cdate>
-		<edate>1551303285757</edate>
-		<id>503</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのライト;オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのライト;オフ</Str>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのタップ;オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのタップ;オフ</Str>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのテレビ;オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのテレビ;オフ</Str>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのエアクリーナ;オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setHomeApplianceState自宅（さいたま）</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_ROOM</lhs>
-					<op>2</op>
-					<rhs>%ntitle5</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;いってきます</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task505">
-		<cdate>1535853547096</cdate>
-		<edate>1578348365695</edate>
-		<id>505</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;おはよう</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle4</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task506">
@@ -53370,7 +52631,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task547">
 		<cdate>1545917673514</cdate>
-		<edate>1545917831937</edate>
+		<edate>1600912022677</edate>
 		<id>547</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -55984,61 +55245,6 @@ https://t.co/91XPPED1U2
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task602">
-		<cdate>1535853547096</cdate>
-		<edate>1578348277797</edate>
-		<id>602</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>.*で.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LIST_TODO</Str>
-			<Str sr="arg3" ve="3">%ntitle</Str>
-			<Str sr="arg4" ve="3">%LIST_TODO</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : Item=%%ntitle</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
 	<Task sr="task604">
 		<cdate>1547071823400</cdate>
 		<edate>1586957874580</edate>
@@ -56067,116 +55273,6 @@ https://t.co/91XPPED1U2
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task606">
-		<cdate>1535853547096</cdate>
-		<edate>1578348288525</edate>
-		<id>606</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>.*で.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%LIST_SHOPPING</Str>
-			<Str sr="arg3" ve="3">%ntitle</Str>
-			<Str sr="arg4" ve="3">%LIST_SHOPPING</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : Item=%ntitle</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
-	<Task sr="task608">
-		<cdate>1535853547096</cdate>
-		<edate>1548946295881</edate>
-		<id>608</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>.*で.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%LIST_TODO</Str>
-			<Str sr="arg1" ve="3">%ntitle,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : Item=%%ntitle</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
 	<Task sr="task61">
 		<cdate>1524801955846</cdate>
 		<edate>1535544060314</edate>
@@ -56192,61 +55288,6 @@ https://t.co/91XPPED1U2
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task610">
-		<cdate>1535853547096</cdate>
-		<edate>1578233688192</edate>
-		<id>610</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>4</op>
-					<rhs>.*で.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%LIST_SHOPPING</Str>
-			<Str sr="arg1" ve="3">%ntitle,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Unknown data : Item=%%ntitle</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task611">
@@ -56612,7 +55653,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task615">
 		<cdate>1523268465148</cdate>
-		<edate>1582584538705</edate>
+		<edate>1600952506092</edate>
 		<id>615</id>
 		<nme>checkNotifyPushbullet</nme>
 		<Action sr="act0" ve="7">
@@ -56650,54 +55691,6 @@ https://t.co/91XPPED1U2
 					<rhs>^%MY_ID;.*</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task617">
-		<cdate>1535853547096</cdate>
-		<edate>1578348297024</edate>
-		<id>617</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">ALL;STOCK;ADD;冷蔵庫;フルーツマシュマロ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">ALL;STOCK;DEL;冷蔵庫;フルーツマシュマロ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setStockData</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task618">
@@ -57261,105 +56254,6 @@ https://t.co/91XPPED1U2
 			<pkg>org.zooper.zwpro</pkg>
 		</Img>
 	</Task>
-	<Task sr="task623">
-		<cdate>1535853547096</cdate>
-		<edate>1579053665475</edate>
-		<id>623</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task625">
-		<cdate>1535853547096</cdate>
-		<edate>1585479482998</edate>
-		<id>625</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task626">
-		<cdate>1535853547096</cdate>
-		<edate>1578800386405</edate>
-		<id>626</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task628">
-		<cdate>1535853547096</cdate>
-		<edate>1547789922888</edate>
-		<id>628</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;SO04J スキャンが終了しました</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task63">
 		<cdate>1521382753474</cdate>
 		<edate>1559471725317</edate>
@@ -57467,21 +56361,6 @@ https://t.co/91XPPED1U2
 			</Int>
 			<Str sr="arg2" ve="3">ダウ平均株価が下落しました</Str>
 			<Str sr="arg3" ve="3">force</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task636">
-		<cdate>1535853547096</cdate>
-		<edate>1548022359549</edate>
-		<id>636</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;SO04K スキャンが終了しました</Str>
-			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
@@ -58186,34 +57065,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task650">
-		<cdate>1535853547096</cdate>
-		<edate>1548288285035</edate>
-		<id>650</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task654">
 		<cdate>1521381764005</cdate>
 		<edate>1548798678959</edate>
@@ -58509,40 +57360,6 @@ https://t.co/91XPPED1U2
 				<var>%times</var>
 			</Int>
 			<Int sr="arg2" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task664">
-		<cdate>1535853547096</cdate>
-		<edate>1578234482974</edate>
-		<id>664</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%ntitle</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">setLife</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle3</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task665">
@@ -59168,7 +57985,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task679">
 		<cdate>1543369879237</cdate>
-		<edate>1562197705523</edate>
+		<edate>1600913458586</edate>
 		<id>679</id>
 		<nme>delHtml</nme>
 		<Action sr="act0" ve="7">
@@ -59382,7 +58199,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task687">
 		<cdate>1562398949155</cdate>
-		<edate>1562398980855</edate>
+		<edate>1600911378146</edate>
 		<id>687</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -59396,7 +58213,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task688">
 		<cdate>1562398992519</cdate>
-		<edate>1562399004029</edate>
+		<edate>1600911381126</edate>
 		<id>688</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -59802,21 +58619,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task692">
-		<cdate>1535853547096</cdate>
-		<edate>1573301477467</edate>
-		<id>692</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1" val="50"/>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;Nexus7 スキャンが終了しました</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task693">
 		<cdate>1563233296970</cdate>
 		<edate>1567031861018</edate>
@@ -60167,7 +58969,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task697">
 		<cdate>1565019706629</cdate>
-		<edate>1565019718100</edate>
+		<edate>1600911372164</edate>
 		<id>697</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -60639,34 +59441,6 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 		</Action>
 	</Task>
-	<Task sr="task706">
-		<cdate>1535853547096</cdate>
-		<edate>1566776290376</edate>
-		<id>706</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotifyPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">fromPushbullet</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%ntitle</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task707">
 		<cdate>1567216507641</cdate>
 		<edate>1586456050776</edate>
@@ -60804,7 +59578,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task709">
 		<cdate>1567721617226</cdate>
-		<edate>1578896548033</edate>
+		<edate>1600861341288</edate>
 		<id>709</id>
 		<nme>getVolumeMedia</nme>
 		<pri>100</pri>
@@ -61051,7 +59825,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task710">
 		<cdate>1535407856353</cdate>
-		<edate>1600838143356</edate>
+		<edate>1600959166283</edate>
 		<id>710</id>
 		<nme>toWebhookPushbullet</nme>
 		<pri>100</pri>
@@ -62207,46 +60981,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<rhs>Client</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task720">
-		<cdate>1535853547096</cdate>
-		<edate>1578242086038</edate>
-		<id>720</id>
-		<pri>7</pri>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_TASK_LIST</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%DEVICE_TASK_LIST</Str>
-			<Str sr="arg1" ve="3">%NTITLE,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%DEVICE_TASK_LIST</Str>
-			<Str sr="arg1" ve="3">%NTITLE,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task723">
@@ -64569,7 +63303,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1600848099180</edate>
+		<edate>1600959094298</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -64635,7 +63369,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task745">
 		<cdate>1535407856353</cdate>
-		<edate>1600856527274</edate>
+		<edate>1600959098259</edate>
 		<id>745</id>
 		<nme>toWebhookServer</nme>
 		<pri>100</pri>
@@ -64708,14 +63442,9 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_T30/task?task=%message</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -64726,7 +63455,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -64973,11 +63702,12 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task752">
 		<cdate>1535921492598</cdate>
-		<edate>1586909312164</edate>
+		<edate>1600910125353</edate>
 		<id>752</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%SLEEP_TIMES_END</lhs>
@@ -65029,11 +63759,12 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 	</Task>
 	<Task sr="task76">
 		<cdate>1523268465148</cdate>
-		<edate>1586499008532</edate>
+		<edate>1600959362195</edate>
 		<id>76</id>
 		<nme>checkNotify</nme>
 		<rty>2</rty>
@@ -65046,6 +63777,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<bool0>And</bool0>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
@@ -65065,6 +63797,11 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 					<lhs>%par1</lhs>
 					<op>5</op>
 					<rhs>.*が他のアプリの上に表示されています</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>Xperia.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

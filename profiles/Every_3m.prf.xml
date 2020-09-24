@@ -1,7 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.9.2">
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1600850731387</edate>
+		<clp>true</clp>
+		<edate>1600959141534</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -16,7 +17,7 @@
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1600850731387</edate>
+		<edate>1600959141534</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -323,6 +324,17 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkRssMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act35" ve="7">
 			<code>43</code>
 			<label>クライアントモードの場合</label>
 			<ConditionList sr="if">
@@ -333,7 +345,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>37</code>
 			<label>自宅Wi-Fiに接続していない場合</label>
 			<ConditionList sr="if">
@@ -344,7 +356,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<label>財布が近くにあるかチェックする</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -356,7 +368,7 @@
 			<Str sr="arg4" ve="3">%time</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Str sr="arg1" ve="3">%TIMES</Str>
@@ -365,7 +377,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Int sr="arg1">
@@ -373,7 +385,18 @@
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_task_list</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -389,18 +412,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<on>false</on>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_task_list</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">財布はありますか？</Str>
@@ -409,7 +421,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toNotify</Str>
 			<Int sr="arg1">
@@ -420,7 +432,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toVibrate</Str>
@@ -432,7 +444,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -444,7 +456,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -455,10 +467,10 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<label>現在地を取得する</label>
 			<Str sr="arg0" ve="3">getLocationV2</Str>
@@ -470,7 +482,7 @@
 			<Str sr="arg4" ve="3">%latitude_longitude</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -486,13 +498,20 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%latitude_longitude</Str>
 			<Str sr="arg1" ve="3">:</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%device_task_list</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を取得する</label>
 			<Str sr="arg0" ve="3">getLocationStationNearest</Str>
@@ -504,14 +523,7 @@
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%device_task_list</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkFromYahoo</Str>
@@ -523,7 +535,7 @@
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を編集する</label>
 			<Str sr="arg0" ve="3">modLocationStationNearest</Str>
@@ -535,7 +547,7 @@
 			<Str sr="arg4" ve="3">%location_station_nearest</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを編集する</label>
 			<Str sr="arg0" ve="3">modLocationLandmarkFromYahoo</Str>
@@ -547,7 +559,7 @@
 			<Str sr="arg4" ve="3">%location_landmark_from_yahoo_mod</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>130</code>
 			<label>乗車駅、乗換駅、降車駅が近い場合は発声する</label>
 			<Str sr="arg0" ve="3">sayLocationStationNearest</Str>
@@ -559,7 +571,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を設定する</label>
 			<Str sr="arg0" ve="3">setLocationStationNearest</Str>
@@ -571,7 +583,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>37</code>
 			<label>ロケーションが異なる場合</label>
 			<ConditionList sr="if">
@@ -588,7 +600,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>130</code>
 			<label>Yahoo!から口コミを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkReviewFromYahoo</Str>
@@ -600,10 +612,10 @@
 			<Str sr="arg4" ve="3">%location_landmark_review_from_yahoo</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを設定する</label>
 			<Str sr="arg0" ve="3">setLocationLandmarkFromYahoo</Str>
@@ -622,17 +634,6 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
-			<code>37</code>
-			<label>口コミが存在する場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%location_landmark_review_from_yahoo</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
 			<on>false</on>
@@ -645,6 +646,17 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act60" ve="7">
+			<code>37</code>
+			<label>口コミが存在する場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%location_landmark_review_from_yahoo</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act61" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
@@ -653,7 +665,7 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act62" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">の口コミには、</Str>
@@ -662,7 +674,7 @@
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act63" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%location_landmark_review_from_yahoo</Str>
@@ -671,7 +683,7 @@
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act64" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">と書いてあります。</Str>
@@ -680,7 +692,7 @@
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act65" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -691,16 +703,16 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act65" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act66" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act67" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act68" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act69" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -722,9 +734,6 @@
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act69" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act7" ve="7">
 			<code>39</code>
 			<on>false</on>
@@ -735,6 +744,9 @@
 			<code>38</code>
 		</Action>
 		<Action sr="act71" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act72" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLifeSupportInformation</Str>
 			<Int sr="arg1">
@@ -745,7 +757,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act73" ve="7">
 			<code>130</code>
 			<label>カレンダーの予定をチェックする</label>
 			<Str sr="arg0" ve="3">setCalendarEntry</Str>

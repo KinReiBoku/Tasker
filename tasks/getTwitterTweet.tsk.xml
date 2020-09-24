@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1566693785399</edate>
+		<edate>1600912839139</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
@@ -326,7 +326,7 @@
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">a.txt</Str>
+			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">

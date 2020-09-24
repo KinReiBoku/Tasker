@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.2">
 	<Task sr="task76">
 		<cdate>1523268465148</cdate>
-		<edate>1558566185817</edate>
+		<edate>1600959362195</edate>
 		<id>76</id>
 		<nme>checkNotify</nme>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>126</code>
 			<label>%par1=NotifyMessage %ret=NotifyMessage</label>
@@ -13,6 +14,7 @@
 				<bool0>And</bool0>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>12</op>
@@ -32,6 +34,11 @@
 					<lhs>%par1</lhs>
 					<op>5</op>
 					<rhs>.*が他のアプリの上に表示されています</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>Xperia.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
