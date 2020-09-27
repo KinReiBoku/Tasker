@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.2">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task377">
 		<cdate>1537225698037</cdate>
-		<edate>1601005709763</edate>
+		<edate>1601173945059</edate>
 		<id>377</id>
 		<nme>checkMessageSay</nme>
 		<rty>2</rty>
@@ -37,9 +37,23 @@
 			<Str sr="arg7" ve="3">CFIUS</Str>
 		</Action>
 		<Action sr="act100" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">下記リンクより一部抜粋続きはソースで.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act101" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
@@ -48,10 +62,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act101" ve="7">
+		<Action sr="act102" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act102" ve="7">
+		<Action sr="act103" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -61,8 +75,12 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act103" ve="7">
+		<Action sr="act104" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act11" ve="7">
@@ -175,6 +193,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>598</code>
@@ -297,6 +319,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>598</code>
@@ -1121,6 +1147,17 @@
 		<Action sr="act96" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">莉朋</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">りとも</Str>
+		</Action>
+		<Action sr="act97" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">令和</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -1129,7 +1166,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">れいわ</Str>
 		</Action>
-		<Action sr="act97" ve="7">
+		<Action sr="act98" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">横審</Str>
@@ -1140,7 +1177,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">横綱審議委員会</Str>
 		</Action>
-		<Action sr="act98" ve="7">
+		<Action sr="act99" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -1151,17 +1188,6 @@
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">ロシア</Str>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">下記リンクより一部抜粋続きはソースで.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
 		</Action>
 	</Task>
 </TaskerData>
