@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1583027650216</edate>
+		<edate>1601282460258</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -34,6 +34,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
@@ -45,6 +49,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
@@ -67,6 +75,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%dow</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>37</code>
@@ -122,6 +134,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
@@ -133,6 +149,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>38</code>
@@ -147,6 +167,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>130</code>
@@ -159,6 +183,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DAY_STATE</lhs>
@@ -178,6 +206,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DAY_STATE</lhs>
@@ -197,9 +229,18 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
+				<bool4>And</bool4>
+				<bool5>And</bool5>
+				<bool6>And</bool6>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>3</op>
@@ -214,6 +255,31 @@
 					<lhs>%DAY_STATE</lhs>
 					<op>13</op>
 					<rhs>\%.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>年休</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>夏季休暇</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>特別連続休暇</rhs>
+				</Condition>
+				<Condition sr="c6" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>年末年始休暇</rhs>
+				</Condition>
+				<Condition sr="c7" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>在宅勤務</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -265,6 +331,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>130</code>
@@ -276,6 +346,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%voice</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>37</code>
@@ -297,6 +371,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>43</code>
@@ -311,6 +389,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>30</code>
@@ -340,6 +422,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act33" ve="7">
 			<code>549</code>
@@ -359,6 +445,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%voice</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act35" ve="7">
 			<code>37</code>
@@ -380,6 +470,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act37" ve="7">
 			<code>43</code>
@@ -412,6 +506,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>37</code>
@@ -434,6 +532,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act42" ve="7">
 			<code>135</code>
@@ -478,6 +580,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act46" ve="7">
 			<code>130</code>
@@ -490,6 +596,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act47" ve="7">
 			<code>43</code>
@@ -504,6 +614,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act49" ve="7">
 			<code>38</code>
@@ -542,6 +656,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act53" ve="7">
 			<code>43</code>
@@ -556,6 +674,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act55" ve="7">
 			<code>38</code>
@@ -570,6 +692,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act57" ve="7">
 			<code>130</code>
@@ -581,6 +707,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
@@ -593,6 +723,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>38</code>
@@ -616,6 +750,10 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_image_brightness_7</nme>

@@ -1637,7 +1637,6 @@
 	<Profile sr="prof426" ve="2">
 		<cdate>1535545967785</cdate>
 		<edate>1545738862649</edate>
-		<flags>2</flags>
 		<id>426</id>
 		<limit>true</limit>
 		<mid0>427</mid0>
@@ -2820,7 +2819,7 @@
 	</Profile>
 	<Profile sr="prof639" ve="2">
 		<cdate>1548106672795</cdate>
-		<edate>1586909326514</edate>
+		<edate>1601281671369</edate>
 		<flags>2</flags>
 		<id>639</id>
 		<mid0>640</mid0>
@@ -3414,7 +3413,7 @@ com.companyname.CloudPokeMap</appPkg>
 	</Profile>
 	<Profile sr="prof753" ve="2">
 		<cdate>1586822499239</cdate>
-		<edate>1600910125353</edate>
+		<edate>1601281666785</edate>
 		<flags>2</flags>
 		<id>753</id>
 		<mid0>752</mid0>
@@ -4051,7 +4050,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task100">
 		<cdate>1513257139448</cdate>
-		<edate>1582526025040</edate>
+		<edate>1601282250016</edate>
 		<id>100</id>
 		<nme>setNewDay</nme>
 		<pri>100</pri>
@@ -7588,7 +7587,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task11">
 		<cdate>1535242794666</cdate>
-		<edate>1579159010581</edate>
+		<edate>1601282292661</edate>
 		<id>11</id>
 		<nme>isDataKey</nme>
 		<Action sr="act0" ve="7">
@@ -19799,7 +19798,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task235">
 		<cdate>1536106429231</cdate>
-		<edate>1578800463714</edate>
+		<edate>1601281947539</edate>
 		<id>235</id>
 		<nme>getCalendarInformation</nme>
 		<pri>100</pri>
@@ -25376,7 +25375,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1586909250064</edate>
+		<edate>1601282460258</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -25611,6 +25610,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
+				<bool4>And</bool4>
+				<bool5>And</bool5>
+				<bool6>And</bool6>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>3</op>
@@ -25625,6 +25629,31 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<lhs>%DAY_STATE</lhs>
 					<op>13</op>
 					<rhs>\%.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>年休</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>夏季休暇</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>特別連続休暇</rhs>
+				</Condition>
+				<Condition sr="c6" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>年末年始休暇</rhs>
+				</Condition>
+				<Condition sr="c7" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>2</op>
+					<rhs>在宅勤務</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -44857,7 +44886,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task427">
 		<cdate>1524104455984</cdate>
-		<edate>1545738844754</edate>
+		<edate>1601282133357</edate>
 		<id>427</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -60844,7 +60873,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task640">
 		<cdate>1548106679707</cdate>
-		<edate>1586909326514</edate>
+		<edate>1601281671369</edate>
 		<id>640</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -65479,7 +65508,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task724">
 		<cdate>1578761427073</cdate>
-		<edate>1578792923958</edate>
+		<edate>1601281649150</edate>
 		<id>724</id>
 		<nme>fromPushbulletNotifyおはよう</nme>
 		<pri>7</pri>
@@ -67035,7 +67064,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task735">
 		<cdate>1579263927381</cdate>
-		<edate>1586780472488</edate>
+		<edate>1601282073228</edate>
 		<id>735</id>
 		<nme>setCalendarEntry</nme>
 		<pri>100</pri>
@@ -68381,7 +68410,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task752">
 		<cdate>1535921492598</cdate>
-		<edate>1600910125353</edate>
+		<edate>1601281666785</edate>
 		<id>752</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -68876,7 +68905,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1601169145724</edate>
+		<edate>1601281711637</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
