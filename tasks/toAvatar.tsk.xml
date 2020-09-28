@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task432">
 		<cdate>1543298851758</cdate>
-		<edate>1567120518159</edate>
+		<edate>1601284656091</edate>
 		<id>432</id>
 		<nme>toAvatar</nme>
 		<pri>7</pri>
@@ -294,6 +294,10 @@
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3">%num</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act33" ve="7">
 			<code>37</code>
@@ -341,6 +345,10 @@
 			<Str sr="arg3" ve="3">%par1;%num</Str>
 			<Str sr="arg4" ve="3">%AVATAR_NUMBER</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act38" ve="7">
 			<code>38</code>
@@ -390,6 +398,7 @@
 			<Str sr="arg0" ve="3">%AVATAR_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act44" ve="7">
 			<code>43</code>
@@ -690,10 +699,15 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<bool4>Or</bool4>
+				<bool5>Or</bool5>
+				<bool6>Or</bool6>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
@@ -708,6 +722,31 @@
 					<lhs>%DAY_STATE</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>4</op>
+					<rhs>年休</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>4</op>
+					<rhs>夏季休暇</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>4</op>
+					<rhs>特別連続休暇</rhs>
+				</Condition>
+				<Condition sr="c6" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>4</op>
+					<rhs>年休年始休暇</rhs>
+				</Condition>
+				<Condition sr="c7" ve="3">
+					<lhs>%CALENDAR_RECENT</lhs>
+					<op>4</op>
+					<rhs>在宅勤務</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -1013,6 +1052,9 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>

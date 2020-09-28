@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1601282460258</edate>
+		<edate>1601284747773</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -258,27 +258,27 @@
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%CALENDAR_RECENT</lhs>
-					<op>2</op>
+					<op>5</op>
 					<rhs>年休</rhs>
 				</Condition>
 				<Condition sr="c4" ve="3">
 					<lhs>%CALENDAR_RECENT</lhs>
-					<op>2</op>
+					<op>5</op>
 					<rhs>夏季休暇</rhs>
 				</Condition>
 				<Condition sr="c5" ve="3">
 					<lhs>%CALENDAR_RECENT</lhs>
-					<op>2</op>
+					<op>5</op>
 					<rhs>特別連続休暇</rhs>
 				</Condition>
 				<Condition sr="c6" ve="3">
 					<lhs>%CALENDAR_RECENT</lhs>
-					<op>2</op>
+					<op>5</op>
 					<rhs>年末年始休暇</rhs>
 				</Condition>
 				<Condition sr="c7" ve="3">
 					<lhs>%CALENDAR_RECENT</lhs>
-					<op>2</op>
+					<op>5</op>
 					<rhs>在宅勤務</rhs>
 				</Condition>
 			</ConditionList>
