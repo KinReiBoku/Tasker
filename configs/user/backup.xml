@@ -12658,10 +12658,10 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task150">
 		<cdate>1600845016586</cdate>
-		<edate>1600915828199</edate>
+		<edate>1601652496199</edate>
 		<id>150</id>
 		<nme>checkTwitter</nme>
-		<rty>2</rty>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Type %par2=Keys</label>
@@ -13616,7 +13616,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task151">
 		<cdate>1536012677374</cdate>
-		<edate>1601516201690</edate>
+		<edate>1601652503331</edate>
 		<id>151</id>
 		<nme>checkTwitterMedia</nme>
 		<pri>100</pri>
@@ -29981,10 +29981,11 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1600912839139</edate>
+		<edate>1601652524158</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<on>false</on>
@@ -30604,7 +30605,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1601277847537</edate>
+		<edate>1601652508677</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -36543,7 +36544,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task350">
 		<cdate>1600912857241</cdate>
-		<edate>1600959045721</edate>
+		<edate>1601652537551</edate>
 		<id>350</id>
 		<nme>getRss2</nme>
 		<pri>100</pri>
