@@ -692,7 +692,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1601125199358</edate>
+		<edate>1601809293368</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -730,7 +730,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1601277884176</edate>
+		<edate>1601815700941</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -944,6 +944,7 @@
 	<Profile sr="prof337" ve="2">
 		<cdate>1536148957680</cdate>
 		<edate>1559345725716</edate>
+		<flags>2</flags>
 		<id>337</id>
 		<mid0>336</mid0>
 		<nme>BT Button pressed</nme>
@@ -2871,14 +2872,14 @@
 	</Profile>
 	<Profile sr="prof648" ve="2">
 		<cdate>1548246656313</cdate>
-		<edate>1592077898725</edate>
+		<edate>1601823087402</edate>
 		<flags>2</flags>
 		<id>648</id>
 		<mid0>649</mid0>
-		<nme>Every 23:59</nme>
+		<nme>Every 23:55</nme>
 		<Time sr="con0">
 			<fh>23</fh>
-			<fm>59</fm>
+			<fm>55</fm>
 			<th>23</th>
 			<tm>59</tm>
 		</Time>
@@ -3644,7 +3645,7 @@ Instagram</label>
 	</Profile>
 	<Profile sr="prof97" ve="2">
 		<cdate>1535527172678</cdate>
-		<edate>1594828620620</edate>
+		<edate>1601822987846</edate>
 		<flags>2</flags>
 		<id>97</id>
 		<mid0>96</mid0>
@@ -4053,194 +4054,18 @@ Instagram</label>
 	</Task>
 	<Task sr="task100">
 		<cdate>1513257139448</cdate>
-		<edate>1601282250016</edate>
+		<edate>1601823039431</edate>
 		<id>100</id>
 		<nme>setNewDay</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%CALENDAR_RECENT</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%DAY_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA</lhs>
-					<op>4</op>
-					<rhs>自宅.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
-			<Str sr="arg1" ve="3"> </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TAirplaneDelay# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>AirplaneDelay</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelay# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelay</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelayAlt# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelayAlt</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelayShinkansen# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelayShinkansen</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomDelayHoghway# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomDelayHoghway</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TEatMorning# = 🤤</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🤤</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>EatMorning</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%DAY_STATE</Str>
 			<Str sr="arg1" ve="3">%CALTITLE</Str>
@@ -4388,7 +4213,169 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act10" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%TRAIN_DELAY_STATUS</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%WORK_INTIME</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA</lhs>
+					<op>4</op>
+					<rhs>自宅.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MASTER_RECENT</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TAirplaneDelay# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>AirplaneDelay</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelay# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelay</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelayAlt# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelayAlt</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TTrainDelayShinkansen# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>TrainDelayShinkansen</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomDelayHoghway# = 🙂</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🙂</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomDelayHoghway</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TEatMorning# = 🤤</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>🤤</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>EatMorning</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4410,7 +4397,25 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%DAY_STATE</Str>
+			<Str sr="arg1" ve="3"> 振替休日</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">の振替休日</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DAY_STATE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4432,7 +4437,7 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4454,7 +4459,7 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act22" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4476,7 +4481,7 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act23" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4498,7 +4503,7 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act24" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toZoomPopupData</Str>
 			<Int sr="arg1">
@@ -4513,28 +4518,28 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act25" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%POPUP_DATA</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act26" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CNT_UNKO_DAY</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act27" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%CNT_SPACE_DAY</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act28" ve="7">
 			<code>598</code>
 			<label>バスルームのお湯をオフにする</label>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
@@ -4546,25 +4551,7 @@ Instagram</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">バスルームのお湯;オフ</Str>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%DAY_STATE</Str>
-			<Str sr="arg1" ve="3"> 振替休日</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">の振替休日</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DAY_STATE</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act29" ve="7">
 			<code>714606470</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4590,7 +4577,14 @@ Instagram</label>
 			<Str sr="arg2" ve="3">com.joaomgcd.autoshortcut.ActivityAutoShortcut</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act3" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%DAY_EVENT</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>549</code>
 			<label>ホテルかつ旅行でない場合はアバターナンバーを初期化する</label>
 			<Str sr="arg0" ve="3">%AVATAR_NUMBER</Str>
@@ -4612,13 +4606,6 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%DAY_EVENT</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%DAY_EVENT</Str>
 			<Str sr="arg1" ve="3">クリスマスイブ</Str>
@@ -4634,7 +4621,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%DAY_EVENT</Str>
 			<Str sr="arg1" ve="3">クリスマス</Str>
@@ -4650,7 +4637,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%DRIVE_INTIME</Str>
 			<Int sr="arg1" val="0"/>
@@ -4664,7 +4651,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">initLifeEatState</Str>
 			<Int sr="arg1">
@@ -4679,9 +4666,16 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%LOCATION_ALARM</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA_TYPE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -4689,7 +4683,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1601277884176</edate>
+		<edate>1601815685669</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -13616,7 +13610,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task151">
 		<cdate>1536012677374</cdate>
-		<edate>1601652503331</edate>
+		<edate>1601807940361</edate>
 		<id>151</id>
 		<nme>checkTwitterMedia</nme>
 		<pri>100</pri>
@@ -13624,7 +13618,7 @@ Copyright .*All rights reserved\.</Str>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%keys</Str>
-			<Str sr="arg1" ve="3">47NEWS;47news,47リポーターズ;u30_compass,BIGLOBE;shunkannews,BTCNビットコインニュース;btcnews_jp,BTC板アラート;btc_orderalert,BloombergJapan;BloombergJapan,Brut Japan;brutjapan,BusinessInsiderJapan;BIJapan,China Tips by myokoi;myokoi1962,Donald Trump;realDonaldTrump,FXTF_MT4;FXTF_MT4,Fndr;fndr_bot,GENROQ Web;GENROQ_Web,NHKキャスターズアイ;nhk_burakoshi,NHK国際;nhk_kokusai,NHK生活;nhk_seikatsu,NHK科学文化部;nhk_kabun,NHK関西;nhk_bknews,NHK青森;nhk_aomori_pr,NHK首都圏;nhk_shutoken,News Picks;NewsPicks_NEWS,Newsweek JAPAN;Newsweek_JAPAN,QUICK Money World;QUICK_QMW,SBIリクイディティ・マーケット;SBILM,Share News Japan;sharenewsjapan,Stock Train;stocktrain2,Strainer;strainerjp,TBS NEWS;tbs_news,TBS NEWS生活・防災;TBSNEWS6,TNN NEWS α;Trainfo_NEWS,TopNews;topnewsf1,Yahoo!ニュース 地震・ニュース速報;YahooTopicsEdit,grape;grapeejp,iedge;iedge_tech,sakamobi.com;sakamobi,tenkijp地震;tenkijp_jishin,vega;BuyVolatility,かずー;shiawasesaku3,じぇいわ君;jwakun_official,はちま寄稿;htmk73,アダム・スミス２世;AdamSmith2sei,アノニマポスト;anonymous201504,カイエン;FaL5ons,クローズアップ現代;nhk_kurogen,コズミックフロントNEXT;nhk_space,サンスポコム;SANSPOCOM,ナゾロジー;NazologyInfo,ニッポンの数字;nippon_num,ビットコイン売買サイン通知bot;btcjpy_macd_not,ビットバンクマーケット;bitbank_markets,ファイアーエムブレムヒーローズ;FE_Heroes_JP,ポケ森;pokemori_jp,マイナビ;news_mynavi_jp,ロイタービジネス;ReutersJapanBiz,一部報道;ichibuhoudou,乗りものニュース;TrafficNewsJp,京都新聞;kyoto_np,人生に捧げるコント;nhk_life_comedy,会社四季報オンライン;shikihojp_lvh,働く人のお医者さん;morishig0,全力2階建;kabumatome,共同通信PRワイヤー プレスリリース;kyodonewsprwire,共同通信外信部;kyodo_gaishin,共同通信大阪編集部;kyodonewsosaka,北海道新聞;doshinweb,南日本新聞;373news_twit,埼玉新聞;saitamanp,大分合同新聞;oitagodo,官報ブログ;kanpo_blog,山形新聞;press_yamashin,山本一郎;kirik,山陽新聞;sanyo_news,岩手日報;iwatenippo,弁護士ドットコムニュース;bengo4topics,徳島新聞;tokushimapress,新潟日報;niigata_nippo,新華社通信;XHJapanese,日本不審者情報センター;fushinsha_joho,日経 上杉素直;MotonaoUesugi,日経 中山敦史;a_nakayama_nk,日経 中村直文;nikkei_nakamura,日経 中西豊紀;TNakanishiNY,日経 兼松雄一郎;kanematsuyui,日経 坂本英二;sakamoto_nikkei,日経 外山尚之;NaoyukiToyama,日経 小平龍四郎;Kodaira_Nikkei,日経 峰岸博;minegishinikkei,日経 平本信敬;nikkei_hiramoto,日経 村山恵一;kmurayama,日経 梶原誠;kajiwara_nikkei,日経 滝田洋一;yoichitakita,日経 石塚由紀夫;NIKKEI_ISHIZUKA,日経 石川潤;junishikawa_nk,日経 秋田浩之;Hiroakitanikkei,日経 藤井彰夫;AFUJIINIKKEI日経アメリカ;nikkeiusa,日経 鈴木淳;JunSuzukiNikkei,日経 高橋徹;ToruTakaNikkei,日経クイックニュース;nqn_news,日経スタイル;nikkeistyle,日経スポーツ;nikkei_sports,日経テクノロジー;nikkei_tech,日経ビジネス;nikkei_business,日経マーケット;nikkei_market,日経ヨーロッパ;nikkei_europe,日経九州沖縄;nkkyushuokinawa,日経北海道;nikkei_hokkaido,日経名古屋;nikkeinagoya,日経平均9日RSI速報;nikkei225rsi,日経社会部;nikkeishakai,日経関西;nikkeikansai,春日部経済新聞;kasukabekeizai,時事メディカル;jijimedical,朝日新聞 尾形聡彦;ToshihikoOgata,朝日新聞グローバル;asahi_globe,朝日新聞北海道センター;asahi_hokkaido,朝日新聞東京編集局;asahi_tokyo,東京ほっとWeb;tokyohotweb,東奥日報;toonippo,松井証券;Matsui06,気象庁;JMA_kishou,流通ニュース;RyutsuNEWS,熊本日日新聞;KUMANICHIs,特務機関NERV;UN_NERV,白猫プロジェクト;wcat_project,相場変動お知らせBot;GOLD_OIL,神戸新聞;kobeshinbun,神戸新聞おもろいプロジェクト;kobe_omoroi,神戸新聞北播総局;kobehokuban,神戸新聞明石総局;akashiban,神戸新聞映像写真部;kobenp_photo,福井新聞;fukuinpmedia,福島民報;FKSminpo,秋田魁新聞;sakigake,筋トレ;badassceo,菅原 潮;nekokumicho2,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,足立通信社;pressadachi,食品新聞社;shokuhinet,Crypto Times;CryptoTimes_mag,日本海事新聞写真部;kaijiphoto,エピネシス;epinesis,</Str>
+			<Str sr="arg1" ve="3">47NEWS;47news,47リポーターズ;u30_compass,BIGLOBE;shunkannews,BTCNビットコインニュース;btcnews_jp,BTC板アラート;btc_orderalert,BloombergJapan;BloombergJapan,Brut Japan;brutjapan,BusinessInsiderJapan;BIJapan,China Tips by myokoi;myokoi1962,Donald Trump;realDonaldTrump,FXTF_MT4;FXTF_MT4,Fndr;fndr_bot,GENROQ Web;GENROQ_Web,NHKキャスターズアイ;nhk_burakoshi,NHK国際;nhk_kokusai,NHK生活;nhk_seikatsu,NHK科学文化部;nhk_kabun,NHK関西;nhk_bknews,NHK青森;nhk_aomori_pr,NHK首都圏;nhk_shutoken,News Picks;NewsPicks_NEWS,Newsweek JAPAN;Newsweek_JAPAN,QUICK Money World;QUICK_QMW,SBIリクイディティ・マーケット;SBILM,Share News Japan;sharenewsjapan,Stock Train;stocktrain2,Strainer;strainerjp,TBS NEWS;tbs_news,TBS NEWS生活・防災;TBSNEWS6,TNN NEWS α;Trainfo_NEWS,TopNews;topnewsf1,Yahoo!ニュース 地震・ニュース速報;YahooTopicsEdit,cnn_co_jp;cnn_co_jp,grape;grapeejp,iedge;iedge_tech,sakamobi.com;sakamobi,tenkijp地震;tenkijp_jishin,vega;BuyVolatility,じぇいわ君;jwakun_official,はちま寄稿;htmk73,アダム・スミス２世;AdamSmith2sei,アノニマポスト;anonymous201504,カイエン;FaL5ons,クローズアップ現代;nhk_kurogen,コズミックフロントNEXT;nhk_space,サンスポコム;SANSPOCOM,ナゾロジー;NazologyInfo,ニッポンの数字;nippon_num,ビットコイン売買サイン通知bot;btcjpy_macd_not,ビットバンクマーケット;bitbank_markets,ファイアーエムブレムヒーローズ;FE_Heroes_JP,ポケ森;pokemori_jp,マイナビ;news_mynavi_jp,ロイタービジネス;ReutersJapanBiz,一部報道;ichibuhoudou,乗りものニュース;TrafficNewsJp,京都新聞;kyoto_np,人生に捧げるコント;nhk_life_comedy,会社四季報オンライン;shikihojp_lvh,働く人のお医者さん;morishig0,全力2階建;kabumatome,共同通信PRワイヤー プレスリリース;kyodonewsprwire,共同通信外信部;kyodo_gaishin,共同通信大阪編集部;kyodonewsosaka,北海道新聞;doshinweb,南日本新聞;373news_twit,埼玉新聞;saitamanp,大分合同新聞;oitagodo,官報ブログ;kanpo_blog,山形新聞;press_yamashin,山本一郎;kirik,山陽新聞;sanyo_news,岩手日報;iwatenippo,弁護士ドットコムニュース;bengo4topics,徳島新聞;tokushimapress,新潟日報;niigata_nippo,新華社通信;XHJapanese,日本不審者情報センター;fushinsha_joho,日経 上杉素直;MotonaoUesugi,日経 中山敦史;a_nakayama_nk,日経 中村直文;nikkei_nakamura,日経 中西豊紀;TNakanishiNY,日経 兼松雄一郎;kanematsuyui,日経 坂本英二;sakamoto_nikkei,日経 外山尚之;NaoyukiToyama,日経 小平龍四郎;Kodaira_Nikkei,日経 峰岸博;minegishinikkei,日経 平本信敬;nikkei_hiramoto,日経 村山恵一;kmurayama,日経 梶原誠;kajiwara_nikkei,日経 滝田洋一;yoichitakita,日経 石塚由紀夫;NIKKEI_ISHIZUKA,日経 石川潤;junishikawa_nk,日経 秋田浩之;Hiroakitanikkei,日経 藤井彰夫;AFUJIINIKKEI日経アメリカ;nikkeiusa,日経 鈴木淳;JunSuzukiNikkei,日経 高橋徹;ToruTakaNikkei,日経クイックニュース;nqn_news,日経スタイル;nikkeistyle,日経スポーツ;nikkei_sports,日経テクノロジー;nikkei_tech,日経ビジネス;nikkei_business,日経マーケット;nikkei_market,日経ヨーロッパ;nikkei_europe,日経九州沖縄;nkkyushuokinawa,日経北海道;nikkei_hokkaido,日経名古屋;nikkeinagoya,日経平均9日RSI速報;nikkei225rsi,日経社会部;nikkeishakai,日経関西;nikkeikansai,春日部経済新聞;kasukabekeizai,時事メディカル;jijimedical,朝日新聞 尾形聡彦;ToshihikoOgata,朝日新聞グローバル;asahi_globe,朝日新聞北海道センター;asahi_hokkaido,朝日新聞東京編集局;asahi_tokyo,東京ほっとWeb;tokyohotweb,東奥日報;toonippo,松井証券;Matsui06,気象庁;JMA_kishou,流通ニュース;RyutsuNEWS,熊本日日新聞;KUMANICHIs,特務機関NERV;UN_NERV,白猫プロジェクト;wcat_project,相場変動お知らせBot;GOLD_OIL,神戸新聞;kobeshinbun,神戸新聞おもろいプロジェクト;kobe_omoroi,神戸新聞北播総局;kobehokuban,神戸新聞明石総局;akashiban,神戸新聞映像写真部;kobenp_photo,福井新聞;fukuinpmedia,福島民報;FKSminpo,秋田魁新聞;sakigake,筋トレ;badassceo,菅原 潮;nekokumicho2,親子で学ぶ東京新聞;oyakode_manaboo,読売シングルスタイル;y_singlestyle,足立通信社;pressadachi,食品新聞社;shokuhinet,Crypto Times;CryptoTimes_mag,日本海事新聞写真部;kaijiphoto,エピネシス;epinesis,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -27927,7 +27921,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1601125199358</edate>
+		<edate>1601809293368</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -30367,7 +30361,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task309">
 		<cdate>1498736075308</cdate>
-		<edate>1600019688945</edate>
+		<edate>1601705855947</edate>
 		<id>309</id>
 		<nme>getTwitterTweetHashTag</nme>
 		<pri>100</pri>
@@ -30458,6 +30452,13 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%data1</lhs>
+					<op>5</op>
+					<rhs>^RT.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -30662,7 +30663,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1600019704240</edate>
+		<edate>1601705791242</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
 		<pri>100</pri>
@@ -30670,7 +30671,7 @@ Alexaに天気と予定を聞く</label>
 			<code>547</code>
 			<Str sr="arg0" ve="3">%keys</Str>
 			<Str sr="arg1" ve="3">F1;f1jp,F2;f2jp,F3;f3jp,GP3;gp3jp,フォーミュラE
-;fejp,NASCAR;nascarjp,インディーカー;indyjp,スーパーフォーミュラ;sformula,WEC;wecjp,DTM;dtmjp,WTCC;wtccjp,WTCR;wtcrjp,WRC;wrcjp,IRC;ircjp,Moto GPMotoGP_jp,スーパーバイク;sbkjp,鈴鹿8耐;鈴鹿8耐,デイトナ;Daytona24jp,ニュルブルクリンク;Nur24jp,</Str>
+;fejp,NASCAR;nascarjp,インディーカー;indyjp,スーパーフォーミュラ;sformula,WEC;wecjp,SUPER GT;supergt,DTM;dtmjp,WTCC;wtccjp,WTCR;wtcrjp,WRC;wrcjp,IRC;ircjp,Moto GPMotoGP_jp,スーパーバイク;sbkjp,鈴鹿8耐;鈴鹿8耐,デイトナ;Daytona24jp,ニュルブルクリンク;Nur24jp,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -46307,7 +46308,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task432">
 		<cdate>1543298851758</cdate>
-		<edate>1601447869331</edate>
+		<edate>1601818713079</edate>
 		<id>432</id>
 		<nme>toAvatar</nme>
 		<pri>7</pri>
@@ -46339,6 +46340,22 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<Action sr="act10" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%base</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%base</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">_音楽</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -46358,10 +46375,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">外</Str>
@@ -46370,7 +46387,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%date</Str>
 			<Str sr="arg1" ve="3">%DATE</Str>
@@ -46379,17 +46396,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%date</Str>
 			<Str sr="arg1" ve="3">-</Str>
 			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%date</Str>
-			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>37</code>
@@ -46409,12 +46420,12 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg0" ve="3">%season</Str>
 			<Str sr="arg1" ve="3">_冬</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>43</code>
@@ -46434,12 +46445,12 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg0" ve="3">%season</Str>
 			<Str sr="arg1" ve="3">_春</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -46468,15 +46479,40 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</ConditionList>
 		</Action>
 		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>2</op>
+					<rhs>海</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg0" ve="3">%season</Str>
+			<Str sr="arg1" ve="3">_海</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%season</Str>
 			<Str sr="arg1" ve="3">_夏</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act25" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act26" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -46492,16 +46528,16 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act27" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg0" ve="3">%season</Str>
 			<Str sr="arg1" ve="3">_秋</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act28" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -46511,68 +46547,14 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">_冬</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*_冬.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act29" ve="7">
-			<code>598</code>
-			<label>ロケーションタイプが屋内の場合はコートを脱ぐ</label>
-			<Str sr="arg0" ve="3">%par1</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%season</Str>
 			<Str sr="arg1" ve="3">_冬</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">_秋</Str>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>3</op>
-					<rhs>駅</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>3</op>
-					<rhs>公園</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%LOCATION_LLAMA_TYPE</lhs>
-					<op>3</op>
-					<rhs>墓地</rhs>
-				</Condition>
-			</ConditionList>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -46588,9 +46570,50 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>38</code>
 		</Action>
 		<Action sr="act31" ve="7">
-			<code>38</code>
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%season</lhs>
+					<op>4</op>
+					<rhs>.*_冬.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act32" ve="7">
+			<code>598</code>
+			<label>ロケーションタイプが屋内の場合はコートを脱ぐ</label>
+			<Str sr="arg0" ve="3">%season</Str>
+			<Str sr="arg1" ve="3">_冬</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">_秋</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%LOCATION_LLAMA_TYPE</lhs>
+					<op>2</op>
+					<rhs>オフィス</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">%season</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
@@ -46605,7 +46628,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act37" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -46615,7 +46638,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act38" ve="7">
 			<code>412</code>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3">%par1*_通常1*</Str>
@@ -46624,7 +46647,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">%lists</Str>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%max</Str>
 			<Str sr="arg1" ve="3">%lists(#)</Str>
@@ -46633,7 +46656,16 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">自宅</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -46641,7 +46673,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<var>%max</var>
 			</Int>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -46656,10 +46688,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act42" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%par1%num</Str>
@@ -46668,19 +46700,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">自宅</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act40" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act44" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -46690,7 +46710,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%action</Str>
 			<Str sr="arg1" ve="3">_%AVATAR_STATE</Str>
@@ -46699,17 +46719,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act46" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%AVATAR_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act47" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act48" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%action</Str>
 			<Str sr="arg1" ve="3">_通常</Str>
@@ -46718,7 +46738,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act49" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -46728,7 +46748,16 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%base</Str>
+			<Str sr="arg1" ve="3">_平日</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%action</Str>
 			<Str sr="arg1" ve="3">_喜</Str>
@@ -46798,7 +46827,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act51" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%action</Str>
 			<Str sr="arg1" ve="3">_怒</Str>
@@ -46856,7 +46885,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act52" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%action</Str>
 			<Str sr="arg1" ve="3">_哀</Str>
@@ -46998,7 +47027,95 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act53" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%action</Str>
+			<Str sr="arg1" ve="3">_楽</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<bool4>Or</bool4>
+				<bool5>Or</bool5>
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>4</op>
+					<rhs>.*楽.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par2</lhs>
+					<op>4</op>
+					<rhs>.*儲.*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par2</lhs>
+					<op>4</op>
+					<rhs>.*笑.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%par2</lhs>
+					<op>4</op>
+					<rhs>.*安.*</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%par2</lhs>
+					<op>4</op>
+					<rhs>.*好.*</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>.*ちゃん.*</rhs>
+				</Condition>
+				<Condition sr="c6" ve="3">
+					<lhs>%par2</lhs>
+					<op>2</op>
+					<rhs>.*愛.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%path</Str>
+			<Str sr="arg1" ve="3">%par1%action*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%lists</Str>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1%action</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%lists(#)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%max</Str>
+			<Str sr="arg1" ve="3">%lists(#)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%base</Str>
 			<Str sr="arg1" ve="3">_休日</Str>
@@ -47056,95 +47173,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act50" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%action</Str>
-			<Str sr="arg1" ve="3">_楽</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<bool2>Or</bool2>
-				<bool3>Or</bool3>
-				<bool4>Or</bool4>
-				<bool5>Or</bool5>
-				<Condition sr="c0" ve="3">
-					<lhs>%par2</lhs>
-					<op>4</op>
-					<rhs>.*楽.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par2</lhs>
-					<op>4</op>
-					<rhs>.*儲.*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%par2</lhs>
-					<op>4</op>
-					<rhs>.*笑.*</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%par2</lhs>
-					<op>4</op>
-					<rhs>.*安.*</rhs>
-				</Condition>
-				<Condition sr="c4" ve="3">
-					<lhs>%par2</lhs>
-					<op>4</op>
-					<rhs>.*好.*</rhs>
-				</Condition>
-				<Condition sr="c5" ve="3">
-					<lhs>%par2</lhs>
-					<op>2</op>
-					<rhs>.*ちゃん.*</rhs>
-				</Condition>
-				<Condition sr="c6" ve="3">
-					<lhs>%par2</lhs>
-					<op>2</op>
-					<rhs>.*愛.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act51" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>412</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%par1%action*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">%lists</Str>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1%action</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%lists(#)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act56" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%max</Str>
-			<Str sr="arg1" ve="3">%lists(#)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act60" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -47152,7 +47181,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<var>%max</var>
 			</Int>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act61" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%action%num</Str>
@@ -47161,7 +47190,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act62" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">%par1</Str>
@@ -47170,7 +47199,66 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act63" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">_0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>547</code>
+			<label>ドロイド君壁紙をセット</label>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>547</code>
+			<label>ロケーション名の背景が存在する場合は設定する</label>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Str sr="arg1" ve="3"> .*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%location</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%path</Str>
+			<Str sr="arg1" ve="3">%location*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%lists</Str>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%base</Str>
 			<Str sr="arg1" ve="3">_正月</Str>
@@ -47186,72 +47274,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act60" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">_0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>547</code>
-			<label>ドロイド君壁紙をセット</label>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>547</code>
-			<label>ロケーション名の背景が存在する場合は設定する</label>
-			<Str sr="arg0" ve="3">%location</Str>
-			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act64" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%location</Str>
-			<Str sr="arg1" ve="3"> .*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act65" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%location</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act66" ve="7">
-			<code>412</code>
-			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">%location*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">%lists</Str>
-		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act70" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%lists(#)</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act71" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%max</Str>
 			<Str sr="arg1" ve="3">%lists(#)</Str>
@@ -47260,7 +47289,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act72" ve="7">
 			<code>545</code>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="1"/>
@@ -47275,29 +47304,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%base</Str>
-			<Str sr="arg1" ve="3">_クリスマス</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DATE</lhs>
-					<op>4</op>
-					<rhs>12-25-.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act73" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%num</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act74" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">%location%num</Str>
@@ -47313,19 +47326,19 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act75" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act76" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act77" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act78" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -47354,7 +47367,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act79" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Int sr="arg1" val="1"/>
@@ -47370,6 +47383,22 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			</ConditionList>
 		</Action>
 		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%base</Str>
+			<Str sr="arg1" ve="3">_クリスマス</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DATE</lhs>
+					<op>4</op>
+					<rhs>12-25-.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%base</Str>
 			<Str sr="arg1" ve="3">_風呂</Str>
@@ -47388,22 +47417,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<lhs>%MASTER_RECENT</lhs>
 					<op>4</op>
 					<rhs>.*🛁.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">%base</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%base</lhs>
-					<op>12</op>
-					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61402,7 +61415,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task649">
 		<cdate>1548246667111</cdate>
-		<edate>1592077898725</edate>
+		<edate>1601823064392</edate>
 		<id>649</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -61427,6 +61440,13 @@ https://t.co/91XPPED1U2
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%CALENDAR_RECENT</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task65">
@@ -69073,7 +69093,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1601281711637</edate>
+		<edate>1601738859514</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -72018,7 +72038,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task96">
 		<cdate>1521421923791</cdate>
-		<edate>1594828620620</edate>
+		<edate>1601822987846</edate>
 		<id>96</id>
 		<pri>51</pri>
 		<Action sr="act0" ve="7">
