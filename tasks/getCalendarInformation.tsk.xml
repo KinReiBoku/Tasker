@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task235">
 		<cdate>1536106429231</cdate>
-		<edate>1545656359908</edate>
+		<edate>1601912977588</edate>
 		<id>235</id>
 		<nme>getCalendarInformation</nme>
 		<pri>100</pri>
@@ -37,6 +37,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%tag</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%calt</lhs>
@@ -61,6 +65,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%tweet</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%tag</lhs>
@@ -76,9 +84,52 @@
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Str sr="arg3" ve="3">%tag</Str>
+			<Str sr="arg4" ve="3">%tweet_old</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tweet</lhs>
+					<op>3</op>
+					<rhs>%tweet_old</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Str sr="arg3" ve="3">%tag;%tweet</Str>
+			<Str sr="arg4" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%tweet</lhs>
@@ -86,6 +137,9 @@
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>

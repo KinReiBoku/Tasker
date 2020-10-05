@@ -730,8 +730,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1601815700941</edate>
-		<flags>2</flags>
+		<edate>1601910740572</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -4683,7 +4682,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1601815685669</edate>
+		<edate>1601910740572</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -19795,7 +19794,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task235">
 		<cdate>1536106429231</cdate>
-		<edate>1601281947539</edate>
+		<edate>1601912977588</edate>
 		<id>235</id>
 		<nme>getCalendarInformation</nme>
 		<pri>100</pri>
@@ -19878,6 +19877,46 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Str sr="arg3" ve="3">%tag</Str>
+			<Str sr="arg4" ve="3">%tweet_old</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tweet</lhs>
+					<op>3</op>
+					<rhs>%tweet_old</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Str sr="arg3" ve="3">%tag;%tweet</Str>
+			<Str sr="arg4" ve="3">%TWITTER_HASHTAG_TWEET</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%tweet</Str>
 			<Int sr="arg1" val="1"/>
@@ -19891,6 +19930,9 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task236">
@@ -23416,7 +23458,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task251">
 		<cdate>1523587320062</cdate>
-		<edate>1586780224285</edate>
+		<edate>1601910764280</edate>
 		<id>251</id>
 		<nme>sayLocationInformation</nme>
 		<pri>7</pri>
@@ -23680,7 +23722,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1586780215511</edate>
+		<edate>1601910809650</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
 		<pri>100</pri>
@@ -29975,7 +30017,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1601652524158</edate>
+		<edate>1601910668634</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
@@ -30361,7 +30403,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task309">
 		<cdate>1498736075308</cdate>
-		<edate>1601705855947</edate>
+		<edate>1601910655244</edate>
 		<id>309</id>
 		<nme>getTwitterTweetHashTag</nme>
 		<pri>100</pri>
@@ -30663,7 +30705,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1601705791242</edate>
+		<edate>1601910660412</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
 		<pri>100</pri>
@@ -38501,7 +38543,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task373">
 		<cdate>1536106580202</cdate>
-		<edate>1566693874936</edate>
+		<edate>1601912917259</edate>
 		<id>373</id>
 		<nme>getLifeSupportInformation</nme>
 		<pri>6</pri>
@@ -46308,7 +46350,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task432">
 		<cdate>1543298851758</cdate>
-		<edate>1601818713079</edate>
+		<edate>1601900852095</edate>
 		<id>432</id>
 		<nme>toAvatar</nme>
 		<pri>7</pri>
@@ -62729,7 +62771,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task689">
 		<cdate>1562460307271</cdate>
-		<edate>1566628505201</edate>
+		<edate>1601861371523</edate>
 		<id>689</id>
 		<nme>addWallpaper</nme>
 		<pri>7</pri>
