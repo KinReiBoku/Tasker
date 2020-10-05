@@ -1,10 +1,9 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof593" ve="2">
 		<cdate>1547298237082</cdate>
 		<clp>true</clp>
-		<edate>1568720782102</edate>
+		<edate>1601914765043</edate>
 		<id>593</id>
-		<limit>true</limit>
 		<mid0>599</mid0>
 		<nme>Shake Up-Down</nme>
 		<Event sr="con0" ve="2">
@@ -17,7 +16,7 @@
 	</Profile>
 	<Task sr="task599">
 		<cdate>1547298241944</cdate>
-		<edate>1568720782102</edate>
+		<edate>1601914765043</edate>
 		<id>599</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -34,6 +33,34 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookSubClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NOTIFY;%MY_ID;ChangeClient</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubClient</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
