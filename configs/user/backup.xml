@@ -2384,11 +2384,11 @@
 	</Profile>
 	<Profile sr="prof575" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1586958866387</edate>
+		<edate>1601965115632</edate>
 		<flags>2</flags>
 		<id>575</id>
 		<mid0>576</mid0>
-		<nme>Notify AmazonAlexa リビングにチェックイン</nme>
+		<nme>Notify AmazonAlexa 自宅（さいたま）リビングにチェックイン</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
@@ -2397,7 +2397,7 @@
 				<label>Amazon Alexa</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">リビングにチェックイン</Str>
+			<Str sr="arg2" ve="3">自宅（さいたま）リビングにチェックイン</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -2407,11 +2407,11 @@
 	</Profile>
 	<Profile sr="prof577" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1586958845378</edate>
+		<edate>1601965100710</edate>
 		<flags>2</flags>
 		<id>577</id>
 		<mid0>578</mid0>
-		<nme>Notify AmazonAlexa マイルームにチェックイン</nme>
+		<nme>Notify AmazonAlexa 自宅（さいたま）マイルームにチェックイン</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
@@ -2420,7 +2420,7 @@
 				<label>Amazon Alexa</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">マイルームにチェックイン</Str>
+			<Str sr="arg2" ve="3">自宅（さいたま）マイルームにチェックイン</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -2430,11 +2430,11 @@
 	</Profile>
 	<Profile sr="prof579" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1586958827990</edate>
+		<edate>1601965087760</edate>
 		<flags>2</flags>
 		<id>579</id>
 		<mid0>580</mid0>
-		<nme>Notify AmazonAlexa バスルームにチェックイン</nme>
+		<nme>Notify AmazonAlexa 自宅（さいたま）バスルームにチェックイン</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
@@ -2443,7 +2443,7 @@
 				<label>Amazon Alexa</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">バスルームにチェックイン</Str>
+			<Str sr="arg2" ve="3">自宅（さいたま）バスルームにチェックイン</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -13686,7 +13686,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task151">
 		<cdate>1536012677374</cdate>
-		<edate>1601807940361</edate>
+		<edate>1601949858960</edate>
 		<id>151</id>
 		<nme>checkTwitterMedia</nme>
 		<pri>100</pri>
@@ -24395,7 +24395,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1601447898971</edate>
+		<edate>1601971729044</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -24605,9 +24605,8 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">ALL;LOCATIONROOM;CHECKIN;自宅（さいたま）リビング</Str>
+			<Str sr="arg1" ve="3">ALL;LOCATIONROOM;CHECKOUT;自宅（さいたま）バスルーム</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -24625,7 +24624,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>596</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
@@ -24649,7 +24647,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>116</code>
-			<on>false</on>
 			<se>false</se>
 			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/5d45f535-a95f-4409-8fcc-34125694e53a/task?task=%message</Str>
 			<Str sr="arg1" ve="3"/>
@@ -24663,7 +24660,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>105</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
@@ -43910,7 +43906,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task420">
 		<cdate>1535342314560</cdate>
-		<edate>1600603108995</edate>
+		<edate>1601987886892</edate>
 		<id>420</id>
 		<nme>toWallpaperLocation</nme>
 		<pri>7</pri>
@@ -43929,11 +43925,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>547</code>
 			<label>壁紙のディレクトリパスを代入する</label>
 			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper/</Str>
+			<Str sr="arg1" ve="3">Tasker/files/Wallpaper/</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>598</code>
@@ -59189,7 +59185,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task576">
 		<cdate>1547071823400</cdate>
-		<edate>1586958041702</edate>
+		<edate>1601965115632</edate>
 		<id>576</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -59204,6 +59200,21 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoomリビング</Str>
 			<Int sr="arg1" val="50"/>
 			<Str sr="arg2" ve="3">%DEVICE_MODE</Str>
@@ -59214,14 +59225,21 @@ https://t.co/91XPPED1U2
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cnt</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task578">
 		<cdate>1547071823400</cdate>
-		<edate>1586958033881</edate>
+		<edate>1601965100710</edate>
 		<id>578</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -59236,6 +59254,21 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoomマイルーム</Str>
 			<Int sr="arg1" val="50"/>
 			<Str sr="arg2" ve="3">%DEVICE_MODE</Str>
@@ -59246,14 +59279,21 @@ https://t.co/91XPPED1U2
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cnt</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task580">
 		<cdate>1547071823400</cdate>
-		<edate>1586958025330</edate>
+		<edate>1601965087760</edate>
 		<id>580</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -59268,6 +59308,21 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocationRoomバスルーム</Str>
 			<Int sr="arg1" val="50"/>
 			<Str sr="arg2" ve="3">%DEVICE_MODE</Str>
@@ -59278,8 +59333,15 @@ https://t.co/91XPPED1U2
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cnt</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -62876,7 +62938,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task689">
 		<cdate>1562460307271</cdate>
-		<edate>1601861371523</edate>
+		<edate>1601987898147</edate>
 		<id>689</id>
 		<nme>addWallpaper</nme>
 		<pri>7</pri>
@@ -62933,7 +62995,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>412</code>
-			<Str sr="arg0" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper</Str>
+			<Str sr="arg0" ve="3">Tasker/files/Wallpaper</Str>
 			<Str sr="arg1" ve="3">%LOCATION_LLAMA*%type*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -62955,7 +63017,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path_move</Str>
-			<Str sr="arg1" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper/%LOCATION_LLAMA</Str>
+			<Str sr="arg1" ve="3">Tasker/files/Wallpaper/%LOCATION_LLAMA</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63147,7 +63209,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>412</code>
-			<Str sr="arg0" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper</Str>
+			<Str sr="arg0" ve="3">Tasker/files/Wallpaper</Str>
 			<Str sr="arg1" ve="3">%LOCATION_LLAMA*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>

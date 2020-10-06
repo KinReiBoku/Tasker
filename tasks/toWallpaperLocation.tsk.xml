@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.2">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task420">
 		<cdate>1535342314560</cdate>
-		<edate>1600603108995</edate>
+		<edate>1601987886892</edate>
 		<id>420</id>
 		<nme>toWallpaperLocation</nme>
 		<pri>7</pri>
@@ -20,11 +20,11 @@
 			<code>547</code>
 			<label>壁紙のディレクトリパスを代入する</label>
 			<Str sr="arg0" ve="3">%path</Str>
-			<Str sr="arg1" ve="3">Tasker/files/%AVATAR_NAME/Wallpaper/</Str>
+			<Str sr="arg1" ve="3">Tasker/files/Wallpaper/</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>598</code>
@@ -80,6 +80,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%zone</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>547</code>
@@ -101,6 +105,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%weather</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>547</code>
