@@ -730,7 +730,7 @@
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1601910740572</edate>
+		<edate>1602000395861</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -1914,7 +1914,8 @@
 	</Profile>
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
-		<edate>1601999331362</edate>
+		<edate>1602000341533</edate>
+		<flags>2</flags>
 		<id>477</id>
 		<mid0>478</mid0>
 		<nme>Notify Twitter</nme>
@@ -3374,30 +3375,6 @@ Instagram</label>
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof85" ve="2">
-		<cdate>1535519721340</cdate>
-		<edate>1601998645052</edate>
-		<flags>2</flags>
-		<id>85</id>
-		<limit>true</limit>
-		<mid0>84</mid0>
-		<nme>Notify Twitter リツイート</nme>
-		<Event sr="con0" ve="2">
-			<code>461</code>
-			<App sr="arg0">
-				<appClass>com.twitter.android.StartActivity</appClass>
-				<appPkg>com.twitter.android</appPkg>
-				<label>Twitter</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">リツイートしました*</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
 	<Profile sr="prof86" ve="2">
 		<cdate>1535513077373</cdate>
 		<edate>1535525428557</edate>
@@ -3522,9 +3499,9 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1601992392547</mdate>
+		<mdate>1602000361393</mdate>
 		<name>Base</name>
-		<pids>45,49,51,54,56,58,60,62,64,75,81,83,85,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,563,561,565,569,571,573,581,583,585,587,589,594,596,593,600,603,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,439,701,725,727,736,731,739,729,746,750,753,147,145,214,256,260,429,462,477</pids>
+		<pids>45,49,51,54,56,58,60,62,64,75,81,83,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,563,561,565,569,571,573,581,583,585,587,589,594,596,593,600,603,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,439,701,725,727,736,731,739,729,746,750,753,147,145,214,256,260,429,462,477</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock,Popup</scenes>
 		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17,142</tids>
@@ -4545,7 +4522,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1601910740572</edate>
+		<edate>1602000395861</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -4794,19 +4771,15 @@ Instagram</label>
 			</ConditionList>
 		</Action>
 		<Action sr="act29" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayTwitterNews</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+			<code>43</code>
+			<label>クライアントモードの場合</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -4819,62 +4792,6 @@ Instagram</label>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act30" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayTwitterTrainInfo</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">sayTwitterMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkRssMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>43</code>
-			<label>クライアントモードの場合</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act34" ve="7">
 			<code>37</code>
 			<label>自宅Wi-Fiに接続していない場合</label>
 			<ConditionList sr="if">
@@ -4885,7 +4802,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act31" ve="7">
 			<code>130</code>
 			<label>財布が近くにあるかチェックする</label>
 			<Str sr="arg0" ve="3">getDataValue</Str>
@@ -4901,7 +4818,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Str sr="arg1" ve="3">%TIMES</Str>
@@ -4910,7 +4827,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act33" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%lag</Str>
 			<Int sr="arg1">
@@ -4918,7 +4835,7 @@ Instagram</label>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act34" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -4934,7 +4851,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">財布はありますか？</Str>
@@ -4943,18 +4860,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<on>false</on>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_task_list</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act36" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toNotify</Str>
 			<Int sr="arg1">
@@ -4969,7 +4875,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toVibrate</Str>
@@ -4985,7 +4891,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act38" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
@@ -5001,7 +4907,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -5016,10 +4922,21 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_task_list</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<label>現在地を取得する</label>
 			<Str sr="arg0" ve="3">getLocationV2</Str>
@@ -5035,7 +4952,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act42" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -5051,13 +4968,13 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act43" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%latitude_longitude</Str>
 			<Str sr="arg1" ve="3">:</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を取得する</label>
 			<Str sr="arg0" ve="3">getLocationStationNearest</Str>
@@ -5073,7 +4990,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act45" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkFromYahoo</Str>
@@ -5089,14 +5006,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%device_task_list</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を編集する</label>
 			<Str sr="arg0" ve="3">modLocationStationNearest</Str>
@@ -5112,7 +5022,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを編集する</label>
 			<Str sr="arg0" ve="3">modLocationLandmarkFromYahoo</Str>
@@ -5128,7 +5038,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act48" ve="7">
 			<code>130</code>
 			<label>乗車駅、乗換駅、降車駅が近い場合は発声する</label>
 			<Str sr="arg0" ve="3">sayLocationStationNearest</Str>
@@ -5144,7 +5054,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act49" ve="7">
 			<code>130</code>
 			<label>現在地の最寄り駅を設定する</label>
 			<Str sr="arg0" ve="3">setLocationStationNearest</Str>
@@ -5160,7 +5070,14 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%device_task_list</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>37</code>
 			<label>ロケーションが異なる場合</label>
 			<ConditionList sr="if">
@@ -5177,7 +5094,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<label>Yahoo!から口コミを取得する</label>
 			<Str sr="arg0" ve="3">getLocationLandmarkReviewFromYahoo</Str>
@@ -5193,10 +5110,10 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act52" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act53" ve="7">
 			<code>130</code>
 			<label>現在地のランドマークを設定する</label>
 			<Str sr="arg0" ve="3">setLocationLandmarkFromYahoo</Str>
@@ -5219,7 +5136,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act54" ve="7">
 			<code>37</code>
 			<label>口コミが存在する場合</label>
 			<ConditionList sr="if">
@@ -5230,7 +5147,7 @@ Instagram</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act55" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
@@ -5239,18 +5156,7 @@ Instagram</label>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<on>false</on>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_task_list(#)</lhs>
-					<op>7</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">の口コミには、</Str>
@@ -5259,7 +5165,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act57" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%location_landmark_review_from_yahoo</Str>
@@ -5268,7 +5174,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act58" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">と書いてあります。</Str>
@@ -5277,7 +5183,7 @@ Instagram</label>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act59" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -5292,16 +5198,27 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_task_list(#)</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act61" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act62" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act63" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -5323,19 +5240,13 @@ Instagram</label>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act64" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act65" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>39</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%device_task</Str>
-			<Str sr="arg1" ve="3">%device_task_list()</Str>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act66" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayLifeSupportInformation</Str>
 			<Int sr="arg1">
@@ -5350,7 +5261,7 @@ Instagram</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act67" ve="7">
 			<code>130</code>
 			<label>カレンダーの予定をチェックする</label>
 			<Str sr="arg0" ve="3">setCalendarEntry</Str>
@@ -5363,6 +5274,12 @@ Instagram</label>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>39</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%device_task</Str>
+			<Str sr="arg1" ve="3">%device_task_list()</Str>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>549</code>
@@ -55197,7 +55114,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1601999331362</edate>
+		<edate>1602000341533</edate>
 		<id>478</id>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
@@ -55249,10 +55166,16 @@ https://t.co/91XPPED1U2
 		<Action sr="act11" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubServer</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -71932,48 +71855,6 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task84">
-		<cdate>1521729228705</cdate>
-		<edate>1536203905342</edate>
-		<id>84</id>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotify</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Twitterでリツイートされました</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ntitle</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task87">
