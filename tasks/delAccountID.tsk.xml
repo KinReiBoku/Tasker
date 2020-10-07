@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
-	<Task sr="task455">
+	<Task sr="task69">
 		<cdate>1543802130180</cdate>
-		<edate>1602073203649</edate>
-		<id>455</id>
-		<nme>delHashTag</nme>
+		<edate>1602073197952</edate>
+		<id>69</id>
+		<nme>delAccountID</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Items %ret=Key</label>
@@ -31,7 +31,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="3"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -95,7 +95,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
 					<op>4</op>
-					<rhs>.*#.*</rhs>
+					<rhs>.*@.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -142,7 +142,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>39</code>
@@ -155,7 +155,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
-					<rhs>^#</rhs>
+					<rhs>^@</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -183,9 +183,9 @@
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>598</code>
-			<label>#を削除</label>
+			<label>@を削除</label>
 			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">^#</Str>
+			<Str sr="arg1" ve="3">^@</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>

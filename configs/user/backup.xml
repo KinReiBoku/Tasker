@@ -1874,7 +1874,7 @@
 	</Profile>
 	<Profile sr="prof462" ve="2">
 		<cdate>1535513654539</cdate>
-		<edate>1601992367375</edate>
+		<edate>1602038505488</edate>
 		<flags>2</flags>
 		<id>462</id>
 		<mid0>476</mid0>
@@ -1914,7 +1914,7 @@
 	</Profile>
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
-		<edate>1602036279866</edate>
+		<edate>1602073502642</edate>
 		<flags>2</flags>
 		<id>477</id>
 		<mid0>478</mid0>
@@ -2929,6 +2929,71 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof66" ve="2">
+		<cdate>1602063388152</cdate>
+		<edate>1602057723234</edate>
+		<flags>10</flags>
+		<id>66</id>
+		<mid0>65</mid0>
+		<nme>Notify AppTrain</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>jp.co.jrkyushu.jrqapp.activity.SplashActivity,
+host.exp.exponent.MainActivity,
+jp.co.jreast.jreastapp.commuter.launchscreen.LaunchScreenActivity,
+jp.co.yahoo.android.apps.transit.Transit,
+com.navitime.local.nttransfer.NTMainNavitime,
+app.odakyu.odakyuapp.activity.TopActivity,
+jp.co.jrwest.trainserviceinfo.Main,
+jp.KeiseiApp.ui.SplashActivity,
+keikyu.kq_app.server.MainWebViewActivity,
+jp.co.tobuspapp.ui.setting.init.InitSettingActivity,
+jp.co.sotetsu.sotetsulineapplication.activity.SplashActivity,
+jp.co.tokyu.tokyulinesapplication.activities.SplashActivity,
+com.tokyometro.SplushActivity,
+jp.co.osakametro.osakametroapp.activities.SplashActivity,
+jp.co.kintetsu.portal.ui.screen.BaseActivity</appClass>
+				<appPkg>jp.co.jrkyushu.jrqapp,
+jrshikokuinfo.xprocess.hrkn,
+jp.co.jreast,
+jp.co.yahoo.android.apps.transit,
+com.navitime.local.nttransfer,
+app.odakyu.odakyuapp,
+jp.co.jrwest.trainserviceinfo,
+jp.KeiseiApp,
+keikyu.kq_app,
+jp.co.tobuspapp,
+jp.co.sotetsu.sotetsulineapplication,
+jp.co.tokyu.tokyulinesapplication,
+com.tokyometro,
+jp.co.osakametro.osakametroapp,
+jp.co.kintetsu.portal</appPkg>
+				<label>JR九州,
+JR四国運行状況,
+JR東日本アプリ,
+Y!乗換案内,
+乗換ナビ,
+小田急アプリ,
+列車運行情報,
+京成アプリ,
+京急線アプリ,
+東武線アプリ,
+相鉄線アプリ,
+東急線アプリ,
+東京メトロ,
+運行情報アプリ,
+近鉄アプリ</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
 	<Profile sr="prof670" ve="2">
 		<cdate>1535971411230</cdate>
 		<edate>1566857507996</edate>
@@ -3021,6 +3086,77 @@
 			<Str sr="arg0" ve="3">Pokemon GO Plus</Str>
 			<Str sr="arg1" ve="3">7C:BB:8A:C9:5A:8C</Str>
 		</State>
+	</Profile>
+	<Profile sr="prof68" ve="2">
+		<cdate>1602063421032</cdate>
+		<edate>1602063432010</edate>
+		<flags>10</flags>
+		<id>68</id>
+		<mid0>67</mid0>
+		<nme>Notify AppNews</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.example.hmo.bns.SplashActivity,
+app.nerv.MainActivity,
+com.newspicks.view.activity.main.BootstrapActivity,
+jp.gocro.smartnews.android.activity.SmartNewsActivity,
+com.gunosy.android.activity.MainActivity,
+com.newspicks.academia.ui.main.BootstrapActivity,
+microsoft.msn.news.android.activities.LaunchActivity,
+com.nttdocomo.android.dmenuNews.components.splash.SplashActivity,
+jp.co.yahoo.android.news.activity.SplashActivity,
+jp.newsdigest.activity.LaunchActivity,
+com.kddi.android.newspass.activity.MainActivity,
+smart.news.world.main.BrowserActivity,
+com.nikkei.newsnext.ui.activity.SplashActivity,
+com.msn.jp.sankei.news_app.activity.SplashActivity,
+wni.WeathernewsTouch.jp.Splash,
+jp.co.yomiuri.online.app.activity.SplashActivity,
+jp.co.yahoo.android.sports.npb.textlive.YJSNPBLGameListActivity</appClass>
+				<appPkg>ma.safe.bnjp,
+app.nerv,
+com.newspicks,
+jp.gocro.smartnews.android,
+com.gunosy.android,
+com.newspicks.academia,
+com.microsoft.amp.apps.bingnews,
+com.nttdocomo.android.dmenunews,
+jp.co.yahoo.android.news,
+jp.newsdigest,
+com.kddi.android.newspass,
+smart.news.world,
+com.nikkei.newspaper,
+com.msn.jp.sankei.news_app,
+wni.WeathernewsTouch.jp,
+jp.co.yomiuri.online.app,
+jp.co.yahoo.android.sports.npb.textlive</appPkg>
+				<label>Breaking News,
+NERV防災,
+NewsPicks,
+SmartNews,
+グノシー,
+アカデミア,
+ニュース,
+ニュース,
+ニュース,
+ニュースダイジェスト,
+ニュースパス,
+世界の新聞,
+日経電子版,
+産経ニュース,
+ｳｪｻﾞｰﾆｭｰｽ,
+読売新聞,
+野球速報</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
 	</Profile>
 	<Profile sr="prof680" ve="2">
 		<cdate>1559460481519</cdate>
@@ -3498,12 +3634,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1602000361393</mdate>
+		<mdate>1602071357223</mdate>
 		<name>Base</name>
-		<pids>45,49,51,54,56,58,60,62,64,75,81,83,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,563,561,565,569,571,573,581,583,585,587,589,594,596,593,600,603,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,439,701,725,727,736,731,739,729,746,750,753,147,145,214,256,260,429,462,477</pids>
+		<pids>45,49,51,54,56,58,60,62,64,75,81,83,86,89,91,95,97,119,121,29,37,93,159,161,163,165,167,169,173,175,177,179,181,184,186,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,388,390,391,394,396,398,400,403,405,407,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,563,561,565,569,571,573,581,583,585,587,589,594,596,593,600,603,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,439,701,725,727,736,731,739,729,746,750,753,147,145,214,256,260,429,462,477,66,68</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock,Popup</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17,142</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17,142,69</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -9362,7 +9498,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
-		<edate>1601446065749</edate>
+		<edate>1602038621343</edate>
 		<id>123</id>
 		<nme>checkMessageRss</nme>
 		<pri>100</pri>
@@ -10834,7 +10970,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1602034898387</edate>
+		<edate>1602073285106</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
@@ -10851,162 +10987,14 @@ Copyright .*All rights reserved\.</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>%NEWS_MESSAGE</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%par1</lhs>
-					<op>5</op>
-					<rhs>\%.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
 			<code>130</code>
-			<label>ハッシュタグ削除</label>
 			<Str sr="arg0" ve="3">delHashTag</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%par1</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>598</code>
-			<label>大分合同新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> oita</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*大分合同新聞.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>598</code>
-			<label>北海道新聞の場合、固定タグを削除する</label>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> どうしん電子版</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*北海道新聞.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>598</code>
-			<label>北海道新聞の場合、固定タグを削除する</label>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">：北海道新聞</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*北海道新聞.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>598</code>
-			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3"> 山形新聞 yamashin</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>.*山形新聞.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>598</code>
-			<label>山形新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">^山形新聞</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>598</code>
-			<label>秋田新聞の場合、固定ハッシュタグを削除する</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">akita</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">sayError</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%TRUN</Str>
-			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
@@ -11014,36 +11002,47 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%NEWS_MESSAGE</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act20" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toLineMyId</Str>
+			<Str sr="arg0" ve="3">delAccountID</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%TRUN Duplicate data : Message=%par1</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">delUrl</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act4" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -11058,104 +11057,8 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">&amp;amp</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">&amp;quot</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">】</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>^【</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">【</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>4</op>
-					<rhs>^【</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act7" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">RT @.*: </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%par1</Str>
-			<Str sr="arg1" ve="3">@</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<label>URL削除</label>
-			<Str sr="arg0" ve="3">delUrl</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%par1</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%par1</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task133">
@@ -30287,7 +30190,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task310">
 		<cdate>1536012677374</cdate>
-		<edate>1602035794935</edate>
+		<edate>1602061772190</edate>
 		<id>310</id>
 		<nme>checkTwitterNews</nme>
 		<pri>100</pri>
@@ -30295,7 +30198,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%keys</Str>
-			<Str sr="arg1" ve="3">共同通信公式;kyodo_official,日本経済新聞 電子版;nikkei,Yahoo!ニュース;yahoonewstopics,読売新聞オンライン;Yomiuri_Online,NHKニュース;nhk_news,毎日新聞ニュース;mainichijpnews,テレ朝news;tv_asahi_news,朝日新聞(asahi shimbun);asahi,産経ニュース;Sankei_news,AFPBB News;afpbbcom,楽天FX;rakuten_fx,ライブドアニュース;livedoornews,藤原直哉;naoyafujiwara,2NN ニュース速報＋;2NN_Newsplus,</Str>
+			<Str sr="arg1" ve="3">共同通信公式;kyodo_official,日本経済新聞 電子版;nikkei,Yahoo!ニュース;yahoonewstopics,読売新聞オンライン;Yomiuri_Online,NHKニュース;nhk_news,毎日新聞ニュース;mainichijpnews,テレ朝news;tv_asahi_news,朝日新聞(asahi shimbun);asahi,産経ニュース;Sankei_news,AFPBB News;afpbbcom,楽天FX;rakuten_fx,ライブドアニュース;livedoornews,藤原直哉;naoyafujiwara,2NN ニュース速報＋;2NN_Newsplus,NewsDigest;NewsDigestWeb.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -43098,7 +43001,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task415">
 		<cdate>1535375988054</cdate>
-		<edate>1587824612486</edate>
+		<edate>1602065479592</edate>
 		<id>415</id>
 		<nme>!!testSay</nme>
 		<pri>100</pri>
@@ -43220,7 +43123,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task418">
 		<cdate>1535375988054</cdate>
-		<edate>1601279508045</edate>
+		<edate>1602073252633</edate>
 		<id>418</id>
 		<nme>!!testReplace</nme>
 		<pri>100</pri>
@@ -43251,81 +43154,65 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">3.5</Str>
+			<Str sr="arg1" ve="3">乃木坂46山崎怜奈、 #SNS との向き合い方を考える　休日の“見られたくない姿”も #告白 （写真 全6枚）
+https://t.co/f2IMvhIIzb
+
+ #乃木坂46 #山崎怜奈 #ビッケブランカ #chelmico #アルコピース #nogizaka46 #ラジオ #TOKYOFM #だれはな @darehanaTFM @nogizaka46 @tokyofm</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>598</code>
-			<label>URLを削除</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">http[0-9a-zA-Z_:/=?\.]*\.[0-9a-zA-Z_:/=?\.]*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">応募締切はあす #あき 12月20日（木）12:00です！ まだの方はお早めに♪ #小松菜奈 #来る</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>598</code>
-			<label>ハッシュタグ削除</label>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3"> #[^ ]+$</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">ハッシュタグ削除</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%message</lhs>
-					<op>4</op>
-					<rhs>#[^ ]+$</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
 			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">checkMessageRss</Str>
+			<Str sr="arg0" ve="3">delHashTag</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">100人</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%par1</Str>
+			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">delAccountID</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">delUrl</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%message</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task42">
@@ -47384,7 +47271,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task435">
 		<cdate>1543369879237</cdate>
-		<edate>1600919584936</edate>
+		<edate>1602073177850</edate>
 		<id>435</id>
 		<nme>delUrl</nme>
 		<Action sr="act0" ve="7">
@@ -48478,7 +48365,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task455">
 		<cdate>1543802130180</cdate>
-		<edate>1600919566788</edate>
+		<edate>1602073203649</edate>
 		<id>455</id>
 		<nme>delHashTag</nme>
 		<Action sr="act0" ve="7">
@@ -48508,7 +48395,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -48517,37 +48404,36 @@ https://t.co/91XPPED1U2
 			<code>43</code>
 		</Action>
 		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3">%item </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%next</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act17" ve="7">
 			<code>598</code>
-			<label>#を削除</label>
-			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">^#</Str>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3"> $</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ret</Str>
-			<Str sr="arg1" ve="3">%item</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>888</code>
-			<Str sr="arg0" ve="3">%next</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>40</code>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>38</code>
@@ -48641,6 +48527,7 @@ https://t.co/91XPPED1U2
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%items(%next)</lhs>
 					<op>12</op>
@@ -48650,6 +48537,11 @@ https://t.co/91XPPED1U2
 					<lhs>%items(%next)</lhs>
 					<op>5</op>
 					<rhs>^#</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%items(%next)</lhs>
+					<op>5</op>
+					<rhs>^@</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -54697,18 +54589,33 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task476">
 		<cdate>1521383525570</cdate>
-		<edate>1601992367375</edate>
+		<edate>1602038505488</edate>
 		<id>476</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%evtprm()</Str>
-			<Int sr="arg1" val="0"/>
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>4</op>
+					<rhs>.*セール.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%evtprm()</Str>
-			<Int sr="arg1" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">Amazonからセールのお知らせがあります</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
@@ -54782,31 +54689,6 @@ https://t.co/91XPPED1U2
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%evtprm3</lhs>
-					<op>4</op>
-					<rhs>.*セール.*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">toSayMedia</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">Amazonからセールのお知らせがあります</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -54816,7 +54698,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -54831,23 +54713,17 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act4" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%evtprm3</lhs>
+					<lhs>%evtprm2</lhs>
 					<op>2</op>
-					<rhs>ご注文商品の配達が完了しました</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%evtprm3</lhs>
-					<op>4</op>
-					<rhs>.*配達済み.*</rhs>
+					<rhs>配達済み</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setHomeState</Str>
 			<Int sr="arg1">
@@ -54862,13 +54738,31 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">を配達しました。</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">ご注文商品の配達が完了しました。</Str>
+			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -54890,7 +54784,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1602036279866</edate>
+		<edate>1602073502642</edate>
 		<id>478</id>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -54926,17 +54820,6 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">#</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"> </Str>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -54951,7 +54834,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -54967,7 +54850,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
 			<Int sr="arg1">
@@ -54982,10 +54865,10 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act13" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
@@ -55000,10 +54883,10 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">（</Str>
@@ -55012,7 +54895,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act17" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">%evtprm2</Str>
@@ -55021,7 +54904,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">）</Str>
@@ -55030,17 +54913,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%enter</Str>
-			<Str sr="arg1" ve="3">
-</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act19" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
@@ -55055,7 +54928,17 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%enter</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toFlash</Str>
 			<Int sr="arg1">
@@ -55070,7 +54953,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -55115,7 +54998,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c2" ve="3">
 					<lhs>%item</lhs>
 					<op>5</op>
-					<rhs>[0-9a-zA-Z.].+?/[0-9a-zA-Z.].+</rhs>
+					<rhs>[0-9a-zA-Z=\-\.].+?/[0-9a-zA-Z/=\-\.].+</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -55140,7 +55023,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%message</Str>
-			<Str sr="arg1" ve="3">[0-9a-zA-Z.].+?/[0-9a-zA-Z./].+</Str>
+			<Str sr="arg1" ve="3">[0-9a-zA-Z=\-\.].+?/[0-9a-zA-Z/=\-\.].+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -61599,6 +61482,222 @@ https://t.co/91XPPED1U2
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task65">
+		<cdate>1602056555320</cdate>
+		<edate>1602057723234</edate>
+		<id>65</id>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>東京メトロ</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>com.tokyometro</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">東京メトロ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">Yahoo!ニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2
+%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">UnknownNews.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubServer</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NEWS:%name;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NEWS:%name;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2
+%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+			<label>NewsDigest</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.newsdigest</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">NewsDigest</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2
+%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+			<label>スマートニュース</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.gocro.smartnews.android,</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">スマートニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<label>Yahoo!ニュース</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.co.yahoo.android.news,</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
 	<Task sr="task654">
 		<cdate>1521381764005</cdate>
 		<edate>1548798678959</edate>
@@ -62444,6 +62543,230 @@ https://t.co/91XPPED1U2
 			</ConditionList>
 		</Action>
 	</Task>
+	<Task sr="task67">
+		<cdate>1602056555320</cdate>
+		<edate>1602057471867</edate>
+		<id>67</id>
+		<rty>1</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>Google</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>com.google.android.googlequicksearchbox</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">Googleニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>43</code>
+			<label>Yahoo!ニュース</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.co.yahoo.android.news,</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">Yahoo!ニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2
+%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">UnknownNews.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Server</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubServer</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NEWS:%name;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NEWS:%name;%message</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%message</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">より、%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>43</code>
+			<label>NewsDigest</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.newsdigest</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">NewsDigest</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2
+%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+			<label>スマートニュース</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm1</lhs>
+					<op>2</op>
+					<rhs>jp.gocro.smartnews.android,</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%name</Str>
+			<Str sr="arg1" ve="3">スマートニュース</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%evtprm2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
 	<Task sr="task671">
 		<cdate>1535971418471</cdate>
 		<edate>1566857507996</edate>
@@ -63170,6 +63493,201 @@ https://t.co/91XPPED1U2
 		<Img sr="icn" ve="2">
 			<nme>mw_image_collections</nme>
 		</Img>
+	</Task>
+	<Task sr="task69">
+		<cdate>1543802130180</cdate>
+		<edate>1602073197952</edate>
+		<id>69</id>
+		<nme>delAccountID</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<label>%par1=Items %ret=Key</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%message</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3">%item</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3">%item </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%next</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Str sr="arg1" ve="3"> $</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%ret</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ret</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%message</lhs>
+					<op>4</op>
+					<rhs>.*@.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">sayError</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%TRUN</Str>
+			<Str sr="arg3" ve="3">Luck of data : Items=%par1</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%items</Str>
+			<Str sr="arg1" ve="3">%message</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%items</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%next</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%items()</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>^@</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%items(%next)</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%items(%next)</lhs>
+					<op>5</op>
+					<rhs>^#</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%items(%next)</lhs>
+					<op>5</op>
+					<rhs>^@</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>598</code>
+			<label>@を削除</label>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">^@</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
 	</Task>
 	<Task sr="task691">
 		<cdate>1562462468561</cdate>
@@ -69105,7 +69623,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1602001447460</edate>
+		<edate>1602038712657</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -71032,7 +71550,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle3</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
