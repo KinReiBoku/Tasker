@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1602073285106</edate>
+		<edate>1602083044147</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
@@ -69,6 +69,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>\%par1</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>

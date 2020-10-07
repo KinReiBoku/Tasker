@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
-		<clp>true</clp>
-		<edate>1602082658174</edate>
+		<edate>1602083087674</edate>
 		<id>477</id>
 		<mid0>478</mid0>
 		<nme>Notify Twitter</nme>
@@ -24,7 +23,7 @@
 	</Profile>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1602082658174</edate>
+		<edate>1602083087674</edate>
 		<id>478</id>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -70,7 +69,7 @@
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%message</lhs>
-					<op>3</op>
+					<op>5</op>
 					<rhs>\%message</rhs>
 				</Condition>
 			</ConditionList>

@@ -1914,7 +1914,7 @@
 	</Profile>
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
-		<edate>1602082658174</edate>
+		<edate>1602083087674</edate>
 		<flags>2</flags>
 		<id>477</id>
 		<mid0>478</mid0>
@@ -10970,7 +10970,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task131">
 		<cdate>1535540380169</cdate>
-		<edate>1602073285106</edate>
+		<edate>1602083105187</edate>
 		<id>131</id>
 		<nme>checkMessageNews</nme>
 		<pri>100</pri>
@@ -11038,6 +11038,19 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>\%par1</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>
@@ -54784,7 +54797,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1602082658174</edate>
+		<edate>1602083087674</edate>
 		<id>478</id>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -54830,7 +54843,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%message</lhs>
-					<op>3</op>
+					<op>5</op>
 					<rhs>\%message</rhs>
 				</Condition>
 			</ConditionList>
