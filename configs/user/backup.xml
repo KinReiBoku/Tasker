@@ -12277,7 +12277,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task150">
 		<cdate>1600845016586</cdate>
-		<edate>1601652496199</edate>
+		<edate>1602036723934</edate>
 		<id>150</id>
 		<nme>checkTwitter</nme>
 		<rty>1</rty>
@@ -13092,6 +13092,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>3</op>
@@ -13102,10 +13103,16 @@ Copyright .*All rights reserved\.</Str>
 					<op>2</op>
 					<rhs>Server</rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubServer</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act62" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -13128,7 +13135,7 @@ Copyright .*All rights reserved\.</Str>
 				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>Subserver</rhs>
+					<rhs>SubServer</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
