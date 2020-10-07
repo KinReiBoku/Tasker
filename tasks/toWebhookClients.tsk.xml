@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1602082544557</edate>
+		<edate>1602094825498</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -46,6 +46,13 @@
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MY_ID</lhs>
+					<op>3</op>
+					<rhs>SO04K</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>116</code>
