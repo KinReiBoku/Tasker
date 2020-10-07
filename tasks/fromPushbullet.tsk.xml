@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1602001447460</edate>
+		<edate>1602038712657</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -1928,7 +1928,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">%ntitle4</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">%ntitle3</Str>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
