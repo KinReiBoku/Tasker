@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1602094825498</edate>
+		<edate>1602151230193</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -48,9 +48,9 @@
 			<Int sr="arg8" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MY_ID</lhs>
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>3</op>
-					<rhs>SO04K</rhs>
+					<rhs>%MACRO_DROID_SO04K</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -67,6 +67,13 @@
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE%MACRO_DROID_NOTE9S</lhs>
+					<op>3</op>
+					<rhs>%MACRO_DROID_NOTE9S</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>

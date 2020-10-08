@@ -1,5 +1,5 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
-	<dmetric>1080.0,1813.0</dmetric>
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<dmetric>1080.0,2170.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<edate>1548212519185</edate>
@@ -692,7 +692,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1601996703083</edate>
+		<edate>1602150402314</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -3705,7 +3705,7 @@ Instagram</label>
 	</Scene>
 	<Scene sr="scenePopup Task Buttons">
 		<cdate>1535975644004</cdate>
-		<edate>1543298336173</edate>
+		<edate>1602150429138</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>675</heightPort>
 		<nme>Popup Task Buttons</nme>
@@ -27514,7 +27514,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1601809293368</edate>
+		<edate>1602150402314</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -27561,6 +27561,7 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">setVolumeMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -27595,7 +27596,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1578488713618</edate>
+		<edate>1602150397351</edate>
 		<id>288</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -27646,6 +27647,7 @@ Alexaに天気と予定を聞く</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toVolume</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -27710,33 +27712,6 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>714606470</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<ShortcutBeforeUse>#Intent;action=com.anddoes.launcher.ACTION;component=com.anddoes.launcher/.Launcher;S.LAUNCHER_ACTION=GOTO_DEFAULT_SCREEN;end</ShortcutBeforeUse>
-					<ShortcutBeforeUse-type>java.lang.String</ShortcutBeforeUse-type>
-					<ShortcutIntentString>#Intent;action=com.anddoes.launcher.ACTION;component=com.anddoes.launcher/.Launcher;S.LAUNCHER_ACTION=GOTO_DEFAULT_SCREEN;end</ShortcutIntentString>
-					<ShortcutIntentString-type>java.lang.String</ShortcutIntentString-type>
-					<ShortcutLabel>Apex Launcher: デフォルトスクリーンに移動</ShortcutLabel>
-					<ShortcutLabel-type>java.lang.String</ShortcutLabel-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Apex Launcher: デフォルトスクリーンに移動</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid ShortcutIntentString ShortcutLabel </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>c593db1a-5ed5-4d25-bd4e-300b4fe566b0</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autoshortcut.IntentAutoShortcut</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autoshortcut.pro</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autoshortcut.ActivityAutoShortcut</Str>
-			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task289">
@@ -68767,7 +68742,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1602094825498</edate>
+		<edate>1602151230193</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -68814,9 +68789,9 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg8" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MY_ID</lhs>
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>3</op>
-					<rhs>SO04K</rhs>
+					<rhs>%MACRO_DROID_SO04K</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -68833,6 +68808,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE%MACRO_DROID_NOTE9S</lhs>
+					<op>3</op>
+					<rhs>%MACRO_DROID_NOTE9S</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>
