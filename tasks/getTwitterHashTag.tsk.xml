@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task312">
 		<cdate>1536108658190</cdate>
-		<edate>1601703226980</edate>
+		<edate>1602137030241</edate>
 		<id>312</id>
 		<nme>getTwitterHashTag</nme>
 		<pri>100</pri>
@@ -108,10 +108,16 @@
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
 					<rhs>.*%key1.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>^[生].*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
