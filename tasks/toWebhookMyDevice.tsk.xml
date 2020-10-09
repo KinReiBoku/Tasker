@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task261">
 		<cdate>1535407856353</cdate>
-		<edate>1600887004141</edate>
+		<edate>1602261083828</edate>
 		<id>261</id>
 		<nme>toWebhookMyDevice</nme>
 		<pri>100</pri>
@@ -41,7 +41,6 @@
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>116</code>
-			<label>SO-04Kへ送信</label>
 			<se>false</se>
 			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_MYDEVICE/%par2?%par2=%message</Str>
 			<Str sr="arg1" ve="3"/>
@@ -66,6 +65,10 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>

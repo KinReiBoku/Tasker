@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof256" ve="2">
 		<cdate>1587779757300</cdate>
 		<clp>true</clp>
-		<edate>1592923555884</edate>
+		<edate>1602231461510</edate>
 		<id>256</id>
 		<mid0>226</mid0>
 		<mid1>255</mid1>
@@ -18,7 +18,7 @@
 	</Profile>
 	<Task sr="task226">
 		<cdate>1521384755669</cdate>
-		<edate>1592923555884</edate>
+		<edate>1602231441547</edate>
 		<id>226</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -55,6 +55,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -72,6 +76,7 @@
 		<Action sr="act2" ve="7">
 			<code>130</code>
 			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toBrightness</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -80,6 +85,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>38</code>
@@ -96,6 +105,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%FLASH_STATE</lhs>
@@ -107,6 +120,7 @@
 		<Action sr="act5" ve="7">
 			<code>808</code>
 			<label>明るさ自動調整をオフにする</label>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
@@ -136,7 +150,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task255">
 		<cdate>1521384780904</cdate>
-		<edate>1592923493016</edate>
+		<edate>1602231461510</edate>
 		<id>255</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -149,6 +163,10 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
@@ -184,6 +202,10 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%FLASH_STATE</lhs>
@@ -195,6 +217,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act3" ve="7">
 			<code>130</code>
 			<label>睡眠中以外の場合、画面の明るさを普通にする</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toBrightness</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -203,6 +226,10 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
