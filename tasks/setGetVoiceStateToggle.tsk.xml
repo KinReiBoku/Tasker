@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task667">
 		<cdate>1535275951041</cdate>
-		<edate>1549472166999</edate>
+		<edate>1578893553192</edate>
 		<id>667</id>
 		<nme>setGetVoiceStateToggle</nme>
 		<pri>7</pri>
@@ -15,6 +15,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_device_access_mic</nme>

@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1586745391470</edate>
+		<clp>true</clp>
+		<edate>1602001099342</edate>
 		<id>637</id>
 		<mid0>638</mid0>
 		<nme>Intent Received MacroDroid</nme>
@@ -17,7 +18,7 @@
 	</Profile>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1586745391470</edate>
+		<edate>1602001099342</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -85,6 +86,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
@@ -142,6 +147,10 @@
 			<Str sr="arg3" ve="3">%task2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>130</code>
@@ -154,6 +163,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>137</code>
@@ -174,6 +187,10 @@
 			<Str sr="arg3" ve="3">%task</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>38</code>
@@ -199,6 +216,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
@@ -229,6 +250,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>43</code>
@@ -243,6 +268,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>38</code>
@@ -291,6 +320,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>43</code>

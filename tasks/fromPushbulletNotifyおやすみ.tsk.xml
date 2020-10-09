@@ -1,0 +1,27 @@
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<Task sr="task723">
+		<cdate>1578761427073</cdate>
+		<edate>1587741694382</edate>
+		<id>723</id>
+		<nme>fromPushbulletNotifyおやすみ</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">fromPushbullet</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;NOTIFY;おやすみ</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_image_brightness_3</nme>
+		</Img>
+	</Task>
+</TaskerData>

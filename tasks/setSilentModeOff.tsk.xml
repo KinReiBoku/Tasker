@@ -1,10 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task264">
 		<cdate>1515388241199</cdate>
-		<edate>1547810631904</edate>
+		<edate>1586779674220</edate>
 		<id>264</id>
 		<nme>setSilentModeOff</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVolume</Str>
@@ -15,6 +15,10 @@
 			<Str sr="arg3" ve="3">7</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -43,6 +47,10 @@
 			<Str sr="arg3" ve="3">7</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
@@ -54,6 +62,10 @@
 			<Str sr="arg3" ve="3">7</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -76,6 +88,10 @@
 			<Str sr="arg3" ve="3">20</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
@@ -95,6 +111,10 @@
 			<Str sr="arg3" ve="3">14</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
@@ -120,6 +140,10 @@
 			<Str sr="arg3" ve="3">10</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
@@ -134,9 +158,13 @@
 			<Str sr="arg3" ve="3">7</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_device_access_volume_on</nme>
+			<nme>mw_av_volume_up</nme>
 		</Img>
 	</Task>
 </TaskerData>

@@ -1,13 +1,16 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task216">
 		<cdate>1535694815746</cdate>
-		<edate>1536364935069</edate>
+		<edate>1586443552285</edate>
 		<id>216</id>
 		<nme>getRoom</nme>
 		<Action sr="act0" ve="7">
 			<code>126</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_%LOCATION_ROOM</Str>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA%LOCATION_ROOM</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
@@ -23,12 +26,15 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>126</code>
-			<Str sr="arg0" ve="3">%LOCATION_LLAMA_%room</Str>
+			<Str sr="arg0" ve="3">%LOCATION_LLAMA%room</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>

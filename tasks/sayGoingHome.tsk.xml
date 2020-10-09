@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task233">
 		<cdate>1498643997275</cdate>
-		<edate>1548902117899</edate>
+		<edate>1586780169670</edate>
 		<id>233</id>
 		<nme>sayGoingHome</nme>
 		<pri>7</pri>
@@ -42,6 +42,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
@@ -86,6 +90,10 @@
 			<Str sr="arg3" ve="3">%cald22</Str>
 			<Str sr="arg4" ve="3">%lag</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>567</code>
@@ -96,6 +104,13 @@
 			<Str sr="arg4" ve="3">%cald1</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -113,6 +128,10 @@
 			<Str sr="arg3" ve="3">Luck of data : TrainTime=%par1 CalendarDescription=%par2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>590</code>
@@ -207,7 +226,7 @@
 			<Int sr="arg5"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_car</nme>
+			<nme>mw_maps_directions_car</nme>
 		</Img>
 	</Task>
 </TaskerData>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task102">
 		<cdate>1524061793581</cdate>
-		<edate>1543720093628</edate>
+		<edate>1586780112504</edate>
 		<id>102</id>
 		<nme>sayCalendarNow</nme>
 		<pri>7</pri>
@@ -25,6 +25,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
@@ -36,6 +40,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -50,6 +58,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -77,6 +89,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -88,6 +104,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -114,9 +134,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_collections_go_to_today</nme>
+			<nme>mw_action_date_range</nme>
 		</Img>
 	</Task>
 </TaskerData>

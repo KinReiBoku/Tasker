@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task30">
 		<cdate>1535407856353</cdate>
-		<edate>1573001570663</edate>
+		<edate>1600838159785</edate>
 		<id>30</id>
 		<nme>toLineMyId</nme>
 		<pri>100</pri>
@@ -30,6 +30,7 @@
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="19"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -52,6 +53,7 @@
 			<Str sr="arg0" ve="3">%par2</Str>
 			<Int sr="arg1" val="28"/>
 			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -63,6 +65,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%path</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>116</code>
@@ -90,6 +96,10 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>38</code>

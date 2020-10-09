@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof355" ve="2">
 		<cdate>1536310814547</cdate>
-		<edate>1582473132770</edate>
+		<clp>true</clp>
+		<edate>1602232264429</edate>
 		<id>355</id>
 		<mid0>354</mid0>
 		<nme>Sleep 開始（アラーム）</nme>
@@ -26,21 +27,29 @@
 	</Profile>
 	<Task sr="task354">
 		<cdate>1521850504426</cdate>
-		<edate>1582473132770</edate>
+		<edate>1602232264429</edate>
 		<id>354</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
+			<label>『年休』または『代休』を含む場合</label>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAY_STATE</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<op>4</op>
+					<rhs>.*年休.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAY_STATE</lhs>
+					<op>4</op>
+					<rhs>.*代休.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<label>サイレントモードをオンにする</label>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -49,9 +58,14 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>90406179</code>
+			<label>アラームを止める</label>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>解除 (アラーム)</com.twofortyfouram.locale.intent.extra.BLURB>
@@ -73,12 +87,24 @@
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
+			<label>クライアントモードの場合はおはようメッセージを開始する</label>
 			<Str sr="arg0" ve="3">sayおはよう</Str>
 			<Int sr="arg1" val="20"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>

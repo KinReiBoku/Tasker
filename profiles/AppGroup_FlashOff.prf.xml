@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
 		<clp>true</clp>
-		<edate>1556768832303</edate>
+		<edate>1602267856412</edate>
 		<id>378</id>
 		<mid0>344</mid0>
 		<mid1>343</mid1>
@@ -12,30 +12,33 @@
 			<cls1>jp.colopl.tennis.StartActivity</cls1>
 			<cls2>jp.naver.line.android.activity.SplashActivity</cls2>
 			<cls3>net.zaim.android.activity.MainActivity</cls3>
-			<cls4>com.amazon.kindle.UpgradePage</cls4>
-			<cls5>com.nttdocomo.dmagazine.startup.StartUpActivity</cls5>
-			<cls6>com.instagram.layout.LayoutActivity</cls6>
-			<cls7>com.fenrir_inc.sleipnir.main.MainActivity</cls7>
-			<cls8>org.cocos2dx.cpp.AppActivity</cls8>
+			<cls4>com.nttdocomo.dmagazine.startup.StartUpActivity</cls4>
+			<cls5>com.instagram.layout.LayoutActivity</cls5>
+			<cls6>com.fenrir_inc.sleipnir.main.MainActivity</cls6>
+			<cls7>org.cocos2dx.cpp.AppActivity</cls7>
+			<cls8>com.hecorat.screenrecorder.free.activities.MainActivity</cls8>
+			<cls9>com.amazon.kindle.UpgradePage</cls9>
 			<flags>2</flags>
 			<label0>白猫</label0>
 			<label1>白テニ</label1>
 			<label2>LINE</label2>
 			<label3>Zaim</label3>
-			<label4>Amazon Kindle</label4>
-			<label5>dマガジン</label5>
-			<label6>レイアウト</label6>
-			<label7>Sleipnir</label7>
-			<label8>FEヒーローズ</label8>
+			<label4>dマガジン</label4>
+			<label5>レイアウト</label5>
+			<label6>Sleipnir</label6>
+			<label7>FEヒーローズ</label7>
+			<label8>AZ Screen Recorder</label8>
+			<label9>Amazon Kindle</label9>
 			<pkg0>jp.colopl.wcat</pkg0>
 			<pkg1>jp.colopl.tennis</pkg1>
 			<pkg2>jp.naver.line.android</pkg2>
 			<pkg3>net.zaim.android</pkg3>
-			<pkg4>com.amazon.kindle</pkg4>
-			<pkg5>com.nttdocomo.dmagazine</pkg5>
-			<pkg6>com.instagram.layout</pkg6>
-			<pkg7>jp.co.fenrir.android.sleipnir_black</pkg7>
-			<pkg8>com.nintendo.zaba</pkg8>
+			<pkg4>com.nttdocomo.dmagazine</pkg4>
+			<pkg5>com.instagram.layout</pkg5>
+			<pkg6>jp.co.fenrir.android.sleipnir_black</pkg6>
+			<pkg7>com.nintendo.zaba</pkg7>
+			<pkg8>com.hecorat.screenrecorder.free</pkg8>
+			<pkg9>com.amazon.kindle</pkg9>
 		</App>
 	</Profile>
 	<Task sr="task343">
@@ -54,6 +57,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_action_speaker_notes</nme>
@@ -74,6 +81,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_action_speaker_notes_off</nme>

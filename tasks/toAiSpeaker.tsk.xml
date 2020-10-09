@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task277">
 		<cdate>1520846827313</cdate>
 		<edate>1549285762755</edate>
@@ -45,6 +45,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%word</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>43</code>
@@ -59,6 +63,10 @@
 			<Str sr="arg3" ve="3">*.txt</Str>
 			<Str sr="arg4" ve="3">%file</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>130</code>
@@ -70,6 +78,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%word</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>38</code>
@@ -151,6 +163,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%SHAKE_EVENT</lhs>
@@ -432,6 +448,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
@@ -478,6 +498,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%voice_result</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -490,6 +514,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>598</code>
@@ -694,6 +722,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act63" ve="7">
 			<code>43</code>
@@ -741,6 +773,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act69" ve="7">
 			<code>38</code>
@@ -830,6 +866,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%name</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act80" ve="7">
 			<code>130</code>
@@ -842,6 +882,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act81" ve="7">
 			<code>38</code>

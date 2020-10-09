@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.1">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof49" ve="2">
 		<cdate>1535508703297</cdate>
 		<clp>true</clp>
-		<edate>1578795546750</edate>
+		<edate>1579427715975</edate>
 		<id>49</id>
 		<mid0>285</mid0>
 		<nme>Device Shutdown</nme>
@@ -12,7 +12,7 @@
 	</Profile>
 	<Task sr="task285">
 		<cdate>1535849419086</cdate>
-		<edate>1578795546750</edate>
+		<edate>1579427715975</edate>
 		<id>285</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
@@ -31,6 +31,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -78,6 +82,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

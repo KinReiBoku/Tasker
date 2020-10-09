@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task293">
 		<cdate>1535976002001</cdate>
-		<edate>1586534734123</edate>
+		<edate>1598890040186</edate>
 		<id>293</id>
 		<nme>sayDeviceState</nme>
 		<pri>100</pri>
@@ -109,6 +109,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>130</code>
@@ -120,9 +124,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_android</nme>
+			<nme>mw_action_android</nme>
 		</Img>
 	</Task>
 </TaskerData>

@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task4">
 		<cdate>1535242794666</cdate>
-		<edate>1535536656311</edate>
+		<edate>1586499114683</edate>
 		<id>4</id>
 		<nme>getDataKey</nme>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Items %par2=Key %ret=Key</label>
@@ -71,6 +72,10 @@
 			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>

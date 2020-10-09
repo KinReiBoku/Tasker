@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof426" ve="2">
 		<cdate>1535545967785</cdate>
 		<clp>true</clp>
@@ -16,7 +16,7 @@
 	</Profile>
 	<Task sr="task427">
 		<cdate>1524104455984</cdate>
-		<edate>1545738844754</edate>
+		<edate>1601282133357</edate>
 		<id>427</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -29,6 +29,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DAY_EVENT</lhs>
@@ -47,6 +51,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">

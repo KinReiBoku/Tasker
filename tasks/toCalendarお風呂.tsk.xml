@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task383">
 		<cdate>1513252018332</cdate>
-		<edate>1548910263833</edate>
+		<edate>1586759137313</edate>
 		<id>383</id>
 		<nme>toCalendarお風呂</nme>
 		<pri>100</pri>
@@ -31,6 +31,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>567</code>
@@ -42,6 +46,13 @@
 			<Str sr="arg4" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_places_hot_tub</nme>

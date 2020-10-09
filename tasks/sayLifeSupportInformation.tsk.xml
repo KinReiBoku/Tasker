@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task253">
 		<cdate>1536106580202</cdate>
-		<edate>1561330136117</edate>
+		<edate>1601910809650</edate>
 		<id>253</id>
 		<nme>sayLifeSupportInformation</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -25,6 +26,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>38</code>
@@ -42,6 +47,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -75,6 +84,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>
@@ -100,6 +113,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
@@ -111,6 +128,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>37</code>
@@ -132,9 +153,13 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_action_about</nme>
+			<nme>mw_action_info</nme>
 		</Img>
 	</Task>
 </TaskerData>

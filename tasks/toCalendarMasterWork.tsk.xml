@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task668">
 		<cdate>1546225691558</cdate>
-		<edate>1562639777286</edate>
+		<edate>1586759194611</edate>
 		<id>668</id>
 		<nme>toCalendarMasterWork</nme>
 		<Action sr="act0" ve="7">
@@ -60,6 +60,13 @@
 			<Str sr="arg4" ve="3">%location</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>547</code>
@@ -119,6 +126,10 @@
 			<Str sr="arg3" ve="3">Luck of data : CalendarTitle=%par1 CheckinTime=%par2</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>

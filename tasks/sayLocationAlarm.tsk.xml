@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task155">
 		<cdate>1523587320062</cdate>
 		<edate>1547560611021</edate>
@@ -91,6 +91,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
@@ -102,6 +106,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -122,6 +130,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%location</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>590</code>
@@ -187,7 +199,7 @@
 			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_alerts_and_states_error</nme>
+			<nme>mw_content_report</nme>
 		</Img>
 	</Task>
 </TaskerData>

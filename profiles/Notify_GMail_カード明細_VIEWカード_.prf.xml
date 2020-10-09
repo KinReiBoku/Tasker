@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof403" ve="2">
 		<cdate>1541455808163</cdate>
 		<clp>true</clp>
-		<edate>1541455854055</edate>
+		<edate>1600912335321</edate>
 		<id>403</id>
 		<mid0>402</mid0>
 		<nme>Notify GMail カード明細（VIEWカード）</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task402">
 		<cdate>1521381764005</cdate>
-		<edate>1541455822878</edate>
+		<edate>1600912332755</edate>
 		<id>402</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -37,6 +37,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

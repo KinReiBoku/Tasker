@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof93" ve="2">
 		<cdate>1535616614793</cdate>
 		<clp>true</clp>
-		<edate>1535673842880</edate>
+		<edate>1595412808021</edate>
 		<id>93</id>
+		<limit>true</limit>
 		<mid0>92</mid0>
 		<nme>Notify カレンダー テレビ BS-TBS</nme>
 		<Event sr="con0" ve="2">
@@ -24,7 +25,7 @@
 	</Profile>
 	<Task sr="task92">
 		<cdate>1521638112038</cdate>
-		<edate>1535673842880</edate>
+		<edate>1579181773581</edate>
 		<id>92</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -37,6 +38,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -48,6 +53,10 @@
 			<Str sr="arg3" ve="3">BS TBS</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>

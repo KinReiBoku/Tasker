@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task122">
 		<cdate>1535621074432</cdate>
-		<edate>1556624041578</edate>
+		<edate>1586443439920</edate>
 		<id>122</id>
 		<nme>initDataHomeApplianceState</nme>
 		<pri>100</pri>
@@ -10,6 +10,7 @@
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
@@ -49,6 +50,10 @@
 			<Str sr="arg3" ve="3">%keyvalue</Str>
 			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>40</code>
@@ -110,6 +115,10 @@
 			<Str sr="arg3" ve="3">%keyvalue</Str>
 			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -119,7 +128,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>38</code>
@@ -231,6 +240,10 @@
 			<Str sr="arg3" ve="3">%keyvalue</Str>
 			<Str sr="arg4" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>40</code>
@@ -246,7 +259,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>590</code>

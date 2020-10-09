@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task412">
 		<cdate>1535929806972</cdate>
 		<edate>1545656448993</edate>
@@ -35,6 +35,10 @@
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3">%DAY_EVENT</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>43</code>
@@ -49,6 +53,10 @@
 			<Str sr="arg3" ve="3">Luck of data : State=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>

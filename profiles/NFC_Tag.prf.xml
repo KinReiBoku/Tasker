@@ -1,0 +1,108 @@
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<Profile sr="prof725" ve="2">
+		<cdate>1578898080123</cdate>
+		<clp>true</clp>
+		<edate>1579181265794</edate>
+		<flags>8</flags>
+		<id>725</id>
+		<mid0>726</mid0>
+		<nme>NFC Tag</nme>
+		<Event sr="con0" ve="2">
+			<code>2076</code>
+			<pri>0</pri>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</Event>
+	</Profile>
+	<Task sr="task726">
+		<cdate>1578898085915</cdate>
+		<edate>1579181265794</edate>
+		<id>726</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>330</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%nfc_id
+ID
+Unique ID for the tag&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%nfc_payload
+Payload
+Contents of the tag in text format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nfc_present
+Present
+Contents of the tag in text format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%nfc_types()
+Types
+Type of technologies the card supports&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkinLocationRoomトイレ1階</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nfc_id</lhs>
+					<op>2</op>
+					<rhs>0491C642515980</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkinLocationRoomトイレ2階</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nfc_id</lhs>
+					<op>2</op>
+					<rhs>046D57CA4C5880</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkinLocationRoomバスルーム</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%nfc_id</lhs>
+					<op>2</op>
+					<rhs>048A57CA4C5880</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>

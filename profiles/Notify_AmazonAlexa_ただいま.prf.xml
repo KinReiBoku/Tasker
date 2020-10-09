@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof750" ve="2">
 		<cdate>1546984998114</cdate>
 		<clp>true</clp>
@@ -26,7 +26,7 @@
 		<cdate>1546985003759</cdate>
 		<edate>1587007502533</edate>
 		<id>751</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeKeyOn</Str>
@@ -37,10 +37,14 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">setSwitchStateOffSupplyAll</Str>
+			<Str sr="arg0" ve="3">setSwitchStateOnSupplyAll</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -48,6 +52,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

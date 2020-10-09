@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task208">
 		<cdate>1498651463812</cdate>
-		<edate>1563258305945</edate>
+		<edate>1586758975087</edate>
 		<id>208</id>
 		<nme>setWorkOut</nme>
 		<pri>7</pri>
@@ -41,6 +41,10 @@
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
@@ -52,6 +56,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>38</code>
@@ -112,6 +120,13 @@
 			<Str sr="arg4" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
@@ -123,6 +138,10 @@
 			<Str sr="arg3" ve="3">%WORK_INTIME;%TIMES</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>

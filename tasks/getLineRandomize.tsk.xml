@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task280">
 		<cdate>1520675032319</cdate>
 		<edate>1547220385558</edate>
@@ -58,6 +58,9 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%word_list(%num)</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>38</code>

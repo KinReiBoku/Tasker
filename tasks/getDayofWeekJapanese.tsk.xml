@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task276">
 		<cdate>1520695115567</cdate>
 		<edate>1543622636717</edate>
@@ -127,6 +127,9 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%ret</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ret</lhs>

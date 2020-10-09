@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task279">
 		<cdate>1520677694586</cdate>
 		<edate>1547134146493</edate>
@@ -47,6 +47,9 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%name</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>

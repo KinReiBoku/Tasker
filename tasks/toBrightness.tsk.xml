@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task263">
 		<cdate>1521412193369</cdate>
 		<edate>1547365820146</edate>
@@ -42,6 +42,10 @@
 			<Str sr="arg3" ve="3">Luck of data : BrightnessLevel=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>38</code>
@@ -110,6 +114,10 @@
 			<Str sr="arg3" ve="3">Unknown data : BrightnessLevel=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

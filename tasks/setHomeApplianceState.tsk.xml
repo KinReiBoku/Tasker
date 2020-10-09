@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1586443257679</edate>
+		<edate>1586781900334</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>7</pri>
@@ -64,6 +64,10 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>37</code>
@@ -125,6 +129,10 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -188,6 +196,10 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>547</code>
@@ -217,6 +229,10 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -765,6 +781,10 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act60" ve="7">
 			<code>1000294689</code>
@@ -860,9 +880,13 @@
 			<Str sr="arg3" ve="3">%location%room</Str>
 			<Str sr="arg4" ve="3">%cnt</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>hl_aaa_ext_home</nme>
+			<nme>mw_action_home</nme>
 		</Img>
 	</Task>
 </TaskerData>

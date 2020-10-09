@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task411">
 		<cdate>1537225698037</cdate>
-		<edate>1547559948782</edate>
+		<edate>1586498976071</edate>
 		<id>411</id>
 		<nme>checkMessageFlash</nme>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Message %ret=Message</label>
@@ -28,6 +29,9 @@
 			<code>126</code>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%message</lhs>
@@ -49,6 +53,10 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>38</code>
@@ -64,6 +72,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -76,6 +88,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>598</code>

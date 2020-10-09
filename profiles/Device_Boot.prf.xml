@@ -1,7 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof45" ve="2">
 		<cdate>1535504060585</cdate>
-		<edate>1578800124573</edate>
+		<clp>true</clp>
+		<edate>1598890043255</edate>
 		<id>45</id>
 		<mid0>44</mid0>
 		<nme>Device Boot</nme>
@@ -12,7 +13,7 @@
 	</Profile>
 	<Task sr="task44">
 		<cdate>1521420586763</cdate>
-		<edate>1586758945288</edate>
+		<edate>1598890043254</edate>
 		<id>44</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -37,6 +38,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
@@ -57,6 +62,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>130</code>
@@ -68,6 +77,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>567</code>

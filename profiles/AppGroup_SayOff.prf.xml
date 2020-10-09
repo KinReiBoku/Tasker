@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
 		<clp>true</clp>
-		<edate>1583117224409</edate>
+		<edate>1601467743777</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -12,12 +12,22 @@
 			<cls1>com.dazn.splash.view.SplashScreenActivity</cls1>
 			<cls10>com.amazon.dee.app.Launcher</cls10>
 			<cls11>jp.yoshika.twitcle.plus.CrtwitActivity</cls11>
-			<cls12>jp.r246.twicca.timelines.Home</cls12>
-			<cls13>com.twitter.android.StartActivity</cls13>
-			<cls14>com.hecorat.screenrecorder.free.activities.MainActivity</cls14>
-			<cls15>com.sidefeed.TCViewer.ui.main.MainActivity</cls15>
-			<cls16>jp.naver.line.android.activity.SplashActivity</cls16>
+			<cls12>com.twitter.android.StartActivity</cls12>
+			<cls13>com.hecorat.screenrecorder.free.activities.MainActivity</cls13>
+			<cls14>jp.naver.line.android.activity.SplashActivity</cls14>
+			<cls15>com.customcast.plugin.SchemeActivity</cls15>
+			<cls16>com.gworks.oneapp.entry.EntryActivity</cls16>
+			<cls17>st.moi.tcviewer.presentation.home.HomeActivity</cls17>
+			<cls18>com.google.android.apps.tachyon.MainActivity</cls18>
+			<cls19>com.discord.app.AppActivity$Main</cls19>
 			<cls2>com.google.android.youtube.videos.EntryPoint</cls2>
+			<cls20>com.dena.mirrorman.SplashActivity_</cls20>
+			<cls21>jp.nicovideo.android.StartupActivity</cls21>
+			<cls22>com.sauzask.nicoid.NicoidTopActivity</cls22>
+			<cls23>com.skype4life.MainActivity</cls23>
+			<cls24>com.microsoft.office.sfb.common.ui.splash.EntryPoint</cls24>
+			<cls25>tv.twitch.android.app.core.LandingActivity</cls25>
+			<cls26>com.amazon.avod.thirdpartyclient.LauncherActivity</cls26>
 			<cls3>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls3>
 			<cls4>jp.co.fsi.fs1seg.app.Main</cls4>
 			<cls5>org.cocos2dx.cpp.AppActivity</cls5>
@@ -30,12 +40,22 @@
 			<label1>DAZN</label1>
 			<label10>Amazon Alexa</label10>
 			<label11>twitcle plus</label11>
-			<label12>twicca</label12>
-			<label13>Twitter</label13>
-			<label14>AZ Screen Recorder</label14>
-			<label15>ツイキャス ビュワー</label15>
-			<label16>LINE</label16>
+			<label12>Twitter</label12>
+			<label13>AZ Screen Recorder</label13>
+			<label14>LINE</label14>
+			<label15>カスタムキャスト</label15>
+			<label16>LINE WORKS</label16>
+			<label17>ツイキャス ビュワー</label17>
+			<label18>Duo</label18>
+			<label19>Discord</label19>
 			<label2>Playムービー＆TV</label2>
+			<label20>Mirrativ</label20>
+			<label21>niconico</label21>
+			<label22>nicoid</label22>
+			<label23>Skype</label23>
+			<label24>Skype for Business</label24>
+			<label25>Twitch</label25>
+			<label26>プライム・ビデオ</label26>
 			<label3>YouTube</label3>
 			<label4>テレビ</label4>
 			<label5>FEヒーローズ</label5>
@@ -47,12 +67,22 @@
 			<pkg1>com.dazn</pkg1>
 			<pkg10>com.amazon.dee.app</pkg10>
 			<pkg11>jp.yoshika.twitcle.plus</pkg11>
-			<pkg12>jp.r246.twicca</pkg12>
-			<pkg13>com.twitter.android</pkg13>
-			<pkg14>com.hecorat.screenrecorder.free</pkg14>
-			<pkg15>com.sidefeed.TCViewer</pkg15>
-			<pkg16>jp.naver.line.android</pkg16>
+			<pkg12>com.twitter.android</pkg12>
+			<pkg13>com.hecorat.screenrecorder.free</pkg13>
+			<pkg14>jp.naver.line.android</pkg14>
+			<pkg15>jp.customcast.cc2</pkg15>
+			<pkg16>com.gworks.oneapp.works</pkg16>
+			<pkg17>com.sidefeed.TCViewer</pkg17>
+			<pkg18>com.google.android.apps.tachyon</pkg18>
+			<pkg19>com.discord</pkg19>
 			<pkg2>com.google.android.videos</pkg2>
+			<pkg20>com.dena.mirrativ</pkg20>
+			<pkg21>jp.nicovideo.android</pkg21>
+			<pkg22>com.sauzask.nicoid</pkg22>
+			<pkg23>com.skype.raider</pkg23>
+			<pkg24>com.microsoft.office.lync15</pkg24>
+			<pkg25>tv.twitch.android.app</pkg25>
+			<pkg26>com.amazon.avod.thirdpartyclient</pkg26>
 			<pkg3>com.google.android.youtube</pkg3>
 			<pkg4>jp.co.fsi.fs1seg</pkg4>
 			<pkg5>com.nintendo.zaba</pkg5>
@@ -78,6 +108,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_av_volume_up</nme>
@@ -85,7 +119,7 @@
 	</Task>
 	<Task sr="task7">
 		<cdate>1535275951041</cdate>
-		<edate>1553309240882</edate>
+		<edate>1588684848394</edate>
 		<id>7</id>
 		<nme>setSayStateOff</nme>
 		<Action sr="act0" ve="7">
@@ -98,6 +132,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>mw_av_volume_off</nme>

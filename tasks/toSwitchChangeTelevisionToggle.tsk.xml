@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task539">
 		<cdate>1535678750334</cdate>
-		<edate>1545903712117</edate>
+		<edate>1579155334682</edate>
 		<id>539</id>
 		<nme>toSwitchChangeTelevisionToggle</nme>
 		<pri>7</pri>
@@ -15,6 +15,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ret</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hl_hardware_dock</nme>

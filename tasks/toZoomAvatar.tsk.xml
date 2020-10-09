@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task339">
 		<cdate>1535540380169</cdate>
-		<edate>1566517928279</edate>
+		<edate>1586499428906</edate>
 		<id>339</id>
 		<nme>toZoomAvatar</nme>
 		<pri>100</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=Message</label>
@@ -39,7 +40,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>1000294689</code>
@@ -103,6 +104,10 @@
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -168,6 +173,10 @@
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3">%path</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
@@ -179,6 +188,10 @@
 			<Str sr="arg3" ve="3">%path</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -203,6 +216,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%par1</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUETOOTH_CONNECTED_DEVICE</lhs>

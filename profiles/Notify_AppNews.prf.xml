@@ -1,10 +1,11 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
-	<Profile sr="prof69" ve="2">
-		<cdate>1602054872459</cdate>
-		<edate>1602057471867</edate>
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<Profile sr="prof68" ve="2">
+		<cdate>1602063421032</cdate>
+		<clp>true</clp>
+		<edate>1602063432010</edate>
 		<flags>8</flags>
-		<id>69</id>
-		<mid0>70</mid0>
+		<id>68</id>
+		<mid0>67</mid0>
 		<nme>Notify AppNews</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
@@ -70,10 +71,10 @@ SmartNews,
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Task sr="task70">
+	<Task sr="task67">
 		<cdate>1602056555320</cdate>
 		<edate>1602057471867</edate>
-		<id>70</id>
+		<id>67</id>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>

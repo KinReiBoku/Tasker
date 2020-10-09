@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task304">
 		<cdate>1535735697172</cdate>
-		<edate>1586957715683</edate>
+		<edate>1602171478952</edate>
 		<id>304</id>
 		<nme>checkinLocationRoomバスルーム</nme>
 		<pri>7</pri>
@@ -23,6 +23,10 @@
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>43</code>
@@ -35,6 +39,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>

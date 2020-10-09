@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof124" ve="2">
 		<cdate>1545219536127</cdate>
 		<clp>true</clp>
-		<edate>1562879260542</edate>
+		<edate>1579170720179</edate>
 		<id>124</id>
+		<limit>true</limit>
 		<mid0>127</mid0>
 		<mid1>126</mid1>
 		<nme>AppGroup LlamaOff</nme>
@@ -13,6 +14,7 @@
 			<cls10>net.zaim.android.activity.MainActivity</cls10>
 			<cls11>com.twitter.android.StartActivity</cls11>
 			<cls12>jp.r246.twicca.timelines.Home</cls12>
+			<cls13>com.hecorat.screenrecorder.free.activities.MainActivity</cls13>
 			<cls2>jp.co.fsi.fs1seg.app.Main</cls2>
 			<cls3>jp.colopl.tennis.StartActivity</cls3>
 			<cls4>jp.colopl.wcat.StartActivity</cls4>
@@ -27,6 +29,7 @@
 			<label10>Zaim</label10>
 			<label11>Twitter</label11>
 			<label12>twicca</label12>
+			<label13>AZ Screen Recorder</label13>
 			<label2>テレビ</label2>
 			<label3>白テニ</label3>
 			<label4>白猫</label4>
@@ -40,6 +43,7 @@
 			<pkg10>net.zaim.android</pkg10>
 			<pkg11>com.twitter.android</pkg11>
 			<pkg12>jp.r246.twicca</pkg12>
+			<pkg13>com.hecorat.screenrecorder.free</pkg13>
 			<pkg2>jp.co.fsi.fs1seg</pkg2>
 			<pkg3>jp.colopl.tennis</pkg3>
 			<pkg4>jp.colopl.wcat</pkg4>
@@ -52,7 +56,7 @@
 	</Profile>
 	<Task sr="task126">
 		<cdate>1545219666575</cdate>
-		<edate>1545219680170</edate>
+		<edate>1577242958849</edate>
 		<id>126</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -65,11 +69,15 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task127">
 		<cdate>1545219692369</cdate>
-		<edate>1546524397803</edate>
+		<edate>1577242955108</edate>
 		<id>127</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -81,6 +89,10 @@
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

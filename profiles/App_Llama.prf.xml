@@ -1,10 +1,9 @@
-<TaskerData sr="" dvi="1" tv="5.8.5">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof686" ve="2">
 		<cdate>1562398946252</cdate>
 		<clp>true</clp>
-		<edate>1566343602202</edate>
+		<edate>1600911382159</edate>
 		<id>686</id>
-		<limit>true</limit>
 		<mid0>687</mid0>
 		<mid1>688</mid1>
 		<nme>App Llama</nme>
@@ -17,7 +16,7 @@
 	</Profile>
 	<Task sr="task687">
 		<cdate>1562398949155</cdate>
-		<edate>1562398980855</edate>
+		<edate>1600911378146</edate>
 		<id>687</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -31,7 +30,7 @@
 	</Task>
 	<Task sr="task688">
 		<cdate>1562398992519</cdate>
-		<edate>1562399004029</edate>
+		<edate>1600911381126</edate>
 		<id>688</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -39,6 +38,7 @@
 			<Str sr="arg0" ve="3">%APP_FOREGROUND</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

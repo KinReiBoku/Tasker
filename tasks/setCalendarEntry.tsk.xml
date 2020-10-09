@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3.beta.2">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task735">
 		<cdate>1579263927381</cdate>
-		<edate>1586780472488</edate>
+		<edate>1601282073228</edate>
 		<id>735</id>
 		<nme>setCalendarEntry</nme>
 		<pri>100</pri>
@@ -41,6 +41,10 @@
 			<Str sr="arg3" ve="3">%calendar_start(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3">%recent</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>37</code>
@@ -107,6 +111,10 @@
 			<Str sr="arg3" ve="3">%calendar_location(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -146,6 +154,10 @@
 			<Str sr="arg3" ve="3">%calendar_start(%calendar_cnt);%calendar_title(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3">%CALENDAR_RECENT</Str>
 			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>38</code>
