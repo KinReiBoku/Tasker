@@ -2,13 +2,13 @@
 	<Profile sr="prof648" ve="2">
 		<cdate>1548246656313</cdate>
 		<clp>true</clp>
-		<edate>1601823087402</edate>
+		<edate>1602137245431</edate>
 		<id>648</id>
 		<mid0>649</mid0>
-		<nme>Every 23:55</nme>
+		<nme>Every 23:59</nme>
 		<Time sr="con0">
 			<fh>23</fh>
-			<fm>55</fm>
+			<fm>59</fm>
 			<th>23</th>
 			<tm>59</tm>
 		</Time>

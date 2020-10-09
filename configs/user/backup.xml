@@ -1,5 +1,5 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
-	<dmetric>1080.0,2170.0</dmetric>
+<TaskerData sr="" dvi="1" tv="5.9.3">
+	<dmetric>1080.0,1813.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<edate>1548212519185</edate>
@@ -1568,7 +1568,7 @@
 	</Profile>
 	<Profile sr="prof413" ve="2">
 		<cdate>1542732903857</cdate>
-		<edate>1602165813576</edate>
+		<edate>1602202625925</edate>
 		<flags>2</flags>
 		<id>413</id>
 		<mid0>414</mid0>
@@ -1848,7 +1848,7 @@
 	</Profile>
 	<Profile sr="prof458" ve="2">
 		<cdate>1543895717219</cdate>
-		<edate>1602094374865</edate>
+		<edate>1602202665092</edate>
 		<flags>2</flags>
 		<id>458</id>
 		<mid0>459</mid0>
@@ -2776,7 +2776,7 @@
 	</Profile>
 	<Profile sr="prof639" ve="2">
 		<cdate>1548106672795</cdate>
-		<edate>1601281671369</edate>
+		<edate>1602202633615</edate>
 		<flags>2</flags>
 		<id>639</id>
 		<mid0>640</mid0>
@@ -3257,7 +3257,7 @@ SmartNews,
 	</Profile>
 	<Profile sr="prof729" ve="2">
 		<cdate>1546984998114</cdate>
-		<edate>1586483305291</edate>
+		<edate>1602202576968</edate>
 		<flags>2</flags>
 		<id>729</id>
 		<mid0>741</mid0>
@@ -3322,7 +3322,7 @@ com.companyname.CloudPokeMap</appPkg>
 	</Profile>
 	<Profile sr="prof739" ve="2">
 		<cdate>1546984998114</cdate>
-		<edate>1586533830721</edate>
+		<edate>1602202598934</edate>
 		<flags>2</flags>
 		<id>739</id>
 		<mid0>740</mid0>
@@ -27686,7 +27686,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task283">
 		<cdate>1521756278249</cdate>
-		<edate>1587741720252</edate>
+		<edate>1602202430265</edate>
 		<id>283</id>
 		<nme>sayおやすみ</nme>
 		<pri>100</pri>
@@ -43343,7 +43343,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task414">
 		<cdate>1542732907555</cdate>
-		<edate>1602165813576</edate>
+		<edate>1602202625925</edate>
 		<id>414</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -49183,7 +49183,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task459">
 		<cdate>1543895721212</cdate>
-		<edate>1602094374865</edate>
+		<edate>1602202665092</edate>
 		<id>459</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -49259,7 +49259,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -61606,7 +61606,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task640">
 		<cdate>1548106679707</cdate>
-		<edate>1601281671369</edate>
+		<edate>1602202633615</edate>
 		<id>640</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -68669,16 +68669,22 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task740">
 		<cdate>1546985003759</cdate>
-		<edate>1586533830721</edate>
+		<edate>1602202598934</edate>
 		<id>740</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubClient</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -68708,21 +68714,42 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setSilentModeOn</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task741">
 		<cdate>1546985003759</cdate>
-		<edate>1586483305291</edate>
+		<edate>1602202576968</edate>
 		<id>741</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubClient</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -68783,6 +68810,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>43</code>
