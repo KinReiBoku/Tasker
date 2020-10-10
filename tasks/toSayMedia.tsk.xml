@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1602265602728</edate>
+		<edate>1602301787549</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -222,6 +222,7 @@
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">\$</Str>
 			<Int sr="arg2" val="0"/>
@@ -480,6 +481,7 @@
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">\$</Str>
 			<Int sr="arg2" val="0"/>
