@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task142">
 		<cdate>1535407856353</cdate>
-		<edate>1602094762952</edate>
+		<edate>1602503812290</edate>
 		<id>142</id>
 		<nme>toWebhookSubClients</nme>
 		<pri>100</pri>
@@ -26,6 +26,9 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>596</code>
 			<Str sr="arg0" ve="3">%message</Str>
@@ -34,10 +37,30 @@
 			<Int sr="arg3"/>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%clients</Str>
+			<Str sr="arg1" ve="3">%MACRO_DROID_SubClients</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%clients</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%client</Str>
+			<Str sr="arg1" ve="3">%clients()</Str>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>116</code>
-			<label>サブクライアント1へ送信</label>
+			<label>サブクライアントへ送信</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_SubClient1/task?task=%message</Str>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%client/task?task=%message</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -48,16 +71,19 @@
 			<Int sr="arg8" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%MACRO_DROID_SubClient1</lhs>
+					<lhs>%client</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -71,9 +97,6 @@
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>
