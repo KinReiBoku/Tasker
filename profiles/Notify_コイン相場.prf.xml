@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof89" ve="2">
 		<cdate>1535525631542</cdate>
 		<clp>true</clp>
-		<edate>1548749116213</edate>
+		<edate>1602580652936</edate>
 		<id>89</id>
 		<mid0>88</mid0>
 		<nme>Notify コイン相場</nme>
@@ -24,10 +24,24 @@
 	</Profile>
 	<Task sr="task88">
 		<cdate>1528867924460</cdate>
-		<edate>1548749116213</edate>
+		<edate>1602580652936</edate>
 		<id>88</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Unknownコイン相場.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<op>2</op>
+					<rhs>%MACRO_DROID_SO04K</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -37,7 +51,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toVibrate</Str>
 			<Int sr="arg1">
@@ -52,7 +66,7 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>

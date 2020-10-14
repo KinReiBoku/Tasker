@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof429" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1601992062028</edate>
+		<edate>1602580265721</edate>
 		<id>429</id>
 		<mid0>430</mid0>
 		<nme>Notify Amazon Alexa</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task430">
 		<cdate>1547071823400</cdate>
-		<edate>1601992062028</edate>
+		<edate>1602580265721</edate>
 		<id>430</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -77,6 +77,23 @@
 			<code>38</code>
 		</Action>
 		<Action sr="act13" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">UnknownAmandaAlexa.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<op>2</op>
+					<rhs>%MACRO_DROID_SO04K</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">

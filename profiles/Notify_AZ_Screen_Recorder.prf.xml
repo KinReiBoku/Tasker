@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof673" ve="2">
 		<cdate>1553727023453</cdate>
 		<clp>true</clp>
-		<edate>1553727068613</edate>
+		<edate>1602580343392</edate>
 		<id>673</id>
 		<mid0>344</mid0>
 		<nme>Notify AZ Screen Recorder</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task344">
 		<cdate>1535275951041</cdate>
-		<edate>1553726984851</edate>
+		<edate>1602580341074</edate>
 		<id>344</id>
 		<nme>setFlashStateOff</nme>
 		<Action sr="act0" ve="7">

@@ -1,20 +1,21 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
-	<Profile sr="prof77" ve="2">
-		<cdate>1535894554386</cdate>
+	<Profile sr="prof480" ve="2">
+		<cdate>1535513220794</cdate>
 		<clp>true</clp>
-		<edate>1602580356607</edate>
-		<id>77</id>
-		<mid0>71</mid0>
-		<nme>Notify DAZN</nme>
+		<edate>1602580864870</edate>
+		<id>480</id>
+		<limit>true</limit>
+		<mid0>484</mid0>
+		<nme>Notify 楽天Edy オートチャージしました</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
-				<appClass>com.dazn.splash.view.SplashScreenActivity</appClass>
-				<appPkg>com.dazn</appPkg>
-				<label>DAZN</label>
+				<appClass>jp.edy.edyapp.top.activity.TopActivity</appClass>
+				<appPkg>jp.edy.edyapp</appPkg>
+				<label>楽天Edy</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg2" ve="3">オートチャージしました。</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -22,14 +23,14 @@
 			<Int sr="arg7" val="0"/>
 		</Event>
 	</Profile>
-	<Task sr="task71">
-		<cdate>1535878538502</cdate>
-		<edate>1602580356607</edate>
-		<id>71</id>
+	<Task sr="task484">
+		<cdate>1524801955846</cdate>
+		<edate>1602580806074</edate>
+		<id>484</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>410</code>
-			<Str sr="arg0" ve="3">UnknownDAZN.txt</Str>
+			<Str sr="arg0" ve="3">Unknown楽天Edy.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="1"/>
@@ -43,11 +44,11 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">sayCalendarNotify</Str>
+			<Str sr="arg0" ve="3">toSayMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
+			<Str sr="arg2" ve="3">オートチャージしました</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
