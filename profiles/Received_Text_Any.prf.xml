@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof270" ve="2">
 		<cdate>1535810993340</cdate>
 		<clp>true</clp>
-		<edate>1535814328619</edate>
+		<edate>1602770041737</edate>
 		<id>270</id>
 		<mid0>271</mid0>
 		<nme>Received Text Any</nme>
@@ -17,23 +17,30 @@
 	</Profile>
 	<Task sr="task271">
 		<cdate>1535810997181</cdate>
-		<edate>1601913638578</edate>
+		<edate>1602770041737</edate>
 		<id>271</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">toWebhookServer</Str>
+			<Str sr="arg0" ve="3">toWebhookSubClients</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">ALL;NOTIFY;Received SMS at %SMSRN %SMSRB</Str>
-			<Str sr="arg3" ve="3">force</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubClient</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>

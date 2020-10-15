@@ -2,7 +2,7 @@
 	<Profile sr="prof485" ve="2">
 		<cdate>1602637549469</cdate>
 		<clp>true</clp>
-		<edate>1602637603951</edate>
+		<edate>1602770718296</edate>
 		<flags>8</flags>
 		<id>485</id>
 		<mid0>486</mid0>
@@ -25,9 +25,38 @@
 	</Profile>
 	<Task sr="task486">
 		<cdate>1602637555809</cdate>
-		<edate>1602637570788</edate>
+		<edate>1602770718296</edate>
 		<id>486</id>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWallpaperWeather</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%evtprm2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">UnknownHDWidgets.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -40,6 +69,9 @@
 					<rhs>%MACRO_DROID_SO04K</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
 		</Action>
 	</Task>
 </TaskerData>

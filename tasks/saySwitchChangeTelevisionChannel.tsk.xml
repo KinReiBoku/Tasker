@@ -1,17 +1,41 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task103">
 		<cdate>1535616862013</cdate>
-		<edate>1586744950584</edate>
+		<edate>1602650248871</edate>
 		<id>103</id>
 		<nme>saySwitchChangeTelevisionChannel</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<label>%par1=ChannelNumber %par2=ChannelName</label>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%FLASH_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%GETVOICE_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%SAY_STATE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
