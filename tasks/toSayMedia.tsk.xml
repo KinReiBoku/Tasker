@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1602301787549</edate>
+		<edate>1603297787285</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -990,11 +990,12 @@
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>And</bool1>
+				<bool1>And2</bool1>
+				<bool2>Or2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*REKT.*</rhs>
+					<rhs>.*Sell.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%par1</lhs>
@@ -1004,7 +1005,12 @@
 				<Condition sr="c2" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*Sell.*</rhs>
+					<rhs>.*REKT.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*BTC板アラート.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -1155,11 +1161,12 @@
 			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>And</bool1>
+				<bool1>And2</bool1>
+				<bool2>Or2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*REKT.*</rhs>
+					<rhs>.*Buy.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%par1</lhs>
@@ -1169,7 +1176,12 @@
 				<Condition sr="c2" ve="3">
 					<lhs>%par1</lhs>
 					<op>4</op>
-					<rhs>.*Buy.*</rhs>
+					<rhs>.*REKT.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%par1</lhs>
+					<op>4</op>
+					<rhs>.*BTC板アラート.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof256" ve="2">
 		<cdate>1587779757300</cdate>
 		<clp>true</clp>
-		<edate>1602231461510</edate>
+		<edate>1603372731292</edate>
 		<id>256</id>
 		<mid0>226</mid0>
 		<mid1>255</mid1>
@@ -150,7 +150,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task255">
 		<cdate>1521384780904</cdate>
-		<edate>1602231461510</edate>
+		<edate>1603372731292</edate>
 		<id>255</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -253,6 +253,19 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>113</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>SubClient</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>2056966535</code>

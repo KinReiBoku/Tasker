@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
-		<clp>true</clp>
-		<edate>1602095143148</edate>
+		<edate>1603114614994</edate>
 		<id>477</id>
 		<mid0>478</mid0>
 		<nme>Notify Twitter</nme>
@@ -24,7 +23,7 @@
 	</Profile>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1602095143148</edate>
+		<edate>1603114614994</edate>
 		<id>478</id>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -33,6 +32,8 @@
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%evtprm2</lhs>
 					<op>12</op>
@@ -47,6 +48,16 @@
 					<lhs>%evtprm3</lhs>
 					<op>5</op>
 					<rhs>RT.*</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>3</op>
+					<rhs>ツイートを送信中</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>3</op>
+					<rhs>ツイートを送信しました</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

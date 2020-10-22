@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
 	<Task sr="task111">
 		<cdate>1527232390511</cdate>
-		<edate>1602592847736</edate>
+		<edate>1603373024415</edate>
 		<id>111</id>
 		<nme>setLife</nme>
 		<pri>100</pri>
@@ -48,9 +48,9 @@
 					<rhs>.*食.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
-					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>Client</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
