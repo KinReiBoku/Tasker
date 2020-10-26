@@ -2,7 +2,7 @@
 	<Profile sr="prof256" ve="2">
 		<cdate>1587779757300</cdate>
 		<clp>true</clp>
-		<edate>1603372731292</edate>
+		<edate>1603716971608</edate>
 		<id>256</id>
 		<mid0>226</mid0>
 		<mid1>255</mid1>
@@ -18,7 +18,7 @@
 	</Profile>
 	<Task sr="task226">
 		<cdate>1521384755669</cdate>
-		<edate>1602231441547</edate>
+		<edate>1603716971608</edate>
 		<id>226</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -124,6 +124,22 @@
 			<Int sr="arg0" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>サブクライアントのWi-Fiをオンにする</label>
+			<Str sr="arg0" ve="3">toWebhookSubClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;Notify;Wi-Fi;on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>2056966535</code>
 			<label>サーバを起動する</label>
 			<Bundle sr="arg0">
@@ -150,7 +166,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task255">
 		<cdate>1521384780904</cdate>
-		<edate>1603372731292</edate>
+		<edate>1603716875127</edate>
 		<id>255</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -254,13 +270,19 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>2</op>
+					<rhs>ready</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Client</rhs>
 				</Condition>
-				<Condition sr="c1" ve="3">
+				<Condition sr="c2" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>SubClient</rhs>
@@ -268,6 +290,21 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toWebhookSubClients</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">ALL;INSTAGRAM;💩</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>2056966535</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
