@@ -259,7 +259,7 @@
 	</Profile>
 	<Profile sr="prof230" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1536148868894</edate>
+		<edate>1603812779829</edate>
 		<flags>2</flags>
 		<id>230</id>
 		<mid0>231</mid0>
@@ -360,7 +360,7 @@
 	</Profile>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1602560819844</edate>
+		<edate>1603812796912</edate>
 		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
@@ -552,7 +552,7 @@
 	</Profile>
 	<Profile sr="prof330" ve="2">
 		<cdate>1535709448560</cdate>
-		<edate>1543105561773</edate>
+		<edate>1603812790275</edate>
 		<flags>2</flags>
 		<id>330</id>
 		<mid0>331</mid0>
@@ -18117,7 +18117,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task232">
 		<cdate>1535709668194</cdate>
-		<edate>1536017889017</edate>
+		<edate>1603812779829</edate>
 		<id>232</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -18146,10 +18146,16 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
 					<op>5</op>
 					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -23045,7 +23051,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task259">
 		<cdate>1535407856353</cdate>
-		<edate>1603297892865</edate>
+		<edate>1603718116869</edate>
 		<id>259</id>
 		<nme>toIntentMyDevice</nme>
 		<pri>100</pri>
@@ -26928,7 +26934,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1602150397351</edate>
+		<edate>1603812796912</edate>
 		<id>288</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -26955,6 +26961,7 @@ Alexaに天気と予定を聞く</label>
 				<bool0>And</bool0>
 				<bool1>Or</bool1>
 				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
 					<op>4</op>
@@ -26974,6 +26981,11 @@ Alexaに天気と予定を聞く</label>
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
 					<rhs>バスルーム</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>13</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -31706,7 +31718,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task332">
 		<cdate>1535709668194</cdate>
-		<edate>1536148918999</edate>
+		<edate>1603812790275</edate>
 		<id>332</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -31735,10 +31747,16 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
 					<op>5</op>
 					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -41845,7 +41863,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task408">
 		<cdate>1535407856353</cdate>
-		<edate>1603416063421</edate>
+		<edate>1603718092476</edate>
 		<id>408</id>
 		<nme>toTwitterTweet</nme>
 		<pri>100</pri>

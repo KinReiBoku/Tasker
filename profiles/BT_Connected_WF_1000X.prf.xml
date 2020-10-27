@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.9.3">
 	<Profile sr="prof230" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1536148868894</edate>
+		<edate>1603812779829</edate>
 		<id>230</id>
 		<mid0>231</mid0>
 		<mid1>232</mid1>
@@ -29,7 +29,7 @@
 	</Task>
 	<Task sr="task232">
 		<cdate>1535709668194</cdate>
-		<edate>1536017889017</edate>
+		<edate>1603812779829</edate>
 		<id>232</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
@@ -58,10 +58,16 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
 					<op>5</op>
 					<rhs>.*%WIFI_HOME_SSID.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SLEEP_TIMES_START</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
