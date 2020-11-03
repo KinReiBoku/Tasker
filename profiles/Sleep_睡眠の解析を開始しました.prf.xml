@@ -2,7 +2,7 @@
 	<Profile sr="prof413" ve="2">
 		<cdate>1542732903857</cdate>
 		<clp>true</clp>
-		<edate>1602232278556</edate>
+		<edate>1603415348980</edate>
 		<id>413</id>
 		<mid0>414</mid0>
 		<nme>Sleep 睡眠の解析を開始しました</nme>
@@ -27,7 +27,7 @@
 	</Profile>
 	<Task sr="task414">
 		<cdate>1542732907555</cdate>
-		<edate>1602232278556</edate>
+		<edate>1603415348980</edate>
 		<id>414</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

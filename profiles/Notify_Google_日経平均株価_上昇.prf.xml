@@ -2,8 +2,9 @@
 	<Profile sr="prof457" ve="2">
 		<cdate>1544784721531</cdate>
 		<clp>true</clp>
-		<edate>1544790105267</edate>
+		<edate>1602579844815</edate>
 		<id>457</id>
+		<limit>true</limit>
 		<mid0>464</mid0>
 		<nme>Notify Google 日経平均株価 上昇</nme>
 		<Event sr="con0" ve="2">

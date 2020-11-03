@@ -1,20 +1,17 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof736" ve="2">
 		<cdate>1535513224668</cdate>
 		<clp>true</clp>
-		<edate>1602580613874</edate>
+		<edate>1602770183550</edate>
 		<id>736</id>
 		<mid0>737</mid0>
 		<nme>Notify みんポケ</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
-				<appClass>de.mdiener.rain.usa.MainMaps2,
-crc648a2114aad542006a.MainActivity</appClass>
-				<appPkg>de.mdiener.rain.usa,
-com.companyname.CloudPokeMap</appPkg>
-				<label>雨アラーム,
-みんポケ</label>
+				<appClass>crc648a2114aad542006a.MainActivity</appClass>
+				<appPkg>com.companyname.CloudPokeMap</appPkg>
+				<label>みんポケ</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
@@ -27,7 +24,7 @@ com.companyname.CloudPokeMap</appPkg>
 	</Profile>
 	<Task sr="task737">
 		<cdate>1521382753474</cdate>
-		<edate>1602580613874</edate>
+		<edate>1604427884056</edate>
 		<id>737</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -40,7 +37,7 @@ com.companyname.CloudPokeMap</appPkg>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

@@ -2,8 +2,9 @@
 	<Profile sr="prof569" ve="2">
 		<cdate>1544140760492</cdate>
 		<clp>true</clp>
-		<edate>1547108100197</edate>
+		<edate>1602579713754</edate>
 		<id>569</id>
+		<limit>true</limit>
 		<mid0>570</mid0>
 		<nme>Notify Fit 目標に到達！</nme>
 		<Event sr="con0" ve="2">

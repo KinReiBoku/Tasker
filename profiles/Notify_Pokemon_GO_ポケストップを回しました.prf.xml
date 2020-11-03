@@ -2,8 +2,9 @@
 	<Profile sr="prof675" ve="2">
 		<cdate>1559460481519</cdate>
 		<clp>true</clp>
-		<edate>1559902977364</edate>
+		<edate>1602580025237</edate>
 		<id>675</id>
+		<limit>true</limit>
 		<mid0>676</mid0>
 		<nme>Notify Pokemon GO ポケストップを回しました</nme>
 		<Event sr="con0" ve="2">

@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1602265520988</edate>
+		<edate>1603716148907</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -199,6 +199,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">$</Str>
 			<Int sr="arg2" val="0"/>
@@ -208,6 +209,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
 			<Str sr="arg1" ve="3">\$</Str>
 			<Int sr="arg2" val="0"/>
@@ -219,7 +221,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%message</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%SIMSTATE</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">

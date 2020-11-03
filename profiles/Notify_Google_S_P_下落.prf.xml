@@ -2,8 +2,9 @@
 	<Profile sr="prof523" ve="2">
 		<cdate>1544784721531</cdate>
 		<clp>true</clp>
-		<edate>1545083172363</edate>
+		<edate>1602579843096</edate>
 		<id>523</id>
+		<limit>true</limit>
 		<mid0>524</mid0>
 		<nme>Notify Google S&amp;P 下落</nme>
 		<Event sr="con0" ve="2">

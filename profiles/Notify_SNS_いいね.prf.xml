@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof81" ve="2">
 		<cdate>1535519713219</cdate>
 		<clp>true</clp>
@@ -27,7 +27,7 @@ Instagram</label>
 	</Profile>
 	<Task sr="task80">
 		<cdate>1521729228705</cdate>
-		<edate>1602580582619</edate>
+		<edate>1604427805345</edate>
 		<id>80</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -40,7 +40,7 @@ Instagram</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

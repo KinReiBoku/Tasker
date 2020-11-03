@@ -2,7 +2,7 @@
 	<Profile sr="prof29" ve="2">
 		<cdate>1535613235549</cdate>
 		<clp>true</clp>
-		<edate>1547106522679</edate>
+		<edate>1602579926460</edate>
 		<id>29</id>
 		<mid0>38</mid0>
 		<nme>Notify GPSの状態</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task38">
 		<cdate>1523571260989</cdate>
-		<edate>1548108783859</edate>
+		<edate>1602579918301</edate>
 		<id>38</id>
 		<nme>checkLocationAddressGoogleMap</nme>
 		<pri>100</pri>

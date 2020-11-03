@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Profile sr="prof485" ve="2">
 		<cdate>1602637549469</cdate>
 		<clp>true</clp>
@@ -25,7 +25,7 @@
 	</Profile>
 	<Task sr="task486">
 		<cdate>1602637555809</cdate>
-		<edate>1602770718296</edate>
+		<edate>1604427889656</edate>
 		<id>486</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -66,7 +66,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

@@ -2,7 +2,7 @@
 	<Profile sr="prof355" ve="2">
 		<cdate>1536310814547</cdate>
 		<clp>true</clp>
-		<edate>1602232264429</edate>
+		<edate>1602519777395</edate>
 		<id>355</id>
 		<mid0>354</mid0>
 		<nme>Sleep 開始（アラーム）</nme>
@@ -27,7 +27,7 @@
 	</Profile>
 	<Task sr="task354">
 		<cdate>1521850504426</cdate>
-		<edate>1602232264429</edate>
+		<edate>1602519777395</edate>
 		<id>354</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

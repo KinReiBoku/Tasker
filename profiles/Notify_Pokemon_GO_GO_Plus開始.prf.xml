@@ -2,8 +2,9 @@
 	<Profile sr="prof680" ve="2">
 		<cdate>1559460481519</cdate>
 		<clp>true</clp>
-		<edate>1559519174937</edate>
+		<edate>1602580024766</edate>
 		<id>680</id>
+		<limit>true</limit>
 		<mid0>681</mid0>
 		<nme>Notify Pokemon GO GO Plus開始</nme>
 		<Event sr="con0" ve="2">

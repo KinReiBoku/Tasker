@@ -2,8 +2,9 @@
 	<Profile sr="prof452" ve="2">
 		<cdate>1541454766393</cdate>
 		<clp>true</clp>
-		<edate>1548844774250</edate>
+		<edate>1602580705377</edate>
 		<id>452</id>
+		<limit>true</limit>
 		<mid0>453</mid0>
 		<nme>Notify マップ 渋滞気味</nme>
 		<Event sr="con0" ve="2">

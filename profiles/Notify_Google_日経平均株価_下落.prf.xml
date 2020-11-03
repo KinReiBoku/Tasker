@@ -2,8 +2,9 @@
 	<Profile sr="prof513" ve="2">
 		<cdate>1544784721531</cdate>
 		<clp>true</clp>
-		<edate>1549026470411</edate>
+		<edate>1602638193045</edate>
 		<id>513</id>
+		<limit>true</limit>
 		<mid0>514</mid0>
 		<nme>Notify Google 日経平均株価 下落</nme>
 		<Event sr="con0" ve="2">
@@ -24,7 +25,7 @@
 	</Profile>
 	<Task sr="task514">
 		<cdate>1544784726550</cdate>
-		<edate>1545083183405</edate>
+		<edate>1602638193045</edate>
 		<id>514</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>

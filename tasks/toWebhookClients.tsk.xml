@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1602503987980</edate>
+		<edate>1604428011404</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -97,9 +97,30 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>43</code>
+			<code>116</code>
+			<label>XQAT42へ送信</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_XQAT42/task?task=%message</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="15"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE%MACRO_DROID_NOTE9S</lhs>
+					<op>3</op>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -114,7 +135,7 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>

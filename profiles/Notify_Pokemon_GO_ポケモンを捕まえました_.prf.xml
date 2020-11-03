@@ -2,8 +2,9 @@
 	<Profile sr="prof441" ve="2">
 		<cdate>1559460481519</cdate>
 		<clp>true</clp>
-		<edate>1559515560475</edate>
+		<edate>1602580026166</edate>
 		<id>441</id>
+		<limit>true</limit>
 		<mid0>442</mid0>
 		<nme>Notify Pokemon GO ポケモンを捕まえました！</nme>
 		<Event sr="con0" ve="2">

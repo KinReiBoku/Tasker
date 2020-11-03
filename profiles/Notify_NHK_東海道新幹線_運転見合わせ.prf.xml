@@ -2,8 +2,9 @@
 	<Profile sr="prof657" ve="2">
 		<cdate>1541454766393</cdate>
 		<clp>true</clp>
-		<edate>1548798724318</edate>
+		<edate>1602579966227</edate>
 		<id>657</id>
+		<limit>true</limit>
 		<mid0>658</mid0>
 		<nme>Notify NHK 東海道新幹線 運転見合わせ</nme>
 		<Event sr="con0" ve="2">

@@ -2,7 +2,7 @@
 	<Profile sr="prof68" ve="2">
 		<cdate>1602063421032</cdate>
 		<clp>true</clp>
-		<edate>1602063432010</edate>
+		<edate>1602579484515</edate>
 		<flags>8</flags>
 		<id>68</id>
 		<mid0>67</mid0>
@@ -73,7 +73,7 @@ SmartNews,
 	</Profile>
 	<Task sr="task67">
 		<cdate>1602056555320</cdate>
-		<edate>1602057471867</edate>
+		<edate>1602579484515</edate>
 		<id>67</id>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">

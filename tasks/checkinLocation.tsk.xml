@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task35">
 		<cdate>1525140500216</cdate>
-		<edate>1601989968679</edate>
+		<edate>1603115615574</edate>
 		<id>35</id>
 		<nme>checkinLocation</nme>
 		<pri>100</pri>
@@ -701,6 +701,7 @@
 			<Int sr="arg9" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
@@ -710,6 +711,11 @@
 					<lhs>%webhook</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%webhook</lhs>
+					<op>5</op>
+					<rhs>\%.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

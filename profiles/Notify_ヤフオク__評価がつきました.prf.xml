@@ -2,8 +2,9 @@
 	<Profile sr="prof54" ve="2">
 		<cdate>1535513040360</cdate>
 		<clp>true</clp>
-		<edate>1549595931200</edate>
+		<edate>1602638309290</edate>
 		<id>54</id>
+		<limit>true</limit>
 		<mid0>53</mid0>
 		<nme>Notify ヤフオク！ 評価がつきました</nme>
 		<Event sr="con0" ve="2">
@@ -24,7 +25,7 @@
 	</Profile>
 	<Task sr="task53">
 		<cdate>1525247343410</cdate>
-		<edate>1549595931200</edate>
+		<edate>1602638309290</edate>
 		<id>53</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

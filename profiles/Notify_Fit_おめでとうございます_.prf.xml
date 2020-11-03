@@ -2,8 +2,9 @@
 	<Profile sr="prof481" ve="2">
 		<cdate>1544140760492</cdate>
 		<clp>true</clp>
-		<edate>1545207250398</edate>
+		<edate>1602579727778</edate>
 		<id>481</id>
+		<limit>true</limit>
 		<mid0>506</mid0>
 		<nme>Notify Fit おめでとうございます！</nme>
 		<Event sr="con0" ve="2">
@@ -24,7 +25,7 @@
 	</Profile>
 	<Task sr="task506">
 		<cdate>1544140763596</cdate>
-		<edate>1545207250398</edate>
+		<edate>1602579612164</edate>
 		<id>506</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">

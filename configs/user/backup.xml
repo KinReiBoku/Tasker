@@ -1,5 +1,5 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
-	<dmetric>1080.0,1813.0</dmetric>
+<TaskerData sr="" dvi="1" tv="5.10.1">
+	<dmetric>1096.0,2524.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
 		<edate>1548212519185</edate>
@@ -755,7 +755,7 @@
 	</Profile>
 	<Profile sr="prof368" ve="2">
 		<cdate>1536414179693</cdate>
-		<edate>1559100437143</edate>
+		<edate>1604427834778</edate>
 		<flags>2</flags>
 		<id>368</id>
 		<mid0>369</mid0>
@@ -1369,7 +1369,7 @@
 	</Profile>
 	<Profile sr="prof47" ve="2">
 		<cdate>1535871923883</cdate>
-		<edate>1586922903421</edate>
+		<edate>1604427846240</edate>
 		<flags>2</flags>
 		<id>47</id>
 		<mid0>46</mid0>
@@ -2730,7 +2730,6 @@ Instagram</label>
 	<Profile sr="prof85" ve="2">
 		<cdate>1535519713219</cdate>
 		<edate>1602580465949</edate>
-		<flags>2</flags>
 		<id>85</id>
 		<mid0>143</mid0>
 		<nme>Notify GooglePay</nme>
@@ -2866,13 +2865,13 @@ Instagram</label>
 		<cdate>1586872434220</cdate>
 		<edate>1586872434220</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>562</heightPort>
+		<heightPort>570</heightPort>
 		<nme>Popup</nme>
 		<widthLand>-1</widthLand>
-		<widthPort>675</widthPort>
+		<widthPort>685</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>13,0,661,162,6,0,294,72</geom>
+			<geom>13,0,670,164,6,0,294,72</geom>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">Title</Str>
 			<Int sr="arg2" val="28"/>
@@ -2885,7 +2884,7 @@ Instagram</label>
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,162,675,6,-1,-1,-1,-1</geom>
+			<geom>0,164,685,6,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Header</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -2898,7 +2897,7 @@ Instagram</label>
 		<TextElement sr="elements2" ve="3">
 			<clickTask>-936</clickTask>
 			<flags>5</flags>
-			<geom>15,177,643,328,-1,-1,-1,-1</geom>
+			<geom>15,179,652,332,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
 			<Str sr="arg1" ve="3">Text</Str>
 			<Int sr="arg2" val="22"/>
@@ -2924,13 +2923,13 @@ Instagram</label>
 		<cdate>1535975644004</cdate>
 		<edate>1602150429138</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>675</heightPort>
+		<heightPort>685</heightPort>
 		<nme>Popup Task Buttons</nme>
 		<widthLand>-1</widthLand>
-		<widthPort>843</widthPort>
+		<widthPort>855</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>5</flags>
-			<geom>15,15,812,481,15,15,812,481</geom>
+			<geom>15,15,824,488,15,15,812,481</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
 			<Str sr="arg1" ve="3">Text</Str>
 			<Int sr="arg2" val="22"/>
@@ -2944,7 +2943,7 @@ Instagram</label>
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>-936</clickTask>
 			<flags>5</flags>
-			<geom>15,497,258,162,15,497,258,162</geom>
+			<geom>15,504,261,164,15,497,258,162</geom>
 			<Str sr="arg0" ve="3">Button1</Str>
 			<Str sr="arg1" ve="3">はい</Str>
 			<Int sr="arg2" val="22"/>
@@ -2957,7 +2956,7 @@ Instagram</label>
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>-936</clickTask>
 			<flags>5</flags>
-			<geom>290,497,258,162,290,497,258,162</geom>
+			<geom>294,504,261,164,290,497,258,162</geom>
 			<Str sr="arg0" ve="3">Button2</Str>
 			<Str sr="arg1" ve="3">いいえ</Str>
 			<Int sr="arg2" val="22"/>
@@ -2970,7 +2969,7 @@ Instagram</label>
 		<ButtonElement sr="elements3" ve="3">
 			<clickTask>-936</clickTask>
 			<flags>5</flags>
-			<geom>558,499,258,162,564,497,258,162</geom>
+			<geom>566,506,261,164,564,497,258,162</geom>
 			<Str sr="arg0" ve="3">Button3</Str>
 			<Str sr="arg1" ve="3">キャンセル</Str>
 			<Int sr="arg2" val="22"/>
@@ -2982,7 +2981,7 @@ Instagram</label>
 		</ButtonElement>
 		<RectElement sr="elements4">
 			<flags>4</flags>
-			<geom>0,481,843,6,0,481,843,6</geom>
+			<geom>0,488,855,6,0,481,843,6</geom>
 			<Str sr="arg0" ve="3">Footer</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3007,10 +3006,10 @@ Instagram</label>
 		<cdate>1523316283404</cdate>
 		<edate>1536133070797</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>1776</heightPort>
+		<heightPort>1802</heightPort>
 		<nme>Screen Lock</nme>
 		<widthLand>-1</widthLand>
-		<widthPort>1080</widthPort>
+		<widthPort>1096</widthPort>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
@@ -3026,13 +3025,13 @@ Instagram</label>
 		<cdate>1536130818221</cdate>
 		<edate>1536130818221</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>641</heightPort>
+		<heightPort>650</heightPort>
 		<nme>Variable Query</nme>
 		<widthLand>-1</widthLand>
-		<widthPort>742</widthPort>
+		<widthPort>752</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>13,0,729,162,6,0,324,72</geom>
+			<geom>13,0,739,164,6,0,324,72</geom>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">Title</Str>
 			<Int sr="arg2" val="28"/>
@@ -3045,7 +3044,7 @@ Instagram</label>
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,162,742,6,-1,-1,-1,-1</geom>
+			<geom>0,164,752,6,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Header</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3057,7 +3056,7 @@ Instagram</label>
 		</RectElement>
 		<EditTextElement sr="elements2" ve="3">
 			<flags>13</flags>
-			<geom>31,261,679,162,-1,-1,-1,-1</geom>
+			<geom>31,264,689,164,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">TextEdit1</Str>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="22"/>
@@ -3070,7 +3069,7 @@ Instagram</label>
 		</EditTextElement>
 		<RectElement sr="elements3">
 			<flags>4</flags>
-			<geom>0,506,742,6,-1,-1,-1,-1</geom>
+			<geom>0,513,752,6,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Footer</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3083,7 +3082,7 @@ Instagram</label>
 		<ImageElement sr="elements4" ve="2">
 			<clickTask>-936</clickTask>
 			<flags>4</flags>
-			<geom>117,506,135,135,-1,-1,-1,-1</geom>
+			<geom>118,513,137,137,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Accept</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hd_navigation_accept</nme>
@@ -3093,7 +3092,7 @@ Instagram</label>
 		<ImageElement sr="elements5" ve="2">
 			<clickTask>-936</clickTask>
 			<flags>4</flags>
-			<geom>490,506,135,135,-1,-1,-1,-1</geom>
+			<geom>497,513,137,137,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Cancel</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hd_content_remove</nme>
@@ -11154,7 +11153,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task143">
 		<cdate>1521729228705</cdate>
-		<edate>1602580465949</edate>
+		<edate>1604427826881</edate>
 		<id>143</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11167,7 +11166,7 @@ Copyright .*All rights reserved\.</Str>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -13238,7 +13237,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task16">
 		<cdate>1535342314560</cdate>
-		<edate>1602770636612</edate>
+		<edate>1604428118724</edate>
 		<id>16</id>
 		<nme>toWallpaperWeather</nme>
 		<pri>100</pri>
@@ -23431,7 +23430,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task261">
 		<cdate>1535407856353</cdate>
-		<edate>1602324304860</edate>
+		<edate>1604427426450</edate>
 		<id>261</id>
 		<nme>toWebhookMyDevice</nme>
 		<pri>100</pri>
@@ -29430,7 +29429,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task31">
 		<cdate>1521384026665</cdate>
-		<edate>1602767384379</edate>
+		<edate>1604427715410</edate>
 		<id>31</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -29550,7 +29549,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -31434,7 +31433,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task326">
 		<cdate>1521383525570</cdate>
-		<edate>1603840103966</edate>
+		<edate>1604427723071</edate>
 		<id>326</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -31487,7 +31486,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -31617,7 +31616,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task328">
 		<cdate>1521835878739</cdate>
-		<edate>1602580378040</edate>
+		<edate>1604427705511</edate>
 		<id>328</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -31630,7 +31629,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -32583,7 +32582,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task34">
 		<cdate>1521383443273</cdate>
-		<edate>1602770133665</edate>
+		<edate>1604427668198</edate>
 		<id>34</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -32596,7 +32595,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -41917,7 +41916,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task408">
 		<cdate>1535407856353</cdate>
-		<edate>1603718092476</edate>
+		<edate>1604427956990</edate>
 		<id>408</id>
 		<nme>toTwitterTweet</nme>
 		<pri>100</pri>
@@ -41965,7 +41964,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -42014,7 +42013,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>116</code>
 			<label>SO-04Kへ送信</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_SO04K/tweet?tweet=%message</Str>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_XQAT42/tweet?tweet=%message</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -44410,7 +44409,7 @@ https://t.co/f2IMvhIIzb
 	</Task>
 	<Task sr="task430">
 		<cdate>1547071823400</cdate>
-		<edate>1602808161222</edate>
+		<edate>1604427849518</edate>
 		<id>430</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -44781,7 +44780,7 @@ https://t.co/f2IMvhIIzb
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -51968,7 +51967,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task466">
 		<cdate>1521381764005</cdate>
-		<edate>1602580695185</edate>
+		<edate>1604427843632</edate>
 		<id>466</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -51981,7 +51980,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -54340,7 +54339,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task476">
 		<cdate>1521383525570</cdate>
-		<edate>1603839731449</edate>
+		<edate>1604427863864</edate>
 		<id>476</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -54449,7 +54448,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -54803,7 +54802,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task479">
 		<cdate>1525247343410</cdate>
-		<edate>1602580751777</edate>
+		<edate>1604427869852</edate>
 		<id>479</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -54816,7 +54815,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -55030,7 +55029,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task484">
 		<cdate>1524801955846</cdate>
-		<edate>1602580806074</edate>
+		<edate>1604427876935</edate>
 		<id>484</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -55043,7 +55042,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -55065,7 +55064,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task486">
 		<cdate>1602637555809</cdate>
-		<edate>1602770718296</edate>
+		<edate>1604427889656</edate>
 		<id>486</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -55106,7 +55105,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -59427,7 +59426,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task61">
 		<cdate>1524801955846</cdate>
-		<edate>1602580861619</edate>
+		<edate>1604427676899</edate>
 		<id>61</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -59440,7 +59439,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -60445,7 +60444,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task63">
 		<cdate>1521382753474</cdate>
-		<edate>1602770159170</edate>
+		<edate>1604427747534</edate>
 		<id>63</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -60458,7 +60457,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -64650,7 +64649,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task71">
 		<cdate>1535878538502</cdate>
-		<edate>1602580356607</edate>
+		<edate>1604427733482</edate>
 		<id>71</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -64663,7 +64662,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -65922,7 +65921,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task72">
 		<cdate>1544140763596</cdate>
-		<edate>1602580409974</edate>
+		<edate>1604427684982</edate>
 		<id>72</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -65935,7 +65934,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -67754,7 +67753,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task737">
 		<cdate>1521382753474</cdate>
-		<edate>1602770164786</edate>
+		<edate>1604427884056</edate>
 		<id>737</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -67767,7 +67766,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -67818,7 +67817,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task74">
 		<cdate>1521383443273</cdate>
-		<edate>1602769807780</edate>
+		<edate>1604427797443</edate>
 		<id>74</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -67923,7 +67922,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%evtprm2</lhs>
@@ -67985,7 +67984,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -68473,7 +68472,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task744">
 		<cdate>1535407856353</cdate>
-		<edate>1602503987980</edate>
+		<edate>1604428011404</edate>
 		<id>744</id>
 		<nme>toWebhookClients</nme>
 		<pri>100</pri>
@@ -68569,9 +68568,30 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>43</code>
+			<code>116</code>
+			<label>XQAT42へ送信</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_XQAT42/task?task=%message</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="15"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE%MACRO_DROID_NOTE9S</lhs>
+					<op>3</op>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">sayError</Str>
 			<Int sr="arg1">
@@ -68586,7 +68606,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -69288,7 +69308,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task79">
 		<cdate>1499739078485</cdate>
-		<edate>1579400025127</edate>
+		<edate>1604428181549</edate>
 		<id>79</id>
 		<nme>toVibrate</nme>
 		<pri>100</pri>
@@ -69411,7 +69431,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1603717915039</edate>
+		<edate>1604427899672</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -71365,7 +71385,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -72042,7 +72062,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task80">
 		<cdate>1521729228705</cdate>
-		<edate>1602580582619</edate>
+		<edate>1604427805345</edate>
 		<id>80</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -72055,7 +72075,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -72135,7 +72155,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task82">
 		<cdate>1521729228705</cdate>
-		<edate>1602580597786</edate>
+		<edate>1604427811536</edate>
 		<id>82</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -72148,7 +72168,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -72228,7 +72248,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task84">
 		<cdate>1521381764005</cdate>
-		<edate>1602647181414</edate>
+		<edate>1604427756160</edate>
 		<id>84</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -72530,7 +72550,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -72673,7 +72693,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task88">
 		<cdate>1528867924460</cdate>
-		<edate>1602580652936</edate>
+		<edate>1604427832548</edate>
 		<id>88</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -72686,7 +72706,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -72807,7 +72827,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task90">
 		<cdate>1521383463952</cdate>
-		<edate>1602580718543</edate>
+		<edate>1604427838029</edate>
 		<id>90</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -72820,7 +72840,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task408">
 		<cdate>1535407856353</cdate>
-		<edate>1603416063421</edate>
+		<edate>1604427956990</edate>
 		<id>408</id>
 		<nme>toTwitterTweet</nme>
 		<pri>100</pri>
@@ -49,7 +49,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%MACRO_DROID_MYDEVICE</lhs>
 					<op>2</op>
-					<rhs>%MACRO_DROID_SO04K</rhs>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -98,7 +98,7 @@
 			<code>116</code>
 			<label>SO-04Kへ送信</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_SO04K/tweet?tweet=%message</Str>
+			<Str sr="arg0" ve="3">https://trigger.macrodroid.com/%MACRO_DROID_XQAT42/tweet?tweet=%message</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>

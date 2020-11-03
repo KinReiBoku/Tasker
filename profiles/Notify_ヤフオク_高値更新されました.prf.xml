@@ -2,8 +2,9 @@
 	<Profile sr="prof60" ve="2">
 		<cdate>1535513080489</cdate>
 		<clp>true</clp>
-		<edate>1543833316352</edate>
+		<edate>1602580754685</edate>
 		<id>60</id>
+		<limit>true</limit>
 		<mid0>59</mid0>
 		<nme>Notify ヤフオク！高値更新されました</nme>
 		<Event sr="con0" ve="2">

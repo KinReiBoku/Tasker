@@ -2,8 +2,9 @@
 	<Profile sr="prof409" ve="2">
 		<cdate>1535519713219</cdate>
 		<clp>true</clp>
-		<edate>1541462126381</edate>
+		<edate>1602579910729</edate>
 		<id>409</id>
+		<limit>true</limit>
 		<mid0>410</mid0>
 		<nme>Notify GooglePay 定期券を更新してください</nme>
 		<Event sr="con0" ve="2">

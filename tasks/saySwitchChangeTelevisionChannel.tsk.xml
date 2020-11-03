@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.9.3">
+<TaskerData sr="" dvi="1" tv="5.10.1">
 	<Task sr="task103">
 		<cdate>1535616862013</cdate>
-		<edate>1602650248871</edate>
+		<edate>1602650332183</edate>
 		<id>103</id>
 		<nme>saySwitchChangeTelevisionChannel</nme>
 		<Action sr="act0" ve="7">
@@ -41,8 +41,8 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%appliance_name</Str>
-			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
+			<Str sr="arg0" ve="3">%television</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -136,10 +136,10 @@
 		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%appliance_name</Str>
-			<Str sr="arg1" ve="3">%LOCATION_ROOM</Str>
+			<Str sr="arg1" ve="3">%LOCATION_LLAMA</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act20" ve="7">
@@ -163,13 +163,22 @@
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%appliance_name</Str>
-			<Str sr="arg1" ve="3">のテレビ</Str>
+			<Str sr="arg1" ve="3">%LOCATION_ROOM</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%appliance_name</Str>
+			<Str sr="arg1" ve="3">のテレビ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -178,15 +187,6 @@
 					<rhs>%appliance_name</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%television</Str>
-			<Str sr="arg1" ve="3">%par2</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>

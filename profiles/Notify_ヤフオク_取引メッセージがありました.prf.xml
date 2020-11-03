@@ -2,8 +2,9 @@
 	<Profile sr="prof86" ve="2">
 		<cdate>1535513077373</cdate>
 		<clp>true</clp>
-		<edate>1535525428557</edate>
+		<edate>1602580753965</edate>
 		<id>86</id>
+		<limit>true</limit>
 		<mid0>87</mid0>
 		<nme>Notify ヤフオク！取引メッセージがありました</nme>
 		<Event sr="con0" ve="2">
