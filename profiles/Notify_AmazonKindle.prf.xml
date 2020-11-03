@@ -2,7 +2,7 @@
 	<Profile sr="prof327" ve="2">
 		<cdate>1536135713258</cdate>
 		<clp>true</clp>
-		<edate>1602580331442</edate>
+		<edate>1603840103966</edate>
 		<id>327</id>
 		<mid0>326</mid0>
 		<nme>Notify AmazonKindle</nme>
@@ -24,10 +24,50 @@
 	</Profile>
 	<Task sr="task326">
 		<cdate>1521383525570</cdate>
-		<edate>1602580331442</edate>
+		<edate>1603840103966</edate>
 		<id>326</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%evtprm6</lhs>
+					<op>4</op>
+					<rhs>[0-9]*%</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">checkNotify</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%evtprm2</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%ntitle</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">UnknownAmazonKindle.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -41,25 +81,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">checkNotify</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%NTITLE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">%ntitle</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act14" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -156,7 +178,7 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>547</code>
