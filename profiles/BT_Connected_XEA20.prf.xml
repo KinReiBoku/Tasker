@@ -2,7 +2,7 @@
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<clp>true</clp>
-		<edate>1603812796912</edate>
+		<edate>1604429707317</edate>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -16,7 +16,7 @@
 	</Profile>
 	<Task sr="task287">
 		<cdate>1535709461296</cdate>
-		<edate>1602560819844</edate>
+		<edate>1604429707317</edate>
 		<id>287</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -84,7 +84,7 @@
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">XEA20に接続しました</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
