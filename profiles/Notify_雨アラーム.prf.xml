@@ -2,16 +2,19 @@
 	<Profile sr="prof64" ve="2">
 		<cdate>1535513224668</cdate>
 		<clp>true</clp>
-		<edate>1602770159170</edate>
+		<edate>1605839640964</edate>
 		<id>64</id>
 		<mid0>63</mid0>
 		<nme>Notify 雨アラーム</nme>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<App sr="arg0">
-				<appClass>de.mdiener.rain.usa.MainMaps2</appClass>
-				<appPkg>de.mdiener.rain.usa</appPkg>
-				<label>雨アラーム</label>
+				<appClass>de.mdiener.rain.usa.MainMaps2,
+wni.WeathernewsTouch.jp.Splash</appClass>
+				<appPkg>de.mdiener.rain.usa,
+wni.WeathernewsTouch.jp</appPkg>
+				<label>雨アラーム,
+ｳｪｻﾞｰﾆｭｰｽ</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
@@ -24,7 +27,7 @@
 	</Profile>
 	<Task sr="task63">
 		<cdate>1521382753474</cdate>
-		<edate>1604427747534</edate>
+		<edate>1605839640964</edate>
 		<id>63</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">

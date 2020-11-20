@@ -2,7 +2,7 @@
 	<Profile sr="prof429" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1602808161222</edate>
+		<edate>1605839728995</edate>
 		<id>429</id>
 		<mid0>430</mid0>
 		<nme>Notify Amazon Alexa</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task430">
 		<cdate>1547071823400</cdate>
-		<edate>1604427849518</edate>
+		<edate>1605839728995</edate>
 		<id>430</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -232,22 +232,6 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act25" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>SubClient</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act26" ve="7">
 			<code>90406179</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -264,27 +248,15 @@
 			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
 			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">toWebhookSubClients</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">ALL;NOTIFY;おやすみ</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act26" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -300,18 +272,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">にチェックイン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act27" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSwitchStateOffAll</Str>
 			<Int sr="arg1">
@@ -326,7 +287,7 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act28" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -342,7 +303,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act29" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeKeyOn</Str>
 			<Int sr="arg1">
@@ -357,7 +318,18 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">にチェックイン</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSwitchStateOnSupplyAll</Str>
 			<Int sr="arg1">
@@ -372,7 +344,7 @@
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act31" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -382,10 +354,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act32" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act33" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">UnknownAmandaAlexa.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -399,7 +371,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act34" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
