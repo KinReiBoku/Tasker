@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof256" ve="2">
 		<cdate>1587779757300</cdate>
 		<clp>true</clp>
-		<edate>1603717049256</edate>
+		<edate>1627521939464</edate>
 		<id>256</id>
 		<mid0>226</mid0>
 		<mid1>255</mid1>
@@ -10,15 +10,15 @@
 		<pri>6</pri>
 		<State sr="con0" ve="2">
 			<code>160</code>
-			<Str sr="arg0" ve="3">001D73C1CDEC</Str>
-			<Str sr="arg1" ve="3">00:1d:73:c1:cd:ed</Str>
+			<Str sr="arg0" ve="3">001D73C1CDEC/aterm-a99226-a</Str>
+			<Str sr="arg1" ve="3">00:1d:73:c1:cd:ed/80:22:a7:44:a5:5f</Str>
 			<Str sr="arg2" ve="3"/>
 			<Int sr="arg3" val="0"/>
 		</State>
 	</Profile>
 	<Task sr="task226">
 		<cdate>1521384755669</cdate>
-		<edate>1603717049256</edate>
+		<edate>1615907632277</edate>
 		<id>226</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -51,6 +51,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -81,6 +82,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Normal</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -101,6 +103,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -130,6 +133,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;Notify;Wi-Fi;on</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -162,19 +166,21 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
 			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task255">
 		<cdate>1521384780904</cdate>
-		<edate>1603716875127</edate>
+		<edate>1627521939464</edate>
 		<id>255</id>
-		<pri>1007</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSilentModeOn</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -206,6 +212,21 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg1" ve="3">dk.tacit.android.foldersync.full</Str>
 			<Str sr="arg2" ve="3">dk.tacit.android.foldersync.locale.ui.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.anddoes.launcher.Launcher</appClass>
+				<appPkg>com.anddoes.gingerapex</appPkg>
+				<label>Apex Launcher Classic</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -214,6 +235,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -238,6 +260,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Normal</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -271,18 +294,12 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg1" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%SIMSTATE</lhs>
 					<op>2</op>
 					<rhs>ready</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
-					<lhs>%DEVICE_MODE</lhs>
-					<op>2</op>
-					<rhs>Client</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>SubClient</rhs>
@@ -295,6 +312,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;INSTAGRAM;💩</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -325,6 +343,35 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			</Bundle>
 			<Str sr="arg1" ve="3">com.icecoldapps.serversultimatepro</Str>
 			<Str sr="arg2" ve="3">com.icecoldapps.serversultimate.views.viewLocale</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<label>ホーム画面の場合、MAMORIOを起動する</label>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%APP_FOREGROUND</lhs>
+					<op>2</op>
+					<rhs>ApexLauncher</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>otoshimono.com.lost.mamorio.ui.MainActivity</appClass>
+				<appPkg>otoshimono.com.lost.mamorio</appPkg>
+				<label>MAMORIO</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>

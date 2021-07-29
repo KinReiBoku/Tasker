@@ -1,0 +1,29 @@
+<TaskerData sr="" dvi="1" tv="5.12.18">
+	<Task sr="task166">
+		<cdate>1621145433406</cdate>
+		<edate>1621145929824</edate>
+		<id>166</id>
+		<nme>toZaimChargeSuica</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">toZaimCharge</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Suica</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>net.zaim.android.activity.MainActivity</cls>
+			<pkg>net.zaim.android</pkg>
+		</Img>
+	</Task>
+</TaskerData>

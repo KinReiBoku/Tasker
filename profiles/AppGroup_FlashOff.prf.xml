@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
 		<clp>true</clp>
-		<edate>1602300745834</edate>
+		<edate>1624022977658</edate>
 		<id>378</id>
 		<mid0>344</mid0>
 		<mid1>343</mid1>
@@ -10,35 +10,173 @@
 		<App sr="con0" ve="2">
 			<cls0>jp.colopl.wcat.StartActivity</cls0>
 			<cls1>jp.colopl.tennis.StartActivity</cls1>
+			<cls10>com.sonymobile.gameenhancer.common.MainActivity</cls10>
+			<cls11>com.atok.mobile.core.startpage.StartPageActivity</cls11>
+			<cls12>com.google.android.gms.easysignin.EasySignInActivity</cls12>
+			<cls13>com.arlosoft.macrodroid.LauncherActivity</cls13>
+			<cls14>com.fiveprimes.relaunch.ReLaunchMainActivity</cls14>
+			<cls15>com.sonyericsson.android.camera.CameraActivity</cls15>
+			<cls16>com.moblynx.cameraics.Camera</cls16>
+			<cls17>com.customcast.plugin.SchemeActivity</cls17>
+			<cls18>jp.colopl.quizwiz.StartActivity</cls18>
+			<cls19>jp.co.ponos.prism.PrismActivity</cls19>
 			<cls2>jp.naver.line.android.activity.SplashActivity</cls2>
+			<cls20>com.google.firebase.MessagingUnityPlayerActivity</cls20>
+			<cls21>com.google.firebase.MessagingUnityPlayerActivity</cls21>
+			<cls22>com.sega.mage2.ui.common.activities.SplashActivity</cls22>
+			<cls23>com.square_enix.android_googleplay.mangaup_jp.presentation.splash.SplashActivity</cls23>
+			<cls24>jp.co.comic.mangaone.activity.MainActivity</cls24>
+			<cls25>com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity</cls25>
+			<cls26>jp.co.shueisha.youngjump.android.MainActivity</cls26>
+			<cls27>com.google.firebase.MessagingUnityPlayerActivity</cls27>
+			<cls28>jp.sfapps.silentscreenshot.activity.MainActivity</cls28>
+			<cls29>com.sonicjump.sonicjump.Loader</cls29>
 			<cls3>net.zaim.android.activity.MainActivity</cls3>
+			<cls30>jp.com.sega.sonic4ep2.FoxActivity</cls30>
+			<cls31>jp.co.cygames.Shadowverse.MainActivity</cls31>
+			<cls32>com.dotemu.rtype.RTypeLaunchActivity</cls32>
+			<cls33>com.farsight.AndroidPinball.javaProject.AndroidPinballActivityNative2</cls33>
+			<cls34>com.sonymobile.photopro.PhotoProActivity</cls34>
+			<cls35>com.kebab.Llama.LlamaUi</cls35>
+			<cls36>com.noname81.lmt.LMT</cls36>
+			<cls37>dk.tacit.android.foldersync.activity.MainActivity</cls37>
+			<cls38>com.nhnent.matcha.PeachUnityPlayerActivity</cls38>
+			<cls39>com.prime31.UnityPlayerNativeActivity</cls39>
 			<cls4>com.nttdocomo.dmagazine.startup.StartUpActivity</cls4>
+			<cls40>com.zeptolab.ctr.CtrApp</cls40>
+			<cls41>com.zeptolab.ctr.CtrApp</cls41>
+			<cls42>com.unity3d.player.UnityPlayerActivity</cls42>
+			<cls43>com.sonymobile.cinemapro.CinemaProActivity</cls43>
+			<cls44>com.tencent.tmgp.cod.PermissionGrantActivity</cls44>
+			<cls45>in.codeseed.audify.home.HomeActivity</cls45>
+			<cls46>com.rovio.fusion.App</cls46>
+			<cls47>com.mxtech.videoplayer.pro.ActivityWelcomeMX</cls47>
+			<cls48>com.google.android.apps.books.app.BooksActivity</cls48>
+			<cls49>com.sonymobile.extmonitorapp.MonitorProActivity</cls49>
 			<cls5>com.instagram.layout.LayoutActivity</cls5>
+			<cls50>com.example.android.notificationchannels.MainActivity</cls50>
+			<cls51>com.ydbs.ggj.MainActivity</cls51>
+			<cls52>com.dmm.app.dmmbooks.activity.SplashActivity</cls52>
+			<cls53>net.sanukin.OverrideUnityActivity</cls53>
+			<cls54>com.ea.ironmonkey.GameActivity</cls54>
+			<cls55>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls55>
 			<cls6>com.fenrir_inc.sleipnir.main.MainActivity</cls6>
 			<cls7>org.cocos2dx.cpp.AppActivity</cls7>
-			<cls8>com.hecorat.screenrecorder.free.activities.MainActivity</cls8>
-			<cls9>com.amazon.kindle.UpgradePage</cls9>
-			<flags>2</flags>
+			<cls8>com.amazon.kindle.UpgradePage</cls8>
+			<cls9>com.cloudmosa.app.LemonActivity</cls9>
+			<flags>3</flags>
 			<label0>白猫</label0>
 			<label1>白テニ</label1>
+			<label10>Game enhancer</label10>
+			<label11>ATOK</label11>
+			<label12>Google Play開発者サービス</label12>
+			<label13>MacroDroid</label13>
+			<label14>ReLaunch</label14>
+			<label15>カメラ</label15>
+			<label16>カメラ ICS</label16>
+			<label17>カスタムキャスト</label17>
+			<label18>クイズ！</label18>
+			<label19>パズルプリズム</label19>
 			<label2>LINE</label2>
+			<label20>マリオカート</label20>
+			<label21>マンガDX+</label21>
+			<label22>マガポケ</label22>
+			<label23>マンガUP!</label23>
+			<label24>マンガワン</label24>
+			<label25>ポケ森</label25>
+			<label26>ヤンジャン</label26>
+			<label27>英単語HAMARU/英語</label27>
+			<label28>無音スクリーンショット</label28>
+			<label29>SonicJump</label29>
 			<label3>Zaim</label3>
+			<label30>Sonic4 epII</label30>
+			<label31>Shadowverse</label31>
+			<label32>R-TYPE</label32>
+			<label33>Pinball Arcade</label33>
+			<label34>Photo Pro</label34>
+			<label35>Llama</label35>
+			<label36>LMT</label36>
+			<label37>FolderSync Pro</label37>
+			<label38>Dr. Mario World</label38>
+			<label39>Dokuro</label39>
 			<label4>dマガジン</label4>
+			<label40>Cut the Rope Experiments</label40>
+			<label41>Cut the Rope</label41>
+			<label42>Cytus</label42>
+			<label43>Cinema Pro</label43>
+			<label44>Call of Duty</label44>
+			<label45>Audify</label45>
+			<label46>Angry Birds</label46>
+			<label47>MX Player Pro</label47>
+			<label48>Play ブックス</label48>
+			<label49>外部モニター</label49>
 			<label5>レイアウト</label5>
+			<label50>碧</label50>
+			<label51>私の号外</label51>
+			<label52>DMMブックス</label52>
+			<label53>Mini Motor</label53>
+			<label54>NFS Most Wanted</label54>
+			<label55>Pokémon GO</label55>
 			<label6>Sleipnir</label6>
 			<label7>FEヒーローズ</label7>
-			<label8>AZ Screen Recorder</label8>
-			<label9>Amazon Kindle</label9>
+			<label8>Amazon Kindle</label8>
+			<label9>Puffin</label9>
 			<pkg0>jp.colopl.wcat</pkg0>
 			<pkg1>jp.colopl.tennis</pkg1>
+			<pkg10>com.sonymobile.gameenhancer</pkg10>
+			<pkg11>com.justsystems.atokmobile.service</pkg11>
+			<pkg12>com.google.android.gms</pkg12>
+			<pkg13>com.arlosoft.macrodroid</pkg13>
+			<pkg14>com.fiveprimes.relaunch</pkg14>
+			<pkg15>com.sonyericsson.android.camera</pkg15>
+			<pkg16>com.moblynx.cameraics</pkg16>
+			<pkg17>jp.customcast.cc2</pkg17>
+			<pkg18>jp.colopl.quizwiz</pkg18>
+			<pkg19>jp.co.ponos.prism</pkg19>
 			<pkg2>jp.naver.line.android</pkg2>
+			<pkg20>com.nintendo.zaka</pkg20>
+			<pkg21>jp.co.Skyfall.MangaDXPlusAndroid</pkg21>
+			<pkg22>jp.co.kodansha.android.magazinepocket</pkg22>
+			<pkg23>com.square_enix.android_googleplay.mangaup_jp</pkg23>
+			<pkg24>jp.co.comic.mangaone</pkg24>
+			<pkg25>com.nintendo.zaca</pkg25>
+			<pkg26>jp.co.shueisha.youngjump.android</pkg26>
+			<pkg27>com.studioms32.ms020</pkg27>
+			<pkg28>jp.sfapps.silentscreenshot</pkg28>
+			<pkg29>com.sonicjump.sonicjump</pkg29>
 			<pkg3>net.zaim.android</pkg3>
+			<pkg30>jp.com.sega.sonic4ep2</pkg30>
+			<pkg31>jp.co.cygames.Shadowverse</pkg31>
+			<pkg32>jp.wkb.rtype</pkg32>
+			<pkg33>com.farsight.AndroidPinball.javaProject</pkg33>
+			<pkg34>com.sonymobile.photopro</pkg34>
+			<pkg35>com.kebab.Llama</pkg35>
+			<pkg36>com.noname81.lmt</pkg36>
+			<pkg37>dk.tacit.android.foldersync.full</pkg37>
+			<pkg38>com.nintendo.zama</pkg38>
+			<pkg39>jp.gungho.dokuro</pkg39>
 			<pkg4>com.nttdocomo.dmagazine</pkg4>
+			<pkg40>com.zeptolab.ctrexperiments.google.paid</pkg40>
+			<pkg41>com.zeptolab.ctr.paid</pkg41>
+			<pkg42>com.rayark.Cytus.full</pkg42>
+			<pkg43>com.sonymobile.cinemapro</pkg43>
+			<pkg44>com.activision.callofduty.shooter</pkg44>
+			<pkg45>in.codeseed.audify</pkg45>
+			<pkg46>com.rovio.angrybirdsspace.premium</pkg46>
+			<pkg47>com.mxtech.videoplayer.pro</pkg47>
+			<pkg48>com.google.android.apps.books</pkg48>
+			<pkg49>com.sonymobile.extmonitorapp</pkg49>
 			<pkg5>com.instagram.layout</pkg5>
+			<pkg50>com.example.android.notificationchannels</pkg50>
+			<pkg51>com.ydbs.ggj</pkg51>
+			<pkg52>com.dmm.app.dmmbooks_google_play</pkg52>
+			<pkg53>com.nextgenreality.minimoto</pkg53>
+			<pkg54>com.ea.games.nfs13_na</pkg54>
+			<pkg55>com.nianticlabs.pokemongo</pkg55>
 			<pkg6>jp.co.fenrir.android.sleipnir_black</pkg6>
 			<pkg7>com.nintendo.zaba</pkg7>
-			<pkg8>com.hecorat.screenrecorder.free</pkg8>
-			<pkg9>com.amazon.kindle</pkg9>
+			<pkg8>com.amazon.kindle</pkg8>
+			<pkg9>com.cloudmosa.puffin</pkg9>
 		</App>
 	</Profile>
 	<Task sr="task343">
@@ -53,6 +191,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">on</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -68,7 +207,7 @@
 	</Task>
 	<Task sr="task344">
 		<cdate>1535275951041</cdate>
-		<edate>1602580341074</edate>
+		<edate>1620140148798</edate>
 		<id>344</id>
 		<nme>setFlashStateOff</nme>
 		<Action sr="act0" ve="7">
@@ -77,6 +216,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">off</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

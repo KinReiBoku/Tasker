@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.11.14">
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
 		<clp>true</clp>
-		<edate>1602637521991</edate>
+		<edate>1620140204765</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -10,86 +10,86 @@
 		<App sr="con0" ve="2">
 			<cls0>com.amazon.mp3.client.activity.LauncherActivity</cls0>
 			<cls1>com.dazn.splash.view.SplashScreenActivity</cls1>
-			<cls10>com.amazon.dee.app.Launcher</cls10>
-			<cls11>jp.yoshika.twitcle.plus.CrtwitActivity</cls11>
-			<cls12>com.twitter.android.StartActivity</cls12>
-			<cls13>com.hecorat.screenrecorder.free.activities.MainActivity</cls13>
-			<cls14>jp.naver.line.android.activity.SplashActivity</cls14>
-			<cls15>com.customcast.plugin.SchemeActivity</cls15>
-			<cls16>com.gworks.oneapp.entry.EntryActivity</cls16>
-			<cls17>st.moi.tcviewer.presentation.home.HomeActivity</cls17>
-			<cls18>com.google.android.apps.tachyon.MainActivity</cls18>
-			<cls19>com.discord.app.AppActivity$Main</cls19>
+			<cls10>jp.yoshika.twitcle.plus.CrtwitActivity</cls10>
+			<cls11>com.twitter.android.StartActivity</cls11>
+			<cls12>jp.naver.line.android.activity.SplashActivity</cls12>
+			<cls13>com.customcast.plugin.SchemeActivity</cls13>
+			<cls14>st.moi.tcviewer.presentation.home.HomeActivity</cls14>
+			<cls15>com.google.android.apps.tachyon.MainActivity</cls15>
+			<cls16>com.discord.app.AppActivity$Main</cls16>
+			<cls17>com.dena.mirrorman.SplashActivity_</cls17>
+			<cls18>com.skype4life.MainActivity</cls18>
+			<cls19>com.microsoft.office.sfb.common.ui.splash.EntryPoint</cls19>
 			<cls2>com.google.android.youtube.videos.EntryPoint</cls2>
-			<cls20>com.dena.mirrorman.SplashActivity_</cls20>
-			<cls21>jp.nicovideo.android.StartupActivity</cls21>
-			<cls22>com.sauzask.nicoid.NicoidTopActivity</cls22>
-			<cls23>com.skype4life.MainActivity</cls23>
-			<cls24>com.microsoft.office.sfb.common.ui.splash.EntryPoint</cls24>
-			<cls25>tv.twitch.android.app.core.LandingActivity</cls25>
-			<cls26>com.amazon.avod.thirdpartyclient.LauncherActivity</cls26>
+			<cls20>tv.twitch.android.app.core.LandingActivity</cls20>
+			<cls21>com.amazon.avod.thirdpartyclient.LauncherActivity</cls21>
+			<cls22>jp.syoboi.a2chMate.activity.HomeActivity</cls22>
+			<cls23>io.kodular.shenyusoftware.marindeck.Screen1</cls23>
+			<cls24>me.nosaka.tweetfabmedias.ui.activity.MainActivity</cls24>
+			<cls25>com.sonymobile.gameenhancer.common.MainActivity</cls25>
+			<cls26>com.cloudmosa.app.LemonActivity</cls26>
 			<cls3>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls3>
-			<cls4>jp.co.fsi.fs1seg.app.Main</cls4>
-			<cls5>org.cocos2dx.cpp.AppActivity</cls5>
-			<cls6>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls6>
-			<cls7>com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity</cls7>
-			<cls8>jp.colopl.wcat.StartActivity</cls8>
-			<cls9>com.mxtech.videoplayer.pro.ActivityWelcomeMX</cls9>
+			<cls4>org.cocos2dx.cpp.AppActivity</cls4>
+			<cls5>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls5>
+			<cls6>com.snslinkage.dena.snslinkageunityplugin.SnsLinkageSafeUnityPlayerNativeActivity</cls6>
+			<cls7>jp.colopl.wcat.StartActivity</cls7>
+			<cls8>com.mxtech.videoplayer.pro.ActivityWelcomeMX</cls8>
+			<cls9>com.amazon.dee.app.Launcher</cls9>
 			<flags>2</flags>
 			<label0>Amazon Music</label0>
 			<label1>DAZN</label1>
-			<label10>Amazon Alexa</label10>
-			<label11>twitcle plus</label11>
-			<label12>Twitter</label12>
-			<label13>AZ Screen Recorder</label13>
-			<label14>LINE</label14>
-			<label15>カスタムキャスト</label15>
-			<label16>LINE WORKS</label16>
-			<label17>ツイキャス ビュワー</label17>
-			<label18>Duo</label18>
-			<label19>Discord</label19>
+			<label10>twitcle plus</label10>
+			<label11>Twitter</label11>
+			<label12>LINE</label12>
+			<label13>カスタムキャスト</label13>
+			<label14>ツイキャス ビュワー</label14>
+			<label15>Duo</label15>
+			<label16>Discord</label16>
+			<label17>Mirrativ</label17>
+			<label18>Skype</label18>
+			<label19>Skype for Business</label19>
 			<label2>Playムービー＆TV</label2>
-			<label20>Mirrativ</label20>
-			<label21>niconico</label21>
-			<label22>nicoid</label22>
-			<label23>Skype</label23>
-			<label24>Skype for Business</label24>
-			<label25>Twitch</label25>
-			<label26>プライム・ビデオ</label26>
+			<label20>Twitch</label20>
+			<label21>プライム・ビデオ</label21>
+			<label22>ChMate</label22>
+			<label23>MarinDeck</label23>
+			<label24>TweetFab</label24>
+			<label25>Game enhancer</label25>
+			<label26>Puffin</label26>
 			<label3>YouTube</label3>
-			<label4>テレビ</label4>
-			<label5>FEヒーローズ</label5>
-			<label6>Pokémon GO</label6>
-			<label7>ポケ森</label7>
-			<label8>白猫</label8>
-			<label9>MX Player Pro</label9>
+			<label4>FEヒーローズ</label4>
+			<label5>Pokémon GO</label5>
+			<label6>ポケ森</label6>
+			<label7>白猫</label7>
+			<label8>MX Player Pro</label8>
+			<label9>Amazon Alexa</label9>
 			<pkg0>com.amazon.mp3</pkg0>
 			<pkg1>com.dazn</pkg1>
-			<pkg10>com.amazon.dee.app</pkg10>
-			<pkg11>jp.yoshika.twitcle.plus</pkg11>
-			<pkg12>com.twitter.android</pkg12>
-			<pkg13>com.hecorat.screenrecorder.free</pkg13>
-			<pkg14>jp.naver.line.android</pkg14>
-			<pkg15>jp.customcast.cc2</pkg15>
-			<pkg16>com.gworks.oneapp.works</pkg16>
-			<pkg17>com.sidefeed.TCViewer</pkg17>
-			<pkg18>com.google.android.apps.tachyon</pkg18>
-			<pkg19>com.discord</pkg19>
+			<pkg10>jp.yoshika.twitcle.plus</pkg10>
+			<pkg11>com.twitter.android</pkg11>
+			<pkg12>jp.naver.line.android</pkg12>
+			<pkg13>jp.customcast.cc2</pkg13>
+			<pkg14>com.sidefeed.TCViewer</pkg14>
+			<pkg15>com.google.android.apps.tachyon</pkg15>
+			<pkg16>com.discord</pkg16>
+			<pkg17>com.dena.mirrativ</pkg17>
+			<pkg18>com.skype.raider</pkg18>
+			<pkg19>com.microsoft.office.lync15</pkg19>
 			<pkg2>com.google.android.videos</pkg2>
-			<pkg20>com.dena.mirrativ</pkg20>
-			<pkg21>jp.nicovideo.android</pkg21>
-			<pkg22>com.sauzask.nicoid</pkg22>
-			<pkg23>com.skype.raider</pkg23>
-			<pkg24>com.microsoft.office.lync15</pkg24>
-			<pkg25>tv.twitch.android.app</pkg25>
-			<pkg26>com.amazon.avod.thirdpartyclient</pkg26>
+			<pkg20>tv.twitch.android.app</pkg20>
+			<pkg21>com.amazon.avod.thirdpartyclient</pkg21>
+			<pkg22>jp.co.airfront.android.a2chMate</pkg22>
+			<pkg23>online.hisubway.marindeck</pkg23>
+			<pkg24>me.nosaka.tweetfabmedias</pkg24>
+			<pkg25>com.sonymobile.gameenhancer</pkg25>
+			<pkg26>com.cloudmosa.puffin</pkg26>
 			<pkg3>com.google.android.youtube</pkg3>
-			<pkg4>jp.co.fsi.fs1seg</pkg4>
-			<pkg5>com.nintendo.zaba</pkg5>
-			<pkg6>com.nianticlabs.pokemongo</pkg6>
-			<pkg7>com.nintendo.zaca</pkg7>
-			<pkg8>jp.colopl.wcat</pkg8>
-			<pkg9>com.mxtech.videoplayer.pro</pkg9>
+			<pkg4>com.nintendo.zaba</pkg4>
+			<pkg5>com.nianticlabs.pokemongo</pkg5>
+			<pkg6>com.nintendo.zaca</pkg6>
+			<pkg7>jp.colopl.wcat</pkg7>
+			<pkg8>com.mxtech.videoplayer.pro</pkg8>
+			<pkg9>com.amazon.dee.app</pkg9>
 		</App>
 	</Profile>
 	<Task sr="task6">
@@ -97,7 +97,7 @@
 		<edate>1545449394142</edate>
 		<id>6</id>
 		<nme>setSayStateOn</nme>
-		<pri>1006</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSayState</Str>
@@ -122,6 +122,7 @@
 		<edate>1588684848394</edate>
 		<id>7</id>
 		<nme>setSayStateOff</nme>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setSayState</Str>
