@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task113">
 		<cdate>1535540380169</cdate>
-		<edate>1604455711616</edate>
+		<edate>1627704542082</edate>
 		<id>113</id>
 		<nme>fromPushbulletApp</nme>
 		<pri>100</pri>
@@ -301,9 +301,9 @@
 		<Action sr="act4" ve="7">
 			<code>20</code>
 			<App sr="arg0">
-				<appClass>com.z.trade.uk.mobile.app.LoadingActivity</appClass>
-				<appPkg>com.z.coin.jp.fx.bittore_kun</appPkg>
-				<label>ビットレ君</label>
+				<appClass>com.gmowallet.mobilewallet.app.MainActivity</appClass>
+				<appPkg>com.gmowallet.mobilewallet</appPkg>
+				<label>GMOコイン</label>
 			</App>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>

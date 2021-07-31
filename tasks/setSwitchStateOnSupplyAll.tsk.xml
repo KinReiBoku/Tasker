@@ -1,9 +1,10 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task749">
 		<cdate>1586782097530</cdate>
-		<edate>1587007548417</edate>
+		<edate>1627708670029</edate>
 		<id>749</id>
 		<nme>setSwitchStateOnSupplyAll</nme>
+		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
