@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof409" ve="2">
 		<cdate>1535519713219</cdate>
 		<clp>true</clp>
-		<edate>1602579910729</edate>
+		<edate>1614145252469</edate>
 		<id>409</id>
 		<limit>true</limit>
 		<mid0>410</mid0>
@@ -34,6 +34,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">定期券の有効期限は本日です。定期券を更新してください。</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>

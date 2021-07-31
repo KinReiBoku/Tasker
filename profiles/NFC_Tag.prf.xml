@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof725" ve="2">
 		<cdate>1578898080123</cdate>
 		<clp>true</clp>
@@ -44,6 +44,7 @@ Type of technologies the card supports&lt;/_array_net.dinglisch.android.tasker.R
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -66,6 +67,7 @@ Type of technologies the card supports&lt;/_array_net.dinglisch.android.tasker.R
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -88,6 +90,7 @@ Type of technologies the card supports&lt;/_array_net.dinglisch.android.tasker.R
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task123">
 		<cdate>1535540380169</cdate>
 		<edate>1602038621343</edate>
@@ -15,6 +15,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -277,6 +278,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>598</code>
@@ -868,6 +870,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%par1</Str>
@@ -919,6 +922,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act82" ve="7">
 			<code>547</code>
@@ -930,6 +934,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act83" ve="7">
 			<code>598</code>
@@ -950,6 +955,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%par1</Str>
@@ -966,6 +972,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%par1</Str>
@@ -981,6 +988,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -1046,6 +1054,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Duplicate data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
@@ -1067,6 +1076,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>

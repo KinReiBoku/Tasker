@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task735">
 		<cdate>1579263927381</cdate>
 		<edate>1601282073228</edate>
@@ -13,6 +13,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>344</code>
@@ -37,6 +38,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%CALENDAR_RECENT</Str>
 			<Str sr="arg3" ve="3">%calendar_start(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3">%recent</Str>
@@ -85,6 +87,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>547</code>
@@ -94,6 +97,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -107,6 +111,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3">%calendar_location(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3"/>
@@ -150,6 +155,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%CALENDAR_RECENT</Str>
 			<Str sr="arg3" ve="3">%calendar_start(%calendar_cnt);%calendar_title(%calendar_cnt)</Str>
 			<Str sr="arg4" ve="3">%CALENDAR_RECENT</Str>

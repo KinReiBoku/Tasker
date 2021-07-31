@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task19">
 		<cdate>1535605464928</cdate>
 		<edate>1546923049754</edate>
@@ -23,6 +23,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -39,6 +40,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -55,6 +57,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -71,6 +74,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -87,6 +91,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -103,6 +108,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -119,6 +125,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -135,6 +142,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -151,6 +159,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -167,6 +176,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -183,6 +193,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -199,6 +210,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -215,6 +227,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -231,6 +244,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -247,6 +261,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -263,6 +278,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -295,6 +311,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
 			<Str sr="arg4" ve="3"/>
@@ -315,6 +332,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -331,6 +349,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -347,6 +366,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -363,6 +383,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -379,6 +400,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -395,6 +417,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -411,6 +434,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>

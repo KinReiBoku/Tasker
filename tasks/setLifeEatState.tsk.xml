@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task104">
 		<cdate>1524104123592</cdate>
 		<edate>1600957242138</edate>
@@ -62,6 +62,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%LIFE_EAT_STATE</Str>
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3">%LIFE_EAT_STATE</Str>
@@ -125,6 +126,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Unknown data : Eat=%par1 State=%par2</Str>
 			<Str sr="arg4" ve="3"/>

@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task339">
 		<cdate>1535540380169</cdate>
 		<edate>1586499428906</edate>
@@ -41,6 +41,7 @@
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>1000294689</code>
@@ -63,6 +64,7 @@
 			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>1000294689</code>
@@ -85,6 +87,7 @@
 			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>61</code>
@@ -100,6 +103,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Message=%par1</Str>
 			<Str sr="arg4" ve="3"/>
@@ -120,6 +124,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
@@ -136,6 +141,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
@@ -152,6 +158,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par2</lhs>
@@ -169,6 +176,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%file</Str>
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3">%path</Str>
@@ -184,6 +192,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3">%path</Str>
 			<Str sr="arg4" ve="3"/>
@@ -212,6 +221,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%par1</Str>

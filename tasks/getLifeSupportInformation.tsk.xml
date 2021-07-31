@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task373">
 		<cdate>1536106580202</cdate>
-		<edate>1602136902843</edate>
+		<edate>1627701868405</edate>
 		<id>373</id>
 		<nme>getLifeSupportInformation</nme>
 		<pri>6</pri>
@@ -12,6 +12,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -34,6 +35,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">zone_bot</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -57,6 +59,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">DayTrader_bot</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -80,6 +83,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">doudemo_bot</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -103,6 +107,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ktbimi_bot</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -126,6 +131,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">capital_noodle</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -149,6 +155,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">iyasiyuzu0513</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -172,6 +179,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">No00_ayano_bot</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -195,6 +203,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">muni_gurume</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -218,6 +227,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">yamerunoda</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -241,6 +251,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">anpanma84332093</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -280,6 +291,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3">Jewish_proverb</Str>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -369,6 +381,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>43</code>
@@ -400,6 +413,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>43</code>
@@ -425,6 +439,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>43</code>
@@ -450,6 +465,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -497,7 +513,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%FLASH_STATE</lhs>
@@ -522,6 +538,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -548,6 +565,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>
@@ -571,6 +589,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Tasker/files/Tips.txt</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>

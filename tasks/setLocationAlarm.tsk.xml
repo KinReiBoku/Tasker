@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task146">
 		<cdate>1535540380169</cdate>
 		<edate>1586481565087</edate>
@@ -20,6 +20,7 @@
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">都</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -34,6 +35,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -52,6 +54,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%time</Str>
@@ -67,6 +70,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%LOCATION_ALARM</Str>
 			<Str sr="arg3" ve="3">%time %par1</Str>
 			<Str sr="arg4" ve="3">%LOCATION_ALARM</Str>
@@ -85,6 +89,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Alarm=%par1</Str>
 			<Str sr="arg4" ve="3"/>
@@ -102,6 +107,7 @@
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">道</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -115,6 +121,7 @@
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">府</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -128,6 +135,7 @@
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">県</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
@@ -142,6 +150,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%LOCATION_ADDRESS_PREFECTURE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%location</Str>
@@ -173,6 +182,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Low</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -205,6 +215,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>

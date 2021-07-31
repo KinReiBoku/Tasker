@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof81" ve="2">
 		<cdate>1535519713219</cdate>
 		<clp>true</clp>
@@ -50,6 +50,7 @@ Instagram</label>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%NTITLE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%ntitle</Str>
@@ -77,6 +78,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>43</code>
@@ -89,6 +91,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -101,6 +104,7 @@ Instagram</label>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
@@ -108,6 +112,7 @@ Instagram</label>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

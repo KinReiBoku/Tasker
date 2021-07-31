@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task217">
 		<cdate>1535700418971</cdate>
 		<edate>1586498817119</edate>
@@ -29,6 +29,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3">%par2</Str>
 			<Str sr="arg4" ve="3">%count</Str>
@@ -44,6 +45,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
 			<Str sr="arg4" ve="3"/>
@@ -78,6 +80,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3">%par2;%count</Str>
 			<Str sr="arg4" ve="3">%par1</Str>
@@ -96,6 +99,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%par1</Str>
 			<Str sr="arg3" ve="3">%par2;1</Str>
 			<Str sr="arg4" ve="3">%par1</Str>

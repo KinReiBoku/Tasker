@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof593" ve="2">
 		<cdate>1547298237082</cdate>
 		<clp>true</clp>
-		<edate>1603717997868</edate>
+		<edate>1609441540414</edate>
 		<id>593</id>
 		<mid0>599</mid0>
 		<nme>Shake Up-Down</nme>
@@ -16,7 +16,7 @@
 	</Profile>
 	<Task sr="task599">
 		<cdate>1547298241944</cdate>
-		<edate>1603717997868</edate>
+		<edate>1609441540414</edate>
 		<id>599</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -33,6 +33,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>38</code>
@@ -56,6 +57,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;NOTIFY;%MY_ID;ChangeClient</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -83,6 +85,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>425</code>
@@ -103,6 +106,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
@@ -110,6 +114,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -125,6 +130,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

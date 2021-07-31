@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof355" ve="2">
 		<cdate>1536310814547</cdate>
 		<clp>true</clp>
-		<edate>1602519777395</edate>
+		<edate>1614096328208</edate>
 		<id>355</id>
 		<mid0>354</mid0>
 		<nme>Sleep 開始（アラーム）</nme>
@@ -23,11 +23,12 @@
 			</Bundle>
 			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
 			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+			<Int sr="arg3"/>
 		</Event>
 	</Profile>
 	<Task sr="task354">
 		<cdate>1521850504426</cdate>
-		<edate>1602519777395</edate>
+		<edate>1614096328208</edate>
 		<id>354</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -54,6 +55,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -81,6 +83,7 @@
 			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
 			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>43</code>
@@ -90,6 +93,7 @@
 			<label>クライアントモードの場合はおはようメッセージを開始する</label>
 			<Str sr="arg0" ve="3">sayおはよう</Str>
 			<Int sr="arg1" val="20"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

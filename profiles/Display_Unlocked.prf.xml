@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof380" ve="2">
 		<cdate>1538304745744</cdate>
 		<clp>true</clp>
-		<edate>1548212525716</edate>
+		<edate>1606301717229</edate>
 		<id>380</id>
 		<mid0>381</mid0>
 		<nme>Display Unlocked</nme>
@@ -12,16 +12,16 @@
 	</Profile>
 	<Task sr="task381">
 		<cdate>1538304749559</cdate>
-		<edate>1548212525716</edate>
+		<edate>1606301717229</edate>
 		<id>381</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>653801104</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<Rotation>PORTRAIT</Rotation>
+					<Rotation>AUTOPORTRAIT</Rotation>
 					<Rotation-type>java.lang.String</Rotation-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>縦長</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>自動縦長</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
@@ -30,6 +30,7 @@
 			<Str sr="arg1" ve="3">nl.fameit.rotate</Str>
 			<Str sr="arg2" ve="3">nl.fameit.rotate.TaskerEditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -38,6 +39,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

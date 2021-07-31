@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof670" ve="2">
 		<cdate>1535971411230</cdate>
 		<clp>true</clp>
-		<edate>1566857507996</edate>
+		<edate>1606300765893</edate>
 		<id>670</id>
 		<mid0>671</mid0>
 		<mid1>672</mid1>
@@ -14,7 +14,7 @@
 	</Profile>
 	<Task sr="task671">
 		<cdate>1535971418471</cdate>
-		<edate>1566857507996</edate>
+		<edate>1606300763843</edate>
 		<id>671</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -25,6 +25,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -32,6 +33,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -66,11 +68,12 @@
 			<Str sr="arg1" ve="3">com.joaomgcd.autoshortcut.pro</Str>
 			<Str sr="arg2" ve="3">com.joaomgcd.autoshortcut.ActivityAutoShortcut</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task672">
 		<cdate>1536714697601</cdate>
-		<edate>1551062813736</edate>
+		<edate>1606300765893</edate>
 		<id>672</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">

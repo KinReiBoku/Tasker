@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task79">
 		<cdate>1499739078485</cdate>
-		<edate>1579400025127</edate>
+		<edate>1621145039549</edate>
 		<id>79</id>
 		<nme>toVibrate</nme>
 		<pri>100</pri>
@@ -108,6 +108,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Unknown data : Priority=%par1</Str>
 			<Str sr="arg4" ve="3"/>

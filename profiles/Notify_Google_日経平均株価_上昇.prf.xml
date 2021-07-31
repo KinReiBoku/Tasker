@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof457" ve="2">
 		<cdate>1544784721531</cdate>
 		<clp>true</clp>
-		<edate>1602579844815</edate>
+		<edate>1614145249883</edate>
 		<id>457</id>
 		<limit>true</limit>
 		<mid0>464</mid0>
@@ -33,6 +33,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">日経平均株価が上昇しました</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>

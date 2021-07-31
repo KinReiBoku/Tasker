@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task350">
 		<cdate>1600912857241</cdate>
 		<edate>1601652537551</edate>
@@ -25,6 +25,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>43</code>
@@ -131,6 +132,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
 			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="0"/>
 			<Str sr="arg2" ve="3">%feed</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -270,6 +272,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%http_data</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%http_data</Str>
@@ -332,6 +335,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TRUN</Str>
 			<Str sr="arg3" ve="3">Luck of data : Items=%par1 Key=%par2</Str>
 			<Str sr="arg4" ve="3"/>
@@ -350,6 +354,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act40" ve="7">
 			<code>38</code>

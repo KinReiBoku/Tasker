@@ -2,7 +2,7 @@
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
 		<clp>true</clp>
-		<edate>1624022977658</edate>
+		<edate>1627702481952</edate>
 		<id>378</id>
 		<mid0>344</mid0>
 		<mid1>343</mid1>
@@ -60,6 +60,7 @@
 			<cls53>net.sanukin.OverrideUnityActivity</cls53>
 			<cls54>com.ea.ironmonkey.GameActivity</cls54>
 			<cls55>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls55>
+			<cls56>com.kobobooks.android.screens.AppLoading</cls56>
 			<cls6>com.fenrir_inc.sleipnir.main.MainActivity</cls6>
 			<cls7>org.cocos2dx.cpp.AppActivity</cls7>
 			<cls8>com.amazon.kindle.UpgradePage</cls8>
@@ -117,6 +118,7 @@
 			<label53>Mini Motor</label53>
 			<label54>NFS Most Wanted</label54>
 			<label55>Pokémon GO</label55>
+			<label56>楽天Kobo</label56>
 			<label6>Sleipnir</label6>
 			<label7>FEヒーローズ</label7>
 			<label8>Amazon Kindle</label8>
@@ -173,6 +175,7 @@
 			<pkg53>com.nextgenreality.minimoto</pkg53>
 			<pkg54>com.ea.games.nfs13_na</pkg54>
 			<pkg55>com.nianticlabs.pokemongo</pkg55>
+			<pkg56>jp.co.rakuten.kobo</pkg56>
 			<pkg6>jp.co.fenrir.android.sleipnir_black</pkg6>
 			<pkg7>com.nintendo.zaba</pkg7>
 			<pkg8>com.amazon.kindle</pkg8>

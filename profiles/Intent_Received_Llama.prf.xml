@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof47" ve="2">
 		<cdate>1535871923883</cdate>
 		<clp>true</clp>
-		<edate>1604427846240</edate>
+		<edate>1617257764751</edate>
 		<id>47</id>
 		<mid0>46</mid0>
 		<nme>Intent Received Llama</nme>
@@ -18,7 +18,7 @@
 	</Profile>
 	<Task sr="task46">
 		<cdate>1526884976699</cdate>
-		<edate>1586922903421</edate>
+		<edate>1617257764751</edate>
 		<id>46</id>
 		<pri>51</pri>
 		<Action sr="act0" ve="7">
@@ -51,6 +51,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkoutLocation</Str>
 			<Int sr="arg1" val="49"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaout</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -81,6 +82,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>547</code>
@@ -90,6 +92,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>130</code>
@@ -97,6 +100,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaname</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -112,6 +116,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -152,6 +157,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>43</code>
@@ -167,6 +173,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocation</Str>
 			<Int sr="arg1" val="49"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamain</Str>
 			<Str sr="arg3" ve="3">%llamatype</Str>
 			<Str sr="arg4" ve="3"/>
@@ -182,6 +189,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaroom</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -213,6 +221,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamatime</Str>
 			<Str sr="arg3" ve="3">%llamacald</Str>
 			<Str sr="arg4" ve="3"/>
@@ -238,6 +247,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaholiday</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -268,6 +278,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaholiday</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -300,6 +311,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamadayevent</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -333,6 +345,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamadayevent</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -362,6 +375,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChangeTelevision</Str>
 			<Int sr="arg1" val="50"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamabutton</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -382,6 +396,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">toSwitchChange</Str>
 			<Int sr="arg1" val="50"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamabutton</Str>
 			<Str sr="arg3" ve="3">%llamaappliance</Str>
 			<Str sr="arg4" ve="3"/>
@@ -416,6 +431,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act36" ve="7">
 			<code>547</code>
@@ -425,6 +441,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act37" ve="7">
 			<code>547</code>
@@ -434,6 +451,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act38" ve="7">
 			<code>547</code>
@@ -443,6 +461,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act39" ve="7">
 			<code>130</code>
@@ -450,6 +469,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%HOME_APPLIANCE_STATE</Str>
 			<Str sr="arg3" ve="3">%room</Str>
 			<Str sr="arg4" ve="3">%state</Str>
@@ -463,6 +483,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkinLocation</Str>
 			<Int sr="arg1" val="49"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamain</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -480,6 +501,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>
@@ -496,6 +518,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%state</lhs>
@@ -508,6 +531,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">fromPushbullet</Str>
 			<Int sr="arg1" val="50"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;SWITCHSTATE;%room;%button</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -540,6 +564,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TILE_DATA_TIME</Str>
 			<Str sr="arg3" ve="3">%llamatile;%TIMES</Str>
 			<Str sr="arg4" ve="3">%TILE_DATA_TIME</Str>
@@ -558,6 +583,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -580,6 +606,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -632,6 +659,7 @@
 			<code>130</code>
 			<Str sr="arg0" ve="3">checkoutLocation</Str>
 			<Int sr="arg1" val="49"/>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%llamaout</Str>
 			<Str sr="arg3" ve="3">%llamatype</Str>
 			<Str sr="arg4" ve="3"/>

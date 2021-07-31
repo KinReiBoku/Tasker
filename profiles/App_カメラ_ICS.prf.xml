@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof690" ve="2">
 		<cdate>1562462463962</cdate>
 		<clp>true</clp>
-		<edate>1585232003026</edate>
+		<edate>1605779173837</edate>
 		<id>690</id>
 		<mid0>691</mid0>
 		<nme>App カメラ ICS</nme>
@@ -15,7 +15,7 @@
 	</Profile>
 	<Task sr="task691">
 		<cdate>1562462468561</cdate>
-		<edate>1563347369472</edate>
+		<edate>1605779173837</edate>
 		<id>691</id>
 		<Action sr="act0" ve="7">
 			<code>30</code>
@@ -31,6 +31,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Tasker</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

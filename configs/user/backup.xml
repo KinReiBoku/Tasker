@@ -340,7 +340,6 @@ FXネオ取引</label>
 	<Profile sr="prof237" ve="2">
 		<cdate>1535971411230</cdate>
 		<edate>1606300757755</edate>
-		<flags>2</flags>
 		<id>237</id>
 		<mid0>239</mid0>
 		<mid1>374</mid1>
@@ -397,7 +396,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof270" ve="2">
 		<cdate>1535810993340</cdate>
-		<edate>1602770041737</edate>
+		<edate>1627701916712</edate>
 		<flags>2</flags>
 		<id>270</id>
 		<mid0>271</mid0>
@@ -427,7 +426,6 @@ FXネオ取引</label>
 	<Profile sr="prof286" ve="2">
 		<cdate>1535709448560</cdate>
 		<edate>1626487235710</edate>
-		<flags>2</flags>
 		<id>286</id>
 		<mid0>287</mid0>
 		<mid1>288</mid1>
@@ -892,7 +890,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
-		<edate>1620140204765</edate>
+		<edate>1627643907503</edate>
 		<flags>2</flags>
 		<id>372</id>
 		<mid0>7</mid0>
@@ -985,7 +983,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
-		<edate>1624022977658</edate>
+		<edate>1627564684340</edate>
 		<flags>2</flags>
 		<id>378</id>
 		<mid0>344</mid0>
@@ -1044,6 +1042,7 @@ FXネオ取引</label>
 			<cls53>net.sanukin.OverrideUnityActivity</cls53>
 			<cls54>com.ea.ironmonkey.GameActivity</cls54>
 			<cls55>com.nianticproject.holoholo.libholoholo.unity.UnityMainActivity</cls55>
+			<cls56>com.kobobooks.android.screens.AppLoading</cls56>
 			<cls6>com.fenrir_inc.sleipnir.main.MainActivity</cls6>
 			<cls7>org.cocos2dx.cpp.AppActivity</cls7>
 			<cls8>com.amazon.kindle.UpgradePage</cls8>
@@ -1101,6 +1100,7 @@ FXネオ取引</label>
 			<label53>Mini Motor</label53>
 			<label54>NFS Most Wanted</label54>
 			<label55>Pokémon GO</label55>
+			<label56>楽天Kobo</label56>
 			<label6>Sleipnir</label6>
 			<label7>FEヒーローズ</label7>
 			<label8>Amazon Kindle</label8>
@@ -1157,6 +1157,7 @@ FXネオ取引</label>
 			<pkg53>com.nextgenreality.minimoto</pkg53>
 			<pkg54>com.ea.games.nfs13_na</pkg54>
 			<pkg55>com.nianticlabs.pokemongo</pkg55>
+			<pkg56>jp.co.rakuten.kobo</pkg56>
 			<pkg6>jp.co.fenrir.android.sleipnir_black</pkg6>
 			<pkg7>com.nintendo.zaba</pkg7>
 			<pkg8>com.amazon.kindle</pkg8>
@@ -1361,7 +1362,6 @@ FXネオ取引</label>
 	<Profile sr="prof441" ve="2">
 		<cdate>1559460481519</cdate>
 		<edate>1602580026166</edate>
-		<flags>2</flags>
 		<id>441</id>
 		<limit>true</limit>
 		<mid0>442</mid0>
@@ -2230,7 +2230,7 @@ AccuWeather</label>
 	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1614263457922</edate>
+		<edate>1627701261191</edate>
 		<flags>2</flags>
 		<id>637</id>
 		<mid0>638</mid0>
@@ -9106,7 +9106,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task122">
 		<cdate>1535621074432</cdate>
-		<edate>1586443439920</edate>
+		<edate>1627701727716</edate>
 		<id>122</id>
 		<nme>initDataHomeApplianceState</nme>
 		<pri>100</pri>
@@ -9238,7 +9238,7 @@ Instagram</label>
 			<code>547</code>
 			<label>部屋</label>
 			<Str sr="arg0" ve="3">%rooms</Str>
-			<Str sr="arg1" ve="3">マイルーム,リビングルーム,ダイニングルーム,トイレ1階,トイレ2階,バスルーム,</Str>
+			<Str sr="arg1" ve="3">スタディルーム,リビングルーム,ダイニングルーム,トイレ1階,トイレ2階,バスルーム,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -9266,11 +9266,11 @@ Instagram</label>
 			<code>547</code>
 			<label>部屋</label>
 			<Str sr="arg0" ve="3">%rooms</Str>
-			<Str sr="arg1" ve="3">マイルーム,リビングルーム,ダイニングルーム,トイレ1,トイレ2,バスルーム,</Str>
+			<Str sr="arg1" ve="3">スタディルーム,リビングルーム,ダイニングルーム,トイレ1,トイレ2,バスルーム,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act24" ve="7">
@@ -17610,7 +17610,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task216">
 		<cdate>1535694815746</cdate>
-		<edate>1586443552285</edate>
+		<edate>1627701736106</edate>
 		<id>216</id>
 		<nme>getRoom</nme>
 		<Action sr="act0" ve="7">
@@ -17631,7 +17631,7 @@ Say:%SAY_STATE</Str>
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">マイルーム</Str>
+			<Str sr="arg1" ve="3">スタディルーム</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -18914,7 +18914,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task23">
 		<cdate>1535275836793</cdate>
-		<edate>1606925012513</edate>
+		<edate>1627701705826</edate>
 		<id>23</id>
 		<nme>toSayMedia</nme>
 		<pri>100</pri>
@@ -20072,7 +20072,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
@@ -21110,7 +21110,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1603115696916</edate>
+		<edate>1627701752680</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -21119,7 +21119,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%LOCATION_ROOM</Str>
-			<Str sr="arg1" ve="3">マイルーム</Str>
+			<Str sr="arg1" ve="3">スタディルーム</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -21740,7 +21740,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task239">
 		<cdate>1535971418471</cdate>
-		<edate>1606300823111</edate>
+		<edate>1627701394187</edate>
 		<id>239</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -21840,7 +21840,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">checkinLocationRoomマイルーム</Str>
+			<Str sr="arg0" ve="3">checkinLocationRoomスタディルーム</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -22060,7 +22060,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1603116192892</edate>
+		<edate>1627701765280</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -22125,12 +22125,12 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>37</code>
-			<label>マイルームの場合</label>
+			<label>スタディルームの場合</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%room</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -22962,9 +22962,9 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task245">
 		<cdate>1535735697172</cdate>
-		<edate>1587135667394</edate>
+		<edate>1627701916558</edate>
 		<id>245</id>
-		<nme>checkinLocationRoomマイルーム</nme>
+		<nme>checkinLocationRoomスタディルーム</nme>
 		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -22981,7 +22981,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
 			<Int sr="arg1" val="50"/>
 			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3">マイルーム</Str>
+			<Str sr="arg2" ve="3">スタディルーム</Str>
 			<Str sr="arg3" ve="3">%par1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -22998,7 +22998,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
 			<Int sr="arg1" val="50"/>
 			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3">マイルーム</Str>
+			<Str sr="arg2" ve="3">スタディルーム</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -26825,7 +26825,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task274">
 		<cdate>1521511330953</cdate>
-		<edate>1615777979551</edate>
+		<edate>1627701805929</edate>
 		<id>274</id>
 		<nme>sayおはよう</nme>
 		<pri>7</pri>
@@ -27126,7 +27126,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 かつ
 充電中
 かつ
-マイルームにチェックイン中の場合は
+スタディルームにチェックイン中の場合は
 Alexaに天気と予定を聞く</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -27144,7 +27144,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -27782,7 +27782,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task277">
 		<cdate>1520846827313</cdate>
-		<edate>1621147078877</edate>
+		<edate>1627701837912</edate>
 		<id>277</id>
 		<nme>toAiSpeaker</nme>
 		<pri>100</pri>
@@ -27987,7 +27987,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%SAY_STATE</lhs>
@@ -28099,7 +28099,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c2" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c3" ve="3">
 					<lhs>%SCREEN</lhs>
@@ -28109,7 +28109,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c4" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -29604,7 +29604,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task288">
 		<cdate>1535709668194</cdate>
-		<edate>1606300726143</edate>
+		<edate>1627701372404</edate>
 		<id>288</id>
 		<pri>1007</pri>
 		<Action sr="act0" ve="7">
@@ -29640,7 +29640,7 @@ Alexaに天気と予定を聞く</label>
 				<Condition sr="c1" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%WIFII</lhs>
@@ -40974,7 +40974,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task373">
 		<cdate>1536106580202</cdate>
-		<edate>1602136902843</edate>
+		<edate>1627701868405</edate>
 		<id>373</id>
 		<nme>getLifeSupportInformation</nme>
 		<pri>6</pri>
@@ -41486,7 +41486,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%FLASH_STATE</lhs>
@@ -51033,7 +51033,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task442">
 		<cdate>1559460495310</cdate>
-		<edate>1559515560475</edate>
+		<edate>1627701383197</edate>
 		<id>442</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -51065,7 +51065,7 @@ https://t.co/91XPPED1U2
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -60934,7 +60934,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1586781900334</edate>
+		<edate>1627701857925</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>7</pri>
@@ -60984,7 +60984,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">マイルーム</Str>
+			<Str sr="arg1" ve="3">スタディルーム</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -61451,14 +61451,14 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
-					<rhs>.*マイルーム.*</rhs>
+					<rhs>.*スタディルーム.*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
@@ -64634,7 +64634,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1614263457922</edate>
+		<edate>1627701261191</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -64684,6 +64684,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%task</lhs>
@@ -64695,6 +64696,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act13" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64718,6 +64720,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">にチェックイン</Str>
 			<Int sr="arg2" val="0"/>
@@ -64729,6 +64732,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>37</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%task</lhs>
@@ -64739,6 +64743,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
 			<Int sr="arg2" val="0"/>
@@ -64750,6 +64755,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>590</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">;</Str>
 			<Int sr="arg2" val="0"/>
@@ -64758,6 +64764,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act18" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64775,6 +64782,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act19" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64796,10 +64804,12 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>43</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">checkinLocationRoom</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64816,9 +64826,11 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>43</code>
+			<on>false</on>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%task</lhs>
@@ -64830,6 +64842,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act24" ve="7">
 			<code>130</code>
 			<label>サーバモードの場合は全クライアントへ送信する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookClients</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64853,6 +64866,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>598</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%task</Str>
 			<Str sr="arg1" ve="3">からチェックアウト</Str>
 			<Int sr="arg2" val="0"/>
@@ -64865,6 +64879,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act26" ve="7">
 			<code>130</code>
 			<label>ロケーションルームの状態を更新する</label>
+			<on>false</on>
 			<Str sr="arg0" ve="3">checkoutLocationRoom</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64881,9 +64896,11 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act27" ve="7">
 			<code>43</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">fromPushbullet</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -64900,6 +64917,7 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>38</code>
+			<on>false</on>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -74094,7 +74112,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1614096312435</edate>
+		<edate>1627701696157</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -74214,24 +74232,24 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act104" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのライト;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのライト;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのライト;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのライト;オフ</Str>
 		</Action>
 		<Action sr="act105" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのエアクリーナ;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オフ</Str>
 		</Action>
 		<Action sr="act106" ve="7">
 			<code>130</code>
@@ -74262,24 +74280,24 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act108" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのライト;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのライト;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのライト;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのライト;オフ</Str>
 		</Action>
 		<Action sr="act109" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのタップ;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのタップ;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのタップ;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのタップ;オフ</Str>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>43</code>
@@ -74295,24 +74313,24 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act110" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのテレビ;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのテレビ;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのテレビ;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのテレビ;オフ</Str>
 		</Action>
 		<Action sr="act111" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのエアクリーナ;オン</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オン</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オフ</Str>
 		</Action>
 		<Action sr="act112" ve="7">
 			<code>130</code>
@@ -74384,7 +74402,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c1" ve="3">
 					<lhs>%ntitle5</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -74423,13 +74441,13 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act119" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのライト;オフ</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのライト;オフ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのライト;オン</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのライト;オン</Str>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -74457,35 +74475,35 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act120" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのタップ;オフ</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのタップ;オフ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのタップ;オン</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのタップ;オン</Str>
 		</Action>
 		<Action sr="act121" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのエアクリーナ;オフ</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オフ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのエアクリーナ;オン</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのエアクリーナ;オン</Str>
 		</Action>
 		<Action sr="act122" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%HOME_APPLIANCE_STATE</Str>
-			<Str sr="arg1" ve="3">自宅（さいたま）マイルームのパソコン;オフ</Str>
+			<Str sr="arg1" ve="3">自宅（さいたま）スタディルームのパソコン;オフ</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">自宅（さいたま）マイルームのパソコン;オン</Str>
+			<Str sr="arg7" ve="3">自宅（さいたま）スタディルームのパソコン;オン</Str>
 		</Action>
 		<Action sr="act123" ve="7">
 			<code>130</code>

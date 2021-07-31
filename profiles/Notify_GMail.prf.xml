@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof73" ve="2">
 		<cdate>1541454766393</cdate>
 		<clp>true</clp>
-		<edate>1602647181414</edate>
+		<edate>1613962755487</edate>
 		<id>73</id>
 		<mid0>84</mid0>
 		<nme>Notify GMail</nme>
@@ -24,7 +24,7 @@
 	</Profile>
 	<Task sr="task84">
 		<cdate>1521381764005</cdate>
-		<edate>1604427756160</edate>
+		<edate>1613962755487</edate>
 		<id>84</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -43,6 +43,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">お支払い番号が届いています。</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -58,6 +59,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -83,6 +85,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">High</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -132,6 +135,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -157,6 +161,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Edyが届いています</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -172,6 +177,7 @@
 			<Int sr="arg1">
 				<var>%priority%evtprm2</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">shopping</Str>
 			<Str sr="arg4" ve="3"/>
@@ -209,6 +215,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">カードの明細が届いています</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -224,6 +231,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">shopping</Str>
 			<Str sr="arg4" ve="3"/>
@@ -249,6 +257,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">定期券の有効期限が近づいています。</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -264,6 +273,7 @@
 			<Int sr="arg1">
 				<var>%priority%evtprm2</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">shopping</Str>
 			<Str sr="arg4" ve="3"/>
@@ -289,6 +299,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ヤフオク！で落札しました</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -304,6 +315,7 @@
 			<Int sr="arg1">
 				<var>%priority%evtprm2</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">shopping</Str>
 			<Str sr="arg4" ve="3"/>
@@ -380,6 +392,7 @@
 			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%evtprm2</lhs>
@@ -419,6 +432,7 @@
 			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
 			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%evtprm2</lhs>
@@ -436,6 +450,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%evtprm2</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>

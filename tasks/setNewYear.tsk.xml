@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task711">
 		<cdate>1578195010714</cdate>
-		<edate>1578212321987</edate>
+		<edate>1609441675890</edate>
 		<id>711</id>
 		<nme>setNewYear</nme>
 		<pri>100</pri>
@@ -12,6 +12,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%MASTER_DATA_RECENT</Str>
 			<Str sr="arg3" ve="3">haircuts_year;0</Str>
 			<Str sr="arg4" ve="3">%MASTER_DATA_RECENT</Str>
@@ -28,6 +29,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%MASTER_DATA_RECENT</Str>
 			<Str sr="arg3" ve="3">nailclippers_year;0</Str>
 			<Str sr="arg4" ve="3">%MASTER_DATA_RECENT</Str>

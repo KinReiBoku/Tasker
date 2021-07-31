@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof520" ve="2">
 		<cdate>1544857989828</cdate>
 		<clp>true</clp>
-		<edate>1544858033226</edate>
+		<edate>1620140160993</edate>
 		<id>520</id>
 		<mid0>521</mid0>
 		<nme>App ミュージック</nme>
@@ -23,6 +23,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

@@ -1,9 +1,10 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof145" ve="2">
 		<cdate>1559460481519</cdate>
 		<clp>true</clp>
-		<edate>1602580548307</edate>
+		<edate>1614145224586</edate>
 		<id>145</id>
+		<limit>true</limit>
 		<mid0>149</mid0>
 		<nme>Notify Pokemon GO</nme>
 		<Event sr="con0" ve="2">

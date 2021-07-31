@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.11.14">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
 		<clp>true</clp>
@@ -70,6 +70,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
@@ -93,6 +94,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%TWITTER_NEWS</Str>
 			<Str sr="arg3" ve="3">%evtprm2;%message</Str>
 			<Str sr="arg4" ve="3">%TWITTER_NEWS</Str>
@@ -108,6 +110,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;NEWS;%evtprm2;%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -132,6 +135,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>598</code>
@@ -152,6 +156,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>547</code>
@@ -161,6 +166,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>130</code>
@@ -168,6 +174,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -183,6 +190,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -204,6 +212,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>38</code>
@@ -213,6 +222,7 @@
 			<Str sr="arg0" ve="3">%items</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
 			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>549</code>
@@ -225,6 +235,7 @@
 			<code>39</code>
 			<Str sr="arg0" ve="3">%item</Str>
 			<Str sr="arg1" ve="3">%items()</Str>
+			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -234,6 +245,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -263,6 +275,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%message</Str>

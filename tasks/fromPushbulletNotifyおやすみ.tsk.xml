@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task723">
 		<cdate>1578761427073</cdate>
-		<edate>1587741694382</edate>
+		<edate>1614096280109</edate>
 		<id>723</id>
 		<nme>fromPushbulletNotifyおやすみ</nme>
 		<pri>7</pri>
@@ -11,6 +11,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ALL;NOTIFY;おやすみ</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

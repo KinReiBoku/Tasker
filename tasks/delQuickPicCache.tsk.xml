@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task696">
 		<cdate>1564996058615</cdate>
-		<edate>1597629834034</edate>
+		<edate>1617127011077</edate>
 		<id>696</id>
 		<nme>delQuickPicCache</nme>
 		<pri>100</pri>

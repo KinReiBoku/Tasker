@@ -1,7 +1,6 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof441" ve="2">
 		<cdate>1559460481519</cdate>
-		<clp>true</clp>
 		<edate>1602580026166</edate>
 		<id>441</id>
 		<limit>true</limit>
@@ -25,7 +24,7 @@
 	</Profile>
 	<Task sr="task442">
 		<cdate>1559460495310</cdate>
-		<edate>1559515560475</edate>
+		<edate>1627701383197</edate>
 		<id>442</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -36,6 +35,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -43,6 +43,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3">force</Str>
 			<Str sr="arg4" ve="3"/>
@@ -55,7 +56,7 @@
 				<Condition sr="c0" ve="3">
 					<lhs>%LOCATION_ROOM</lhs>
 					<op>2</op>
-					<rhs>マイルーム</rhs>
+					<rhs>スタディルーム</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -65,6 +66,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

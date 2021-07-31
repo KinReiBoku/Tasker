@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task250">
 		<cdate>1535769069591</cdate>
 		<edate>1563689512310</edate>
@@ -12,6 +12,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>549</code>
@@ -26,6 +27,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">hottomotto_com</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -54,6 +56,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">AEON_JAPAN</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -76,6 +79,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Lets_go_Yokado</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -98,6 +102,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">gusto_official</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -120,6 +125,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">KFC_jp</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -142,6 +148,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">KomedaOfficial</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -164,6 +171,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">saza_coffee</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -186,6 +194,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">jona_official_</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -208,6 +217,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Starbacks_J</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -230,6 +240,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">akindosushiroco</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -252,6 +263,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">PrefHokkaido</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -274,6 +286,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">steakgusto029</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -296,6 +309,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -318,6 +332,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">tamtam2005oomiy</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -340,6 +355,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Dennys_PR</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -362,6 +378,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">BURGERKINGJAPAN</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -384,6 +401,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">bamiyan_CP</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -406,6 +424,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">biccameraE</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -428,6 +447,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">bic_drug</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -450,6 +470,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">FK_PR</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -472,6 +493,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">famima_now</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -494,6 +516,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">pref_saitama</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -516,6 +539,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Fleshness_1992</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -538,6 +562,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">McDonaldsJapan</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -561,6 +586,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -583,6 +609,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">mos_burger</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -605,6 +632,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Yodobashi_X</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -633,6 +661,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">yodobashi_saita</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -661,6 +690,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ringerhut_jp</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -683,6 +713,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">akiko_lawson</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -705,6 +736,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">lotteria_pr</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -727,6 +759,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">anrakun</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -749,6 +782,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">tocho_koho</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -771,6 +805,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">IchirinCoffeePR</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -793,6 +828,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">ueshimacoffee</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -815,6 +851,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Ootoya_Gohan</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -837,6 +874,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">kourakuen_pr</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -859,6 +897,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">saruthikoffee</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -881,6 +920,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">UdonMarugame</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -903,6 +943,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">yumean_PR</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -925,6 +966,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">yoshinoyagyudon</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -947,6 +989,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%LOCATION_INFORMATION</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -969,6 +1012,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%LOCATION_INFORMATION</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -991,6 +1035,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">chi_bakun_chiba</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -1013,6 +1058,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">newdays_jp</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -1035,6 +1081,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">mutenkurasushi</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -1057,6 +1104,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Go_Sawayaka</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>
@@ -1079,6 +1127,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">nakau_info</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%LOCATION_INFORMATION</Str>

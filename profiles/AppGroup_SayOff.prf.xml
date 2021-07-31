@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.11.14">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof372" ve="2">
 		<cdate>1537061221360</cdate>
 		<clp>true</clp>
-		<edate>1620140204765</edate>
+		<edate>1627643907503</edate>
 		<id>372</id>
 		<mid0>7</mid0>
 		<mid1>6</mid1>
@@ -104,6 +104,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">on</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -129,6 +130,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">off</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

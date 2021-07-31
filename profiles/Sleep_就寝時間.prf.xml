@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof458" ve="2">
 		<cdate>1543895717219</cdate>
 		<clp>true</clp>
@@ -23,6 +23,7 @@
 			</Bundle>
 			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
 			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+			<Int sr="arg3"/>
 		</Event>
 	</Profile>
 	<Task sr="task459">
@@ -36,6 +37,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">そろそろ寝る時間ですよ</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -53,6 +55,7 @@
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
@@ -62,6 +65,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
@@ -69,6 +73,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">%message</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -87,6 +92,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -104,6 +110,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_RECENT</lhs>
@@ -131,6 +138,7 @@
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
@@ -151,6 +159,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>

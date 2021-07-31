@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof413" ve="2">
 		<cdate>1542732903857</cdate>
 		<clp>true</clp>
-		<edate>1603415348980</edate>
+		<edate>1614096229705</edate>
 		<id>413</id>
 		<mid0>414</mid0>
 		<nme>Sleep 睡眠の解析を開始しました</nme>
@@ -23,11 +23,12 @@
 			</Bundle>
 			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
 			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditEventActivity</Str>
+			<Int sr="arg3"/>
 		</Event>
 	</Profile>
 	<Task sr="task414">
 		<cdate>1542732907555</cdate>
-		<edate>1603415348980</edate>
+		<edate>1614096229705</edate>
 		<id>414</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -36,6 +37,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -53,6 +55,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>549</code>
@@ -67,6 +70,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%zone</Str>
@@ -84,6 +88,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
@@ -112,6 +117,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
@@ -138,6 +144,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>

@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task265">
 		<cdate>1515388241199</cdate>
 		<edate>1586779659966</edate>
@@ -11,6 +11,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Alarm</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
@@ -42,6 +43,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Ringer</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
@@ -57,6 +59,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">System</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
@@ -82,6 +85,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Media</Str>
 			<Str sr="arg3" ve="3">20</Str>
 			<Str sr="arg4" ve="3"/>
@@ -104,6 +108,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Media</Str>
 			<Str sr="arg3" ve="3">14</Str>
 			<Str sr="arg4" ve="3"/>
@@ -132,6 +137,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Media</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>
@@ -150,6 +156,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">Notification</Str>
 			<Str sr="arg3" ve="3">0</Str>
 			<Str sr="arg4" ve="3"/>

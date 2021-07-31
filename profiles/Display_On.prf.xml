@@ -1,8 +1,8 @@
-<TaskerData sr="" dvi="1" tv="5.10.1">
+<TaskerData sr="" dvi="1" tv="5.12.22">
 	<Profile sr="prof437" ve="2">
 		<cdate>1543387922746</cdate>
 		<clp>true</clp>
-		<edate>1547259019915</edate>
+		<edate>1606301693145</edate>
 		<id>437</id>
 		<mid0>438</mid0>
 		<nme>Display On</nme>
@@ -13,7 +13,7 @@
 	</Profile>
 	<Task sr="task438">
 		<cdate>1543387925698</cdate>
-		<edate>1547259019915</edate>
+		<edate>1606301693145</edate>
 		<id>438</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -23,6 +23,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
@@ -38,6 +39,7 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
+			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3">on</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
