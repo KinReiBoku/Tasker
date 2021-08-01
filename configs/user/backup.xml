@@ -61170,7 +61170,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1627785833190</edate>
+		<edate>1627802424347</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -61945,6 +61945,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -61954,6 +61955,11 @@ https://t.co/91XPPED1U2
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_livingroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61968,6 +61974,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -61977,6 +61984,11 @@ https://t.co/91XPPED1U2
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_diningroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61991,6 +62003,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -62001,6 +62014,11 @@ https://t.co/91XPPED1U2
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_myroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act68" ve="7">
@@ -62010,10 +62028,11 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -62024,6 +62043,11 @@ https://t.co/91XPPED1U2
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_bathroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act69" ve="7">
@@ -62033,10 +62057,11 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -62046,6 +62071,11 @@ https://t.co/91XPPED1U2
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_toiletroom1</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -62067,10 +62097,11 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -62080,6 +62111,11 @@ https://t.co/91XPPED1U2
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_toiletroom2</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -73867,6 +73903,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<edate>1627740445760</edate>
 		<id>748</id>
 		<nme>setSwitchStateOffAll</nme>
+		<pri>7</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -73973,13 +74010,16 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act9" ve="7">
 			<code>40</code>
 		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_av_stop</nme>
+		</Img>
 	</Task>
 	<Task sr="task749">
 		<cdate>1586782097530</cdate>
 		<edate>1627740765826</edate>
 		<id>749</id>
 		<nme>setSwitchStateOnSupplyAll</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -74086,6 +74126,9 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act9" ve="7">
 			<code>40</code>
 		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_image_flash_on</nme>
+		</Img>
 	</Task>
 	<Task sr="task752">
 		<cdate>1535921492598</cdate>

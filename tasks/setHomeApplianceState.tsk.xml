@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1627785833190</edate>
+		<edate>1627802424347</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -776,6 +776,7 @@
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -785,6 +786,11 @@
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_livingroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -799,6 +805,7 @@
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -808,6 +815,11 @@
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_diningroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -822,6 +834,7 @@
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -832,6 +845,11 @@
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_myroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act68" ve="7">
@@ -841,10 +859,11 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -855,6 +874,11 @@
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_bathroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act69" ve="7">
@@ -864,10 +888,11 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -877,6 +902,11 @@
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_toiletroom1</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -898,10 +928,11 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
@@ -911,6 +942,11 @@
 					<lhs>%state</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_toiletroom2</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
