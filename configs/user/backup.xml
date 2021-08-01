@@ -274,7 +274,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof168" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1627719058517</edate>
+		<edate>1627749160509</edate>
 		<flags>2</flags>
 		<id>168</id>
 		<mid0>169</mid0>
@@ -1009,9 +1009,10 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
-		<edate>1627564684340</edate>
+		<edate>1627785632509</edate>
 		<flags>2</flags>
 		<id>378</id>
+		<limit>true</limit>
 		<mid0>344</mid0>
 		<mid1>343</mid1>
 		<nme>AppGroup FlashOff</nme>
@@ -9134,7 +9135,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task122">
 		<cdate>1535621074432</cdate>
-		<edate>1627738631946</edate>
+		<edate>1627740493222</edate>
 		<id>122</id>
 		<nme>initDataHomeApplianceState</nme>
 		<pri>100</pri>
@@ -9258,7 +9259,7 @@ Instagram</label>
 		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%default_appliances</Str>
-			<Str sr="arg1" ve="3">ライト,テレビ,パソコン,エアクリーナ,エアコン,タップ,キー,</Str>
+			<Str sr="arg1" ve="3">タップ,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -11922,7 +11923,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task146">
 		<cdate>1535540380169</cdate>
-		<edate>1586481565087</edate>
+		<edate>1627741693442</edate>
 		<id>146</id>
 		<nme>setLocationAlarm</nme>
 		<Action sr="act0" ve="7">
@@ -15461,7 +15462,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task169">
 		<cdate>1547071823400</cdate>
-		<edate>1627719058517</edate>
+		<edate>1627749160509</edate>
 		<id>169</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -15502,7 +15503,7 @@ Copyright .*All rights reserved\.</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>410</code>
-			<Str sr="arg0" ve="3">UnknownAmandaAlexa.txt</Str>
+			<Str sr="arg0" ve="3">UnknownSwitchBot.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="1"/>
@@ -25728,7 +25729,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task26">
 		<cdate>1535375988054</cdate>
-		<edate>1615107759440</edate>
+		<edate>1627739117785</edate>
 		<id>26</id>
 		<nme>!!test</nme>
 		<pri>100</pri>
@@ -29007,7 +29008,7 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task28">
 		<cdate>1535346415604</cdate>
-		<edate>1627707699641</edate>
+		<edate>1627740344526</edate>
 		<id>28</id>
 		<nme>initDataDevice</nme>
 		<pri>100</pri>
@@ -61169,7 +61170,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1627719464932</edate>
+		<edate>1627785833190</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -61430,7 +61431,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオンにしました</Str>
+			<Str sr="arg1" ve="3">をオンにしました.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -61698,13 +61699,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+キー;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🗝️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61715,13 +61722,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+タップ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*⚡️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61732,13 +61745,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ライト;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🕯️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61749,13 +61768,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+パソコン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*⌨️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61766,13 +61791,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+エアコン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌡️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61786,10 +61817,16 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ウィンドウ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🎐.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61810,13 +61847,19 @@ https://t.co/91XPPED1U2
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+テレビ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🖥️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61830,10 +61873,16 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ファン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌀.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61847,10 +61896,16 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+エアクリーナ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🗑️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -61997,7 +62052,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオフにしました</Str>
+			<Str sr="arg1" ve="3">をオフにしました.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63652,7 +63707,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task592">
 		<cdate>1547156094428</cdate>
-		<edate>1586781883295</edate>
+		<edate>1627741691654</edate>
 		<id>592</id>
 		<nme>setHomeApplianceState自宅（さいたま）</nme>
 		<pri>100</pri>
@@ -68758,7 +68813,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task704">
 		<cdate>1566430858851</cdate>
-		<edate>1616291554218</edate>
+		<edate>1627789181139</edate>
 		<id>704</id>
 		<nme>moveDCIM</nme>
 		<pri>100</pri>
@@ -68776,7 +68831,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%src_path</Str>
-			<Str sr="arg1" ve="3">/storage/%EXTERNAL/DCIM/100ANDRO</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/DCIM/100ANDRO</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -73809,7 +73864,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task748">
 		<cdate>1586782097530</cdate>
-		<edate>1627729202196</edate>
+		<edate>1627740445760</edate>
 		<id>748</id>
 		<nme>setSwitchStateOffAll</nme>
 		<rty>1</rty>
@@ -73921,7 +73976,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task749">
 		<cdate>1586782097530</cdate>
-		<edate>1627708670029</edate>
+		<edate>1627740765826</edate>
 		<id>749</id>
 		<nme>setSwitchStateOnSupplyAll</nme>
 		<pri>100</pri>
@@ -74545,7 +74600,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1627705585814</edate>
+		<edate>1627739810141</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -75327,10 +75382,16 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MY_ID</lhs>
+					<op>3</op>
+					<rhs>XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -77092,10 +77153,16 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%ntitle</lhs>
 					<op>12</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MY_ID</lhs>
+					<op>3</op>
+					<rhs>XQAT42</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

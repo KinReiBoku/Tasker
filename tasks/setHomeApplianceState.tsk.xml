@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1627718998618</edate>
+		<edate>1627785833190</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -262,7 +262,7 @@
 		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオンにしました</Str>
+			<Str sr="arg1" ve="3">をオンにしました.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -530,13 +530,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+キー;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🗝️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -547,13 +553,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+タップ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*⚡️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -564,13 +576,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ライト;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🕯️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -581,13 +599,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+パソコン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*⌨️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -598,13 +622,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+エアコン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌡️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -618,10 +648,16 @@
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ウィンドウ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🎐.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -642,13 +678,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+テレビ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🖥️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -662,10 +704,16 @@
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+ファン;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌀.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -679,10 +727,16 @@
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%item</lhs>
 					<op>4</op>
 					<rhs>%location.+エアクリーナ;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🗑️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -829,7 +883,7 @@
 		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオフにしました</Str>
+			<Str sr="arg1" ve="3">をオフにしました.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
