@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task276">
 		<cdate>1520695115567</cdate>
-		<edate>1543622636717</edate>
+		<edate>1628322290955</edate>
 		<id>276</id>
 		<nme>getDayofWeekJapanese</nme>
 		<pri>100</pri>
@@ -12,13 +12,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Sunday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>日曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -29,13 +35,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Monday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>月曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -46,13 +58,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Tuesday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>火曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -63,13 +81,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Wednesday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>水曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -80,13 +104,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Thursday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>木曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -97,13 +127,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Friday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>金曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -114,13 +150,19 @@
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>2</op>
 					<rhs>Saturday</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>2</op>
+					<rhs>土曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

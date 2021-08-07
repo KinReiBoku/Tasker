@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task98">
 		<cdate>1536084978072</cdate>
-		<edate>1586499045991</edate>
+		<edate>1628321803512</edate>
 		<id>98</id>
 		<nme>checkTrainDelay</nme>
 		<pri>100</pri>
@@ -403,12 +403,14 @@
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7"/>
-			<Int sr="arg8"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>3</op>
@@ -423,6 +425,16 @@
 					<lhs>%DAY_STATE</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>日曜日</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>土曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -444,6 +456,8 @@
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
+				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%DAYW</lhs>
 					<op>3</op>
@@ -458,6 +472,16 @@
 					<lhs>%DAY_STATE</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>日曜日</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>土曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

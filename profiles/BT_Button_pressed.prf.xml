@@ -28,7 +28,7 @@
 	</Profile>
 	<Task sr="task336">
 		<cdate>1524145797131</cdate>
-		<edate>1559345725716</edate>
+		<edate>1628321662027</edate>
 		<id>336</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -311,6 +311,8 @@
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
+				<bool2>Or2</bool2>
+				<bool3>Or2</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFI</lhs>
 					<op>5</op>
@@ -325,6 +327,16 @@
 					<lhs>%DAYW</lhs>
 					<op>3</op>
 					<rhs>Saturday</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>土曜日</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>日曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>

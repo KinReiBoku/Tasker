@@ -1,7 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.22">
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1627739810141</edate>
+		<edate>1628321704337</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>
@@ -1336,6 +1336,8 @@
 				<bool0>And</bool0>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
+				<bool3>And</bool3>
+				<bool4>And</bool4>
 				<Condition sr="c0" ve="3">
 					<lhs>%MASTER_DATA_TRAIN</lhs>
 					<op>4</op>
@@ -1355,6 +1357,16 @@
 					<lhs>%DAY_STATE</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>日曜日</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%DAYW</lhs>
+					<op>3</op>
+					<rhs>土曜日</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
