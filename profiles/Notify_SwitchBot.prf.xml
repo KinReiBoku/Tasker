@@ -2,7 +2,7 @@
 	<Profile sr="prof168" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1628353513481</edate>
+		<edate>1628356596042</edate>
 		<id>168</id>
 		<mid0>169</mid0>
 		<nme>Notify SwitchBot</nme>
@@ -25,7 +25,7 @@
 	</Profile>
 	<Task sr="task169">
 		<cdate>1547071823400</cdate>
-		<edate>1628353513481</edate>
+		<edate>1628356596042</edate>
 		<id>169</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -100,7 +100,13 @@
 		<Action sr="act13" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
@@ -210,7 +216,13 @@
 		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%DEVICE_MODE</lhs>
 					<op>2</op>
 					<rhs>Server</rhs>
