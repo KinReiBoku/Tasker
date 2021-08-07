@@ -2,7 +2,7 @@
 	<Profile sr="prof477" ve="2">
 		<cdate>1535519721340</cdate>
 		<clp>true</clp>
-		<edate>1615216235288</edate>
+		<edate>1627833854192</edate>
 		<id>477</id>
 		<mid0>478</mid0>
 		<nme>Notify Twitter</nme>
@@ -24,10 +24,9 @@
 	</Profile>
 	<Task sr="task478">
 		<cdate>1521729228705</cdate>
-		<edate>1615216235288</edate>
+		<edate>1627833854192</edate>
 		<id>478</id>
 		<pri>6</pri>
-		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
