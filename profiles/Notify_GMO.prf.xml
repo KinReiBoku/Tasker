@@ -2,7 +2,7 @@
 	<Profile sr="prof161" ve="2">
 		<cdate>1544784721531</cdate>
 		<clp>true</clp>
-		<edate>1614214239253</edate>
+		<edate>1628329719700</edate>
 		<id>161</id>
 		<mid0>162</mid0>
 		<nme>Notify GMO</nme>
@@ -28,7 +28,7 @@ FXネオ取引</label>
 	</Profile>
 	<Task sr="task162">
 		<cdate>1544784726550</cdate>
-		<edate>1614214239253</edate>
+		<edate>1628329719700</edate>
 		<id>162</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -162,10 +162,16 @@ FXネオ取引</label>
 		<Action sr="act6" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%evtprm6</lhs>
 					<op>4</op>
 					<rhs>BTC</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%evtprm6</lhs>
+					<op>5</op>
+					<rhs>.*時点の価格.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
