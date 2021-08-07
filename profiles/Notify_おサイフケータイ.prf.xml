@@ -2,7 +2,7 @@
 	<Profile sr="prof157" ve="2">
 		<cdate>1535513755527</cdate>
 		<clp>true</clp>
-		<edate>1621147322795</edate>
+		<edate>1628325290230</edate>
 		<id>157</id>
 		<mid0>159</mid0>
 		<nme>Notify おサイフケータイ</nme>
@@ -39,7 +39,7 @@ PayPal,
 	</Profile>
 	<Task sr="task159">
 		<cdate>1521383443273</cdate>
-		<edate>1621147322795</edate>
+		<edate>1628325290230</edate>
 		<id>159</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -159,7 +159,7 @@ PayPal,
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomEdy# = %Value</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomEdy# = %value</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
@@ -167,7 +167,7 @@ PayPal,
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
 					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
 					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%Value</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%value</org.zooper.zw.tasker.var.extra.STRING_TEXT>
 					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomEdy</org.zooper.zw.tasker.var.extra.STRING_VAR>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
@@ -208,7 +208,7 @@ PayPal,
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomNanaco# = %Value</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomNanaco# = %value</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
@@ -216,7 +216,7 @@ PayPal,
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
 					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
 					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%Value</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%value</org.zooper.zw.tasker.var.extra.STRING_TEXT>
 					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomNanaco</org.zooper.zw.tasker.var.extra.STRING_VAR>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
