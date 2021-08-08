@@ -209,7 +209,7 @@
 	</Profile>
 	<Profile sr="prof157" ve="2">
 		<cdate>1535513755527</cdate>
-		<edate>1628325290230</edate>
+		<edate>1628363086281</edate>
 		<flags>2</flags>
 		<id>157</id>
 		<mid0>159</mid0>
@@ -333,7 +333,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof214" ve="2">
 		<cdate>1587741283636</cdate>
-		<edate>1627722837317</edate>
+		<edate>1628390855914</edate>
 		<flags>10</flags>
 		<id>214</id>
 		<mid0>223</mid0>
@@ -488,7 +488,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
-		<edate>1621060234113</edate>
+		<edate>1628390889752</edate>
 		<flags>2</flags>
 		<id>314</id>
 		<mid0>101</mid0>
@@ -3120,7 +3120,7 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1628325668509</mdate>
+		<mdate>1628362518200</mdate>
 		<name>Base</name>
 		<pids>45,49,51,54,56,58,60,62,64,75,81,83,86,89,91,95,97,119,121,29,37,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,569,571,596,593,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,701,725,727,736,731,753,147,214,256,429,462,477,66,68,70,73,85,145,351,467,480,485,92,157,161,168</pids>
 		<psort>ActiveAlpha</psort>
@@ -4169,7 +4169,7 @@ Instagram</label>
 	</Task>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1621060234113</edate>
+		<edate>1628390889752</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -4186,6 +4186,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterNews</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4341,6 +4342,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterTrainInfo</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4614,6 +4616,7 @@ Instagram</label>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -14109,7 +14112,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task159">
 		<cdate>1521383443273</cdate>
-		<edate>1628325290230</edate>
+		<edate>1628363086281</edate>
 		<id>159</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -14161,6 +14164,16 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>2</op>
+					<rhs>モバイルSuica</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -14176,7 +14189,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -14199,7 +14212,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -14209,7 +14222,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -14225,7 +14238,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -14248,7 +14261,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -14258,7 +14271,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -14274,7 +14287,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -14297,10 +14310,20 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>2</op>
+					<rhs>おサイフケータイ</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -14314,23 +14337,33 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>2</op>
+					<rhs>PayPay</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%evtprm3</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<op>4</op>
+					<rhs>決済が完了しました。.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act20" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">%evtprm3</Str>
@@ -14340,7 +14373,168 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
+		<Action sr="act26" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">.*金額：</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">円.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%MASTER_WALLET</Str>
+			<Str sr="arg3" ve="3">PayPay</Str>
+			<Str sr="arg4" ve="3">%value</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%value</Str>
+			<Int sr="arg1">
+				<var>%data</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%MASTER_WALLET</Str>
+			<Str sr="arg3" ve="3">PayPay;%value</Str>
+			<Str sr="arg4" ve="3">%MASTER_WALLET</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">convertComma3Diggit</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">%value</Str>
+			<Str sr="arg3" ve="3">¥</Str>
+			<Str sr="arg4" ve="3">%value</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomPayPay# = %value</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%value</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomPayPay</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<op>2</op>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<op>2</op>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">%evtprm3</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">.*残高：</Str>
@@ -14351,7 +14545,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">円</Str>
@@ -14362,7 +14556,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%value</Str>
 			<Str sr="arg1" ve="3">¥</Str>
@@ -14372,7 +14566,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%value</Str>
 			<Str sr="arg1" ve="3">%data</Str>
@@ -14382,7 +14576,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">,</Str>
@@ -14392,16 +14586,6 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%evtprm2</lhs>
-					<op>2</op>
-					<rhs>モバイルSuica</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task16">
@@ -15108,7 +15292,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task163">
 		<cdate>1614130863850</cdate>
-		<edate>1628327005417</edate>
+		<edate>1628363140891</edate>
 		<id>163</id>
 		<nme>toZoomRefresh</nme>
 		<pri>7</pri>
@@ -19429,7 +19613,7 @@ Say:%SAY_STATE</Str>
 	</Task>
 	<Task sr="task223">
 		<cdate>1587741287148</cdate>
-		<edate>1627722837317</edate>
+		<edate>1628390854901</edate>
 		<id>223</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -32729,14 +32913,13 @@ Alexaに天気と予定を聞く</label>
 	</Task>
 	<Task sr="task308">
 		<cdate>1498736075308</cdate>
-		<edate>1601910668634</edate>
+		<edate>1628390185358</edate>
 		<id>308</id>
 		<nme>getTwitterTweet</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%par1</Str>
 			<Str sr="arg1" ve="3">yahoonewstopics</Str>
 			<Int sr="arg2" val="0"/>
@@ -32758,7 +32941,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act10" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">&lt;/a&gt;</Str>
+			<Str sr="arg1" ve="3">&lt;a.+?&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -32769,7 +32952,7 @@ Alexaに天気と予定を聞く</label>
 		<Action sr="act11" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">&amp;#10;</Str>
+			<Str sr="arg1" ve="3">&lt;/a&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -32778,6 +32961,17 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">&amp;#10;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32789,7 +32983,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%enter</Str>
 			<Str sr="arg1" ve="3">
@@ -32800,7 +32994,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">%enter</Str>
@@ -32811,7 +33005,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32830,7 +33024,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32849,7 +33043,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32868,7 +33062,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>598</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32887,38 +33081,6 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
-			<code>598</code>
-			<label>URLを削除</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%data1</lhs>
-					<op>5</op>
-					<rhs>[[0-9a-zA-Z_:/=?\.\-]*\.[0-9a-zA-Z_:/=?\.\-]+円</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%data1</lhs>
-					<op>5</op>
-					<rhs>[[0-9a-zA-Z_:/=?\.\-]*\.[0-9a-zA-Z_:/=?\.\-]+%</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%par1</lhs>
-					<op>3</op>
-					<rhs>YahooNewsTopics</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%path</Str>
@@ -32934,6 +33096,38 @@ Alexaに天気と予定を聞く</label>
 			<label>URLを削除</label>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%data1</lhs>
+					<op>5</op>
+					<rhs>[[0-9a-zA-Z_:/=?\.\-]*\.[0-9a-zA-Z_:/=?\.\-]+円</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%data1</lhs>
+					<op>5</op>
+					<rhs>[[0-9a-zA-Z_:/=?\.\-]*\.[0-9a-zA-Z_:/=?\.\-]+%</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>YahooNewsTopics</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>598</code>
+			<label>URLを削除</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">[0-9a-zA-Z_:=?\.\-]*\.[0-9a-zA-Z_:=?\.\-]*/[0-9a-zA-Z_:=?\.\-]*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -32961,7 +33155,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>598</code>
 			<label>URLを削除</label>
 			<on>false</on>
@@ -32974,7 +33168,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>598</code>
 			<label>URLを削除</label>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -32993,7 +33187,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>598</code>
 			<label>URLを削除</label>
 			<Str sr="arg0" ve="3">%data1</Str>
@@ -33012,7 +33206,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3">^ </Str>
@@ -33023,7 +33217,7 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Str sr="arg1" ve="3"> %path</Str>
@@ -33033,13 +33227,12 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>548</code>
-			<on>false</on>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>126</code>
 			<Str sr="arg0" ve="3">%data1</Str>
 			<Int sr="arg1" val="1"/>
@@ -33047,14 +33240,12 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act28" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act29" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>118</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%path</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
@@ -33062,10 +33253,44 @@ Alexaに天気と予定を聞く</label>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
+			<Str sr="arg7" ve="3">Tweet.txt</Str>
 			<Int sr="arg8" val="0"/>
 		</Action>
+		<Action sr="act30" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act4" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">%path</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">Tweet.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%httpd</Str>
 			<Str sr="arg1" ve="3">%HTTPD</Str>
@@ -33075,14 +33300,14 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%httpd</Str>
 			<Str sr="arg1" ve="3">&lt;div class="dir-ltr" dir="ltr"&gt;</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -33092,7 +33317,7 @@ Alexaに天気と予定を聞く</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">%httpd3</Str>
@@ -33102,23 +33327,12 @@ Alexaに天気と予定を聞く</label>
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">&lt;/div</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%data1</Str>
-			<Str sr="arg1" ve="3">&lt;a.+?&gt;</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task309">
@@ -75807,7 +76021,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1628321704337</edate>
+		<edate>1628389743306</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>

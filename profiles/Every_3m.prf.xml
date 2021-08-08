@@ -2,7 +2,7 @@
 	<Profile sr="prof314" ve="2">
 		<cdate>1536017263837</cdate>
 		<clp>true</clp>
-		<edate>1621060234113</edate>
+		<edate>1628390889752</edate>
 		<id>314</id>
 		<mid0>101</mid0>
 		<nme>Every 3m</nme>
@@ -17,7 +17,7 @@
 	</Profile>
 	<Task sr="task101">
 		<cdate>1536085779819</cdate>
-		<edate>1621060234113</edate>
+		<edate>1628390889752</edate>
 		<id>101</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -34,6 +34,7 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterNews</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -189,6 +190,7 @@
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterTrainInfo</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -462,6 +464,7 @@
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">sayTwitterMedia</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
