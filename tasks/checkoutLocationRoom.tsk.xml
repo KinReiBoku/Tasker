@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.6">
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1627715582914</edate>
+		<edate>1628777901858</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -526,7 +526,6 @@
 		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>クライアントモードの場合は部屋にチェックアウトしたことをサーバに通知する</label>
-			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>

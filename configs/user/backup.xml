@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.6">
 	<dmetric>1096.0,2524.0</dmetric>
 	<Profile sr="prof107" ve="2">
 		<cdate>1536386477329</cdate>
@@ -209,7 +209,7 @@
 	</Profile>
 	<Profile sr="prof157" ve="2">
 		<cdate>1535513755527</cdate>
-		<edate>1628363086281</edate>
+		<edate>1628418361985</edate>
 		<flags>2</flags>
 		<id>157</id>
 		<mid0>159</mid0>
@@ -274,11 +274,12 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof168" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1628356596042</edate>
+		<edate>1628753467699</edate>
 		<flags>2</flags>
 		<id>168</id>
 		<mid0>169</mid0>
 		<nme>Notify SwitchBot</nme>
+		<pri>6</pri>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<pri>0</pri>
@@ -393,7 +394,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof267" ve="2">
 		<cdate>1535975619247</cdate>
-		<edate>1562430589159</edate>
+		<edate>1628438568604</edate>
 		<flags>2</flags>
 		<id>267</id>
 		<mid0>661</mid0>
@@ -573,7 +574,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof327" ve="2">
 		<cdate>1536135713258</cdate>
-		<edate>1603840103966</edate>
+		<edate>1628678827490</edate>
 		<flags>2</flags>
 		<id>327</id>
 		<mid0>326</mid0>
@@ -1009,7 +1010,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof378" ve="2">
 		<cdate>1537061834947</cdate>
-		<edate>1627785632509</edate>
+		<edate>1628522966041</edate>
 		<flags>2</flags>
 		<id>378</id>
 		<limit>true</limit>
@@ -1242,10 +1243,9 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof41" ve="2">
 		<cdate>1559460481519</cdate>
-		<edate>1602580025713</edate>
+		<edate>1628418283036</edate>
 		<flags>2</flags>
 		<id>41</id>
-		<limit>true</limit>
 		<mid0>315</mid0>
 		<nme>Notify Pokemon GO ポケモンが逃げました！</nme>
 		<Event sr="con0" ve="2">
@@ -1353,13 +1353,15 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof429" ve="2">
 		<cdate>1547071819665</cdate>
-		<edate>1628353425732</edate>
+		<edate>1628678872543</edate>
 		<flags>2</flags>
 		<id>429</id>
 		<mid0>430</mid0>
 		<nme>Notify Amazon Alexa</nme>
+		<pri>6</pri>
 		<Event sr="con0" ve="2">
 			<code>461</code>
+			<pri>0</pri>
 			<App sr="arg0">
 				<appClass>com.amazon.dee.app.Launcher</appClass>
 				<appPkg>com.amazon.dee.app</appPkg>
@@ -1427,7 +1429,7 @@ FXネオ取引</label>
 	</Profile>
 	<Profile sr="prof445" ve="2">
 		<cdate>1543542936340</cdate>
-		<edate>1627717746624</edate>
+		<edate>1628438568608</edate>
 		<flags>2</flags>
 		<id>445</id>
 		<mid0>446</mid0>
@@ -2258,7 +2260,7 @@ AccuWeather</label>
 	</Profile>
 	<Profile sr="prof637" ve="2">
 		<cdate>1548064850363</cdate>
-		<edate>1628353664324</edate>
+		<edate>1628396935472</edate>
 		<flags>2</flags>
 		<id>637</id>
 		<mid0>638</mid0>
@@ -2692,7 +2694,7 @@ SmartNews,
 	</Profile>
 	<Profile sr="prof686" ve="2">
 		<cdate>1562398946252</cdate>
-		<edate>1600911382159</edate>
+		<edate>1628401112183</edate>
 		<flags>2</flags>
 		<id>686</id>
 		<mid0>687</mid0>
@@ -3120,12 +3122,12 @@ Instagram</label>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535220230336</cdate>
-		<mdate>1628362518200</mdate>
+		<mdate>1628753728171</mdate>
 		<name>Base</name>
 		<pids>45,49,51,54,56,58,60,62,64,75,81,83,86,89,91,95,97,119,121,29,37,230,268,270,272,286,47,50,77,213,237,267,314,33,321,324,327,329,330,337,325,355,358,360,107,333,335,366,368,370,372,378,380,409,413,416,419,422,426,386,437,340,443,445,447,452,458,449,482,481,507,510,457,509,513,518,520,523,525,21,124,132,125,135,546,569,571,596,593,629,631,633,637,639,648,316,653,655,657,659,670,677,673,674,41,441,542,675,680,686,690,701,725,727,736,731,753,147,214,256,429,462,477,66,68,70,73,85,145,351,467,480,485,92,157,161,168</pids>
 		<psort>ActiveAlpha</psort>
 		<scenes>Popup Task Buttons,Variable Query,Screen Lock,Popup</scenes>
-		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17,142,69,487,160,163,164,165,166,167,172</tids>
+		<tids>5,10,11,12,13,14,15,4,16,8,23,24,25,26,27,30,32,35,36,38,39,42,43,76,79,99,100,104,111,114,115,116,117,123,146,155,156,158,2,3,9,19,28,78,103,105,108,122,129,40,182,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,212,215,216,217,218,220,221,222,224,225,227,228,229,238,241,242,243,244,245,246,247,248,250,251,257,258,262,263,264,265,274,276,277,279,280,281,282,283,289,290,291,294,6,7,52,102,106,112,113,131,170,171,208,209,210,211,233,236,240,249,275,278,293,296,297,298,299,300,301,302,303,304,307,308,309,310,311,313,18,98,128,130,234,235,253,312,318,319,320,338,342,343,344,345,346,356,362,363,364,349,352,353,357,365,373,375,376,377,379,383,384,385,382,401,411,408,412,415,418,420,339,424,425,431,432,433,434,435,436,451,454,455,456,460,461,463,465,474,515,516,517,137,138,139,144,535,536,537,538,109,140,141,539,556,557,559,558,591,592,611,612,615,618,619,620,641,642,644,645,662,305,560,665,306,440,666,667,668,669,679,684,689,693,696,700,704,707,708,709,710,711,712,713,714,715,716,252,468,469,470,471,254,472,473,717,718,723,724,730,733,734,735,742,744,745,743,748,749,153,154,150,151,152,261,259,350,17,142,69,487,160,163,164,165,166,167,172,173</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<nme>mw_action_home</nme>
@@ -3133,7 +3135,7 @@ Instagram</label>
 	</Project>
 	<Scene sr="scenePopup">
 		<cdate>1586872434220</cdate>
-		<edate>1586872434220</edate>
+		<edate>1628753122082</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>570</heightPort>
 		<nme>Popup</nme>
@@ -3154,7 +3156,7 @@ Instagram</label>
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,164,685,6,-1,-1,-1,-1</geom>
+			<geom>0,164,685,6,0,164,685,6</geom>
 			<Str sr="arg0" ve="3">Header</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3167,7 +3169,7 @@ Instagram</label>
 		<TextElement sr="elements2" ve="3">
 			<clickTask>-936</clickTask>
 			<flags>5</flags>
-			<geom>15,179,652,332,-1,-1,-1,-1</geom>
+			<geom>15,179,652,332,15,179,652,332</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
 			<Str sr="arg1" ve="3">Text</Str>
 			<Int sr="arg2" val="22"/>
@@ -3293,7 +3295,7 @@ Instagram</label>
 	</Scene>
 	<Scene sr="sceneVariable Query">
 		<cdate>1536130818221</cdate>
-		<edate>1536130818221</edate>
+		<edate>1628753330142</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>650</heightPort>
 		<nme>Variable Query</nme>
@@ -3314,7 +3316,7 @@ Instagram</label>
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,164,752,6,-1,-1,-1,-1</geom>
+			<geom>0,164,752,6,0,164,752,6</geom>
 			<Str sr="arg0" ve="3">Header</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3326,7 +3328,7 @@ Instagram</label>
 		</RectElement>
 		<EditTextElement sr="elements2" ve="3">
 			<flags>13</flags>
-			<geom>31,264,689,164,-1,-1,-1,-1</geom>
+			<geom>31,264,689,164,31,264,689,164</geom>
 			<Str sr="arg0" ve="3">TextEdit1</Str>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="22"/>
@@ -3334,12 +3336,12 @@ Instagram</label>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7"/>
+			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="1000"/>
 		</EditTextElement>
 		<RectElement sr="elements3">
 			<flags>4</flags>
-			<geom>0,513,752,6,-1,-1,-1,-1</geom>
+			<geom>0,513,752,6,0,513,752,6</geom>
 			<Str sr="arg0" ve="3">Footer</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#77333333</Str>
@@ -3352,7 +3354,7 @@ Instagram</label>
 		<ImageElement sr="elements4" ve="2">
 			<clickTask>-936</clickTask>
 			<flags>4</flags>
-			<geom>118,513,137,137,-1,-1,-1,-1</geom>
+			<geom>118,513,137,137,118,513,137,137</geom>
 			<Str sr="arg0" ve="3">Accept</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hd_navigation_accept</nme>
@@ -3362,7 +3364,7 @@ Instagram</label>
 		<ImageElement sr="elements5" ve="2">
 			<clickTask>-936</clickTask>
 			<flags>4</flags>
-			<geom>497,513,137,137,-1,-1,-1,-1</geom>
+			<geom>497,513,137,137,497,513,137,137</geom>
 			<Str sr="arg0" ve="3">Cancel</Str>
 			<Img sr="arg1" ve="2">
 				<nme>hd_content_remove</nme>
@@ -12289,7 +12291,7 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task15">
 		<cdate>1535275951041</cdate>
-		<edate>1578893549554</edate>
+		<edate>1628523065685</edate>
 		<id>15</id>
 		<nme>setFlashState</nme>
 		<pri>100</pri>
@@ -14112,56 +14114,33 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task159">
 		<cdate>1521383443273</cdate>
-		<edate>1628363086281</edate>
+		<edate>1628418361985</edate>
 		<id>159</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>1000294689</code>
+			<code>547</code>
 			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomNanaco# = ¥2,798</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>¥2,798</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomNanaco</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Str sr="arg0" ve="3">%evtprm2</Str>
+			<Str sr="arg1" ve="3">PayPay</Str>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>1000294689</code>
+			<code>547</code>
 			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomSuica# = ¥19,884</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>¥19,884</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomSuica</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Str sr="arg0" ve="3">%evtprm3</Str>
+			<Str sr="arg1" ve="3">PayPay,決済が完了しました。
+金額：188円
+決済番号：03686778735575531521
+店舗名：ヤフオク!</Str>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
@@ -14389,13 +14368,41 @@ Copyright .*All rights reserved\.</Str>
 			<Str sr="arg0" ve="3">%data</Str>
 			<Str sr="arg1" ve="3">円.*</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
 		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%enter</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%data</Str>
+			<Str sr="arg1" ve="3">%enter</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
@@ -14411,25 +14418,15 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act31" ve="7">
 			<code>890</code>
 			<Str sr="arg0" ve="3">%value</Str>
 			<Int sr="arg1">
-				<var>%data</var>
+				<var>%data2</var>
 			</Int>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%evtprm3</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act32" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">setDataValue</Str>
 			<Int sr="arg1">
@@ -14445,7 +14442,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act33" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">convertComma3Diggit</Str>
 			<Int sr="arg1">
@@ -14461,7 +14458,7 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act34" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -14484,30 +14481,10 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
-			<Str sr="arg1" ve="3">%evtprm()</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%MACRO_DROID_MYDEVICE</lhs>
-					<op>2</op>
-					<rhs>%MACRO_DROID_XQAT42</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act35" ve="7">
-			<code>38</code>
+			<code>43</code>
 		</Action>
 		<Action sr="act36" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act37" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -14521,8 +14498,25 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act37" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Unknownおサイフケータイ.txt</Str>
+			<Str sr="arg1" ve="3">%evtprm()</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MACRO_DROID_MYDEVICE</lhs>
+					<op>2</op>
+					<rhs>%MACRO_DROID_XQAT42</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
@@ -14533,6 +14527,9 @@ Copyright .*All rights reserved\.</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>598</code>
@@ -16052,9 +16049,10 @@ Copyright .*All rights reserved\.</Str>
 	</Task>
 	<Task sr="task169">
 		<cdate>1547071823400</cdate>
-		<edate>1628356596042</edate>
+		<edate>1628753467699</edate>
 		<id>169</id>
-		<pri>6</pri>
+		<pri>7</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -16222,8 +16220,50 @@ Copyright .*All rights reserved\.</Str>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>4</op>
+					<rhs>.*おやすみ.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>90406179</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>睡眠の解析を開始する</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>22184</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>4</op>
+					<rhs>.*%LOCATION_ROOM.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">UnknownSwitchBot.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -16237,7 +16277,7 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -16837,6 +16877,43 @@ Copyright .*All rights reserved\.</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
+	</Task>
+	<Task sr="task173">
+		<cdate>1628753560614</cdate>
+		<edate>1628753882094</edate>
+		<id>173</id>
+		<nme>setHomeApplianceStateManual</nme>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>595</code>
+			<Str sr="arg0" ve="3">家電状態を入力</Str>
+			<Str sr="arg1" ve="3">%data</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="600"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">setHomeApplianceState</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%data</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_editor_mode_edit</nme>
+		</Img>
 	</Task>
 	<Task sr="task18">
 		<cdate>1536023397269</cdate>
@@ -22282,7 +22359,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task238">
 		<cdate>1535735697172</cdate>
-		<edate>1628353734524</edate>
+		<edate>1628777901858</edate>
 		<id>238</id>
 		<nme>checkoutLocationRoom</nme>
 		<pri>100</pri>
@@ -22807,7 +22884,6 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act46" ve="7">
 			<code>130</code>
 			<label>クライアントモードの場合は部屋にチェックアウトしたことをサーバに通知する</label>
-			<on>false</on>
 			<Str sr="arg0" ve="3">toWebhookServer</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -23252,7 +23328,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task242">
 		<cdate>1535735697172</cdate>
-		<edate>1627737508935</edate>
+		<edate>1628777874445</edate>
 		<id>242</id>
 		<nme>checkinLocationRoom</nme>
 		<pri>100</pri>
@@ -24208,7 +24284,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task246">
 		<cdate>1535735697172</cdate>
-		<edate>1627715779526</edate>
+		<edate>1628396947324</edate>
 		<id>246</id>
 		<nme>checkinLocationRoomリビングルーム</nme>
 		<pri>7</pri>
@@ -34281,7 +34357,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task318">
 		<cdate>1525881558981</cdate>
-		<edate>1536385875818</edate>
+		<edate>1628753164810</edate>
 		<id>318</id>
 		<nme>スクリーンショット 10秒</nme>
 		<pri>7</pri>
@@ -34769,6 +34845,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>30</code>
@@ -34945,6 +35022,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>653801104</code>
@@ -35376,6 +35454,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>30</code>
@@ -35558,6 +35637,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>653801104</code>
@@ -35617,7 +35697,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task326">
 		<cdate>1521383525570</cdate>
-		<edate>1604427723071</edate>
+		<edate>1628678827490</edate>
 		<id>326</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -37175,7 +37255,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task344">
 		<cdate>1535275951041</cdate>
-		<edate>1620140148798</edate>
+		<edate>1628522966041</edate>
 		<id>344</id>
 		<nme>setFlashStateOff</nme>
 		<Action sr="act0" ve="7">
@@ -37300,7 +37380,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task349">
 		<cdate>1408601864481</cdate>
-		<edate>1603840296861</edate>
+		<edate>1628753160214</edate>
 		<id>349</id>
 		<nme>スクリーンショット（右開き）スワイプ</nme>
 		<pri>7</pri>
@@ -37685,6 +37765,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>30</code>
@@ -37867,6 +37948,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>653801104</code>
@@ -41383,7 +41465,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task362">
 		<cdate>1408601864481</cdate>
-		<edate>1603840395949</edate>
+		<edate>1628753384142</edate>
 		<id>362</id>
 		<nme>スクリーンショット（左開き）スワイプ</nme>
 		<pri>7</pri>
@@ -41768,6 +41850,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>30</code>
@@ -41954,6 +42037,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>653801104</code>
@@ -41985,7 +42069,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task363">
 		<cdate>1536199454167</cdate>
-		<edate>1545035096910</edate>
+		<edate>1628753147555</edate>
 		<id>363</id>
 		<nme>スクリーンショット（右開き）スワイプ 実行</nme>
 		<pri>7</pri>
@@ -49087,9 +49171,10 @@ https://t.co/f2IMvhIIzb
 	</Task>
 	<Task sr="task430">
 		<cdate>1547071823400</cdate>
-		<edate>1628353425732</edate>
+		<edate>1628678787101</edate>
 		<id>430</id>
-		<pri>6</pri>
+		<pri>7</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -49612,6 +49697,19 @@ https://t.co/f2IMvhIIzb
 		<Action sr="act9" ve="7">
 			<code>38</code>
 		</Action>
+		<ProfileVariable sr="pv0">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>430</pvid>
+			<pvit>t</pvit>
+			<pvn>%aaa</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
 	</Task>
 	<Task sr="task431">
 		<cdate>1543290382331</cdate>
@@ -62350,7 +62448,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1628353106465</edate>
+		<edate>1628753484535</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -62382,6 +62480,75 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateMyRoom# = %state_myroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_myroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateMyRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act101" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom1# = %state_toiletroom1</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom1</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom1</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act102" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom2# = %state_toiletroom2</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom2</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom2</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>37</code>
@@ -62736,7 +62903,7 @@ https://t.co/91XPPED1U2
 		<Action sr="act38" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">バスルーム</Str>
+			<Str sr="arg1" ve="3">ストックルーム</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -62771,52 +62938,26 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act40" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%items</lhs>
-					<op>4</op>
-					<rhs>%location.+お湯;オン</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act41" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%state_bathroom</Str>
-			<Str sr="arg1" ve="3">🛁%cnt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act42" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act43" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%state_bathroom</Str>
-			<Str sr="arg1" ve="3">🚿%cnt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act44" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act45" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">ベッドルーム</Str>
+			<Str sr="arg0" ve="3">%state_stockroom</Str>
+			<Str sr="arg1" ve="3">📦️%cnt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act41" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">バスルーム</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act42" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">getDataValue</Str>
 			<Int sr="arg1">
@@ -62832,7 +62973,79 @@ https://t.co/91XPPED1U2
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Action sr="act43" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%items</lhs>
+					<op>4</op>
+					<rhs>%location.+お湯;オン</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_bathroom</Str>
+			<Str sr="arg1" ve="3">🛁%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_bathroom</Str>
+			<Str sr="arg1" ve="3">🚿%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
 		<Action sr="act47" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">ベッドルーム</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_new</Str>
+			<Str sr="arg1" ve="3">オン</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>37</code>
 			<label>就寝中かどうかでアイコンを変える</label>
 			<ConditionList sr="if">
@@ -62849,7 +63062,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act51" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_myroom</Str>
 			<Str sr="arg1" ve="3">🛌%cnt</Str>
@@ -62859,20 +63072,10 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act52" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%state_new</Str>
-			<Str sr="arg1" ve="3">オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_myroom</Str>
 			<Str sr="arg1" ve="3">🛏️%cnt</Str>
@@ -62882,49 +63085,13 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act51" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">トイレ1階</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">getDataValue</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
-			<Str sr="arg3" ve="3">%location%room</Str>
-			<Str sr="arg4" ve="3">%cnt</Str>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
 		<Action sr="act54" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
-			<Str sr="arg1" ve="3">🚹️%cnt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act55" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%room</Str>
-			<Str sr="arg1" ve="3">トイレ2階</Str>
+			<Str sr="arg1" ve="3">トイレ1階</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -62949,26 +63116,39 @@ https://t.co/91XPPED1U2
 		</Action>
 		<Action sr="act57" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
-			<Str sr="arg1" ve="3">🚺️%cnt</Str>
+			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
+			<Str sr="arg1" ve="3">🚹️%cnt</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
+			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act58" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%items</Str>
-			<Str sr="arg1" ve="3">,</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%room</Str>
+			<Str sr="arg1" ve="3">トイレ2階</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act59" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%item</Str>
-			<Str sr="arg1" ve="3">%items()</Str>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">getDataValue</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3">%LOCATION_ROOM_STATE</Str>
+			<Str sr="arg3" ve="3">%location%room</Str>
+			<Str sr="arg4" ve="3">%cnt</Str>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>43</code>
@@ -62981,13 +63161,36 @@ https://t.co/91XPPED1U2
 			</ConditionList>
 		</Action>
 		<Action sr="act60" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
+			<Str sr="arg1" ve="3">🚺️%cnt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%items</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%item</Str>
+			<Str sr="arg1" ve="3">%items()</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act63" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act64" ve="7">
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state</Str>
@@ -63011,7 +63214,30 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act65" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🏃</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+モーションセンサー;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🏃.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act66" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🥵</Str>
@@ -63034,7 +63260,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act67" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🥶</Str>
@@ -63057,7 +63283,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act68" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">⚡️</Str>
@@ -63080,10 +63306,10 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act69" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🔓️</Str>
+			<Str sr="arg1" ve="3">🚪</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63099,14 +63325,25 @@ https://t.co/91XPPED1U2
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🔓️.*</rhs>
+					<rhs>.*🚪.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%appliance</Str>
+			<Str sr="arg1" ve="3">をオフにしました.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act70" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🕯️</Str>
+			<Str sr="arg1" ve="3">💡</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63122,11 +63359,11 @@ https://t.co/91XPPED1U2
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🕯️.*</rhs>
+					<rhs>.*💡.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act71" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">⌨️</Str>
@@ -63149,7 +63386,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act72" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🌡️</Str>
@@ -63172,7 +63409,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act73" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🎐</Str>
@@ -63195,18 +63432,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオフにしました.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act74" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🖥️</Str>
@@ -63229,10 +63455,10 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act75" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🌀</Str>
+			<Str sr="arg1" ve="3">🌬️</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63248,14 +63474,14 @@ https://t.co/91XPPED1U2
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🌀.*</rhs>
+					<rhs>.*🌬️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act76" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🗑️</Str>
+			<Str sr="arg1" ve="3">🌪️</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -63271,18 +63497,41 @@ https://t.co/91XPPED1U2
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🗑️.*</rhs>
+					<rhs>.*🌪️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act77" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🌀</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+換気扇;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌀.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act78" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%item
 %state</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act79" ve="7">
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state</Str>
@@ -63300,7 +63549,18 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%state_old</Str>
+			<Str sr="arg1" ve="3">オン</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act80" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_livingroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63329,7 +63589,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act81" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_diningroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63358,7 +63618,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act77" ve="7">
+		<Action sr="act82" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_studyroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63387,7 +63647,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act78" ve="7">
+		<Action sr="act83" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_myroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63416,7 +63676,36 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act79" ve="7">
+		<Action sr="act84" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_stockroom</Str>
+			<Str sr="arg1" ve="3">%state</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>.*ストックルーム.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%state_stockroom</lhs>
+					<op>5</op>
+					<rhs>.*%state.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act85" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_bathroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63445,18 +63734,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%state_old</Str>
-			<Str sr="arg1" ve="3">オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act80" ve="7">
+		<Action sr="act86" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63485,7 +63763,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act87" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -63514,10 +63792,10 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act88" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act89" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state_livingroom
@@ -63525,7 +63803,17 @@ https://t.co/91XPPED1U2
 %state_bathroom</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_new</Str>
+			<Str sr="arg1" ve="3">オフ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act90" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">%TIME</Str>
@@ -63535,7 +63823,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act91" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">\.</Str>
@@ -63546,7 +63834,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">:</Str>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act92" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63576,7 +63864,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act93" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63606,7 +63894,7 @@ https://t.co/91XPPED1U2
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act88" ve="7">
+		<Action sr="act94" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state_bathroom
@@ -63617,7 +63905,7 @@ https://t.co/91XPPED1U2
 %state_toiletroom2</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act89" ve="7">
+		<Action sr="act95" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63640,17 +63928,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%state_new</Str>
-			<Str sr="arg1" ve="3">オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act90" ve="7">
+		<Action sr="act96" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63673,7 +63951,7 @@ https://t.co/91XPPED1U2
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act97" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63696,7 +63974,30 @@ https://t.co/91XPPED1U2
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act92" ve="7">
+		<Action sr="act98" ve="7">
+			<code>1000294689</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateStockRoom# = %state_stockroom</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
+					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_stockroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
+					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateStockRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
+					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
+			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act99" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -63711,75 +64012,6 @@ https://t.co/91XPPED1U2
 					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_bathroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
 					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateBathRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act93" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateMyRoom# = %state_myroom</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_myroom</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateMyRoom</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act94" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom1# = %state_toiletroom1</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom1</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom1</org.zooper.zw.tasker.var.extra.STRING_VAR>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">org.zooper.zwpro</Str>
-			<Str sr="arg2" ve="3">org.zooper.zwlib.tasker.var.EditActivity</Str>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act95" ve="7">
-			<code>1000294689</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>#TZoomStateToiletRoom2# = %state_toiletroom2</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>org.zooper.zw.tasker.var.extra.STRING_TEXT</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>1</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE>
-					<org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>java.lang.Integer</org.zooper.zw.tasker.var.extra.INT_VERSION_CODE-type>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT>%state_toiletroom2</org.zooper.zw.tasker.var.extra.STRING_TEXT>
-					<org.zooper.zw.tasker.var.extra.STRING_TEXT-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_TEXT-type>
-					<org.zooper.zw.tasker.var.extra.STRING_VAR>ZoomStateToiletRoom2</org.zooper.zw.tasker.var.extra.STRING_VAR>
 					<org.zooper.zw.tasker.var.extra.STRING_VAR-type>java.lang.String</org.zooper.zw.tasker.var.extra.STRING_VAR-type>
 				</Vals>
 			</Bundle>
@@ -66553,7 +66785,7 @@ https://t.co/91XPPED1U2
 	</Task>
 	<Task sr="task638">
 		<cdate>1548064853323</cdate>
-		<edate>1628353664324</edate>
+		<edate>1628396935472</edate>
 		<id>638</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -76021,7 +76253,7 @@ Selected: 1</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task8">
 		<cdate>1535346561993</cdate>
-		<edate>1628389743306</edate>
+		<edate>1628777796007</edate>
 		<id>8</id>
 		<nme>fromPushbullet</nme>
 		<pri>100</pri>

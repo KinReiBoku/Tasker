@@ -1,13 +1,15 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.5">
 	<Profile sr="prof429" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1627738724579</edate>
+		<edate>1628678872543</edate>
 		<id>429</id>
 		<mid0>430</mid0>
 		<nme>Notify Amazon Alexa</nme>
+		<pri>6</pri>
 		<Event sr="con0" ve="2">
 			<code>461</code>
+			<pri>0</pri>
 			<App sr="arg0">
 				<appClass>com.amazon.dee.app.Launcher</appClass>
 				<appPkg>com.amazon.dee.app</appPkg>
@@ -24,9 +26,10 @@
 	</Profile>
 	<Task sr="task430">
 		<cdate>1547071823400</cdate>
-		<edate>1627738724579</edate>
+		<edate>1628678787101</edate>
 		<id>430</id>
 		<pri>6</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -549,5 +552,18 @@
 		<Action sr="act9" ve="7">
 			<code>38</code>
 		</Action>
+		<ProfileVariable sr="pv0">
+			<clearout>false</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>430</pvid>
+			<pvit>t</pvit>
+			<pvn>%aaa</pvn>
+			<pvt>t</pvt>
+			<strout>true</strout>
+		</ProfileVariable>
 	</Task>
 </TaskerData>

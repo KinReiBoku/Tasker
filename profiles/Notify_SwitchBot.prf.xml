@@ -1,11 +1,12 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.5">
 	<Profile sr="prof168" ve="2">
 		<cdate>1547071819665</cdate>
 		<clp>true</clp>
-		<edate>1628356596042</edate>
+		<edate>1628678906189</edate>
 		<id>168</id>
 		<mid0>169</mid0>
 		<nme>Notify SwitchBot</nme>
+		<pri>6</pri>
 		<Event sr="con0" ve="2">
 			<code>461</code>
 			<pri>0</pri>
@@ -25,9 +26,10 @@
 	</Profile>
 	<Task sr="task169">
 		<cdate>1547071823400</cdate>
-		<edate>1628356596042</edate>
+		<edate>1628611652800</edate>
 		<id>169</id>
 		<pri>6</pri>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -195,8 +197,50 @@
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>4</op>
+					<rhs>.*おやすみ.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>90406179</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>睡眠の解析を開始する</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT>com.urbandroid.sleep.alarmclock.START_SLEEP_TRACK</com.urbandroid.sleep.taskerplugin.extra.EVENT>
+					<com.urbandroid.sleep.taskerplugin.extra.EVENT-type>java.lang.String</com.urbandroid.sleep.taskerplugin.extra.EVENT-type>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>22184</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE>
+					<com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>java.lang.Integer</com.urbandroid.sleep.taskerplugin.extra.INT_VERSION_CODE-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.urbandroid.sleep</Str>
+			<Str sr="arg2" ve="3">com.urbandroid.sleep.addon.taskerplugin.ui.EditActionActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DEVICE_MODE</lhs>
+					<op>2</op>
+					<rhs>Client</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%evtprm3</lhs>
+					<op>4</op>
+					<rhs>.*%LOCATION_ROOM.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">UnknownSwitchBot.txt</Str>
 			<Str sr="arg1" ve="3">%evtprm()</Str>
@@ -210,7 +254,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">

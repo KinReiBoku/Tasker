@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.5">
 	<Task sr="task556">
 		<cdate>1546177258136</cdate>
-		<edate>1628353106465</edate>
+		<edate>1628493631210</edate>
 		<id>556</id>
 		<nme>setHomeApplianceState</nme>
 		<pri>100</pri>
@@ -665,6 +665,29 @@
 		<Action sr="act62" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🏃</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+モーションセンサー;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🏃.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🥵</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -685,7 +708,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act64" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🥶</Str>
@@ -708,7 +731,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act65" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">⚡️</Str>
@@ -731,7 +754,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act66" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🔓️</Str>
@@ -754,10 +777,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act67" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🕯️</Str>
+			<Str sr="arg1" ve="3">💡</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -773,11 +796,11 @@
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🕯️.*</rhs>
+					<rhs>.*💡.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act68" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">⌨️</Str>
@@ -800,7 +823,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act69" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🌡️</Str>
@@ -823,7 +846,18 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act7" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%appliance</Str>
+			<Str sr="arg1" ve="3">をオフにしました.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act70" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🎐</Str>
@@ -846,18 +880,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%appliance</Str>
-			<Str sr="arg1" ve="3">をオフにしました.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act71" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
 			<Str sr="arg1" ve="3">🖥️</Str>
@@ -880,10 +903,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act72" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🌀</Str>
+			<Str sr="arg1" ve="3">🌬️</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -899,14 +922,14 @@
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🌀.*</rhs>
+					<rhs>.*🌬️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act73" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state</Str>
-			<Str sr="arg1" ve="3">🗑️</Str>
+			<Str sr="arg1" ve="3">🌪️</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -922,18 +945,41 @@
 				<Condition sr="c1" ve="3">
 					<lhs>%state</lhs>
 					<op>5</op>
-					<rhs>.*🗑️.*</rhs>
+					<rhs>.*🌪️.*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act74" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state</Str>
+			<Str sr="arg1" ve="3">🌀</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%item</lhs>
+					<op>4</op>
+					<rhs>%location.+換気扇;オン</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%state</lhs>
+					<op>5</op>
+					<rhs>.*🌀.*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act75" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%item
 %state</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act76" ve="7">
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state</Str>
@@ -951,7 +997,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act77" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_livingroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -980,7 +1026,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act78" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_diningroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1009,7 +1055,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act77" ve="7">
+		<Action sr="act79" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_studyroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1038,7 +1084,18 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act78" ve="7">
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%state_old</Str>
+			<Str sr="arg1" ve="3">オン</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act80" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_myroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1067,7 +1124,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act79" ve="7">
+		<Action sr="act81" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_bathroom</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1096,18 +1153,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%state_old</Str>
-			<Str sr="arg1" ve="3">オン</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act80" ve="7">
+		<Action sr="act82" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_toiletroom1</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1136,7 +1182,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act83" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%state_toiletroom2</Str>
 			<Str sr="arg1" ve="3">%state</Str>
@@ -1165,10 +1211,10 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act84" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act85" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state_livingroom
@@ -1176,7 +1222,7 @@
 %state_bathroom</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act86" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">%TIME</Str>
@@ -1186,7 +1232,7 @@
 			<Int sr="arg5"/>
 			<Int sr="arg6" val="0"/>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act87" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%time</Str>
 			<Str sr="arg1" ve="3">\.</Str>
@@ -1197,7 +1243,7 @@
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">:</Str>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act88" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1227,7 +1273,7 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act89" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1257,7 +1303,17 @@
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act88" ve="7">
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%state_new</Str>
+			<Str sr="arg1" ve="3">オフ</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act90" ve="7">
 			<code>548</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%state_bathroom
@@ -1268,7 +1324,7 @@
 %state_toiletroom2</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act89" ve="7">
+		<Action sr="act91" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1291,17 +1347,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%state_new</Str>
-			<Str sr="arg1" ve="3">オフ</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act90" ve="7">
+		<Action sr="act92" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1324,7 +1370,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act93" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1347,7 +1393,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act92" ve="7">
+		<Action sr="act94" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1370,7 +1416,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act93" ve="7">
+		<Action sr="act95" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1393,7 +1439,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act94" ve="7">
+		<Action sr="act96" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -1416,7 +1462,7 @@
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act95" ve="7">
+		<Action sr="act97" ve="7">
 			<code>1000294689</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">

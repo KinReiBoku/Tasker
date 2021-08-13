@@ -1,7 +1,7 @@
-<TaskerData sr="" dvi="1" tv="5.12.22">
+<TaskerData sr="" dvi="1" tv="5.13.5">
 	<Task sr="task592">
 		<cdate>1547156094428</cdate>
-		<edate>1586781883295</edate>
+		<edate>1627741691654</edate>
 		<id>592</id>
 		<nme>setHomeApplianceState自宅（さいたま）</nme>
 		<pri>100</pri>
